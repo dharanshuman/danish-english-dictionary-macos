@@ -42,13 +42,47 @@ def indexes(word, forms):
     return out
 
 
-def danish_entry(n, word, blocks):
+def infl_line(word, b):
+    """The memorize-me line, in the format Danish courses use."""
+    infl = b.get("infl") or {}
+    pos = b["pos"]
+    if pos == "noun" and infl:
+        art = b.get("gender") or ""
+        first = f"{art} {word}".strip()
+        forms = [first] + [infl[k] for k in ("def_sg", "pl", "def_pl") if infl.get(k)]
+        if len(forms) < 2:
+            return None
+        return " · ".join(forms)
+    if pos == "verb" and infl.get("present"):
+        aux = b.get("aux", "har")
+        forms = [f"at {word}", infl["present"]]
+        if infl.get("past"):
+            forms.append(infl["past"])
+        if infl.get("part"):
+            forms.append(f"{aux} {infl['part']}")
+        return " · ".join(forms)
+    if pos == "adj" and infl:
+        forms = [word] + [infl[k] for k in ("t", "e") if infl.get(k)]
+        line = " · ".join(forms) if len(forms) > 1 else None
+        if infl.get("comp") and infl.get("sup"):
+            extra = f"{infl['comp']}, {infl['sup']}"
+            line = f"{line}  ({extra})" if line else extra
+        return line
+    return None
+
+
+def danish_entry(n, word, blocks, id_of):
     eid = f"da_{n}"
     all_forms = sorted({f for b in blocks for f in b.get("forms", [])})
     parts = ["\n".join(indexes(word, all_forms))]
     parts.append(f"<h1>{escape(word)}</h1>")
+    b0 = blocks[0]
 
-    for b in blocks:
+    if b0.get("false_friend"):
+        parts.append(f"<div class=\"falsefriend\"><span class=\"ff-head\">🚨 False friend</span> "
+                     f"{escape(b0['false_friend'])}</div>")
+
+    for i, b in enumerate(blocks):
         pos = POS_NAMES.get(b["pos"], b["pos"])
         meta = []
         if pos:
@@ -56,11 +90,21 @@ def danish_entry(n, word, blocks):
         if b.get("gender") and b["pos"] == "noun":
             g = "neuter (et)" if b["gender"] == "et" else "common (en)"
             meta.append(f"<span class=\"gender\">{g}</span>")
-        if b.get("plural"):
+        if b.get("plural") and not (b.get("infl") or {}).get("pl"):
             meta.append(f"<span class=\"plural\">plural: {escape(b['plural'])}</span>")
         if b.get("ipa"):
             meta.append(f"<span class=\"ipa\">{escape(b['ipa'])}</span>")
+        if i == 0 and b0.get("sounds_like"):
+            meta.append(f"<span class=\"sounds\">sounds like “{escape(b0['sounds_like'])}”"
+                        f"<span class=\"ai-mini\">✦</span></span>")
+        if i == 0 and b0.get("spoken"):
+            meta.append(f"<span class=\"sounds\">in fast speech: “{escape(b0['spoken'])}”"
+                        f"<span class=\"ai-mini\">✦</span></span>")
         parts.append(f"<div class=\"meta\">{' · '.join(meta)}</div>")
+
+        line = infl_line(word, b)
+        if line:
+            parts.append(f"<div class=\"infl\">{escape(line)}</div>")
 
         parts.append("<ol class=\"senses\">")
         for s in b["senses"]:
@@ -79,6 +123,33 @@ def danish_entry(n, word, blocks):
                 "<span class=\"ai-tag\">AI-generated</span></span> "
                 f"{escape(b['gotcha'])}</div>"
             )
+
+    if b0.get("particle"):
+        p = b0["particle"]
+        dialogs = "".join(
+            f"<div class=\"example\"><span class=\"ex-da\">{escape(d['da'])}</span> "
+            f"<span class=\"ex-en\">{escape(d['en'])}</span></div>"
+            for d in p.get("dialogs", []))
+        parts.append(f"<div class=\"particle\"><span class=\"particle-head\">✨ How Danes use it "
+                     f"<span class=\"ai-tag\">AI-generated</span></span> "
+                     f"{escape(p['explain'])}{dialogs}</div>")
+
+    if b0.get("chunks"):
+        items = "".join(f"<li>{escape(c)}</li>" for c in b0["chunks"])
+        parts.append(f"<div class=\"chunks\"><span class=\"chunks-head\">🧩 In phrases</span>"
+                     f"<ul>{items}</ul></div>")
+
+    if b0.get("usage_note"):
+        parts.append(f"<div class=\"usagenote\">📌 {escape(b0['usage_note'])}</div>")
+
+    for c in b0.get("confusables", []):
+        other = c["with"]
+        other_id = id_of.get(other)
+        label = (f"<a href=\"x-dictionary:r:{other_id}\">{escape(other)}</a>"
+                 if other_id else escape(other))
+        parts.append(f"<div class=\"confuse\"><span class=\"confuse-head\">🔀 Don't confuse with "
+                     f"{label}</span> {escape(c['rule'])}</div>")
+
     body = "\n".join(parts)
     return f"<d:entry id=\"{eid}\" d:title={quoteattr(word)}>\n{body}\n</d:entry>"
 
@@ -116,9 +187,12 @@ def main():
         print("note: data/enriched.json not found, building without AI content")
     data = json.loads(data_path.read_text(encoding="utf-8"))
 
+    sorted_danish = sorted(data["danish"].items())
+    id_of = {word: f"da_{n}" for n, (word, _) in enumerate(sorted_danish)}
+
     entries = [FRONT_MATTER]
-    for n, (word, blocks) in enumerate(sorted(data["danish"].items())):
-        entries.append(danish_entry(n, word, blocks))
+    for n, (word, blocks) in enumerate(sorted_danish):
+        entries.append(danish_entry(n, word, blocks, id_of))
     for n, (word, translations) in enumerate(sorted(data["english"].items())):
         # skip English words identical to a Danish headword we already have;
         # both would match anyway, and the Danish entry is richer

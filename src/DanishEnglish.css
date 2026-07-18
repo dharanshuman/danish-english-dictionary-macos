@@ -87,6 +87,96 @@ ol.senses li {
 	vertical-align: middle;
 }
 
+.infl {
+	font-weight: 600;
+	font-size: 1.0em;
+	margin: 0.1em 0 0.4em 0;
+	color: #0a5fbf;
+}
+
+.sounds {
+	font-style: normal;
+	color: #3a3a3c;
+}
+
+.ai-mini {
+	color: #8e5cf7;
+	font-size: 0.75em;
+	margin-left: 0.15em;
+}
+
+.falsefriend {
+	margin: 0.4em 0 0.6em 0;
+	padding: 0.5em 0.7em;
+	border-radius: 8px;
+	background: rgba(255, 59, 48, 0.10);
+	border: 1px solid rgba(255, 59, 48, 0.35);
+	font-size: 0.95em;
+}
+
+.ff-head {
+	font-weight: 700;
+	color: #c62828;
+	display: block;
+	margin-bottom: 0.15em;
+}
+
+.confuse {
+	margin: 0.5em 0;
+	padding: 0.5em 0.7em;
+	border-radius: 8px;
+	background: rgba(0, 122, 255, 0.08);
+	border: 1px solid rgba(0, 122, 255, 0.25);
+	font-size: 0.95em;
+}
+
+.confuse-head {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 0.15em;
+}
+
+.chunks {
+	margin: 0.5em 0;
+	padding: 0.5em 0.7em;
+	border-radius: 8px;
+	background: rgba(52, 199, 89, 0.10);
+	border: 1px solid rgba(52, 199, 89, 0.30);
+	font-size: 0.95em;
+}
+
+.chunks-head {
+	font-weight: 700;
+}
+
+.chunks ul {
+	margin: 0.25em 0 0 1.2em;
+	padding: 0;
+}
+
+.usagenote {
+	margin: 0.5em 0;
+	padding: 0.45em 0.7em;
+	border-radius: 8px;
+	background: rgba(142, 142, 147, 0.12);
+	font-size: 0.95em;
+}
+
+.particle {
+	margin: 0.5em 0;
+	padding: 0.5em 0.7em;
+	border-radius: 8px;
+	background: rgba(175, 82, 222, 0.09);
+	border: 1px solid rgba(175, 82, 222, 0.30);
+	font-size: 0.95em;
+}
+
+.particle-head {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 0.15em;
+}
+
 ul.translations {
 	margin: 0.2em 0 0.6em 1.4em;
 	padding: 0;
@@ -105,6 +195,14 @@ ul.translations .pos {
 @media (prefers-color-scheme: dark) {
 	html, body { color: #f5f5f7; }
 	.meta, .ex-en, ul.translations .pos { color: #98989d; }
+	.infl { color: #64a8ff; }
+	.sounds { color: #d1d1d6; }
+	.ff-head { color: #ff6b60; }
+	.falsefriend { background: rgba(255, 69, 58, 0.12); border-color: rgba(255, 69, 58, 0.35); }
+	.confuse { background: rgba(10, 132, 255, 0.12); border-color: rgba(10, 132, 255, 0.30); }
+	.chunks { background: rgba(48, 209, 88, 0.10); border-color: rgba(48, 209, 88, 0.28); }
+	.usagenote { background: rgba(142, 142, 147, 0.18); }
+	.particle { background: rgba(191, 90, 242, 0.12); border-color: rgba(191, 90, 242, 0.32); }
 	.example { border-left-color: #48484a; }
 	.gotcha {
 		background: rgba(255, 204, 0, 0.10);

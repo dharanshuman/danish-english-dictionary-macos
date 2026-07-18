@@ -29,6 +29,52 @@ MAX_EXAMPLES = 3
 # ---------------------------------------------------------------- kaikki ---
 
 SKIP_FORM_TAGS = {"table-tags", "inflection-template", "class"}
+IGNORE_INFL_TAGS = {"obsolete", "alternative", "dated", "archaic",
+                    "genitive", "passive"}
+
+
+def extract_infl(pos, forms):
+    """Pull the forms a learner memorizes into a small labeled dict.
+
+    Nouns:      def_sg (bilen), pl (biler), def_pl (bilerne)
+    Verbs:      present (bor), past (boede), part (boet), imp (bo)
+    Adjectives: t (stort), e (store), comp (større), sup (størst)
+    """
+    infl = {}
+    for fo in forms:
+        form = (fo.get("form") or "").strip()
+        tags = set(fo.get("tags", []))
+        if not form or form == "-" or tags & SKIP_FORM_TAGS:
+            continue
+        if tags & IGNORE_INFL_TAGS:
+            continue
+        if pos == "noun":
+            if {"definite", "singular"} <= tags:
+                infl.setdefault("def_sg", form)
+            elif {"indefinite", "plural"} <= tags:
+                infl.setdefault("pl", form)
+            elif {"definite", "plural"} <= tags:
+                infl.setdefault("def_pl", form)
+        elif pos == "verb":
+            # order matters: participles are tagged past+participle
+            if "participle" in tags or "perfect" in tags:
+                infl.setdefault("part", form.removeprefix("har ").removeprefix("er "))
+            elif "present" in tags:
+                infl.setdefault("present", form)
+            elif "past" in tags:
+                infl.setdefault("past", form)
+            elif "imperative" in tags:
+                infl.setdefault("imp", form)
+        elif pos == "adj":
+            if "neuter" in tags:
+                infl.setdefault("t", form)
+            elif "comparative" in tags:
+                infl.setdefault("comp", form)
+            elif "superlative" in tags:
+                infl.setdefault("sup", form)
+            elif "definite" in tags or "plural" in tags:
+                infl.setdefault("e", form)
+    return infl
 
 
 def parse_kaikki():
@@ -94,6 +140,7 @@ def parse_kaikki():
                 "gender": gender,
                 "ipa": ipa,
                 "plural": plural,
+                "infl": extract_infl(pos, e.get("forms", [])),
                 "senses": senses,
                 "forms": sorted(set(forms)),
                 "source": "wiktionary",
@@ -200,7 +247,7 @@ def main():
             continue
         danish[word] = [{
             "pos": "", "gender": cor_gender.get(word), "ipa": None,
-            "plural": None,
+            "plural": None, "infl": {},
             "senses": [{"gloss": gloss, "examples": []}],
             "forms": sorted(cor_forms.get(word, set())),
             "source": "freedict",

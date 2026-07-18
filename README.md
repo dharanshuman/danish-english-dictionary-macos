@@ -18,6 +18,28 @@ an answer. It also understands **inflected forms** — looking up *husene*
 ("the houses") finds *hus*, because every conjugated and declined form from
 the official Danish word register (COR) is indexed.
 
+Built for the things that actually trip up English speakers:
+
+- **The forms you memorize, up front**: nouns show the full line
+  *en bil · bilen · biler · bilerne*; verbs show *at ligge · ligger · lå ·
+  har ligget* (including which verbs take *er* instead of *har*);
+  adjectives show *stor · stort · store (større, størst)*.
+- **"Sounds like" respellings** for the 1,000 most common words
+  (*gerne* → "GAIR-nuh"), plus the reduced everyday spoken form where
+  it differs a lot (*ikke* → "ik", *hvad* → "va").
+- **🚨 False friend warnings** on ~50 documented traps (*gift*, *fart*,
+  *slut*, *barn*, *chef*, *aktuel*…).
+- **🔀 "Don't confuse with" notes** linking twin entries: ligge/lægge,
+  nogen/nogle, når/da, hvis/om, sin/hans, og/at, hjem/hjemme…
+- **🧩 Preposition phrases** on the nouns that need them (*på arbejde*,
+  *hos lægen*, *i biografen*) and the weekday triple (*i mandags* /
+  *på mandag* / *om mandagen*).
+- **📌 Usage notes**: job titles take no article, the short-answer *det
+  gør jeg* rule, the vigesimal numbers decoded (*halvtreds* = 50), *halv
+  to* = 1:30, uncountables, and more.
+- **✨ Flavor-word entries** for jo, vel, nok, da, dog, mon, sgu, lige —
+  the untranslatable little words, shown through mini-dialogues.
+
 > **Screenshot placeholder** — add a screenshot of the Look Up panel here.
 
 ## Install (easy way)
@@ -81,6 +103,12 @@ that content is cached as plain JSON in `data/ai_cache/`, committed to the
 repo, and **clearly labeled in the dictionary** with a purple
 "AI-generated" tag — treat it as helpful but fallible. It never replaces
 real Wiktionary data; it only fills gaps.
+
+Separately, `data/curated/` holds hand-checkable word data compiled from
+documented sources (see NOTICE): false friends, confusable pairs,
+preposition phrases, usage notes, flavor-word explanations, and the list
+of er-perfect verbs. These are plain JSON — if you spot a mistake, edit
+the file and open a pull request.
 
 To expand coverage: raise `tier1_size` in `config.json`, run
 `python3 scripts/enrich.py --list` to get the words that still need

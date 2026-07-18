@@ -22,16 +22,22 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "data" / "ai_cache"
+CURATED_DIR = ROOT / "data" / "curated"
 NORMALIZED = ROOT / "data" / "normalized.json"
 ENRICHED = ROOT / "data" / "enriched.json"
 TIER1_LIST = ROOT / "data" / "tier1_words.json"
 
 
-def load_cache():
+def load_cache(pattern="batch_*.json"):
     cache = {}
-    for path in sorted(CACHE_DIR.glob("*.json")):
+    for path in sorted(CACHE_DIR.glob(pattern)):
         cache.update(json.loads(path.read_text(encoding="utf-8")))
     return cache
+
+
+def load_curated(name):
+    path = CURATED_DIR / name
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
 def tier1_words(data, size):
@@ -89,8 +95,64 @@ def main():
             b["gotcha"] = gotcha
         enriched_count += 1
 
+    # AI pronunciation respellings ("sounds like") for tier-1 words
+    pron = load_cache("pron_*.json")
+    pron_count = 0
+    for word, blocks in data["danish"].items():
+        p = pron.get(word)
+        if not p:
+            continue
+        if (p.get("sounds_like") or "").strip():
+            blocks[0]["sounds_like"] = p["sounds_like"].strip()
+        if (p.get("spoken") or "").strip():
+            blocks[0]["spoken"] = p["spoken"].strip()
+        pron_count += 1
+
+    # stub entries for important words Wiktionary lacks as headwords
+    for word, stub in load_curated("stubs.json").items():
+        if word not in data["danish"]:
+            data["danish"][word] = [{
+                "pos": stub["pos"], "gender": None, "ipa": None,
+                "plural": None, "infl": {},
+                "senses": [{"gloss": stub["gloss"], "examples": []}],
+                "forms": [], "source": "curated", "freq_rank": None,
+            }]
+
+    # curated word-level data (committed to the repo, editable by PR)
+    curated_missing = []
+
+    def attach(filename, key):
+        count = 0
+        for word, value in load_curated(filename).items():
+            blocks = data["danish"].get(word)
+            if not blocks:
+                curated_missing.append(f"{filename}:{word}")
+                continue
+            blocks[0][key] = value
+            count += 1
+        return count
+
+    n_ff = attach("false_friends.json", "false_friend")
+    n_cf = attach("confusables.json", "confusables")
+    n_ch = attach("chunks.json", "chunks")
+    n_no = attach("notes.json", "usage_note")
+    n_pa = attach("particles.json", "particle")
+
+    # which verbs form their perfect with "er" (er kommet) instead of "har"
+    er_verbs = set(json.loads((CURATED_DIR / "er_verbs.json").read_text())
+                   if (CURATED_DIR / "er_verbs.json").exists() else [])
+    for word, blocks in data["danish"].items():
+        for b in blocks:
+            if b["pos"] == "verb" and b.get("infl", {}).get("part"):
+                b["aux"] = "er" if word in er_verbs else "har"
+
     ENRICHED.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     print(f"merged AI content for {enriched_count:,} of {len(words):,} tier-1 words")
+    print(f"pronunciation respellings: {pron_count:,}")
+    print(f"curated: {n_ff} false friends, {n_cf} confusables, {n_ch} chunk sets, "
+          f"{n_no} usage notes, {n_pa} particles")
+    if curated_missing:
+        print(f"WARNING - curated words not found as headwords: {curated_missing}")
     print(f"wrote {ENRICHED}")
 
 

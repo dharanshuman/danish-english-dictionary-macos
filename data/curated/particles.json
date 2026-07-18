@@ -1,0 +1,71 @@
+{
+  "jo": {
+    "explain": "Flavor word: \"as you know / obviously\" — marks something as shared knowledge. ALSO the mandatory \"yes\" to a negative question.",
+    "dialogs": [
+      {"da": "Han er jo din bror.", "en": "He IS your brother, after all."},
+      {"da": "Kan du ikke lide kaffe? — Jo!", "en": "Don't you like coffee? — Yes I do! (never \"ja\" here)"}
+    ]
+  },
+  "vel": {
+    "explain": "Flavor word: \"I suppose / right?\" — marks a guess or asks for confirmation. At the end of a negative sentence it works like a tag question.",
+    "dialogs": [
+      {"da": "Du kommer i morgen, ikke også? — Det gør jeg vel.", "en": "You're coming tomorrow, right? — I suppose so."},
+      {"da": "Han er her ikke, vel?", "en": "He isn't here, is he?"}
+    ]
+  },
+  "nok": {
+    "explain": "Flavor word: \"probably / I reckon\" — softens a statement into a guess. Also plain \"enough\".",
+    "dialogs": [
+      {"da": "Han kommer nok i morgen.", "en": "He'll probably come tomorrow."},
+      {"da": "Det skal nok gå.", "en": "It'll be fine, don't worry. (set phrase)"}
+    ]
+  },
+  "da": {
+    "explain": "Flavor word: \"surely / come on\" — adds mild insistence or surprise. (Separate from da = \"when\" for past events.)",
+    "dialogs": [
+      {"da": "Det er da flot!", "en": "That's really nice! (why would you doubt it)"},
+      {"da": "Kom da ind!", "en": "Do come in!"}
+    ]
+  },
+  "dog": {
+    "explain": "Flavor word: \"though / really\" — adds emphasis or contrast. In exclamations: \"how ...!\"",
+    "dialogs": [
+      {"da": "Hvor er det dog dejligt!", "en": "How lovely that is!"},
+      {"da": "Det var dog mærkeligt.", "en": "That was odd, though."}
+    ]
+  },
+  "mon": {
+    "explain": "Flavor word: \"I wonder\" — turns a question into musing out loud. No English one-word equivalent.",
+    "dialogs": [
+      {"da": "Mon det regner i morgen?", "en": "I wonder if it'll rain tomorrow?"},
+      {"da": "Mon han kommer?", "en": "Do you think he'll come?"}
+    ]
+  },
+  "sgu": {
+    "explain": "Flavor word: \"damn well / honestly\" — adds punch. Mildly rude (from \"så Gud\" = so help me God); fine among friends, skip it in formal settings.",
+    "dialogs": [
+      {"da": "Det er sgu godt!", "en": "That's damn good!"},
+      {"da": "Det ved jeg sgu ikke.", "en": "I honestly have no idea."}
+    ]
+  },
+  "lige": {
+    "explain": "Flavor word: \"just / quickly\" — softens requests and makes them polite-casual. Also means \"straight\" and \"exactly\" (lige nu = right now).",
+    "dialogs": [
+      {"da": "Kan du lige hjælpe mig?", "en": "Can you just give me a quick hand?"},
+      {"da": "Vent lige et øjeblik.", "en": "Hang on just a moment."}
+    ]
+  },
+  "vist": {
+    "explain": "Flavor word: \"apparently / it seems\" — you believe it but aren't sure.",
+    "dialogs": [
+      {"da": "Han er vist syg i dag.", "en": "He's apparently ill today."}
+    ]
+  },
+  "altså": {
+    "explain": "Filler + emphasis: \"so / I mean / seriously\". Danes use it constantly in speech.",
+    "dialogs": [
+      {"da": "Altså, jeg forstår det ikke.", "en": "I mean, I just don't get it."},
+      {"da": "Det er altså rigtig godt.", "en": "It's seriously good."}
+    ]
+  }
+}
