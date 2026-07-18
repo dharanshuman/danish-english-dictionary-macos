@@ -1,0 +1,30 @@
+Data sources and credits
+========================
+
+1. Wiktionary (via Wiktextract / kaikki.org) — PRIMARY source
+   Danish word list, meanings, gender, plurals, pronunciation, inflected
+   forms, and many example sentences.
+   URL: https://kaikki.org/dictionary/Danish/  (JSONL, ~57,800 entries)
+   License: CC BY-SA 4.0 (dual-licensed with GFDL by Wikimedia)
+   Credit: Wiktionary contributors; Tatu Ylonen / Wiktextract.
+
+2. FreeDict — extra bilingual pairs
+   dan-eng 0.3.1 (~5,100 headwords) and eng-dan 0.1.0 (~400 headwords).
+   URL: https://freedict.org/
+   License: GPL (see the COPYING file inside each FreeDict archive)
+
+3. COR — Det Centrale Ordregister (the Danish Central Word Register)
+   Inflected forms (so "husene" finds "hus") and noun gender.
+   URL: https://ordregister.dk/ (file cor1.5.1.0.tsv, ~535,000 forms)
+   License: CC0 (free for any use)
+
+4. Danish frequency list by hermitdave (from OpenSubtitles 2018)
+   Used only to rank words so the most common ones get extra content.
+   URL: https://github.com/hermitdave/FrequencyWords
+   License: CC BY-SA 4.0
+
+5. AI-generated content
+   Example sentences and "gotcha" learner notes for the ~1,000 most common
+   words were written by Claude (Anthropic) and are stored in data/ai_cache/.
+   They are clearly labeled in the dictionary entries and may contain
+   mistakes. They are released under CC BY-SA 4.0 like the rest of the data.

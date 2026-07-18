@@ -1,0 +1,27 @@
+{
+  "tier1_size": 1000,
+  "comment": "tier1_size = how many of the most common Danish words get AI examples and gotcha notes. Raise this number and re-run scripts/enrich.py + scripts/build_xml.py to expand coverage.",
+  "max_examples_per_entry": 3,
+  "sources": {
+    "kaikki": {
+      "url": "https://kaikki.org/dictionary/Danish/kaikki.org-dictionary-Danish.jsonl",
+      "license": "CC BY-SA 4.0 (Wiktionary, via Wiktextract)"
+    },
+    "freedict_dan_eng": {
+      "url": "https://download.freedict.org/dictionaries/dan-eng/0.3.1/freedict-dan-eng-0.3.1.stardict.tar.xz",
+      "license": "GPL / see FreeDict"
+    },
+    "freedict_eng_dan": {
+      "url": "https://download.freedict.org/dictionaries/eng-dan/0.1.0/freedict-eng-dan-0.1.0.stardict.tar.xz",
+      "license": "GPL / see FreeDict"
+    },
+    "cor": {
+      "url": "https://ordregister.dk/files/cor1.5.1.0.tsv",
+      "license": "CC0"
+    },
+    "frequency": {
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/da/da_50k.txt",
+      "license": "CC BY-SA 4.0 (OpenSubtitles-based frequency list by hermitdave)"
+    }
+  }
+}

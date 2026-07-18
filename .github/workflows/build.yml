@@ -1,0 +1,42 @@
+name: Build dictionary
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get Dictionary Development Kit
+        run: git clone --depth 1 https://github.com/SebastianSzturo/Dictionary-Development-Kit.git tools/Dictionary-Development-Kit
+
+      - name: Fetch data sources
+        run: python3 scripts/fetch_data.py
+
+      - name: Parse sources
+        run: python3 scripts/parse_sources.py
+
+      - name: Merge AI enrichment cache
+        run: python3 scripts/enrich.py
+
+      - name: Build dictionary XML
+        run: python3 scripts/build_xml.py
+
+      - name: Compile .dictionary bundle
+        run: cd src && make && make release
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Danish-English.dictionary
+          path: src/objects/Danish-English.dictionary.zip
+
+      - name: Attach to release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: src/objects/Danish-English.dictionary.zip

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+html, body {
+	margin: 0;
+	padding: 0.4em 0.6em;
+	font: 13px -apple-system, "Helvetica Neue", sans-serif;
+	color: #1d1d1f;
+	background: transparent;
+	line-height: 1.45;
+}
+
+h1 {
+	font-size: 1.55em;
+	font-weight: 700;
+	margin: 0 0 0.15em 0;
+}
+
+.meta {
+	color: #6e6e73;
+	font-style: italic;
+	font-size: 0.95em;
+	margin: 0.1em 0 0.35em 0;
+}
+
+.meta .ipa {
+	font-style: normal;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+ol.senses {
+	margin: 0.2em 0 0.7em 1.4em;
+	padding: 0;
+}
+
+ol.senses li {
+	margin: 0.15em 0;
+}
+
+.example {
+	margin: 0.25em 0 0.25em 0.2em;
+	padding-left: 0.6em;
+	border-left: 2px solid #c7c7cc;
+	font-size: 0.95em;
+}
+
+.ex-da {
+	font-weight: 500;
+}
+
+.ex-en {
+	color: #6e6e73;
+}
+
+.example.ai {
+	border-left-color: #b28dff;
+}
+
+.example.ai .ex-da::after {
+	content: " ✦";
+	color: #8e5cf7;
+	font-size: 0.8em;
+}
+
+.gotcha {
+	margin: 0.5em 0 0.7em 0;
+	padding: 0.5em 0.7em;
+	border-radius: 8px;
+	background: rgba(255, 204, 0, 0.14);
+	border: 1px solid rgba(255, 170, 0, 0.35);
+	font-size: 0.95em;
+}
+
+.gotcha-head {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 0.15em;
+}
+
+.ai-tag {
+	font-weight: 400;
+	font-size: 0.8em;
+	color: #8e5cf7;
+	border: 1px solid #b28dff;
+	border-radius: 4px;
+	padding: 0 0.3em;
+	vertical-align: middle;
+}
+
+ul.translations {
+	margin: 0.2em 0 0.6em 1.4em;
+	padding: 0;
+}
+
+.da-word {
+	font-weight: 600;
+}
+
+ul.translations .pos {
+	color: #6e6e73;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+@media (prefers-color-scheme: dark) {
+	html, body { color: #f5f5f7; }
+	.meta, .ex-en, ul.translations .pos { color: #98989d; }
+	.example { border-left-color: #48484a; }
+	.gotcha {
+		background: rgba(255, 204, 0, 0.10);
+		border-color: rgba(255, 190, 60, 0.30);
+	}
+	.example.ai { border-left-color: #7c5cd6; }
+	.ai-tag { color: #b9a1ff; border-color: #7c5cd6; }
+	.example.ai .ex-da::after { color: #b9a1ff; }
+}

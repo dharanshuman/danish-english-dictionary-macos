@@ -1,0 +1,20 @@
+# build tools (cloned separately, see README)
+tools/
+
+# raw downloads (big; scripts/fetch_data.py re-downloads them)
+data/raw/
+
+# generated intermediates (rebuild with the scripts)
+data/normalized.json
+data/enriched.json
+data/tier1_words.json
+data/tier1_batches/
+src/DanishEnglish.xml
+src/objects/
+
+# never commit secrets
+.env
+*api_key*
+
+# macOS noise
+.DS_Store

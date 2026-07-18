@@ -1,0 +1,877 @@
+{
+ "jeg": {
+  "examples": [
+   {"da": "Jeg bor i København.", "en": "I live in Copenhagen."},
+   {"da": "Jeg kan godt lide kaffe.", "en": "I like coffee."}
+  ],
+  "gotcha": "Pronounced roughly 'yigh' — the g is not pronounced hard."
+ },
+ "det": {
+  "examples": [
+   {"da": "Det er en god idé.", "en": "That is a good idea."},
+   {"da": "Det regner i dag.", "en": "It is raining today."}
+  ],
+  "gotcha": "The t is silent; sounds like 'de'."
+ },
+ "er": {
+  "examples": [
+   {"da": "Hun er læge.", "en": "She is a doctor."},
+   {"da": "Vi er hjemme nu.", "en": "We are home now."}
+  ],
+  "gotcha": "Same form for all persons: I am, you are, they are — always 'er'."
+ },
+ "du": {
+  "examples": [
+   {"da": "Du er min bedste ven.", "en": "You are my best friend."},
+   {"da": "Hvor bor du?", "en": "Where do you live?"}
+  ],
+  "gotcha": ""
+ },
+ "ikke": {
+  "examples": [
+   {"da": "Jeg forstår det ikke.", "en": "I don't understand it."},
+   {"da": "Hun kommer ikke i dag.", "en": "She is not coming today."}
+  ],
+  "gotcha": "Often shortened to 'ik' in casual speech."
+ },
+ "at": {
+  "examples": [
+   {"da": "Jeg tror, at han kommer.", "en": "I think that he is coming."},
+   {"da": "Det er svært at vente.", "en": "It is hard to wait."}
+  ],
+  "gotcha": "As infinitive marker it is often pronounced like 'å', so it can sound like 'og'."
+ },
+ "I": {
+  "examples": [
+   {"da": "I er altid velkomne her.", "en": "You are always welcome here."},
+   {"da": "Skal I med i biografen?", "en": "Are you (all) coming to the cinema?"}
+  ],
+  "gotcha": "False friend: capitalized 'I' means 'you (plural)', never English 'I'."
+ },
+ "i": {
+  "examples": [
+   {"da": "Vi bor i en lille by.", "en": "We live in a small town."},
+   {"da": "Jeg var der i to timer.", "en": "I was there for two hours."}
+  ],
+  "gotcha": "Lowercase 'i' = 'in'; capitalized 'I' is the pronoun 'you (plural)'."
+ },
+ "en": {
+  "examples": [
+   {"da": "Jeg har en bil.", "en": "I have a car."},
+   {"da": "Der er kun en tilbage.", "en": "There is only one left."}
+  ],
+  "gotcha": ""
+ },
+ "og": {
+  "examples": [
+   {"da": "Vi købte brød og mælk.", "en": "We bought bread and milk."},
+   {"da": "Han er sød og sjov.", "en": "He is sweet and funny."}
+  ],
+  "gotcha": "Pronounced 'å' — in speech it sounds like the infinitive marker 'at'."
+ },
+ "vi": {
+  "examples": [
+   {"da": "Vi ses i morgen.", "en": "See you tomorrow."},
+   {"da": "Vi spiser klokken seks.", "en": "We eat at six o'clock."}
+  ],
+  "gotcha": ""
+ },
+ "til": {
+  "examples": [
+   {"da": "Vi kører til Århus i morgen.", "en": "We are driving to Aarhus tomorrow."},
+   {"da": "Gaven er til dig.", "en": "The present is for you."}
+  ],
+  "gotcha": ""
+ },
+ "på": {
+  "examples": [
+   {"da": "Bogen ligger på bordet.", "en": "The book is on the table."},
+   {"da": "Hun arbejder på et hospital.", "en": "She works at a hospital."}
+  ],
+  "gotcha": ""
+ },
+ "hvad": {
+  "examples": [
+   {"da": "Hvad hedder du?", "en": "What is your name?"},
+   {"da": "Hvad skal vi lave i dag?", "en": "What are we doing today?"}
+  ],
+  "gotcha": "Both h and d are silent; sounds like 'va'."
+ },
+ "med": {
+  "examples": [
+   {"da": "Vil du med i biografen?", "en": "Do you want to come to the cinema?"},
+   {"da": "Hun bor sammen med sin søster.", "en": "She lives with her sister."}
+  ],
+  "gotcha": "The d is silent in speech; sounds like 'me'."
+ },
+ "så": {
+  "examples": [
+   {"da": "Jeg er så træt i dag.", "en": "I am so tired today."},
+   {"da": "Vi spiste, og så gik vi hjem.", "en": "We ate, and then we went home."}
+  ],
+  "gotcha": "Also the past tense of 'se': 'jeg så' = 'I saw'."
+ },
+ "for": {
+  "examples": [
+   {"da": "Tak for hjælpen.", "en": "Thanks for the help."},
+   {"da": "Kaffen er for varm.", "en": "The coffee is too hot."}
+  ],
+  "gotcha": "Before an adjective it means 'too': 'for dyr' = 'too expensive'."
+ },
+ "mig": {
+  "examples": [
+   {"da": "Kan du hjælpe mig?", "en": "Can you help me?"},
+   {"da": "Giv bolden til mig.", "en": "Give the ball to me."}
+  ],
+  "gotcha": "Pronounced like 'my' — the g is not pronounced hard."
+ },
+ "der": {
+  "examples": [
+   {"da": "Der er mange mennesker her.", "en": "There are many people here."},
+   {"da": "Kvinden, der bor her, er sød.", "en": "The woman who lives here is nice."}
+  ],
+  "gotcha": "Also means 'who/that' in relative clauses, not just 'there'."
+ },
+ "han": {
+  "examples": [
+   {"da": "Han spiller fodbold hver lørdag.", "en": "He plays football every Saturday."},
+   {"da": "Han hedder Peter.", "en": "His name is Peter."}
+  ],
+  "gotcha": ""
+ },
+ "dig": {
+  "examples": [
+   {"da": "Jeg elsker dig.", "en": "I love you."},
+   {"da": "Er der post til dig?", "en": "Is there mail for you?"}
+  ],
+  "gotcha": "Pronounced like 'die' — the g is not pronounced hard."
+ },
+ "De": {
+  "examples": [
+   {"da": "Hvad ønsker De at bestille?", "en": "What would you like to order?"},
+   {"da": "De må gerne sidde her.", "en": "You are welcome to sit here."}
+  ],
+  "gotcha": "Capitalized De is formal 'you'; lowercase de means 'they'. Formal De is rare in modern Danish."
+ },
+ "de": {
+  "examples": [
+   {"da": "De kommer til festen i aften.", "en": "They are coming to the party tonight."},
+   {"da": "De gamle huse er smukke.", "en": "The old houses are beautiful."}
+  ],
+  "gotcha": "Pronounced 'dee', not as spelled."
+ },
+ "den": {
+  "examples": [
+   {"da": "Den røde bil er min.", "en": "The red car is mine."},
+   {"da": "Hvor er min taske? Den er her.", "en": "Where is my bag? It is here."}
+  ],
+  "gotcha": "Use 'den' as 'it' for en-words, 'det' for et-words."
+ },
+ "af": {
+  "examples": [
+   {"da": "Bogen er skrevet af en dansker.", "en": "The book is written by a Dane."},
+   {"da": "Tag jakken af.", "en": "Take off your jacket."}
+  ],
+  "gotcha": "The f is usually silent in speech; sounds like 'a'."
+ },
+ "var": {
+  "examples": [
+   {"da": "Jeg var hjemme i går.", "en": "I was home yesterday."},
+   {"da": "Vejret var dejligt i weekenden.", "en": "The weather was lovely at the weekend."}
+  ],
+  "gotcha": "Same form for all persons: was and were are both 'var'."
+ },
+ "her": {
+  "examples": [
+   {"da": "Kom her og sæt dig.", "en": "Come here and sit down."},
+   {"da": "Jeg har boet her i ti år.", "en": "I have lived here for ten years."}
+  ],
+  "gotcha": ""
+ },
+ "et": {
+  "examples": [
+   {"da": "Vi har et stort hus.", "en": "We have a big house."},
+   {"da": "Hun skrev et brev til sin mor.", "en": "She wrote a letter to her mother."}
+  ],
+  "gotcha": ""
+ },
+ "skal": {
+  "examples": [
+   {"da": "Jeg skal på arbejde i morgen.", "en": "I have to go to work tomorrow."},
+   {"da": "Vi skal spise nu.", "en": "We are going to eat now."}
+  ],
+  "gotcha": "Usually the modal 'must/shall' (present of 'skulle'); the noun 'skal' (shell) is much rarer."
+ },
+ "men": {
+  "examples": [
+   {"da": "Jeg vil gerne komme, men jeg har travlt.", "en": "I would like to come, but I am busy."},
+   {"da": "Huset er lille, men hyggeligt.", "en": "The house is small but cozy."}
+  ],
+  "gotcha": "Also an et-noun meaning lasting injury: 'varigt men'."
+ },
+ "ved": {
+  "examples": [
+   {"da": "Vi mødes ved stationen.", "en": "We meet at the station."},
+   {"da": "Jeg ved det ikke.", "en": "I don't know."}
+  ],
+  "gotcha": "Also the present tense of 'vide' (to know): 'jeg ved' = 'I know'."
+ },
+ "om": {
+  "examples": [
+   {"da": "Vi taler om vejret.", "en": "We are talking about the weather."},
+   {"da": "Jeg ved ikke, om han kommer.", "en": "I don't know if he is coming."}
+  ],
+  "gotcha": "As a conjunction it means 'whether/if': 'om han kommer'."
+ },
+ "nu": {
+  "examples": [
+   {"da": "Vi skal gå nu.", "en": "We have to go now."},
+   {"da": "Nu forstår jeg det.", "en": "Now I understand."}
+  ],
+  "gotcha": ""
+ },
+ "ja": {
+  "examples": [
+   {"da": "Ja, det vil jeg gerne.", "en": "Yes, I would like that."},
+   {"da": "Ja tak, en kop kaffe.", "en": "Yes please, a cup of coffee."}
+  ],
+  "gotcha": "Use 'jo', not 'ja', to answer a negative question with yes."
+ },
+ "som": {
+  "examples": [
+   {"da": "Hun synger som en engel.", "en": "She sings like an angel."},
+   {"da": "Manden, som bor her, er venlig.", "en": "The man who lives here is friendly."}
+  ],
+  "gotcha": ""
+ },
+ "hun": {
+  "examples": [
+   {"da": "Hun læser en god bog.", "en": "She is reading a good book."},
+   {"da": "Hun arbejder i en butik.", "en": "She works in a shop."}
+  ],
+  "gotcha": ""
+ },
+ "nej": {
+  "examples": [
+   {"da": "Nej, det tror jeg ikke.", "en": "No, I don't think so."},
+   {"da": "Nej tak, jeg er mæt.", "en": "No thanks, I am full."}
+  ],
+  "gotcha": ""
+ },
+ "min": {
+  "examples": [
+   {"da": "Min bil er gammel.", "en": "My car is old."},
+   {"da": "Har du set min telefon?", "en": "Have you seen my phone?"}
+  ],
+  "gotcha": "Use 'min' with en-words, 'mit' with et-words, 'mine' with plurals."
+ },
+ "noget": {
+  "examples": [
+   {"da": "Vil du have noget at drikke?", "en": "Do you want something to drink?"},
+   {"da": "Jeg er noget træt i dag.", "en": "I am somewhat tired today."}
+  ],
+  "gotcha": "In speech 'nogen' and 'noget' sound alike; 'noget' goes with et-words and uncountables."
+ },
+ "ham": {
+  "examples": [
+   {"da": "Jeg kender ham godt.", "en": "I know him well."},
+   {"da": "Giv pengene til ham.", "en": "Give the money to him."}
+  ],
+  "gotcha": ""
+ },
+ "være": {
+  "examples": [
+   {"da": "Det kan være svært at vente.", "en": "It can be hard to wait."},
+   {"da": "Jeg vil gerne være lærer.", "en": "I would like to be a teacher."}
+  ],
+  "gotcha": "Irregular: er (am/is/are), var (was), har været (has been)."
+ },
+ "bare": {
+  "examples": [
+   {"da": "Jeg vil bare sove.", "en": "I just want to sleep."},
+   {"da": "Bare det ikke regner i morgen.", "en": "I just hope it doesn't rain tomorrow."}
+  ],
+  "gotcha": "False friend: not English 'bare' — it means 'just/only'."
+ },
+ "din": {
+  "examples": [
+   {"da": "Er det din cykel?", "en": "Is that your bicycle?"},
+   {"da": "Din kaffe bliver kold.", "en": "Your coffee is getting cold."}
+  ],
+  "gotcha": "In insults it means 'you': 'din idiot' = 'you idiot', not 'your idiot'."
+ },
+ "hvor": {
+  "examples": [
+   {"da": "Hvor bor du henne?", "en": "Where do you live?"},
+   {"da": "Hvor er det flot!", "en": "How beautiful it is!"}
+  ],
+  "gotcha": "The h is silent. Also means 'how' in exclamations: 'hvor flot!'."
+ },
+ "hvis": {
+  "examples": [
+   {"da": "Hvis det regner, bliver vi hjemme.", "en": "If it rains, we will stay home."},
+   {"da": "Hvis taske er det?", "en": "Whose bag is that?"}
+  ],
+  "gotcha": "Means both 'if' and 'whose'; the h is silent."
+ },
+ "os": {
+  "examples": [
+   {"da": "Kom og besøg os i weekenden.", "en": "Come and visit us at the weekend."},
+   {"da": "Vil du hjælpe os?", "en": "Will you help us?"}
+  ],
+  "gotcha": ""
+ },
+ "ud": {
+  "examples": [
+   {"da": "Skal vi gå ud i aften?", "en": "Shall we go out tonight?"},
+   {"da": "Han kiggede ud ad vinduet.", "en": "He looked out of the window."}
+  ],
+  "gotcha": "The d is soft, almost silent; sounds like 'ooth' with a soft th."
+ },
+ "Dem": {
+  "examples": [
+   {"da": "Må jeg hjælpe Dem?", "en": "May I help you?"},
+   {"da": "Det er en pakke til Dem.", "en": "There is a package for you."}
+  ],
+  "gotcha": "Capitalized Dem is formal 'you'; lowercase dem means 'them'."
+ },
+ "dem": {
+  "examples": [
+   {"da": "Jeg så dem i går.", "en": "I saw them yesterday."},
+   {"da": "Kan du give dem beskeden?", "en": "Can you give them the message?"}
+  ],
+  "gotcha": ""
+ },
+ "godt": {
+  "examples": [
+   {"da": "Jeg har sovet godt.", "en": "I slept well."},
+   {"da": "Jeg kan godt lide fisk.", "en": "I like fish."}
+  ],
+  "gotcha": "The d is silent; sounds like 'got'. 'Kan godt lide' is the set phrase for 'like'."
+ },
+ "fra": {
+  "examples": [
+   {"da": "Jeg kommer fra Danmark.", "en": "I come from Denmark."},
+   {"da": "Toget kører fra spor to.", "en": "The train leaves from platform two."}
+  ],
+  "gotcha": ""
+ },
+ "have": {
+  "examples": [
+   {"da": "Vi skal have gæster i aften.", "en": "We are having guests tonight."},
+   {"da": "Børnene leger i haven.", "en": "The children are playing in the garden."}
+  ],
+  "gotcha": "The verb is often pronounced just 'ha'; the noun 'en have' means garden."
+ },
+ "ville": {
+  "examples": [
+   {"da": "Han ville gerne hjælpe.", "en": "He wanted to help."},
+   {"da": "Jeg ville komme, hvis jeg kunne.", "en": "I would come if I could."}
+  ],
+  "gotcha": "Past/conditional of 'vil'; expresses wanting, not just future 'will'."
+ },
+ "se": {
+  "examples": [
+   {"da": "Kan du se fuglen?", "en": "Can you see the bird?"},
+   {"da": "Vi skal se en film i aften.", "en": "We are watching a movie tonight."}
+  ],
+  "gotcha": "Irregular past: så (saw), har set (has seen)."
+ },
+ "hvorfor": {
+  "examples": [
+   {"da": "Hvorfor græder du?", "en": "Why are you crying?"},
+   {"da": "Jeg ved ikke hvorfor.", "en": "I don't know why."}
+  ],
+  "gotcha": "The h is silent."
+ },
+ "alle": {
+  "examples": [
+   {"da": "Alle er velkomne til festen.", "en": "Everyone is welcome to the party."},
+   {"da": "Jeg har læst alle bøgerne.", "en": "I have read all the books."}
+  ],
+  "gotcha": ""
+ },
+ "lige": {
+  "examples": [
+   {"da": "Vent lige et øjeblik.", "en": "Just wait a moment."},
+   {"da": "Gå lige ud ad vejen.", "en": "Go straight down the road."}
+  ],
+  "gotcha": "The g is silent; sounds like 'lee-eh'. Very common softener: 'vent lige'."
+ },
+ "op": {
+  "examples": [
+   {"da": "Han stod op klokken syv.", "en": "He got up at seven o'clock."},
+   {"da": "Kom op på første sal.", "en": "Come up to the first floor."}
+  ],
+  "gotcha": ""
+ },
+ "hende": {
+  "examples": [
+   {"da": "Jeg mødte hende i går.", "en": "I met her yesterday."},
+   {"da": "Blomsterne er til hende.", "en": "The flowers are for her."}
+  ],
+  "gotcha": ""
+ },
+ "sig": {
+  "examples": [
+   {"da": "Han vasker sig hver morgen.", "en": "He washes himself every morning."},
+   {"da": "Hun glæder sig til ferien.", "en": "She is looking forward to the holiday."}
+  ],
+  "gotcha": "Pronounced like 'sigh'. Refers back to the subject: himself/herself/themselves."
+ },
+ "hvordan": {
+  "examples": [
+   {"da": "Hvordan har du det?", "en": "How are you?"},
+   {"da": "Hvordan kommer jeg til stationen?", "en": "How do I get to the station?"}
+  ],
+  "gotcha": "The h is silent."
+ },
+ "tak": {
+  "examples": [
+   {"da": "Tak for mad!", "en": "Thanks for the meal!"},
+   {"da": "Ja tak, det vil jeg gerne.", "en": "Yes please, I would like that."}
+  ],
+  "gotcha": "Danish has no word for 'please'; 'tak' covers both thanks and please ('ja tak')."
+ },
+ "gøre": {
+  "examples": [
+   {"da": "Hvad skal vi gøre nu?", "en": "What should we do now?"},
+   {"da": "Det gør ikke noget.", "en": "It doesn't matter."}
+  ],
+  "gotcha": "Irregular: gør, gjorde, har gjort. 'Gøre' is 'do'; 'lave' is often used for 'make'."
+ },
+ "kunne": {
+  "examples": [
+   {"da": "Jeg kunne ikke sove i nat.", "en": "I couldn't sleep last night."},
+   {"da": "Kunne du tænke dig en kop te?", "en": "Would you like a cup of tea?"}
+  ],
+  "gotcha": "Both infinitive and past tense of 'kan'."
+ },
+ "lad": {
+  "examples": [
+   {"da": "Lad os gå en tur.", "en": "Let's go for a walk."},
+   {"da": "Lad mig hjælpe dig.", "en": "Let me help you."}
+  ],
+  "gotcha": "Most often the imperative of 'lade' (let): 'lad os' = 'let's'."
+ },
+ "eller": {
+  "examples": [
+   {"da": "Vil du have te eller kaffe?", "en": "Do you want tea or coffee?"},
+   {"da": "Skynd dig, eller kommer vi for sent.", "en": "Hurry up, or we will be late."}
+  ],
+  "gotcha": ""
+ },
+ "meget": {
+  "examples": [
+   {"da": "Maden er meget lækker.", "en": "The food is very tasty."},
+   {"da": "Han arbejder meget.", "en": "He works a lot."}
+  ],
+  "gotcha": "The g is soft; sounds roughly like 'ma-yeth'."
+ },
+ "nok": {
+  "examples": [
+   {"da": "Har vi mad nok til alle?", "en": "Do we have enough food for everyone?"},
+   {"da": "Han kommer nok i morgen.", "en": "He will probably come tomorrow."}
+  ],
+  "gotcha": "After a verb it often means 'probably', not 'enough': 'han kommer nok'."
+ },
+ "få": {
+  "examples": [
+   {"da": "Kan jeg få regningen?", "en": "Can I have the bill?"},
+   {"da": "Der var kun få mennesker i parken.", "en": "There were only a few people in the park."}
+  ],
+  "gotcha": "Same word means 'to get' (verb) and 'few' (adjective) — context decides."
+ },
+ "da": {
+  "examples": [
+   {"da": "Da jeg var barn, boede vi på landet.", "en": "When I was a child, we lived in the country."},
+   {"da": "Det var da hyggeligt!", "en": "That was nice indeed!"}
+  ],
+  "gotcha": "'da' = single past event; 'når' = repeated or future events. Classic learner trap."
+ },
+ "ingen": {
+  "examples": [
+   {"da": "Der er ingen hjemme.", "en": "There is no one home."},
+   {"da": "Jeg har ingen penge.", "en": "I have no money."}
+  ],
+  "gotcha": ""
+ },
+ "man": {
+  "examples": [
+   {"da": "Man må ikke ryge her.", "en": "You are not allowed to smoke here."},
+   {"da": "I Danmark cykler man meget.", "en": "In Denmark people cycle a lot."}
+  ],
+  "gotcha": "False friend: not 'man' (that is 'mand') — it is the generic pronoun 'one/you/people'."
+ },
+ "gå": {
+  "examples": [
+   {"da": "Vi går en tur i parken.", "en": "We are taking a walk in the park."},
+   {"da": "Skal vi gå hjem nu?", "en": "Shall we walk home now?"}
+  ],
+  "gotcha": "Means to walk (or leave); for going by vehicle use 'tage' or 'køre', not 'gå'."
+ },
+ "går": {
+  "examples": [
+   {"da": "Hun går i skole hver dag.", "en": "She goes to school every day."},
+   {"da": "Jeg så ham i går.", "en": "I saw him yesterday."}
+  ],
+  "gotcha": "Present tense of 'gå'; in the set phrase 'i går' it means 'yesterday'."
+ },
+ "hvem": {
+  "examples": [
+   {"da": "Hvem er det?", "en": "Who is that?"},
+   {"da": "Hvem har taget min kage?", "en": "Who took my cake?"}
+  ],
+  "gotcha": "The h is silent."
+ },
+ "efter": {
+  "examples": [
+   {"da": "Vi ses efter frokost.", "en": "See you after lunch."},
+   {"da": "Han løb efter bussen.", "en": "He ran after the bus."}
+  ],
+  "gotcha": ""
+ },
+ "tilbage": {
+  "examples": [
+   {"da": "Hun kommer tilbage i morgen.", "en": "She is coming back tomorrow."},
+   {"da": "Der er kun to billetter tilbage.", "en": "There are only two tickets left."}
+  ],
+  "gotcha": "Also means 'left/remaining': 'to tilbage' = 'two left'."
+ },
+ "når": {
+  "examples": [
+   {"da": "Ring til mig, når du kommer hjem.", "en": "Call me when you get home."},
+   {"da": "Når det regner, bliver jeg inde.", "en": "When it rains, I stay inside."}
+  ],
+  "gotcha": "Used for future or repeated events; use 'da' for a single past event."
+ },
+ "alt": {
+  "examples": [
+   {"da": "Alt er klar til festen.", "en": "Everything is ready for the party."},
+   {"da": "Tak for alt.", "en": "Thanks for everything."}
+  ],
+  "gotcha": "'alt' = everything (et-words); 'alle' = everyone/all (plural)."
+ },
+ "måske": {
+  "examples": [
+   {"da": "Måske kommer han senere.", "en": "Maybe he will come later."},
+   {"da": "Vi tager måske til stranden i morgen.", "en": "We might go to the beach tomorrow."}
+  ],
+  "gotcha": ""
+ },
+ "også": {
+  "examples": [
+   {"da": "Jeg vil også have is.", "en": "I want ice cream too."},
+   {"da": "Hun taler også tysk.", "en": "She also speaks German."}
+  ],
+  "gotcha": "Usually pronounced 'osse' in everyday speech."
+ },
+ "jo": {
+  "examples": [
+   {"da": "Kommer du ikke? Jo, selvfølgelig!", "en": "Aren't you coming? Yes, of course!"},
+   {"da": "Det er jo mandag i dag.", "en": "It's Monday today, as you know."}
+  ],
+  "gotcha": "Means 'yes' to a negative question (unlike 'ja'); also a particle meaning 'as you know'."
+ },
+ "mit": {
+  "examples": [
+   {"da": "Mit hus ligger ved havet.", "en": "My house is by the sea."},
+   {"da": "Det er mit livs bedste dag.", "en": "It is the best day of my life."}
+  ],
+  "gotcha": "Used with et-words; en-words take 'min'."
+ },
+ "ind": {
+  "examples": [
+   {"da": "Kom ind og få en kop kaffe.", "en": "Come in and have a cup of coffee."},
+   {"da": "Hun gik ind i huset.", "en": "She went into the house."}
+  ],
+  "gotcha": "'ind' = motion into; 'inde' = being inside. Danish keeps them apart."
+ },
+ "vores": {
+  "examples": [
+   {"da": "Vores hus er hundrede år gammelt.", "en": "Our house is a hundred years old."},
+   {"da": "Det er vores tur nu.", "en": "It is our turn now."}
+  ],
+  "gotcha": ""
+ },
+ "hej": {
+  "examples": [
+   {"da": "Hej, hvordan går det?", "en": "Hi, how are you?"},
+   {"da": "Hej hej, vi ses i morgen!", "en": "Bye, see you tomorrow!"}
+  ],
+  "gotcha": "Doubled 'hej hej' means goodbye, not an extra-friendly hello."
+ },
+ "mere": {
+  "examples": [
+   {"da": "Vil du have mere kaffe?", "en": "Do you want more coffee?"},
+   {"da": "Jeg kan ikke spise mere.", "en": "I can't eat any more."}
+  ],
+  "gotcha": "'mere' with uncountables, 'flere' with countables: mere kaffe, flere kopper."
+ },
+ "Hans": {
+  "examples": [
+   {"da": "Hans er min gamle nabo.", "en": "Hans is my old neighbour."},
+   {"da": "Hans og Grete gik ind i skoven.", "en": "Hansel and Gretel went into the forest."}
+  ],
+  "gotcha": ""
+ },
+ "hans": {
+  "examples": [
+   {"da": "Det er hans cykel, ikke min.", "en": "It is his bicycle, not mine."},
+   {"da": "Jeg mødte hans søster i går.", "en": "I met his sister yesterday."}
+  ],
+  "gotcha": "Classic trap: 'hans' points to someone else; use 'sin/sit' for the subject's own things."
+ },
+ "skulle": {
+  "examples": [
+   {"da": "Jeg skulle møde ham klokken ti.", "en": "I was supposed to meet him at ten."},
+   {"da": "Vi skulle måske tage en taxa.", "en": "Maybe we should take a taxi."}
+  ],
+  "gotcha": "Both infinitive and past tense of 'skal'."
+ },
+ "nogen": {
+  "examples": [
+   {"da": "Er der nogen hjemme?", "en": "Is anyone home?"},
+   {"da": "Har du nogen spørgsmål?", "en": "Do you have any questions?"}
+  ],
+  "gotcha": "'nogen' (any/anyone) and 'nogle' (some) are spelled differently but sound identical."
+ },
+ "lidt": {
+  "examples": [
+   {"da": "Vil du have lidt mere te?", "en": "Do you want a little more tea?"},
+   {"da": "Vent lidt, jeg kommer nu.", "en": "Wait a moment, I'm coming."}
+  ],
+  "gotcha": "The d is silent; sounds like 'lit'."
+ },
+ "aldrig": {
+  "examples": [
+   {"da": "Jeg har aldrig været i Japan.", "en": "I have never been to Japan."},
+   {"da": "Han kommer aldrig for sent.", "en": "He is never late."}
+  ],
+  "gotcha": ""
+ },
+ "får": {
+  "examples": [
+   {"da": "Hun får løn den sidste fredag i måneden.", "en": "She gets paid on the last Friday of the month."},
+   {"da": "Der går ti får på marken.", "en": "There are ten sheep in the field."}
+  ],
+  "gotcha": "Same spelling for 'gets' (present of 'få') and 'sheep' (et får, plural får)."
+ },
+ "selv": {
+  "examples": [
+   {"da": "Jeg har lavet kagen selv.", "en": "I made the cake myself."},
+   {"da": "Selv om det regner, går vi en tur.", "en": "Even though it's raining, we're going for a walk."}
+  ],
+  "gotcha": "Also means 'even': 'selv om' = 'even though'. The v is barely pronounced."
+ },
+ "far": {
+  "examples": [
+   {"da": "Min far laver mad hver aften.", "en": "My dad cooks every evening."},
+   {"da": "Far, må jeg låne bilen?", "en": "Dad, can I borrow the car?"}
+  ],
+  "gotcha": "False friend: not English 'far' (that is 'langt') — it means dad."
+ },
+ "over": {
+  "examples": [
+   {"da": "Lampen hænger over bordet.", "en": "The lamp hangs above the table."},
+   {"da": "Klokken er ti over to.", "en": "It is ten past two."}
+  ],
+  "gotcha": "In clock time it means 'past': 'ti over to' = 'ten past two'."
+ },
+ "to": {
+  "examples": [
+   {"da": "Jeg har to søstre.", "en": "I have two sisters."},
+   {"da": "Bussen kommer om to minutter.", "en": "The bus comes in two minutes."}
+  ],
+  "gotcha": "False friend: not English 'to' — it is the number two."
+ },
+ "kun": {
+  "examples": [
+   {"da": "Der er kun én billet tilbage.", "en": "There is only one ticket left."},
+   {"da": "Det tager kun fem minutter.", "en": "It only takes five minutes."}
+  ],
+  "gotcha": ""
+ },
+ "sådan": {
+  "examples": [
+   {"da": "Sådan gør man det.", "en": "That is how you do it."},
+   {"da": "Jeg har aldrig set sådan et hus.", "en": "I have never seen such a house."}
+  ],
+  "gotcha": "Often shortened to 'sån' in speech."
+ },
+ "dit": {
+  "examples": [
+   {"da": "Er det dit hus?", "en": "Is that your house?"},
+   {"da": "Hvad er dit navn?", "en": "What is your name?"}
+  ],
+  "gotcha": "Used with et-words; en-words take 'din'."
+ },
+ "jer": {
+  "examples": [
+   {"da": "Jeg glæder mig til at se jer.", "en": "I look forward to seeing you all."},
+   {"da": "Har I taget jeres jakker med jer?", "en": "Did you bring your jackets with you?"}
+  ],
+  "gotcha": ""
+ },
+ "igen": {
+  "examples": [
+   {"da": "Kan du sige det igen?", "en": "Can you say that again?"},
+   {"da": "Vi ses igen på mandag.", "en": "See you again on Monday."}
+  ],
+  "gotcha": "The g is soft; sounds like 'ee-gen' with a weak g."
+ },
+ "mor": {
+  "examples": [
+   {"da": "Min mor bor i Odense.", "en": "My mother lives in Odense."},
+   {"da": "Mor, hvad skal vi have til aftensmad?", "en": "Mum, what are we having for dinner?"}
+  ],
+  "gotcha": ""
+ },
+ "sammen": {
+  "examples": [
+   {"da": "Vi laver mad sammen hver søndag.", "en": "We cook together every Sunday."},
+   {"da": "De bor sammen i en lejlighed.", "en": "They live together in a flat."}
+  ],
+  "gotcha": ""
+ },
+ "mand": {
+  "examples": [
+   {"da": "Der står en mand ved døren.", "en": "There is a man at the door."},
+   {"da": "Hendes mand hedder Lars.", "en": "Her husband is called Lars."}
+  ],
+  "gotcha": "The d is silent; sounds like 'man'. Also means 'husband'."
+ },
+ "hele": {
+  "examples": [
+   {"da": "Jeg har sovet hele dagen.", "en": "I have slept all day."},
+   {"da": "Hele familien var samlet.", "en": "The whole family was gathered."}
+  ],
+  "gotcha": "Usually 'the whole' ('hele dagen'); the verb 'to heal' is much rarer."
+ },
+ "Deres": {
+  "examples": [
+   {"da": "Må jeg se Deres billet?", "en": "May I see your ticket?"},
+   {"da": "Her er Deres nøgle, værsgo.", "en": "Here is your key, please."}
+  ],
+  "gotcha": "Capitalized = formal 'your'; lowercase 'deres' means 'their'."
+ },
+ "deres": {
+  "examples": [
+   {"da": "Børnene leger i deres værelse.", "en": "The children are playing in their room."},
+   {"da": "Naboerne har malet deres hus.", "en": "The neighbours have painted their house."}
+  ],
+  "gotcha": ""
+ },
+ "dag": {
+  "examples": [
+   {"da": "Hav en god dag!", "en": "Have a good day!"},
+   {"da": "Hvad skal du lave i dag?", "en": "What are you doing today?"}
+  ],
+  "gotcha": "The g is soft, almost silent: sounds like 'day'. 'I dag' = today."
+ },
+ "Tage": {
+  "examples": [
+   {"da": "Tage er et gammelt dansk drengenavn.", "en": "Tage is an old Danish boy's name."},
+   {"da": "Min farfar hed Tage.", "en": "My grandfather was called Tage."}
+  ],
+  "gotcha": ""
+ },
+ "tage": {
+  "examples": [
+   {"da": "Kan du tage min taske?", "en": "Can you take my bag?"},
+   {"da": "Vi tager toget til Odense.", "en": "We are taking the train to Odense."}
+  ],
+  "gotcha": "Often pronounced just 'ta' in speech. Irregular past: tog, har taget."
+ },
+ "mine": {
+  "examples": [
+   {"da": "Mine forældre bor i Jylland.", "en": "My parents live in Jutland."},
+   {"da": "Hvor er mine nøgler?", "en": "Where are my keys?"}
+  ],
+  "gotcha": ""
+ },
+ "sige": {
+  "examples": [
+   {"da": "Hvad vil du sige til ham?", "en": "What do you want to say to him?"},
+   {"da": "Kan du sige det langsomt?", "en": "Can you say it slowly?"}
+  ],
+  "gotcha": "The g is soft; sounds like 'see-eh'. Irregular past: sagde, har sagt."
+ },
+ "fordi": {
+  "examples": [
+   {"da": "Jeg bliver hjemme, fordi jeg er syg.", "en": "I am staying home because I am sick."},
+   {"da": "Hun smiler, fordi hun er glad.", "en": "She is smiling because she is happy."}
+  ],
+  "gotcha": ""
+ },
+ "end": {
+  "examples": [
+   {"da": "Han er ældre end mig.", "en": "He is older than me."},
+   {"da": "Kaffe er bedre end te.", "en": "Coffee is better than tea."}
+  ],
+  "gotcha": "False friend: not English 'end' (that is 'ende/slutning') — it means 'than'."
+ },
+ "undskyld": {
+  "examples": [
+   {"da": "Undskyld, hvor er toilettet?", "en": "Excuse me, where is the toilet?"},
+   {"da": "Undskyld, jeg kommer for sent.", "en": "Sorry I am late."}
+  ],
+  "gotcha": "The d's are silent; sounds roughly like 'on-skul'."
+ },
+ "før": {
+  "examples": [
+   {"da": "Vask hænder, før vi spiser.", "en": "Wash your hands before we eat."},
+   {"da": "Jeg har set den film før.", "en": "I have seen that movie before."}
+  ],
+  "gotcha": ""
+ },
+ "komme": {
+  "examples": [
+   {"da": "Kan du komme til festen på lørdag?", "en": "Can you come to the party on Saturday?"},
+   {"da": "Toget skulle komme klokken ni.", "en": "The train was supposed to arrive at nine."}
+  ],
+  "gotcha": "Irregular past: kom, er kommet (uses 'er', not 'har')."
+ },
+ "hold": {
+  "examples": [
+   {"da": "Vores hold vandt kampen.", "en": "Our team won the match."},
+   {"da": "Hold op med det der!", "en": "Stop doing that!"}
+  ],
+  "gotcha": "Also imperative of 'holde': 'hold op!' = 'stop it!'. The d is silent."
+ },
+ "væk": {
+  "examples": [
+   {"da": "Mine nøgler er væk.", "en": "My keys are gone."},
+   {"da": "Gå væk fra vejen!", "en": "Get away from the road!"}
+  ],
+  "gotcha": ""
+ },
+ "blive": {
+  "examples": [
+   {"da": "Hun vil gerne blive læge.", "en": "She wants to become a doctor."},
+   {"da": "Kan du blive her lidt længere?", "en": "Can you stay here a little longer?"}
+  ],
+  "gotcha": "Means both 'become' and 'stay/remain' — context decides. Past: blev, er blevet."
+ },
+ "år": {
+  "examples": [
+   {"da": "Hun er ti år gammel.", "en": "She is ten years old."},
+   {"da": "Godt nytår!", "en": "Happy New Year!"}
+  ],
+  "gotcha": "Same form in singular and plural: et år, ti år."
+ },
+ "ned": {
+  "examples": [
+   {"da": "Han gik ned ad trappen.", "en": "He went down the stairs."},
+   {"da": "Sæt dig ned og slap af.", "en": "Sit down and relax."}
+  ],
+  "gotcha": "The d is soft; sounds like 'neth' with a soft th."
+ },
+ "helt": {
+  "examples": [
+   {"da": "Jeg er helt enig med dig.", "en": "I completely agree with you."},
+   {"da": "Huset er helt nyt.", "en": "The house is brand new."}
+  ],
+  "gotcha": "As an adverb means 'completely'; as an en-noun it means 'hero'."
+ }
+}

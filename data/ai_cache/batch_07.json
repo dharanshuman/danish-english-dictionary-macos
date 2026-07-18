@@ -1,0 +1,801 @@
+{
+ "an": {
+  "examples": [
+   {"da": "Det kommer an på vejret.", "en": "It depends on the weather."}
+  ],
+  "gotcha": "Only used in fixed phrases like 'komme an på' (to depend on)."
+ },
+ "tredje": {
+  "examples": [
+   {"da": "Det er tredje gang, jeg ringer.", "en": "It is the third time I am calling."},
+   {"da": "Hun bor på tredje sal.", "en": "She lives on the third floor."}
+  ],
+  "gotcha": ""
+ },
+ "Harry": {
+  "examples": [
+   {"da": "Harry bor i København.", "en": "Harry lives in Copenhagen."}
+  ],
+  "gotcha": ""
+ },
+ "løj": {
+  "examples": [
+   {"da": "Vinden var løj i går aftes.", "en": "The wind was light last night."}
+  ],
+  "gotcha": "Looks like 'løj', the past tense of 'lyve' (lied) — a different word."
+ },
+ "tegn": {
+  "examples": [
+   {"da": "Det er et godt tegn.", "en": "That is a good sign."},
+   {"da": "Vent på mit tegn.", "en": "Wait for my signal."}
+  ],
+  "gotcha": "The g is not pronounced as expected; sounds like 'tajn'. Also imperative of 'tegne' (draw)."
+ },
+ "ren": {
+  "examples": [
+   {"da": "Skjorten er helt ren.", "en": "The shirt is completely clean."},
+   {"da": "Det var rent held.", "en": "It was pure luck."}
+  ],
+  "gotcha": ""
+ },
+ "levende": {
+  "examples": [
+   {"da": "Fisken var stadig levende.", "en": "The fish was still alive."},
+   {"da": "Hun er en meget levende fortæller.", "en": "She is a very lively storyteller."}
+  ],
+  "gotcha": ""
+ },
+ "læst": {
+  "examples": [
+   {"da": "Skomageren satte skoen på en læst.", "en": "The shoemaker put the shoe on a last."}
+  ],
+  "gotcha": "Identical to 'læst', past participle of 'læse' (read) — context decides."
+ },
+ "medmindre": {
+  "examples": [
+   {"da": "Vi går en tur, medmindre det regner.", "en": "We will take a walk unless it rains."}
+  ],
+  "gotcha": ""
+ },
+ "fortsætte": {
+  "examples": [
+   {"da": "Vi fortsætter mødet efter frokost.", "en": "We will continue the meeting after lunch."},
+   {"da": "Han fortsatte med at tale.", "en": "He continued talking."}
+  ],
+  "gotcha": "Irregular past tense: fortsatte, fortsat."
+ },
+ "nær": {
+  "examples": [
+   {"da": "Hotellet ligger nær stationen.", "en": "The hotel is near the station."},
+   {"da": "Vi er meget nære venner.", "en": "We are very close friends."}
+  ],
+  "gotcha": ""
+ },
+ "ejer": {
+  "examples": [
+   {"da": "Hvem er ejer af bilen?", "en": "Who is the owner of the car?"}
+  ],
+  "gotcha": "Also the present tense of 'eje' (owns)."
+ },
+ "Jul": {
+  "examples": [
+   {"da": "Jul er et gammelt dansk navn.", "en": "Jul is an old Danish name."}
+  ],
+  "gotcha": ""
+ },
+ "jul": {
+  "examples": [
+   {"da": "Vi fejrer jul hos min mor.", "en": "We celebrate Christmas at my mother's."},
+   {"da": "Glædelig jul!", "en": "Merry Christmas!"}
+  ],
+  "gotcha": ""
+ },
+ "skaffe": {
+  "examples": [
+   {"da": "Kan du skaffe billetter til koncerten?", "en": "Can you get tickets for the concert?"}
+  ],
+  "gotcha": ""
+ },
+ "mon": {
+  "examples": [
+   {"da": "Mon det bliver regnvejr i morgen?", "en": "I wonder if it will rain tomorrow?"}
+  ],
+  "gotcha": ""
+ },
+ "respekt": {
+  "examples": [
+   {"da": "Han har stor respekt for sin lærer.", "en": "He has great respect for his teacher."}
+  ],
+  "gotcha": ""
+ },
+ "danse": {
+  "examples": [
+   {"da": "Vil du danse med mig?", "en": "Will you dance with me?"},
+   {"da": "De dansede hele natten.", "en": "They danced all night."}
+  ],
+  "gotcha": ""
+ },
+ "lege": {
+  "examples": [
+   {"da": "Børnene leger i haven.", "en": "The children are playing in the garden."}
+  ],
+  "gotcha": "'Lege' is children's play; use 'spille' for games, sports and instruments."
+ },
+ "adgang": {
+  "examples": [
+   {"da": "Du skal have et kort for at få adgang.", "en": "You need a card to get access."},
+   {"da": "Adgang forbudt.", "en": "No entry."}
+  ],
+  "gotcha": ""
+ },
+ "frokost": {
+  "examples": [
+   {"da": "Vi spiser frokost klokken tolv.", "en": "We eat lunch at twelve o'clock."}
+  ],
+  "gotcha": "Means the midday meal — not breakfast, unlike Norwegian 'frokost' or German 'Frühstück'."
+ },
+ "forelsket": {
+  "examples": [
+   {"da": "Han er forelsket i sin nabo.", "en": "He is in love with his neighbor."}
+  ],
+  "gotcha": "Takes the preposition 'i': forelsket i nogen (in love with someone)."
+ },
+ "taber": {
+  "examples": [
+   {"da": "Ingen kan lide at være en taber.", "en": "Nobody likes to be a loser."}
+  ],
+  "gotcha": "Also the present tense of 'tabe' (loses, drops)."
+ },
+ "skid": {
+  "examples": [
+   {"da": "Det gør ikke en skid.", "en": "It doesn't matter a damn."}
+  ],
+  "gotcha": "Vulgar. Do not confuse with Danish 'fart', which innocently means speed."
+ },
+ "stol": {
+  "examples": [
+   {"da": "Sæt dig på en stol.", "en": "Sit down on a chair."}
+  ],
+  "gotcha": "Also imperative of 'stole på' (trust): 'Stol på mig!' means 'Trust me!'"
+ },
+ "hård": {
+  "examples": [
+   {"da": "Sengen er for hård.", "en": "The bed is too hard."},
+   {"da": "Det har været en hård uge.", "en": "It has been a tough week."}
+  ],
+  "gotcha": "The d is silent; sounds roughly like 'hor'."
+ },
+ "skam": {
+  "examples": [
+   {"da": "Han følte skam over sin fejl.", "en": "He felt shame over his mistake."},
+   {"da": "Det er skam rigtigt.", "en": "It is quite true, you know."}
+  ],
+  "gotcha": "As an adverb it is reassuring ('really, indeed'), not about shame."
+ },
+ "Jim": {
+  "examples": [
+   {"da": "Jim kommer til festen i aften.", "en": "Jim is coming to the party tonight."}
+  ],
+  "gotcha": ""
+ },
+ "bed": {
+  "examples": [
+   {"da": "Hun plantede roser i et bed.", "en": "She planted roses in a flower bed."}
+  ],
+  "gotcha": "Identical to 'bed', past tense of 'bide' (bit) and imperative of 'bede'."
+ },
+ "gravid": {
+  "examples": [
+   {"da": "Min søster er gravid i femte måned.", "en": "My sister is five months pregnant."}
+  ],
+  "gotcha": ""
+ },
+ "nervøs": {
+  "examples": [
+   {"da": "Jeg er altid nervøs før en eksamen.", "en": "I am always nervous before an exam."}
+  ],
+  "gotcha": ""
+ },
+ "Satan": {
+  "examples": [
+   {"da": "I historien frister Satan mennesket.", "en": "In the story, Satan tempts mankind."}
+  ],
+  "gotcha": ""
+ },
+ "satan": {
+  "examples": [
+   {"da": "For satan, hvor gør det ondt!", "en": "Damn it, that hurts!"}
+  ],
+  "gotcha": "Strong swear word in Danish; harsher than English 'damn'."
+ },
+ "lukke": {
+  "examples": [
+   {"da": "Kan du lukke døren?", "en": "Can you close the door?"},
+   {"da": "Butikken lukker klokken otte.", "en": "The shop closes at eight o'clock."}
+  ],
+  "gotcha": "'Lukke op' means to open — the opposite of what it looks like."
+ },
+ "vælge": {
+  "examples": [
+   {"da": "Du må vælge mellem de to farver.", "en": "You have to choose between the two colors."},
+   {"da": "Hun valgte den røde kjole.", "en": "She chose the red dress."}
+  ],
+  "gotcha": "Irregular past tense: valgte, valgt."
+ },
+ "tjener": {
+  "examples": [
+   {"da": "Tjeneren kom med regningen.", "en": "The waiter brought the bill."}
+  ],
+  "gotcha": "Also the present tense of 'tjene' (earns, serves)."
+ },
+ "magt": {
+  "examples": [
+   {"da": "Kongen havde stor magt.", "en": "The king had great power."}
+  ],
+  "gotcha": ""
+ },
+ "fart": {
+  "examples": [
+   {"da": "Bilen kørte med høj fart.", "en": "The car was driving at high speed."},
+   {"da": "Der er fart over hende i dag.", "en": "She is full of energy today."}
+  ],
+  "gotcha": "False friend: it means speed, not the English word 'fart'."
+ },
+ "Hel": {
+  "examples": [
+   {"da": "I nordisk mytologi hersker Hel over dødsriget.", "en": "In Norse mythology, Hel rules the realm of the dead."}
+  ],
+  "gotcha": ""
+ },
+ "hel": {
+  "examples": [
+   {"da": "Hun spiste en hel pizza.", "en": "She ate a whole pizza."},
+   {"da": "Vi ventede en hel time.", "en": "We waited a whole hour."}
+  ],
+  "gotcha": ""
+ },
+ "venlig": {
+  "examples": [
+   {"da": "Naboen er altid meget venlig.", "en": "The neighbor is always very friendly."},
+   {"da": "Med venlig hilsen.", "en": "Kind regards."}
+  ],
+  "gotcha": ""
+ },
+ "enten": {
+  "examples": [
+   {"da": "Du kan enten gå eller cykle.", "en": "You can either walk or bike."}
+  ],
+  "gotcha": "Always paired with 'eller': enten ... eller (either ... or)."
+ },
+ "hul": {
+  "examples": [
+   {"da": "Der er et hul i min sok.", "en": "There is a hole in my sock."}
+  ],
+  "gotcha": "As an adjective it means hollow."
+ },
+ "flyve": {
+  "examples": [
+   {"da": "Vi flyver til Paris i morgen.", "en": "We are flying to Paris tomorrow."},
+   {"da": "Fuglen fløj væk.", "en": "The bird flew away."}
+  ],
+  "gotcha": "Irregular past tense: fløj, fløjet."
+ },
+ "tusind": {
+  "examples": [
+   {"da": "Bogen kostede tusind kroner.", "en": "The book cost a thousand kroner."},
+   {"da": "Tusind tak for hjælpen!", "en": "Thanks a lot for the help!"}
+  ],
+  "gotcha": ""
+ },
+ "derhen": {
+  "examples": [
+   {"da": "Vi kan gå derhen sammen.", "en": "We can walk there together."}
+  ],
+  "gotcha": ""
+ },
+ "o": {
+  "examples": [
+   {"da": "O Gud, hør vor bøn.", "en": "O God, hear our prayer."}
+  ],
+  "gotcha": "Archaic and poetic; not used in everyday Danish."
+ },
+ "sko": {
+  "examples": [
+   {"da": "Jeg har købt nye sko.", "en": "I have bought new shoes."},
+   {"da": "Tag dine sko af i entréen.", "en": "Take your shoes off in the hallway."}
+  ],
+  "gotcha": "Irregular plural: the plural is also 'sko' (en sko, to sko)."
+ },
+ "date": {
+  "examples": [
+   {"da": "Hun skal på date i aften.", "en": "She is going on a date tonight."}
+  ],
+  "gotcha": ""
+ },
+ "enig": {
+  "examples": [
+   {"da": "Jeg er helt enig med dig.", "en": "I completely agree with you."},
+   {"da": "Vi blev enige om en pris.", "en": "We agreed on a price."}
+  ],
+  "gotcha": ""
+ },
+ "bagefter": {
+  "examples": [
+   {"da": "Vi spiser først og går en tur bagefter.", "en": "We eat first and take a walk afterwards."}
+  ],
+  "gotcha": ""
+ },
+ "morder": {
+  "examples": [
+   {"da": "Politiet fangede morderen.", "en": "The police caught the murderer."}
+  ],
+  "gotcha": ""
+ },
+ "frøken": {
+  "examples": [
+   {"da": "Frøken Hansen var vores lærer.", "en": "Miss Hansen was our teacher."}
+  ],
+  "gotcha": "Old-fashioned; hardly used in modern Danish outside jokes or old titles."
+ },
+ "opgave": {
+  "examples": [
+   {"da": "Jeg har en vigtig opgave på arbejdet.", "en": "I have an important task at work."},
+   {"da": "Eleverne løser opgaver i matematik.", "en": "The pupils solve exercises in math."}
+  ],
+  "gotcha": ""
+ },
+ "alvorligt": {
+  "examples": [
+   {"da": "Han er alvorligt syg.", "en": "He is seriously ill."},
+   {"da": "Mener du det alvorligt?", "en": "Are you serious about that?"}
+  ],
+  "gotcha": ""
+ },
+ "nar": {
+  "examples": [
+   {"da": "Han opførte sig som en nar.", "en": "He behaved like a fool."}
+  ],
+  "gotcha": "Do not confuse with 'når' (when) — the å changes the word."
+ },
+ "hov": {
+  "examples": [
+   {"da": "Hov, du glemte din taske!", "en": "Hey, you forgot your bag!"},
+   {"da": "Hesten har mistet en sko fra sin hov.", "en": "The horse has lost a shoe from its hoof."}
+  ],
+  "gotcha": ""
+ },
+ "Richard": {
+  "examples": [
+   {"da": "Richard arbejder på et kontor i Aarhus.", "en": "Richard works in an office in Aarhus."}
+  ],
+  "gotcha": ""
+ },
+ "sjæl": {
+  "examples": [
+   {"da": "Hun lagde hele sin sjæl i arbejdet.", "en": "She put her whole soul into the work."}
+  ],
+  "gotcha": ""
+ },
+ "særlig": {
+  "examples": [
+   {"da": "Det er en helt særlig dag.", "en": "It is a very special day."}
+  ],
+  "gotcha": ""
+ },
+ "ekstra": {
+  "examples": [
+   {"da": "Kan jeg få en ekstra pude?", "en": "Can I have an extra pillow?"}
+  ],
+  "gotcha": ""
+ },
+ "bar": {
+  "examples": [
+   {"da": "Vi mødtes på en bar i byen.", "en": "We met at a bar in town."},
+   {"da": "Han gik med bare fødder.", "en": "He walked with bare feet."}
+  ],
+  "gotcha": "Also the past tense of 'bære' (carried)."
+ },
+ "forsvind": {
+  "examples": [
+   {"da": "Forsvind, og kom aldrig tilbage!", "en": "Go away, and never come back!"}
+  ],
+  "gotcha": ""
+ },
+ "ligge": {
+  "examples": [
+   {"da": "Bogen ligger på bordet.", "en": "The book is lying on the table."},
+   {"da": "Huset ligger ved havet.", "en": "The house is situated by the sea."}
+  ],
+  "gotcha": "Easily confused with 'lægge' (to lay something down); 'ligge' takes no object."
+ },
+ "bekymre": {
+  "examples": [
+   {"da": "Du skal ikke bekymre dig om mig.", "en": "You should not worry about me."}
+  ],
+  "gotcha": "Usually reflexive: 'bekymre sig om' (to worry about)."
+ },
+ "lav": {
+  "examples": [
+   {"da": "Muren er ret lav.", "en": "The wall is quite low."},
+   {"da": "Priserne er lave om vinteren.", "en": "Prices are low in the winter."}
+  ],
+  "gotcha": "Also the imperative of 'lave' (make): 'Lav mad!' means 'Make food!'"
+ },
+ "røre": {
+  "examples": [
+   {"da": "Du må ikke røre ved billederne.", "en": "You must not touch the pictures."},
+   {"da": "Rør dejen med en ske.", "en": "Stir the dough with a spoon."}
+  ],
+  "gotcha": ""
+ },
+ "besøg": {
+  "examples": [
+   {"da": "Vi fik besøg af mine forældre.", "en": "We had a visit from my parents."},
+   {"da": "Tak for besøget!", "en": "Thanks for the visit!"}
+  ],
+  "gotcha": ""
+ },
+ "endda": {
+  "examples": [
+   {"da": "Han vandt, og det var endda hans første løb.", "en": "He won, and it was even his first race."}
+  ],
+  "gotcha": "Do not confuse with 'endnu' (yet, still)."
+ },
+ "åbenbart": {
+  "examples": [
+   {"da": "Han er åbenbart taget hjem.", "en": "Apparently he has gone home."}
+  ],
+  "gotcha": ""
+ },
+ "Tommy": {
+  "examples": [
+   {"da": "Tommy spiller fodbold hver lørdag.", "en": "Tommy plays football every Saturday."}
+  ],
+  "gotcha": ""
+ },
+ "Jesus": {
+  "examples": [
+   {"da": "Jesus er en central figur i kristendommen.", "en": "Jesus is a central figure in Christianity."}
+  ],
+  "gotcha": ""
+ },
+ "nød": {
+  "examples": [
+   {"da": "Egernet gemte en nød i træet.", "en": "The squirrel hid a nut in the tree."}
+  ],
+  "gotcha": "Identical to 'nød', past tense of 'nyde' (enjoyed), and 'nød' meaning distress."
+ },
+ "dér": {
+  "examples": [
+   {"da": "Se, dér står han!", "en": "Look, there he is!"}
+  ],
+  "gotcha": ""
+ },
+ "især": {
+  "examples": [
+   {"da": "Jeg kan lide frugt, især jordbær.", "en": "I like fruit, especially strawberries."}
+  ],
+  "gotcha": ""
+ },
+ "ifølge": {
+  "examples": [
+   {"da": "Ifølge vejrudsigten bliver det sol i morgen.", "en": "According to the forecast, it will be sunny tomorrow."}
+  ],
+  "gotcha": ""
+ },
+ "mindst": {
+  "examples": [
+   {"da": "Der var mindst hundrede mennesker.", "en": "There were at least a hundred people."}
+  ],
+  "gotcha": ""
+ },
+ "konge": {
+  "examples": [
+   {"da": "Danmark har haft mange konger.", "en": "Denmark has had many kings."}
+  ],
+  "gotcha": ""
+ },
+ "søvn": {
+  "examples": [
+   {"da": "Jeg har brug for otte timers søvn.", "en": "I need eight hours of sleep."}
+  ],
+  "gotcha": ""
+ },
+ "is": {
+  "examples": [
+   {"da": "Børnene vil gerne have en is.", "en": "The children would like an ice cream."},
+   {"da": "Der er is på søen om vinteren.", "en": "There is ice on the lake in winter."}
+  ],
+  "gotcha": ""
+ },
+ "klog": {
+  "examples": [
+   {"da": "Hun er en klog pige.", "en": "She is a smart girl."},
+   {"da": "Det var en klog beslutning.", "en": "It was a wise decision."}
+  ],
+  "gotcha": ""
+ },
+ "læser": {
+  "examples": [
+   {"da": "Avisen har mange trofaste læsere.", "en": "The newspaper has many loyal readers."}
+  ],
+  "gotcha": "Also the present tense of 'læse' (reads)."
+ },
+ "tjek": {
+  "examples": [
+   {"da": "Giv lige bilen et tjek før turen.", "en": "Give the car a check before the trip."}
+  ],
+  "gotcha": ""
+ },
+ "ild": {
+  "examples": [
+   {"da": "Der gik ild i huset.", "en": "The house caught fire."},
+   {"da": "Har du ild? Jeg mangler en lighter.", "en": "Do you have a light? I need a lighter."}
+  ],
+  "gotcha": ""
+ },
+ "fjols": {
+  "examples": [
+   {"da": "Vær nu ikke sådan et fjols!", "en": "Don't be such a fool!"}
+  ],
+  "gotcha": "Neuter gender: 'et fjols', even though it refers to a person."
+ },
+ "ordre": {
+  "examples": [
+   {"da": "Soldaten fulgte sin ordre.", "en": "The soldier followed his order."},
+   {"da": "Firmaet fik en stor ordre i dag.", "en": "The company received a big order today."}
+  ],
+  "gotcha": ""
+ },
+ "vore": {
+  "examples": [
+   {"da": "Vi mindes vore gamle venner.", "en": "We remember our old friends."}
+  ],
+  "gotcha": "Formal or old-fashioned; everyday Danish uses 'vores' instead."
+ },
+ "form": {
+  "examples": [
+   {"da": "Kagen har form som et hjerte.", "en": "The cake is shaped like a heart."},
+   {"da": "Jeg er i god form for tiden.", "en": "I am in good shape these days."}
+  ],
+  "gotcha": ""
+ },
+ "kontrol": {
+  "examples": [
+   {"da": "Han mistede kontrollen over bilen.", "en": "He lost control of the car."},
+   {"da": "Der var billetkontrol i toget.", "en": "There was a ticket inspection on the train."}
+  ],
+  "gotcha": ""
+ },
+ "rum": {
+  "examples": [
+   {"da": "Lejligheden har tre rum.", "en": "The apartment has three rooms."},
+   {"da": "Raketten blev sendt ud i rummet.", "en": "The rocket was sent into space."}
+  ],
+  "gotcha": "Unchanged plural: et rum, flere rum."
+ },
+ "tænder": {
+  "examples": [
+   {"da": "Grillen skal bruge en tænder.", "en": "The grill needs a lighter."}
+  ],
+  "gotcha": "Identical to 'tænder' meaning teeth (plural of 'tand') and 'lights' (present of 'tænde')."
+ },
+ "lykkelig": {
+  "examples": [
+   {"da": "Hun er lykkelig i sit nye job.", "en": "She is happy in her new job."},
+   {"da": "De levede lykkeligt til deres dages ende.", "en": "They lived happily ever after."}
+  ],
+  "gotcha": ""
+ },
+ "nærheden": {
+  "examples": [
+   {"da": "Er der en bank i nærheden?", "en": "Is there a bank nearby?"}
+  ],
+  "gotcha": "Almost only used in the fixed phrase 'i nærheden' (nearby)."
+ },
+ "kammerat": {
+  "examples": [
+   {"da": "Han spiller fodbold med sine kammerater.", "en": "He plays football with his mates."}
+  ],
+  "gotcha": ""
+ },
+ "pokkers": {
+  "examples": [
+   {"da": "Pokkers! Jeg glemte mine nøgler.", "en": "Darn! I forgot my keys."}
+  ],
+  "gotcha": ""
+ },
+ "glas": {
+  "examples": [
+   {"da": "Vil du have et glas vand?", "en": "Would you like a glass of water?"},
+   {"da": "Flasken er lavet af glas.", "en": "The bottle is made of glass."}
+  ],
+  "gotcha": ""
+ },
+ "skabe": {
+  "examples": [
+   {"da": "Kunstneren vil skabe noget helt nyt.", "en": "The artist wants to create something completely new."}
+  ],
+  "gotcha": "Also the plural of 'skab' (cupboards). 'Skabe sig' means to make a fuss."
+ },
+ "falde": {
+  "examples": [
+   {"da": "Pas på, du ikke falder på isen.", "en": "Be careful you don't fall on the ice."},
+   {"da": "Bladene faldt fra træerne.", "en": "The leaves fell from the trees."}
+  ],
+  "gotcha": "Irregular past tense: faldt, faldet."
+ },
+ "særligt": {
+  "examples": [
+   {"da": "Jeg er ikke særligt sulten.", "en": "I am not particularly hungry."}
+  ],
+  "gotcha": ""
+ },
+ "blandt": {
+  "examples": [
+   {"da": "Hun er populær blandt sine kolleger.", "en": "She is popular among her colleagues."},
+   {"da": "Vi så blandt andet Den Lille Havfrue.", "en": "Among other things, we saw the Little Mermaid."}
+  ],
+  "gotcha": ""
+ },
+ "fandeme": {
+  "examples": [
+   {"da": "Det var fandeme flot klaret!", "en": "That was damn well done!"}
+  ],
+  "gotcha": "Vulgar intensifier; avoid in polite or formal situations."
+ },
+ "Mark": {
+  "examples": [
+   {"da": "Mark kommer fra England.", "en": "Mark comes from England."}
+  ],
+  "gotcha": ""
+ },
+ "mark": {
+  "examples": [
+   {"da": "Køerne græsser på marken.", "en": "The cows are grazing in the field."},
+   {"da": "Bonden pløjer sin mark.", "en": "The farmer plows his field."}
+  ],
+  "gotcha": ""
+ },
+ "Paris": {
+  "examples": [
+   {"da": "Vi skal til Paris i efterårsferien.", "en": "We are going to Paris during the autumn holiday."}
+  ],
+  "gotcha": ""
+ },
+ "bevise": {
+  "examples": [
+   {"da": "Kan du bevise, at du har ret?", "en": "Can you prove that you are right?"}
+  ],
+  "gotcha": ""
+ },
+ "tilfælde": {
+  "examples": [
+   {"da": "I så tilfælde bliver vi hjemme.", "en": "In that case, we will stay home."},
+   {"da": "Det var et rent tilfælde, at vi mødtes.", "en": "It was pure coincidence that we met."}
+  ],
+  "gotcha": ""
+ },
+ "hed": {
+  "examples": [
+   {"da": "Suppen er meget hed.", "en": "The soup is very hot."}
+  ],
+  "gotcha": "Identical to 'hed', past tense of 'hedde' (was called) — very common in texts."
+ },
+ "tjene": {
+  "examples": [
+   {"da": "Hun tjener gode penge i sit job.", "en": "She earns good money in her job."},
+   {"da": "Han tjente i hæren i to år.", "en": "He served in the army for two years."}
+  ],
+  "gotcha": ""
+ },
+ "lyve": {
+  "examples": [
+   {"da": "Du må ikke lyve for mig.", "en": "You must not lie to me."},
+   {"da": "Han løj om sin alder.", "en": "He lied about his age."}
+  ],
+  "gotcha": "Irregular past tense: løj, løjet. Only means telling untruths, never lying down."
+ },
+ "hverken": {
+  "examples": [
+   {"da": "Jeg drikker hverken kaffe eller te.", "en": "I drink neither coffee nor tea."}
+  ],
+  "gotcha": "Always paired with 'eller': hverken ... eller (neither ... nor)."
+ },
+ "vilje": {
+  "examples": [
+   {"da": "Hun har en stærk vilje.", "en": "She has a strong will."},
+   {"da": "Han fik sin vilje til sidst.", "en": "He got his way in the end."}
+  ],
+  "gotcha": ""
+ },
+ "tit": {
+  "examples": [
+   {"da": "Vi ses tit i svømmehallen.", "en": "We often see each other at the swimming pool."}
+  ],
+  "gotcha": ""
+ },
+ "takke": {
+  "examples": [
+   {"da": "Jeg vil gerne takke jer for hjælpen.", "en": "I would like to thank you for the help."}
+  ],
+  "gotcha": ""
+ },
+ "derfra": {
+  "examples": [
+   {"da": "Vi tog toget til Odense og cyklede derfra.", "en": "We took the train to Odense and biked from there."}
+  ],
+  "gotcha": ""
+ },
+ "bringe": {
+  "examples": [
+   {"da": "Kan du bringe pakken til posthuset?", "en": "Can you take the package to the post office?"}
+  ],
+  "gotcha": "Irregular past tense: bragte, bragt. Everyday Danish often prefers 'tage med' instead."
+ },
+ "medicin": {
+  "examples": [
+   {"da": "Husk at tage din medicin hver morgen.", "en": "Remember to take your medicine every morning."}
+  ],
+  "gotcha": ""
+ },
+ "lækker": {
+  "examples": [
+   {"da": "Kagen smager virkelig lækkert.", "en": "The cake tastes really delicious."},
+   {"da": "Han er en lækker fyr.", "en": "He is a hot guy."}
+  ],
+  "gotcha": ""
+ },
+ "stakkels": {
+  "examples": [
+   {"da": "Den stakkels hund stod ude i regnen.", "en": "The poor dog was standing out in the rain."}
+  ],
+  "gotcha": "Never inflects despite the -s ending: den stakkels mand, de stakkels børn."
+ },
+ "hjerne": {
+  "examples": [
+   {"da": "Hjernen bruger meget energi.", "en": "The brain uses a lot of energy."}
+  ],
+  "gotcha": "Do not confuse with 'hjerte' (heart) — they look similar."
+ },
+ "drømme": {
+  "examples": [
+   {"da": "Jeg drømte om dig i nat.", "en": "I dreamt about you last night."},
+   {"da": "Hun drømmer om at rejse verden rundt.", "en": "She dreams of traveling around the world."}
+  ],
+  "gotcha": ""
+ },
+ "onde": {
+  "examples": [
+   {"da": "Man må vælge det mindste af to onder.", "en": "One must choose the lesser of two evils."}
+  ],
+  "gotcha": ""
+ },
+ "dybt": {
+  "examples": [
+   {"da": "Træk vejret dybt ind.", "en": "Take a deep breath."},
+   {"da": "Han sov dybt hele natten.", "en": "He slept deeply all night."}
+  ],
+  "gotcha": ""
+ },
+ "undgå": {
+  "examples": [
+   {"da": "Prøv at undgå de travle timer.", "en": "Try to avoid the busy hours."},
+   {"da": "Ulykken kunne ikke undgås.", "en": "The accident could not be avoided."}
+  ],
+  "gotcha": ""
+ },
+ "dejlig": {
+  "examples": [
+   {"da": "Sikke en dejlig dag!", "en": "What a lovely day!"},
+   {"da": "Maden var helt dejlig.", "en": "The food was really delicious."}
+  ],
+  "gotcha": ""
+ },
+ "parat": {
+  "examples": [
+   {"da": "Er du parat til at tage af sted?", "en": "Are you ready to leave?"}
+  ],
+  "gotcha": ""
+ }
+}

@@ -1,0 +1,854 @@
+{
+  "selvom": {
+    "examples": [
+      {"da": "Selvom det regner, går vi en tur.", "en": "Even though it's raining, we're going for a walk."},
+      {"da": "Han kom, selvom han var træt.", "en": "He came even though he was tired."}
+    ],
+    "gotcha": "Officially written as two words: \"selv om\". The one-word form is very common but informal."
+  },
+  "nemlig": {
+    "examples": [
+      {"da": "Jeg kommer ikke, jeg er nemlig syg.", "en": "I'm not coming, because I'm sick, you see."},
+      {"da": "Nemlig! Det var lige det, jeg mente.", "en": "Exactly! That's just what I meant."}
+    ],
+    "gotcha": "Often just adds \"you see / as you know\" to a sentence, or means \"exactly!\" as a reply."
+  },
+  "tidspunkt": {
+    "examples": [
+      {"da": "Hvilket tidspunkt passer dig bedst?", "en": "What time suits you best?"},
+      {"da": "På det tidspunkt boede vi i Aarhus.", "en": "At that time we lived in Aarhus."}
+    ],
+    "gotcha": ""
+  },
+  "flytte": {
+    "examples": [
+      {"da": "Vi flytter til København næste måned.", "en": "We are moving to Copenhagen next month."},
+      {"da": "Kan du flytte din bil?", "en": "Can you move your car?"}
+    ],
+    "gotcha": "Use \"flytte\" for relocating things or homes; use \"bevæge\" for moving your body."
+  },
+  "brugt": {
+    "examples": [
+      {"da": "Jeg har købt en brugt bil.", "en": "I have bought a used car."},
+      {"da": "Cyklen er brugt, men den virker fint.", "en": "The bike is second-hand, but it works fine."}
+    ],
+    "gotcha": "Also the past participle of \"bruge\" (to use): \"Jeg har brugt pengene\"."
+  },
+  "fly": {
+    "examples": [
+      {"da": "Vores fly letter klokken syv.", "en": "Our plane takes off at seven o'clock."},
+      {"da": "Jeg tager et fly til London.", "en": "I'm taking a plane to London."}
+    ],
+    "gotcha": "Same form in singular and plural: et fly, to fly."
+  },
+  "fare": {
+    "examples": [
+      {"da": "Der er ingen fare på færde.", "en": "There is no danger."},
+      {"da": "Hun fór ud af døren.", "en": "She rushed out of the door."}
+    ],
+    "gotcha": "Both a noun (danger) and an irregular verb (fare, fór/for, faret) meaning to rush."
+  },
+  "ide": {
+    "examples": [
+      {"da": "Det er en rigtig god ide.", "en": "That's a really good idea."},
+      {"da": "Har du en bedre ide?", "en": "Do you have a better idea?"}
+    ],
+    "gotcha": "Usually written \"idé\" with accent; stress is on the last syllable."
+  },
+  "vildt": {
+    "examples": [
+      {"da": "De serverer vildt på restauranten om efteråret.", "en": "They serve game at the restaurant in autumn."},
+      {"da": "Vi spiste vildt med kartofler.", "en": "We ate venison with potatoes."}
+    ],
+    "gotcha": "Looks like the neuter of \"vild\" (wild); in speech \"vildt\" is also slang for \"really\"."
+  },
+  "øl": {
+    "examples": [
+      {"da": "Vil du have en øl?", "en": "Do you want a beer?"},
+      {"da": "Øllet er koldt.", "en": "The beer is cold."}
+    ],
+    "gotcha": "The liquid is \"et øl / øllet\", but one serving is \"en øl\". Plural is also \"øl\"."
+  },
+  "slippe": {
+    "examples": [
+      {"da": "Slip min hånd!", "en": "Let go of my hand!"},
+      {"da": "Jeg slap for at vaske op.", "en": "I got out of doing the dishes."}
+    ],
+    "gotcha": "Irregular: slippe, slap, sluppet. \"Slippe for\" means to avoid or get out of something."
+  },
+  "fuck": {
+    "examples": [
+      {"da": "Fuck, jeg glemte mine nøgler!", "en": "Damn, I forgot my keys!"}
+    ],
+    "gotcha": "Borrowed from English but feels milder in Danish; still informal."
+  },
+  "kende": {
+    "examples": [
+      {"da": "Kender du min søster?", "en": "Do you know my sister?"},
+      {"da": "Jeg kender ikke byen så godt.", "en": "I don't know the city very well."}
+    ],
+    "gotcha": "\"Kende\" is knowing people/places; \"vide\" is knowing facts. Irregular: kende, kendte, kendt."
+  },
+  "tidligt": {
+    "examples": [
+      {"da": "Jeg står tidligt op hver dag.", "en": "I get up early every day."},
+      {"da": "Vi kom for tidligt til festen.", "en": "We arrived too early for the party."}
+    ],
+    "gotcha": "The d is silent: pronounced roughly \"tee-lit\"."
+  },
+  "dame": {
+    "examples": [
+      {"da": "En ældre dame spurgte om vej.", "en": "An elderly lady asked for directions."},
+      {"da": "Der står en dame ved døren.", "en": "There is a lady at the door."}
+    ],
+    "gotcha": "Two syllables: \"da-me\", not like English \"dame\"."
+  },
+  "skør": {
+    "examples": [
+      {"da": "Er du helt skør?", "en": "Are you completely crazy?"},
+      {"da": "Det var en skør ide.", "en": "That was a crazy idea."}
+    ],
+    "gotcha": ""
+  },
+  "stolt": {
+    "examples": [
+      {"da": "Jeg er stolt af dig.", "en": "I am proud of you."},
+      {"da": "Hun var stolt over sit arbejde.", "en": "She was proud of her work."}
+    ],
+    "gotcha": ""
+  },
+  "løber": {
+    "examples": [
+      {"da": "Hun er en hurtig løber.", "en": "She is a fast runner."},
+      {"da": "Løberen vandt maratonløbet.", "en": "The runner won the marathon."}
+    ],
+    "gotcha": "Also the present tense of \"løbe\" (to run): \"han løber hver dag\"."
+  },
+  "fars": {
+    "examples": [
+      {"da": "Vi laver frikadeller af fars.", "en": "We make meatballs from minced meat."},
+      {"da": "Køb et halvt kilo fars til i aften.", "en": "Buy half a kilo of minced meat for tonight."}
+    ],
+    "gotcha": "Also the genitive of \"far\": \"fars bil\" means dad's car."
+  },
+  "sat": {
+    "examples": [
+      {"da": "Han virkede lidt sat efter frokosten.", "en": "He seemed a bit sluggish after lunch."}
+    ],
+    "gotcha": "Usually met as the past participle of \"sætte\" (to put): \"jeg har sat den her\"."
+  },
+  "lægge": {
+    "examples": [
+      {"da": "Læg bogen på bordet.", "en": "Put the book on the table."},
+      {"da": "Jeg lagde nøglerne i skuffen.", "en": "I put the keys in the drawer."}
+    ],
+    "gotcha": "Irregular: lægge, lagde, lagt. Easily confused with \"ligge\" (to lie, be lying)."
+  },
+  "rent": {
+    "examples": [
+      {"da": "Det er rent umuligt at finde parkering her.", "en": "It is quite impossible to find parking here."},
+      {"da": "Jeg glemte det rent og skært.", "en": "I plain forgot it."}
+    ],
+    "gotcha": "False friend: not English \"rent\" (money for housing) — that is \"husleje\"."
+  },
+  "føle": {
+    "examples": [
+      {"da": "Jeg føler mig træt i dag.", "en": "I feel tired today."},
+      {"da": "Hvordan føler du dig?", "en": "How do you feel?"}
+    ],
+    "gotcha": "About your own state it is reflexive: \"jeg føler mig glad\", not \"jeg føler glad\"."
+  },
+  "enhver": {
+    "examples": [
+      {"da": "Enhver kan lære at svømme.", "en": "Anyone can learn to swim."},
+      {"da": "Det ved enhver dansker.", "en": "Every Dane knows that."}
+    ],
+    "gotcha": "Changes with gender: enhver (en-words), ethvert (et-words)."
+  },
+  "netop": {
+    "examples": [
+      {"da": "Det var netop det, jeg sagde.", "en": "That is exactly what I said."},
+      {"da": "Toget er netop kørt.", "en": "The train has just left."}
+    ],
+    "gotcha": ""
+  },
+  "mund": {
+    "examples": [
+      {"da": "Luk munden, når du spiser.", "en": "Close your mouth when you eat."},
+      {"da": "Hun havde mad i munden.", "en": "She had food in her mouth."}
+    ],
+    "gotcha": "The d is silent: pronounced roughly \"mon\"."
+  },
+  "makker": {
+    "examples": [
+      {"da": "Hej makker, hvordan går det?", "en": "Hey buddy, how are you?"},
+      {"da": "Han er min makker i kortspillet.", "en": "He is my partner in the card game."}
+    ],
+    "gotcha": ""
+  },
+  "drink": {
+    "examples": [
+      {"da": "Skal vi tage en drink i baren?", "en": "Shall we have a drink at the bar?"},
+      {"da": "Hun bestilte en drink med rom.", "en": "She ordered a cocktail with rum."}
+    ],
+    "gotcha": "False friend: in Danish only a mixed alcoholic drink. A soft drink or beer is not \"en drink\"."
+  },
+  "pokker": {
+    "examples": [
+      {"da": "Hvor pokker er mine nøgler?", "en": "Where the heck are my keys?"},
+      {"da": "Pokkers, jeg glemte mødet!", "en": "Darn, I forgot the meeting!"}
+    ],
+    "gotcha": "Mild curse word, roughly like \"heck\" or \"darn\"."
+  },
+  "pris": {
+    "examples": [
+      {"da": "Hvad er prisen på den her trøje?", "en": "What is the price of this sweater?"},
+      {"da": "Hun vandt en pris for sin bog.", "en": "She won a prize for her book."}
+    ],
+    "gotcha": "Means both \"price\" and \"prize\" — context decides."
+  },
+  "alting": {
+    "examples": [
+      {"da": "Alting var stille i huset.", "en": "Everything was quiet in the house."},
+      {"da": "Hun bekymrer sig om alting.", "en": "She worries about everything."}
+    ],
+    "gotcha": ""
+  },
+  "sælge": {
+    "examples": [
+      {"da": "Vi vil sælge vores bil.", "en": "We want to sell our car."},
+      {"da": "Han solgte huset sidste år.", "en": "He sold the house last year."}
+    ],
+    "gotcha": "Irregular: sælge, solgte, solgt."
+  },
+  "fange": {
+    "examples": [
+      {"da": "Katten fangede en mus.", "en": "The cat caught a mouse."},
+      {"da": "Fangen flygtede fra fængslet.", "en": "The prisoner escaped from the prison."}
+    ],
+    "gotcha": "Same word is a verb (to catch) and a noun (prisoner)."
+  },
+  "ødelægge": {
+    "examples": [
+      {"da": "Pas på, du ikke ødelægger telefonen.", "en": "Be careful you don't break the phone."},
+      {"da": "Regnen ødelagde vores picnic.", "en": "The rain ruined our picnic."}
+    ],
+    "gotcha": "Irregular like \"lægge\": ødelægge, ødelagde, ødelagt."
+  },
+  "stemme": {
+    "examples": [
+      {"da": "Hun har en smuk stemme.", "en": "She has a beautiful voice."},
+      {"da": "Jeg stemmer på søndag.", "en": "I am voting on Sunday."}
+    ],
+    "gotcha": "\"Det stemmer\" is a fixed phrase meaning \"that's correct\"."
+  },
+  "kigge": {
+    "examples": [
+      {"da": "Kig på det her billede.", "en": "Look at this picture."},
+      {"da": "Hun kiggede ud ad vinduet.", "en": "She looked out of the window."}
+    ],
+    "gotcha": "Pronounced \"kikke\" — the g sounds like k."
+  },
+  "tør": {
+    "examples": [
+      {"da": "Håndklædet er helt tørt.", "en": "The towel is completely dry."},
+      {"da": "Jorden er meget tør i sommer.", "en": "The soil is very dry this summer."}
+    ],
+    "gotcha": "Also the present tense of \"turde\" (to dare): \"jeg tør ikke\" = I don't dare."
+  },
+  "løgn": {
+    "examples": [
+      {"da": "Det er løgn, det hele!", "en": "It's all a lie!"},
+      {"da": "Han fortalte en løgn om sin alder.", "en": "He told a lie about his age."}
+    ],
+    "gotcha": "The g is pronounced like a j-sound: roughly \"loyn\"."
+  },
+  "gave": {
+    "examples": [
+      {"da": "Jeg har købt en gave til dig.", "en": "I have bought a present for you."},
+      {"da": "Tak for den fine gave!", "en": "Thank you for the lovely gift!"}
+    ],
+    "gotcha": "False friend: looks like English \"gave\" (past of give), but it is a noun."
+  },
+  "krop": {
+    "examples": [
+      {"da": "Motion er godt for kroppen.", "en": "Exercise is good for the body."},
+      {"da": "Han fryser over hele kroppen.", "en": "He is cold all over his body."}
+    ],
+    "gotcha": ""
+  },
+  "kontakt": {
+    "examples": [
+      {"da": "Vi har mistet kontakten til hinanden.", "en": "We have lost contact with each other."},
+      {"da": "Sæt opladeren i kontakten.", "en": "Plug the charger into the socket."}
+    ],
+    "gotcha": "Also means a power outlet: \"stikkontakt\" is a wall socket."
+  },
+  "sur": {
+    "examples": [
+      {"da": "Hvorfor er du så sur i dag?", "en": "Why are you so grumpy today?"},
+      {"da": "Citronen smager surt.", "en": "The lemon tastes sour."}
+    ],
+    "gotcha": "About people it means grumpy or annoyed, not sour."
+  },
+  "ære": {
+    "examples": [
+      {"da": "Det er en stor ære at være her.", "en": "It is a great honor to be here."},
+      {"da": "Han kæmpede for sin ære.", "en": "He fought for his honor."}
+    ],
+    "gotcha": ""
+  },
+  "forsigtig": {
+    "examples": [
+      {"da": "Vær forsigtig på den glatte vej.", "en": "Be careful on the slippery road."},
+      {"da": "Hun åbnede æsken meget forsigtigt.", "en": "She opened the box very carefully."}
+    ],
+    "gotcha": ""
+  },
+  "starte": {
+    "examples": [
+      {"da": "Filmen starter klokken otte.", "en": "The movie starts at eight o'clock."},
+      {"da": "Bilen vil ikke starte.", "en": "The car won't start."}
+    ],
+    "gotcha": ""
+  },
+  "ordne": {
+    "examples": [
+      {"da": "Jeg skal lige ordne noget i køkkenet.", "en": "I just have to sort something out in the kitchen."},
+      {"da": "Kan du ordne det for mig?", "en": "Can you take care of that for me?"}
+    ],
+    "gotcha": ""
+  },
+  "præsident": {
+    "examples": [
+      {"da": "Hvem er præsident i USA nu?", "en": "Who is president of the USA now?"},
+      {"da": "Præsidenten holdt en lang tale.", "en": "The president gave a long speech."}
+    ],
+    "gotcha": ""
+  },
+  "glemme": {
+    "examples": [
+      {"da": "Glem ikke din jakke.", "en": "Don't forget your jacket."},
+      {"da": "Jeg har glemt hans navn.", "en": "I have forgotten his name."}
+    ],
+    "gotcha": ""
+  },
+  "stærk": {
+    "examples": [
+      {"da": "Han er stærk nok til at løfte kassen.", "en": "He is strong enough to lift the box."},
+      {"da": "Maden er for stærk for mig.", "en": "The food is too spicy for me."}
+    ],
+    "gotcha": "About food it means spicy, not strong."
+  },
+  "rør": {
+    "examples": [
+      {"da": "Vandet løber gennem et rør.", "en": "The water runs through a pipe."},
+      {"da": "Røret under vasken er utæt.", "en": "The pipe under the sink is leaking."}
+    ],
+    "gotcha": "Also the imperative of \"røre\": \"rør den ikke!\" means \"don't touch it!\""
+  },
+  "miste": {
+    "examples": [
+      {"da": "Pas på, du ikke mister dine nøgler.", "en": "Be careful you don't lose your keys."},
+      {"da": "Han mistede sit job sidste år.", "en": "He lost his job last year."}
+    ],
+    "gotcha": "\"Miste\" is losing something for good; \"tabe\" is dropping or losing a game."
+  },
+  "sang": {
+    "examples": [
+      {"da": "Vi sang en sang for hende.", "en": "We sang a song for her."},
+      {"da": "Det er min yndlingssang.", "en": "That is my favorite song."}
+    ],
+    "gotcha": "Also the past tense of \"synge\" (to sing)."
+  },
+  "stil": {
+    "examples": [
+      {"da": "Hun har sin helt egen stil.", "en": "She has her very own style."},
+      {"da": "Vi skal skrive en stil i skolen.", "en": "We have to write an essay at school."}
+    ],
+    "gotcha": "In school contexts it means an essay, not style."
+  },
+  "pænt": {
+    "examples": [
+      {"da": "Der var pænt mange mennesker til festen.", "en": "There were quite a lot of people at the party."},
+      {"da": "Huset kostede pænt over en million.", "en": "The house cost well over a million."}
+    ],
+    "gotcha": ""
+  },
+  "halv": {
+    "examples": [
+      {"da": "Vi mødes klokken halv tre.", "en": "We meet at half past two."},
+      {"da": "Jeg spiste en halv pizza.", "en": "I ate half a pizza."}
+    ],
+    "gotcha": "\"Halv tre\" means 2:30, not 3:30 — half an hour BEFORE the hour."
+  },
+  "åben": {
+    "examples": [
+      {"da": "Butikken er åben til klokken otte.", "en": "The shop is open until eight o'clock."},
+      {"da": "Døren stod åben hele natten.", "en": "The door stood open all night."}
+    ],
+    "gotcha": ""
+  },
+  "naturligvis": {
+    "examples": [
+      {"da": "Naturligvis hjælper jeg dig.", "en": "Of course I will help you."},
+      {"da": "Du må naturligvis gerne komme med.", "en": "You are of course welcome to come along."}
+    ],
+    "gotcha": ""
+  },
+  "angreb": {
+    "examples": [
+      {"da": "Byen blev udsat for et angreb.", "en": "The city was subjected to an attack."},
+      {"da": "Holdet gik til angreb i anden halvleg.", "en": "The team went on the attack in the second half."}
+    ],
+    "gotcha": "Also the past tense of \"angribe\" (to attack)."
+  },
+  "smule": {
+    "examples": [
+      {"da": "Jeg er en smule træt i dag.", "en": "I am a little bit tired today."},
+      {"da": "Kan jeg få en smule mere kaffe?", "en": "Can I have a little more coffee?"}
+    ],
+    "gotcha": ""
+  },
+  "fin": {
+    "examples": [
+      {"da": "Det er en fin ide.", "en": "That is a fine idea."},
+      {"da": "Hun havde en fin kjole på.", "en": "She was wearing a nice dress."}
+    ],
+    "gotcha": "\"Helt fint\" can sound lukewarm, like English \"it's fine\"."
+  },
+  "skidt": {
+    "examples": [
+      {"da": "Jeg har det lidt skidt i dag.", "en": "I'm feeling a bit poorly today."},
+      {"da": "Skidt med det, vi finder en løsning.", "en": "Never mind, we'll find a solution."}
+    ],
+    "gotcha": "The d is silent: pronounced \"skit\". \"Skidt med det\" means \"never mind\"."
+  },
+  "Tony": {
+    "examples": [
+      {"da": "Tony bor i Odense.", "en": "Tony lives in Odense."}
+    ],
+    "gotcha": ""
+  },
+  "lukket": {
+    "examples": [
+      {"da": "Butikken er lukket om søndagen.", "en": "The shop is closed on Sundays."},
+      {"da": "Det var et lukket møde.", "en": "It was a private meeting."}
+    ],
+    "gotcha": ""
+  },
+  "pludselig": {
+    "examples": [
+      {"da": "Pludselig begyndte det at regne.", "en": "Suddenly it started to rain."},
+      {"da": "Han rejste sig pludseligt og gik.", "en": "He suddenly got up and left."}
+    ],
+    "gotcha": ""
+  },
+  "hav": {
+    "examples": [
+      {"da": "Vi kan se havet fra vores vindue.", "en": "We can see the sea from our window."},
+      {"da": "Danmark er omgivet af hav.", "en": "Denmark is surrounded by sea."}
+    ],
+    "gotcha": "Also the imperative of \"have\": \"hav en god dag\" = have a nice day."
+  },
+  "drøm": {
+    "examples": [
+      {"da": "Jeg havde en mærkelig drøm i nat.", "en": "I had a strange dream last night."},
+      {"da": "Det er min store drøm at rejse jorden rundt.", "en": "It is my big dream to travel around the world."}
+    ],
+    "gotcha": ""
+  },
+  "ryger": {
+    "examples": [
+      {"da": "Han er ryger, men vil gerne stoppe.", "en": "He is a smoker but wants to quit."},
+      {"da": "Der er et særligt område for rygere.", "en": "There is a special area for smokers."}
+    ],
+    "gotcha": "Also present tense of \"ryge\"; colloquially \"det ryger\" can mean \"it gets lost/breaks\"."
+  },
+  "skål": {
+    "examples": [
+      {"da": "Skål og tillykke med fødselsdagen!", "en": "Cheers, and happy birthday!"},
+      {"da": "Hæld salaten op i en stor skål.", "en": "Pour the salad into a large bowl."}
+    ],
+    "gotcha": "Both the toast \"cheers!\" and the noun \"bowl\"."
+  },
+  "Mary": {
+    "examples": [
+      {"da": "Mary er dronning af Danmark.", "en": "Mary is Queen of Denmark."}
+    ],
+    "gotcha": ""
+  },
+  "midt": {
+    "examples": [
+      {"da": "Huset ligger midt i byen.", "en": "The house is in the middle of the city."},
+      {"da": "Han vågnede midt om natten.", "en": "He woke up in the middle of the night."}
+    ],
+    "gotcha": ""
+  },
+  "sulten": {
+    "examples": [
+      {"da": "Jeg er så sulten, at jeg kunne spise en hest.", "en": "I'm so hungry I could eat a horse."},
+      {"da": "Er du sulten? Der er mad i køleskabet.", "en": "Are you hungry? There's food in the fridge."}
+    ],
+    "gotcha": "An adjective despite ending in -en; it also looks like \"sulten\" = the hunger."
+  },
+  "bestemt": {
+    "examples": [
+      {"da": "Vi mødes på et bestemt tidspunkt.", "en": "We meet at a specific time."},
+      {"da": "Det vil jeg bestemt anbefale.", "en": "I would definitely recommend that."}
+    ],
+    "gotcha": ""
+  },
+  "direkte": {
+    "examples": [
+      {"da": "Der er et direkte fly til Paris.", "en": "There is a direct flight to Paris."},
+      {"da": "Programmet sendes direkte i aften.", "en": "The programme is broadcast live tonight."}
+    ],
+    "gotcha": "About TV and radio it means \"live\"."
+  },
+  "øh": {
+    "examples": [
+      {"da": "Øh, hvad var det nu, du hed?", "en": "Uh, what was your name again?"}
+    ],
+    "gotcha": ""
+  },
+  "starter": {
+    "examples": [
+      {"da": "Starteren i bilen er i stykker.", "en": "The starter in the car is broken."}
+    ],
+    "gotcha": "Also the present tense of \"starte\": \"filmen starter nu\"."
+  },
+  "både": {
+    "examples": [
+      {"da": "Jeg kan lide både kaffe og te.", "en": "I like both coffee and tea."},
+      {"da": "Hun taler både dansk og engelsk.", "en": "She speaks both Danish and English."}
+    ],
+    "gotcha": "Also the plural of \"båd\" (boat): \"to både\" = two boats."
+  },
+  "interessant": {
+    "examples": [
+      {"da": "Det var en interessant bog.", "en": "That was an interesting book."},
+      {"da": "Hun fortalte noget meget interessant.", "en": "She said something very interesting."}
+    ],
+    "gotcha": ""
+  },
+  "lejlighed": {
+    "examples": [
+      {"da": "Vi bor i en lille lejlighed i byen.", "en": "We live in a small apartment in the city."},
+      {"da": "Jeg fik aldrig lejlighed til at takke dig.", "en": "I never got the opportunity to thank you."}
+    ],
+    "gotcha": "Means both \"apartment\" and \"opportunity\" — context decides."
+  },
+  "røvhul": {
+    "examples": [
+      {"da": "Han opførte sig som et røvhul.", "en": "He behaved like an asshole."}
+    ],
+    "gotcha": "Very vulgar — stronger than it may feel to learners."
+  },
+  "vende": {
+    "examples": [
+      {"da": "Vend bøffen efter to minutter.", "en": "Turn the steak after two minutes."},
+      {"da": "Hun vendte sig om og smilede.", "en": "She turned around and smiled."}
+    ],
+    "gotcha": "Don't confuse with \"vente\" (to wait) — one letter apart."
+  },
+  "Henry": {
+    "examples": [
+      {"da": "Henry arbejder på et kontor i København.", "en": "Henry works in an office in Copenhagen."}
+    ],
+    "gotcha": ""
+  },
+  "undskylde": {
+    "examples": [
+      {"da": "Jeg vil gerne undskylde for i går.", "en": "I would like to apologize for yesterday."},
+      {"da": "Undskyld, hvor er toilettet?", "en": "Excuse me, where is the toilet?"}
+    ],
+    "gotcha": ""
+  },
+  "overalt": {
+    "examples": [
+      {"da": "Der var mennesker overalt i byen.", "en": "There were people everywhere in the city."},
+      {"da": "Jeg har ledt overalt efter mine briller.", "en": "I have looked everywhere for my glasses."}
+    ],
+    "gotcha": ""
+  },
+  "Paul": {
+    "examples": [
+      {"da": "Paul kommer på besøg i weekenden.", "en": "Paul is coming to visit at the weekend."}
+    ],
+    "gotcha": ""
+  },
+  "oberst": {
+    "examples": [
+      {"da": "Obersten gav soldaterne en ordre.", "en": "The colonel gave the soldiers an order."}
+    ],
+    "gotcha": ""
+  },
+  "derovre": {
+    "examples": [
+      {"da": "Min taske ligger derovre på stolen.", "en": "My bag is over there on the chair."},
+      {"da": "Kan du se huset derovre?", "en": "Can you see the house over there?"}
+    ],
+    "gotcha": ""
+  },
+  "styr": {
+    "examples": [
+      {"da": "Har du styr på planerne for i morgen?", "en": "Do you have the plans for tomorrow under control?"},
+      {"da": "Hold fast i styret på cyklen.", "en": "Hold on to the handlebars of the bike."}
+    ],
+    "gotcha": "Very common in the idiom \"have styr på\" = to have something under control."
+  },
+  "Nick": {
+    "examples": [
+      {"da": "Nick spiller fodbold hver lørdag.", "en": "Nick plays football every Saturday."}
+    ],
+    "gotcha": ""
+  },
+  "frue": {
+    "examples": [
+      {"da": "Kan jeg hjælpe Dem, frue?", "en": "Can I help you, madam?"},
+      {"da": "Hr. og fru Hansen bor på anden sal.", "en": "Mr. and Mrs. Hansen live on the second floor."}
+    ],
+    "gotcha": "Sounds old-fashioned or very formal in modern Danish."
+  },
+  "tv": {
+    "examples": [
+      {"da": "Vi ser tv hver aften.", "en": "We watch TV every evening."},
+      {"da": "Der er fodbold i tv i aften.", "en": "There is football on TV tonight."}
+    ],
+    "gotcha": ""
+  },
+  "heldig": {
+    "examples": [
+      {"da": "Du var heldig med vejret i dag.", "en": "You were lucky with the weather today."},
+      {"da": "Hvor er du heldig!", "en": "How lucky you are!"}
+    ],
+    "gotcha": ""
+  },
+  "Max": {
+    "examples": [
+      {"da": "Max har fødselsdag i næste uge.", "en": "Max has a birthday next week."}
+    ],
+    "gotcha": ""
+  },
+  "fører": {
+    "examples": [
+      {"da": "Føreren af bilen blev stoppet af politiet.", "en": "The driver of the car was stopped by the police."},
+      {"da": "Holdet er i førertrøjen nu.", "en": "The team is in the lead now."}
+    ],
+    "gotcha": "Also present tense of \"føre\" (to lead). \"Leader\" sense can echo German \"Führer\"."
+  },
+  "køber": {
+    "examples": [
+      {"da": "Vi har fundet en køber til huset.", "en": "We have found a buyer for the house."}
+    ],
+    "gotcha": "Also the present tense of \"købe\": \"jeg køber ind\" = I do the shopping."
+  },
+  "egentlig": {
+    "examples": [
+      {"da": "Hvad laver du egentlig i weekenden?", "en": "What are you actually doing this weekend?"},
+      {"da": "Det var egentlig ikke min ide.", "en": "It wasn't really my idea."}
+    ],
+    "gotcha": "Often just softens a question, like \"by the way\" or \"actually\"."
+  },
+  "Sarah": {
+    "examples": [
+      {"da": "Sarah læser medicin i Aarhus.", "en": "Sarah studies medicine in Aarhus."}
+    ],
+    "gotcha": ""
+  },
+  "mål": {
+    "examples": [
+      {"da": "Han scorede to mål i kampen.", "en": "He scored two goals in the match."},
+      {"da": "Mit mål er at lære dansk på et år.", "en": "My goal is to learn Danish in one year."}
+    ],
+    "gotcha": "Also means \"measurement\": \"tage mål\" = to take measurements."
+  },
+  "RO": {
+    "examples": [
+      {"da": "Ordet står i RO.", "en": "The word is listed in the official Danish spelling dictionary."}
+    ],
+    "gotcha": "Abbreviation of Retskrivningsordbogen, the official spelling dictionary."
+  },
+  "ro": {
+    "examples": [
+      {"da": "Jeg har brug for lidt fred og ro.", "en": "I need a little peace and quiet."},
+      {"da": "Vi roede over søen i en lille båd.", "en": "We rowed across the lake in a small boat."}
+    ],
+    "gotcha": "Both a noun (calm) and a verb (to row)."
+  },
+  "blå": {
+    "examples": [
+      {"da": "Himlen er helt blå i dag.", "en": "The sky is completely blue today."},
+      {"da": "Hun købte en blå kjole.", "en": "She bought a blue dress."}
+    ],
+    "gotcha": "Same form for en- and et-words: en blå bil, et blåt hus (only -t in neuter)."
+  },
+  "Jimmy": {
+    "examples": [
+      {"da": "Jimmy arbejder som mekaniker.", "en": "Jimmy works as a mechanic."}
+    ],
+    "gotcha": ""
+  },
+  "sælger": {
+    "examples": [
+      {"da": "Sælgeren gav os en god pris.", "en": "The salesman gave us a good price."},
+      {"da": "Hun arbejder som sælger i en butik.", "en": "She works as a salesperson in a shop."}
+    ],
+    "gotcha": "Also the present tense of \"sælge\": \"han sælger biler\"."
+  },
+  "A": {
+    "examples": [
+      {"da": "A er det første bogstav i alfabetet.", "en": "A is the first letter of the alphabet."}
+    ],
+    "gotcha": ""
+  },
+  "a": {
+    "examples": [
+      {"da": "Billetterne koster 100 kroner a person.", "en": "The tickets cost 100 kroner per person."}
+    ],
+    "gotcha": ""
+  },
+  "musik": {
+    "examples": [
+      {"da": "Jeg hører musik, når jeg løber.", "en": "I listen to music when I run."},
+      {"da": "Hvilken slags musik kan du lide?", "en": "What kind of music do you like?"}
+    ],
+    "gotcha": "Stress on the last syllable: mu-SIK."
+  },
+  "skønt": {
+    "examples": [
+      {"da": "Han kom, skønt han var syg.", "en": "He came, although he was ill."},
+      {"da": "Skønt det var koldt, gik vi en tur.", "en": "Although it was cold, we went for a walk."}
+    ],
+    "gotcha": "Also the neuter of \"skøn\" (lovely): \"det er skønt!\" = it's wonderful!"
+  },
+  "måned": {
+    "examples": [
+      {"da": "Vi rejser til Spanien næste måned.", "en": "We are travelling to Spain next month."},
+      {"da": "Han har boet her i tre måneder.", "en": "He has lived here for three months."}
+    ],
+    "gotcha": "The d is soft, almost silent: roughly \"MAW-neth\"."
+  },
+  "general": {
+    "examples": [
+      {"da": "Generalen ledede hæren under krigen.", "en": "The general led the army during the war."}
+    ],
+    "gotcha": "Stress on the last syllable: gene-RAL, unlike English."
+  },
+  "Alex": {
+    "examples": [
+      {"da": "Alex går i skole med min søn.", "en": "Alex goes to school with my son."}
+    ],
+    "gotcha": ""
+  },
+  "mulighed": {
+    "examples": [
+      {"da": "Der er mange muligheder for at lære dansk.", "en": "There are many opportunities to learn Danish."},
+      {"da": "Har du mulighed for at komme i morgen?", "en": "Are you able to come tomorrow?"}
+    ],
+    "gotcha": ""
+  },
+  "fader": {
+    "examples": [
+      {"da": "Fader vor, du som er i himlene.", "en": "Our Father, who art in heaven."}
+    ],
+    "gotcha": "Formal or religious; the everyday word for father is \"far\"."
+  },
+  "ærlig": {
+    "examples": [
+      {"da": "Vær ærlig og sig, hvad du mener.", "en": "Be honest and say what you think."},
+      {"da": "Helt ærligt, det var ikke min skyld.", "en": "Honestly, it wasn't my fault."}
+    ],
+    "gotcha": ""
+  },
+  "brød": {
+    "examples": [
+      {"da": "Vi køber friskt brød hver morgen.", "en": "We buy fresh bread every morning."},
+      {"da": "Kan du skære brødet ud?", "en": "Can you slice the bread?"}
+    ],
+    "gotcha": "Also the past tense of \"bryde\" (to break)."
+  },
+  "høj": {
+    "examples": [
+      {"da": "Han er meget høj for sin alder.", "en": "He is very tall for his age."},
+      {"da": "Musikken er for høj.", "en": "The music is too loud."}
+    ],
+    "gotcha": "Also means \"loud\" about sound; as a noun \"en høj\" is a hill."
+  },
+  "meter": {
+    "examples": [
+      {"da": "Huset ligger hundrede meter fra stranden.", "en": "The house is a hundred meters from the beach."},
+      {"da": "Han er næsten to meter høj.", "en": "He is almost two meters tall."}
+    ],
+    "gotcha": "Same form in singular and plural: en meter, to meter."
+  },
+  "ens": {
+    "examples": [
+      {"da": "De to søstre er helt ens.", "en": "The two sisters are completely identical."},
+      {"da": "Vi har ens trøjer på.", "en": "We are wearing identical sweaters."}
+    ],
+    "gotcha": "Also means \"one's\": \"ens egen familie\" = one's own family."
+  },
+  "enkelt": {
+    "examples": [
+      {"da": "Jeg har kun et enkelt spørgsmål.", "en": "I have just a single question."},
+      {"da": "Hver enkelt elev fik en bog.", "en": "Each individual pupil got a book."}
+    ],
+    "gotcha": "\"Enkelt\" means single/individual; \"enkel\" means simple — easily confused."
+  },
+  "løs": {
+    "examples": [
+      {"da": "Hunden løber løs i haven.", "en": "The dog is running loose in the garden."},
+      {"da": "Skruen er løs.", "en": "The screw is loose."}
+    ],
+    "gotcha": ""
+  },
+  "stand": {
+    "examples": [
+      {"da": "Cyklen er i god stand.", "en": "The bike is in good condition."},
+      {"da": "Han var ikke i stand til at svare.", "en": "He was not able to answer."}
+    ],
+    "gotcha": "Common in \"i stand til\" = able to, and \"i god stand\" = in good condition."
+  },
+  "ni": {
+    "examples": [
+      {"da": "Mødet begynder klokken ni.", "en": "The meeting starts at nine o'clock."},
+      {"da": "Hun har ni bøger med hjem.", "en": "She has nine books with her home."}
+    ],
+    "gotcha": ""
+  },
+  "Danny": {
+    "examples": [
+      {"da": "Danny bor lige rundt om hjørnet.", "en": "Danny lives just around the corner."}
+    ],
+    "gotcha": ""
+  },
+  "bryder": {
+    "examples": [
+      {"da": "Han er bryder og træner hver dag.", "en": "He is a wrestler and trains every day."}
+    ],
+    "gotcha": "Also present of \"bryde\"; \"jeg bryder mig ikke om det\" = I don't like it."
+  },
+  "trække": {
+    "examples": [
+      {"da": "Kan du hjælpe mig med at trække sofaen?", "en": "Can you help me pull the sofa?"},
+      {"da": "Lad teen trække i fem minutter.", "en": "Let the tea steep for five minutes."}
+    ],
+    "gotcha": "Irregular: trække, trak, trukket. \"Trække vejret\" means to breathe."
+  },
+  "slås": {
+    "examples": [
+      {"da": "Drengene slås i skolegården.", "en": "The boys are fighting in the schoolyard."},
+      {"da": "Hold op med at slås!", "en": "Stop fighting!"}
+    ],
+    "gotcha": "An s-verb: \"slås\" is the basic form. Past tense is \"sloges\"."
+  },
+  "dengang": {
+    "examples": [
+      {"da": "Dengang var alting billigere.", "en": "Back then everything was cheaper."},
+      {"da": "Dengang jeg var barn, boede vi på landet.", "en": "When I was a child, we lived in the countryside."}
+    ],
+    "gotcha": ""
+  }
+}
