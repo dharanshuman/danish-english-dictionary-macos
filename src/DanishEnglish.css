@@ -1,11 +1,19 @@
 @charset "UTF-8";
 @namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
 
+/*
+ * Dictionary.app loads its own default stylesheet AFTER this one and sets
+ * explicit colors on plain elements (body, h1, li...). Every text-color
+ * rule here needs !important or it can get silently overridden back to
+ * dark text - which is invisible against a dark-mode background. See
+ * https://github.com/dharanshuman/danish-english-dictionary-macos/issues
+ */
+
 html, body {
 	margin: 0;
 	padding: 0.4em 0.6em;
 	font: 13px -apple-system, "Helvetica Neue", sans-serif;
-	color: #1d1d1f;
+	color: #1d1d1f !important;
 	background: transparent;
 	line-height: 1.45;
 }
@@ -14,10 +22,11 @@ h1 {
 	font-size: 1.55em;
 	font-weight: 700;
 	margin: 0 0 0.15em 0;
+	color: #1d1d1f !important;
 }
 
 .meta {
-	color: #6e6e73;
+	color: #6e6e73 !important;
 	font-style: italic;
 	font-size: 0.95em;
 	margin: 0.1em 0 0.35em 0;
@@ -35,6 +44,7 @@ ol.senses {
 
 ol.senses li {
 	margin: 0.15em 0;
+	color: #1d1d1f !important;
 }
 
 .example {
@@ -42,14 +52,16 @@ ol.senses li {
 	padding-left: 0.6em;
 	border-left: 2px solid #c7c7cc;
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .ex-da {
 	font-weight: 500;
+	color: #1d1d1f !important;
 }
 
 .ex-en {
-	color: #6e6e73;
+	color: #6e6e73 !important;
 }
 
 .example.ai {
@@ -58,7 +70,7 @@ ol.senses li {
 
 .example.ai .ex-da::after {
 	content: " ✦";
-	color: #8e5cf7;
+	color: #8e5cf7 !important;
 	font-size: 0.8em;
 }
 
@@ -69,18 +81,20 @@ ol.senses li {
 	background: rgba(255, 204, 0, 0.14);
 	border: 1px solid rgba(255, 170, 0, 0.35);
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .gotcha-head {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 0.15em;
+	color: #1d1d1f !important;
 }
 
 .ai-tag {
 	font-weight: 400;
 	font-size: 0.8em;
-	color: #8e5cf7;
+	color: #8e5cf7 !important;
 	border: 1px solid #b28dff;
 	border-radius: 4px;
 	padding: 0 0.3em;
@@ -91,16 +105,16 @@ ol.senses li {
 	font-weight: 600;
 	font-size: 1.0em;
 	margin: 0.1em 0 0.4em 0;
-	color: #0a5fbf;
+	color: #0a5fbf !important;
 }
 
 .sounds {
 	font-style: normal;
-	color: #3a3a3c;
+	color: #3a3a3c !important;
 }
 
 .ai-mini {
-	color: #8e5cf7;
+	color: #8e5cf7 !important;
 	font-size: 0.75em;
 	margin-left: 0.15em;
 }
@@ -112,11 +126,12 @@ ol.senses li {
 	background: rgba(255, 59, 48, 0.10);
 	border: 1px solid rgba(255, 59, 48, 0.35);
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .ff-head {
 	font-weight: 700;
-	color: #c62828;
+	color: #c62828 !important;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -128,12 +143,14 @@ ol.senses li {
 	background: rgba(0, 122, 255, 0.08);
 	border: 1px solid rgba(0, 122, 255, 0.25);
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .confuse-head {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 0.15em;
+	color: #1d1d1f !important;
 }
 
 .chunks {
@@ -143,15 +160,21 @@ ol.senses li {
 	background: rgba(52, 199, 89, 0.10);
 	border: 1px solid rgba(52, 199, 89, 0.30);
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .chunks-head {
 	font-weight: 700;
+	color: #1d1d1f !important;
 }
 
 .chunks ul {
 	margin: 0.25em 0 0 1.2em;
 	padding: 0;
+}
+
+.chunks li {
+	color: #1d1d1f !important;
 }
 
 .usagenote {
@@ -160,6 +183,7 @@ ol.senses li {
 	border-radius: 8px;
 	background: rgba(142, 142, 147, 0.12);
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .particle {
@@ -169,12 +193,14 @@ ol.senses li {
 	background: rgba(175, 82, 222, 0.09);
 	border: 1px solid rgba(175, 82, 222, 0.30);
 	font-size: 0.95em;
+	color: #1d1d1f !important;
 }
 
 .particle-head {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 0.15em;
+	color: #1d1d1f !important;
 }
 
 ul.translations {
@@ -182,22 +208,45 @@ ul.translations {
 	padding: 0;
 }
 
+ul.translations li {
+	color: #1d1d1f !important;
+}
+
 .da-word {
 	font-weight: 600;
+	color: #1d1d1f !important;
 }
 
 ul.translations .pos {
-	color: #6e6e73;
+	color: #6e6e73 !important;
 	font-style: italic;
 	font-size: 0.9em;
 }
 
 @media (prefers-color-scheme: dark) {
-	html, body { color: #f5f5f7; }
-	.meta, .ex-en, ul.translations .pos { color: #98989d; }
-	.infl { color: #64a8ff; }
-	.sounds { color: #d1d1d6; }
-	.ff-head { color: #ff6b60; }
+	html, body { color: #f5f5f7 !important; }
+	h1 { color: #f5f5f7 !important; }
+	ol.senses li { color: #f5f5f7 !important; }
+	.example { color: #f5f5f7 !important; }
+	.ex-da { color: #f5f5f7 !important; }
+	.gotcha { color: #f5f5f7 !important; }
+	.gotcha-head { color: #f5f5f7 !important; }
+	.falsefriend { color: #f5f5f7 !important; }
+	.confuse { color: #f5f5f7 !important; }
+	.confuse-head { color: #f5f5f7 !important; }
+	.chunks { color: #f5f5f7 !important; }
+	.chunks-head { color: #f5f5f7 !important; }
+	.chunks li { color: #f5f5f7 !important; }
+	.usagenote { color: #f5f5f7 !important; }
+	.particle { color: #f5f5f7 !important; }
+	.particle-head { color: #f5f5f7 !important; }
+	.da-word { color: #f5f5f7 !important; }
+	ul.translations li { color: #f5f5f7 !important; }
+
+	.meta, .ex-en, ul.translations .pos { color: #98989d !important; }
+	.infl { color: #64a8ff !important; }
+	.sounds { color: #d1d1d6 !important; }
+	.ff-head { color: #ff6b60 !important; }
 	.falsefriend { background: rgba(255, 69, 58, 0.12); border-color: rgba(255, 69, 58, 0.35); }
 	.confuse { background: rgba(10, 132, 255, 0.12); border-color: rgba(10, 132, 255, 0.30); }
 	.chunks { background: rgba(48, 209, 88, 0.10); border-color: rgba(48, 209, 88, 0.28); }
@@ -209,6 +258,6 @@ ul.translations .pos {
 		border-color: rgba(255, 190, 60, 0.30);
 	}
 	.example.ai { border-left-color: #7c5cd6; }
-	.ai-tag { color: #b9a1ff; border-color: #7c5cd6; }
-	.example.ai .ex-da::after { color: #b9a1ff; }
+	.ai-tag { color: #b9a1ff !important; border-color: #7c5cd6; }
+	.example.ai .ex-da::after { color: #b9a1ff !important; }
 }
