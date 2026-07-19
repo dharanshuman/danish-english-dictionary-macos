@@ -2,25 +2,21 @@
 @namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
 
 /*
- * IMPORTANT: this page must NEVER use a transparent background.
- * Dictionary.app's dark-mode support for third-party dictionaries is
- * unreliable - @media (prefers-color-scheme: dark) does not reliably
- * fire in its renderer. With a transparent background, a page that
- * assumes "dark text on transparent = light mode" gets composited
- * straight onto Dictionary.app's own dark chrome, producing invisible
- * dark-on-dark text. The fix: give the page its OWN opaque background
- * so text contrast is guaranteed regardless of whether the dark-mode
- * media query ever fires. The @media block below is a best-effort
- * upgrade for systems where it does work; the opaque light base is the
- * guaranteed-readable fallback either way.
+ * Dictionary.app on this macOS does NOT honor @media (prefers-color-scheme)
+ * for third-party dictionaries, and the Look Up popover keeps its own dark
+ * vibrancy background that we cannot paint. So there is no reliable "mode"
+ * to react to: the effective background is dark. We therefore keep the
+ * background transparent (so the app/popover chrome shows through) and force
+ * light text everywhere. Tinted boxes use low-alpha rgba so they read as
+ * subtle color washes over the dark backing with light text on top.
  */
 
 html, body {
 	margin: 0;
 	padding: 0.4em 0.6em;
 	font: 13px -apple-system, "Helvetica Neue", sans-serif;
-	color: #1d1d1f;
-	background: #fbfbfd;
+	background: transparent;
+	color: #f2f2f7 !important;
 	line-height: 1.45;
 }
 
@@ -28,10 +24,11 @@ h1 {
 	font-size: 1.55em;
 	font-weight: 700;
 	margin: 0 0 0.15em 0;
+	color: #ffffff !important;
 }
 
 .meta {
-	color: #6e6e73;
+	color: #a1a1a6 !important;
 	font-style: italic;
 	font-size: 0.95em;
 	margin: 0.1em 0 0.35em 0;
@@ -49,30 +46,32 @@ ol.senses {
 
 ol.senses li {
 	margin: 0.15em 0;
+	color: #f2f2f7 !important;
 }
 
 .example {
 	margin: 0.25em 0 0.25em 0.2em;
 	padding-left: 0.6em;
-	border-left: 2px solid #c7c7cc;
+	border-left: 2px solid #5a5a5e;
 	font-size: 0.95em;
 }
 
 .ex-da {
 	font-weight: 500;
+	color: #f2f2f7 !important;
 }
 
 .ex-en {
-	color: #6e6e73;
+	color: #a1a1a6 !important;
 }
 
 .example.ai {
-	border-left-color: #af52de;
+	border-left-color: #bf7bff;
 }
 
 .example.ai .ex-da::after {
 	content: " ✦";
-	color: #af52de;
+	color: #bf7bff !important;
 	font-size: 0.8em;
 }
 
@@ -80,41 +79,33 @@ ol.senses li {
 	margin: 0.5em 0 0.7em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: #fff6da;
-	border: 1px solid #f2c94c;
+	background: rgba(255, 204, 0, 0.16);
+	border: 1px solid rgba(255, 190, 60, 0.4);
 	font-size: 0.95em;
+	color: #f2f2f7 !important;
 }
 
 .gotcha-head {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 0.15em;
-}
-
-.ai-tag {
-	font-weight: 400;
-	font-size: 0.8em;
-	color: #af52de;
-	border: 1px solid #af52de;
-	border-radius: 4px;
-	padding: 0 0.3em;
-	vertical-align: middle;
+	color: #ffd84d !important;
 }
 
 .infl {
 	font-weight: 600;
 	font-size: 1.0em;
 	margin: 0.1em 0 0.4em 0;
-	color: #0071e3;
+	color: #64a8ff !important;
 }
 
 .sounds {
 	font-style: normal;
-	color: #3a3a3c;
+	color: #b0b0b5 !important;
 }
 
 .ai-mini {
-	color: #af52de;
+	color: #bf7bff !important;
 	font-size: 0.75em;
 	margin-left: 0.15em;
 }
@@ -123,14 +114,15 @@ ol.senses li {
 	margin: 0.4em 0 0.6em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: #ffe9e7;
-	border: 1px solid #ff8a80;
+	background: rgba(255, 69, 58, 0.16);
+	border: 1px solid rgba(255, 69, 58, 0.4);
 	font-size: 0.95em;
+	color: #f2f2f7 !important;
 }
 
 .ff-head {
 	font-weight: 700;
-	color: #d70015;
+	color: #ff6b60 !important;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -139,14 +131,15 @@ ol.senses li {
 	margin: 0.5em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: #e7f1ff;
-	border: 1px solid #8fc0ff;
+	background: rgba(10, 132, 255, 0.16);
+	border: 1px solid rgba(10, 132, 255, 0.4);
 	font-size: 0.95em;
+	color: #f2f2f7 !important;
 }
 
 .confuse-head {
 	font-weight: 700;
-	color: #0071e3;
+	color: #5aa9ff !important;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -155,14 +148,15 @@ ol.senses li {
 	margin: 0.5em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: #e6f8ea;
-	border: 1px solid #8fd9a1;
+	background: rgba(48, 209, 88, 0.15);
+	border: 1px solid rgba(48, 209, 88, 0.4);
 	font-size: 0.95em;
+	color: #f2f2f7 !important;
 }
 
 .chunks-head {
 	font-weight: 700;
-	color: #1f8a3d;
+	color: #5fd07a !important;
 }
 
 .chunks ul {
@@ -174,22 +168,24 @@ ol.senses li {
 	margin: 0.5em 0;
 	padding: 0.45em 0.7em;
 	border-radius: 8px;
-	background: #eeeef0;
+	background: rgba(142, 142, 147, 0.22);
 	font-size: 0.95em;
+	color: #f2f2f7 !important;
 }
 
 .particle {
 	margin: 0.5em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: #f5e9fb;
-	border: 1px solid #d8a9ef;
+	background: rgba(191, 90, 242, 0.16);
+	border: 1px solid rgba(191, 90, 242, 0.4);
 	font-size: 0.95em;
+	color: #f2f2f7 !important;
 }
 
 .particle-head {
 	font-weight: 700;
-	color: #af52de;
+	color: #c58af0 !important;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -199,26 +195,17 @@ ul.translations {
 	padding: 0;
 }
 
+ul.translations li {
+	color: #f2f2f7 !important;
+}
+
 .da-word {
 	font-weight: 600;
+	color: #f2f2f7 !important;
 }
 
 ul.translations .pos {
-	color: #6e6e73;
+	color: #a1a1a6 !important;
 	font-style: italic;
 	font-size: 0.9em;
-}
-
-/* Best-effort dark upgrade. Harmless if Dictionary.app never triggers it -
-   the opaque light theme above is always readable regardless. */
-@media (prefers-color-scheme: dark) {
-	html, body { color: #f5f5f7 !important; background: #1c1c1e !important; }
-	.meta, .ex-en, ul.translations .pos { color: #98989d !important; }
-	.example { border-left-color: #48484a; }
-	.gotcha { background: rgba(255, 204, 0, 0.14) !important; border-color: rgba(255, 190, 60, 0.4); }
-	.falsefriend { background: rgba(255, 69, 58, 0.16) !important; border-color: rgba(255, 69, 58, 0.4); }
-	.confuse { background: rgba(10, 132, 255, 0.16) !important; border-color: rgba(10, 132, 255, 0.4); }
-	.chunks { background: rgba(48, 209, 88, 0.14) !important; border-color: rgba(48, 209, 88, 0.4); }
-	.usagenote { background: rgba(142, 142, 147, 0.2) !important; }
-	.particle { background: rgba(191, 90, 242, 0.16) !important; border-color: rgba(191, 90, 242, 0.4); }
 }

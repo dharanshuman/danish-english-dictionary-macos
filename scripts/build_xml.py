@@ -119,8 +119,7 @@ def danish_entry(n, word, blocks, id_of):
 
         if b.get("gotcha"):
             parts.append(
-                "<div class=\"gotcha\"><span class=\"gotcha-head\">⚠️ Gotcha "
-                "<span class=\"ai-tag\">AI-generated</span></span> "
+                "<div class=\"gotcha\"><span class=\"gotcha-head\">⚠️ Gotcha</span> "
                 f"{escape(b['gotcha'])}</div>"
             )
 
@@ -130,8 +129,7 @@ def danish_entry(n, word, blocks, id_of):
             f"<div class=\"example\"><span class=\"ex-da\">{escape(d['da'])}</span> "
             f"<span class=\"ex-en\">{escape(d['en'])}</span></div>"
             for d in p.get("dialogs", []))
-        parts.append(f"<div class=\"particle\"><span class=\"particle-head\">✨ How Danes use it "
-                     f"<span class=\"ai-tag\">AI-generated</span></span> "
+        parts.append(f"<div class=\"particle\"><span class=\"particle-head\">✨ How Danes use it</span> "
                      f"{escape(p['explain'])}{dialogs}</div>")
 
     if b0.get("chunks"):
