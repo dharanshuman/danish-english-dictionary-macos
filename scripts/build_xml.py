@@ -172,7 +172,7 @@ def english_entry(n, word, translations):
 
 
 FRONT_MATTER = """<d:entry id="front_back_matter" d:title="Front/Back Matter">
-<h1><b>Danish – English Dictionary</b></h1>
+<h1><b>Dansk-English Dictionary</b></h1>
 <p>Danish ⇄ English for macOS Look Up. Data from Wiktionary (via Wiktextract/kaikki.org, CC BY-SA 4.0), FreeDict, and the Danish Central Word Register (COR, CC0). Example sentences and “gotcha” notes for the most common words are AI-generated and clearly labeled.</p>
 <p>Source &amp; issues: github.com/dharanshuman/danish-english-dictionary-macos</p>
 </d:entry>"""

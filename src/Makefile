@@ -6,7 +6,7 @@
 #   make release  zip it up for a GitHub release
 #   make clean    remove build output
 
-DICT_NAME		=	"Danish-English"
+DICT_NAME		=	"Dansk-English"
 DICT_SRC_PATH		=	DanishEnglish.xml
 CSS_PATH		=	DanishEnglish.css
 PLIST_PATH		=	DanishEnglishInfo.plist
@@ -32,11 +32,11 @@ install:
 	ditto --noextattr --norsrc $(DICT_DEV_KIT_OBJ_DIR)/$(DICT_NAME).dictionary  $(DESTINATION_FOLDER)/$(DICT_NAME).dictionary
 	touch $(DESTINATION_FOLDER)
 	echo "Done."
-	echo "Quit and reopen Dictionary.app, then enable Danish-English in Settings."
+	echo "Quit and reopen Dictionary.app, then enable Dansk-English in Settings."
 
 release:
-	cd $(DICT_DEV_KIT_OBJ_DIR) && zip -r -q Danish-English.dictionary.zip Danish-English.dictionary
-	echo "Created $(DICT_DEV_KIT_OBJ_DIR)/Danish-English.dictionary.zip"
+	cd $(DICT_DEV_KIT_OBJ_DIR) && zip -r -q Dansk-English.dictionary.zip Dansk-English.dictionary
+	echo "Created $(DICT_DEV_KIT_OBJ_DIR)/Dansk-English.dictionary.zip"
 
 clean:
 	$(RM) -rf $(DICT_DEV_KIT_OBJ_DIR)

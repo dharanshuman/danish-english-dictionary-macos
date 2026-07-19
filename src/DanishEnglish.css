@@ -2,13 +2,9 @@
 @namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
 
 /*
- * Dictionary.app on this macOS does NOT honor @media (prefers-color-scheme)
- * for third-party dictionaries, and the Look Up popover keeps its own dark
- * vibrancy background that we cannot paint. So there is no reliable "mode"
- * to react to: the effective background is dark. We therefore keep the
- * background transparent (so the app/popover chrome shows through) and force
- * light text everywhere. Tinted boxes use low-alpha rgba so they read as
- * subtle color washes over the dark backing with light text on top.
+ * Text colors use CSS system keywords (CanvasText, -apple-system-secondary-label)
+ * so one stylesheet adapts to light/dark automatically, like Apple's own
+ * dictionaries; requires DCSDictionaryUseSystemAppearance=true in Info.plist.
  */
 
 html, body {
@@ -16,7 +12,7 @@ html, body {
 	padding: 0.4em 0.6em;
 	font: 13px -apple-system, "Helvetica Neue", sans-serif;
 	background: transparent;
-	color: #f2f2f7 !important;
+	color: CanvasText;
 	line-height: 1.45;
 }
 
@@ -24,11 +20,10 @@ h1 {
 	font-size: 1.55em;
 	font-weight: 700;
 	margin: 0 0 0.15em 0;
-	color: #ffffff !important;
 }
 
 .meta {
-	color: #a1a1a6 !important;
+	color: -apple-system-secondary-label;
 	font-style: italic;
 	font-size: 0.95em;
 	margin: 0.1em 0 0.35em 0;
@@ -46,32 +41,30 @@ ol.senses {
 
 ol.senses li {
 	margin: 0.15em 0;
-	color: #f2f2f7 !important;
 }
 
 .example {
 	margin: 0.25em 0 0.25em 0.2em;
 	padding-left: 0.6em;
-	border-left: 2px solid #5a5a5e;
+	border-left: 2px solid rgba(142, 142, 147, 0.55);
 	font-size: 0.95em;
 }
 
 .ex-da {
 	font-weight: 500;
-	color: #f2f2f7 !important;
 }
 
 .ex-en {
-	color: #a1a1a6 !important;
+	color: -apple-system-secondary-label;
 }
 
 .example.ai {
-	border-left-color: #bf7bff;
+	border-left-color: #af52de;
 }
 
 .example.ai .ex-da::after {
 	content: " ✦";
-	color: #bf7bff !important;
+	color: #af52de;
 	font-size: 0.8em;
 }
 
@@ -79,33 +72,31 @@ ol.senses li {
 	margin: 0.5em 0 0.7em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: rgba(255, 204, 0, 0.16);
-	border: 1px solid rgba(255, 190, 60, 0.4);
+	background: rgba(255, 204, 0, 0.15);
+	border: 1px solid rgba(255, 170, 0, 0.4);
 	font-size: 0.95em;
-	color: #f2f2f7 !important;
 }
 
 .gotcha-head {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 0.15em;
-	color: #ffd84d !important;
 }
 
 .infl {
 	font-weight: 600;
 	font-size: 1.0em;
 	margin: 0.1em 0 0.4em 0;
-	color: #64a8ff !important;
+	color: #0a84ff;
 }
 
 .sounds {
 	font-style: normal;
-	color: #b0b0b5 !important;
+	color: -apple-system-secondary-label;
 }
 
 .ai-mini {
-	color: #bf7bff !important;
+	color: #af52de;
 	font-size: 0.75em;
 	margin-left: 0.15em;
 }
@@ -114,15 +105,14 @@ ol.senses li {
 	margin: 0.4em 0 0.6em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: rgba(255, 69, 58, 0.16);
+	background: rgba(255, 69, 58, 0.14);
 	border: 1px solid rgba(255, 69, 58, 0.4);
 	font-size: 0.95em;
-	color: #f2f2f7 !important;
 }
 
 .ff-head {
 	font-weight: 700;
-	color: #ff6b60 !important;
+	color: #e03e36;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -131,15 +121,14 @@ ol.senses li {
 	margin: 0.5em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: rgba(10, 132, 255, 0.16);
-	border: 1px solid rgba(10, 132, 255, 0.4);
+	background: rgba(10, 132, 255, 0.13);
+	border: 1px solid rgba(10, 132, 255, 0.35);
 	font-size: 0.95em;
-	color: #f2f2f7 !important;
 }
 
 .confuse-head {
 	font-weight: 700;
-	color: #5aa9ff !important;
+	color: #0a84ff;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -148,15 +137,14 @@ ol.senses li {
 	margin: 0.5em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: rgba(48, 209, 88, 0.15);
-	border: 1px solid rgba(48, 209, 88, 0.4);
+	background: rgba(48, 209, 88, 0.13);
+	border: 1px solid rgba(48, 209, 88, 0.35);
 	font-size: 0.95em;
-	color: #f2f2f7 !important;
 }
 
 .chunks-head {
 	font-weight: 700;
-	color: #5fd07a !important;
+	color: #2fa14e;
 }
 
 .chunks ul {
@@ -168,24 +156,22 @@ ol.senses li {
 	margin: 0.5em 0;
 	padding: 0.45em 0.7em;
 	border-radius: 8px;
-	background: rgba(142, 142, 147, 0.22);
+	background: rgba(142, 142, 147, 0.18);
 	font-size: 0.95em;
-	color: #f2f2f7 !important;
 }
 
 .particle {
 	margin: 0.5em 0;
 	padding: 0.5em 0.7em;
 	border-radius: 8px;
-	background: rgba(191, 90, 242, 0.16);
-	border: 1px solid rgba(191, 90, 242, 0.4);
+	background: rgba(191, 90, 242, 0.13);
+	border: 1px solid rgba(191, 90, 242, 0.35);
 	font-size: 0.95em;
-	color: #f2f2f7 !important;
 }
 
 .particle-head {
 	font-weight: 700;
-	color: #c58af0 !important;
+	color: #af52de;
 	display: block;
 	margin-bottom: 0.15em;
 }
@@ -196,16 +182,14 @@ ul.translations {
 }
 
 ul.translations li {
-	color: #f2f2f7 !important;
 }
 
 .da-word {
 	font-weight: 600;
-	color: #f2f2f7 !important;
 }
 
 ul.translations .pos {
-	color: #a1a1a6 !important;
+	color: -apple-system-secondary-label;
 	font-style: italic;
 	font-size: 0.9em;
 }

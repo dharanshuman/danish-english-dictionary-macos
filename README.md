@@ -44,13 +44,13 @@ Built for the things that actually trip up English speakers:
 
 ## Install (easy way)
 
-1. Download `Danish-English.dictionary.zip` from the
+1. Download `Dansk-English.dictionary.zip` from the
    [Releases](../../releases) page.
 2. Unzip it.
-3. Move the `Danish-English.dictionary` folder into `~/Library/Dictionaries`
+3. Move the `Dansk-English.dictionary` folder into `~/Library/Dictionaries`
    (in Finder: Go → Go to Folder… → type `~/Library/Dictionaries`).
 4. Quit and reopen **Dictionary.app**, open **Settings…**, and tick
-   **Danish-English**. Drag it up the list to control its order in Look Up.
+   **Dansk-English**. Drag it up the list to control its order in Look Up.
 
 ## Build from source
 
@@ -78,7 +78,7 @@ python3 scripts/build_xml.py
 cd src && make && make install
 ```
 
-Then quit and reopen Dictionary.app and enable **Danish-English** in
+Then quit and reopen Dictionary.app and enable **Dansk-English** in
 Settings.
 
 ## How it's put together

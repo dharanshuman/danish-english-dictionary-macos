@@ -5,18 +5,20 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.github.dharanshuman.dictionary.DanishEnglish</string>
+	<string>com.github.dharanshuman.dictionary.DanskEnglish</string>
 	<key>CFBundleDisplayName</key>
-	<string>Danish-English</string>
+	<string>Dansk-English</string>
 	<key>CFBundleName</key>
-	<string>Danish-English</string>
+	<string>Dansk-English</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>DCSDictionaryCopyright</key>
 	<string>Data: CC BY-SA 4.0 (Wiktionary via Wiktextract/kaikki.org; FreeDict; COR CC0). AI-generated examples and notes are labeled.</string>
 	<key>DCSDictionaryManufacturerName</key>
 	<string>danish-english-dictionary-macos contributors</string>
 	<key>DCSDictionaryFrontMatterReferenceID</key>
 	<string>front_back_matter</string>
+	<key>DCSDictionaryUseSystemAppearance</key>
+	<true/>
 </dict>
 </plist>
