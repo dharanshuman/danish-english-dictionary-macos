@@ -20,15 +20,30 @@ the official Danish word register (COR) is indexed.
 
 Built for the things that actually trip up English speakers:
 
-- **The forms you memorize, up front**: nouns show the full line
-  *en bil · bilen · biler · bilerne*; verbs show *at ligge · ligger · lå ·
-  har ligget* (including which verbs take *er* instead of *har*);
-  adjectives show *stor · stort · store (større, størst)*.
+- **The meaning first, then the forms with their English**: the Look Up
+  popup leads with what the word means, then each form you memorize with
+  its English underneath — *at læse / to read · læser / reads · læste /
+  read · har læst / has read*, *et hus / a house · huset / the house · huse /
+  houses · husene / the houses* (including which verbs take *er* instead of
+  *har*).
+- **"Also" readings for inflected forms**: *læs* starts with "also command
+  form of **læse** (to read)", *var* with "past tense of **være**", *skal*
+  with the modal verb — with that word's forms right under it (*at være ·
+  er · **var** · har været*) — so a rare same-spelled noun can't hide the
+  word you are actually reading. A word that is two words (*arbejder* = the
+  verb "works" and the noun "worker") gets one section per reading, each
+  with its own forms and examples.
+- **📘 Learn-it-as-Danish boxes** for ~150 words with no single English
+  equivalent — the modal verbs (*skal, vil, kan, må, bør, gider*), *blive,
+  få, gerne, godt, lige, jo, nok, da*, *synes/tror/mener*, *hos, henne*,
+  *først* (= not until), *behøver ikke* vs *må ikke*, *hygge, pyt, tak*… —
+  each meaning shown with the English that fits that context.
 - **"Sounds like" respellings** for the 1,000 most common words
   (*gerne* → "GAIR-nuh"), plus the reduced everyday spoken form where
   it differs a lot (*ikke* → "ik", *hvad* → "va").
-- **🚨 False friend warnings** on ~50 documented traps (*gift*, *fart*,
-  *slut*, *barn*, *chef*, *aktuel*…).
+- **🚨 "Common English mistake" warnings** on ~50 documented traps
+  (*gift*, *fart*, *slut*, *barn*, *chef*, *aktuel*…) — words that look like
+  English but mean something else.
 - **🔀 "Don't confuse with" notes** linking twin entries: ligge/lægge,
   nogen/nogle, når/da, hvis/om, sin/hans, og/at, hjem/hjemme…
 - **🧩 Preposition phrases** on the nouns that need them (*på arbejde*,
@@ -37,8 +52,6 @@ Built for the things that actually trip up English speakers:
 - **📌 Usage notes**: job titles take no article, the short-answer *det
   gør jeg* rule, the vigesimal numbers decoded (*halvtreds* = 50), *halv
   to* = 1:30, uncountables, and more.
-- **✨ Flavor-word entries** for jo, vel, nok, da, dog, mon, sgu, lige —
-  the untranslatable little words, shown through mini-dialogues.
 
 > **Screenshot placeholder** — add a screenshot of the Look Up panel here.
 
@@ -106,9 +119,14 @@ real Wiktionary data; it only fills gaps.
 
 Separately, `data/curated/` holds hand-checkable word data compiled from
 documented sources (see NOTICE): false friends, confusable pairs,
-preposition phrases, usage notes, flavor-word explanations, and the list
-of er-perfect verbs. These are plain JSON — if you spot a mistake, edit
-the file and open a pull request.
+preposition phrases, usage notes, the learn-it-as-Danish concept boxes
+(`concepts.json`), and the list of er-perfect verbs. `fixes.json` holds
+corrections to the source data for the ~3,000 most common words, checked
+against Den Danske Ordbog (ordnet.dk) and the COR word register — wrong
+glosses, rare meanings shown first, wrong forms, bad examples — and
+`form_of_order.json` decides when an "also: past tense of …" line goes first.
+These are plain JSON — if you spot a mistake, edit the file and open a pull
+request.
 
 To expand coverage: raise `tier1_size` in `config.json`, run
 `python3 scripts/enrich.py --list` to get the words that still need

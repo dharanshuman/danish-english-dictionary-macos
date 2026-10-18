@@ -18,3 +18,6 @@ src/objects/
 
 # macOS noise
 .DS_Store
+
+# python bytecode
+__pycache__/

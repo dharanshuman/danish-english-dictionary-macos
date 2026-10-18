@@ -83,11 +83,99 @@ ol.senses li {
 	margin-bottom: 0.15em;
 }
 
+/*
+ * The top of an entry is what the Look Up popup shows before its own blue
+ * "more" link, so nothing up here is blue: meaning, then forms in plain text.
+ */
+.glance {
+	font-size: 1.1em;
+	margin: 0 0 0.15em 0;
+}
+
+.glance .g-n {
+	color: -apple-system-secondary-label;
+	font-size: 0.8em;
+	font-weight: 600;
+	margin: 0 0.15em 0 0.35em;
+}
+
+.glance .g-n:first-child {
+	margin-left: 0;
+}
+
+.also {
+	margin: 0 0 0.2em 0;
+}
+
+.also-head {
+	color: -apple-system-secondary-label;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	margin-right: 0.25em;
+}
+
+.also a {
+	color: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 1px dotted -apple-system-secondary-label;
+}
+
+.forms {
+	margin: 0.15em 0 0.5em 0;
+	line-height: 1.25;
+}
+
+.fcell {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0.9em 0.25em 0;
+}
+
+.f-da {
+	display: block;
+	font-weight: 600;
+}
+
+.f-en, .f-label {
+	display: block;
+	font-size: 0.85em;
+	color: -apple-system-secondary-label;
+}
+
+.f-label {
+	font-style: italic;
+}
+
 .infl {
 	font-weight: 600;
-	font-size: 1.0em;
 	margin: 0.1em 0 0.4em 0;
-	color: #0a84ff;
+}
+
+.infl .sep {
+	font-weight: 400;
+	color: -apple-system-secondary-label;
+}
+
+.examples {
+	margin: 0.2em 0 0.6em 0;
+}
+
+hr.block-sep {
+	border: none;
+	border-top: 1px solid rgba(142, 142, 147, 0.3);
+	margin: 0.6em 0 0.4em 0;
+}
+
+/* Look Up popup only: keep the top tight so the forms fit above "more" */
+html.apple_client-panel .meta {
+	margin-bottom: 0.15em;
+}
+
+html.apple_client-panel .forms {
+	margin-bottom: 0.3em;
 }
 
 .sounds {
@@ -160,21 +248,6 @@ ol.senses li {
 	font-size: 0.95em;
 }
 
-.particle {
-	margin: 0.5em 0;
-	padding: 0.5em 0.7em;
-	border-radius: 8px;
-	background: rgba(191, 90, 242, 0.13);
-	border: 1px solid rgba(191, 90, 242, 0.35);
-	font-size: 0.95em;
-}
-
-.particle-head {
-	font-weight: 700;
-	color: #af52de;
-	display: block;
-	margin-bottom: 0.15em;
-}
 
 ul.translations {
 	margin: 0.2em 0 0.6em 1.4em;
@@ -192,4 +265,100 @@ ul.translations .pos {
 	color: -apple-system-secondary-label;
 	font-style: italic;
 	font-size: 0.9em;
+}
+
+.glance .g-pos {
+	color: -apple-system-secondary-label;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.examples.lead {
+	margin: 0 0 0.4em 0.2em;
+}
+
+/* "learn it as Danish": words with no one English equivalent (skal, vil, hygge) */
+.concept {
+	margin: 0.2em 0 0.5em 0;
+	padding: 0.45em 0.7em;
+	border-radius: 8px;
+	background: rgba(142, 142, 147, 0.14);
+	border: 1px solid rgba(142, 142, 147, 0.35);
+}
+
+.c-head {
+	font-weight: 600;
+	margin-bottom: 0.15em;
+}
+
+.concept ul {
+	margin: 0;
+	padding-left: 1.1em;
+}
+
+.concept li {
+	margin: 0.1em 0;
+}
+
+.c-when {
+	color: -apple-system-secondary-label;
+	font-style: italic;
+}
+
+.c-en {
+	font-weight: 600;
+}
+
+.concept .example {
+	margin: 0.1em 0 0.2em 0;
+}
+
+.c-note {
+	margin-top: 0.25em;
+	font-size: 0.95em;
+}
+
+/* Dictionary's renderer drops the whitespace between adjacent spans */
+.c-when, .ex-da, .g-n, .also-head {
+	margin-right: 0.3em;
+}
+
+/* under "also: present tense of arbejde": the base word's forms, with the
+   one that was looked up underlined */
+.also + .forms {
+	margin: 0.1em 0 0.35em 0;
+}
+
+.fcell.hit .f-da {
+	text-decoration: underline;
+	text-underline-offset: 0.15em;
+}
+
+/* An entry with several readings (arbejder = the verb "works" and the noun
+   "worker"): each reading opens with a header and is set apart by a rule */
+.reading {
+	font-size: 1.1em;
+	margin: 0 0 0.15em 0;
+}
+
+.r-pos {
+	color: -apple-system-secondary-label;
+	font-size: 0.72em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	margin-right: 0.35em;
+}
+
+.reading a {
+	color: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 1px dotted -apple-system-secondary-label;
+}
+
+hr.reading-sep {
+	border: none;
+	border-top: 1px solid rgba(142, 142, 147, 0.35);
+	margin: 0.7em 0 0.6em 0;
 }

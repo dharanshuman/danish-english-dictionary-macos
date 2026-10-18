@@ -40,6 +40,174 @@ def load_curated(name):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
+# first glosses that mean "this block is not the everyday word"
+WEAK_GLOSS = ("only used in", "clipping of", "alternative form of", "alternative spelling",
+              "obsolete", "misspelling", "abbreviation of", "initialism of", "archaic",
+              "dated form", "eye dialect", "nonstandard")
+
+
+def block_rank(b):
+    """Lower = more likely the meaning a learner is looking for."""
+    senses = b["senses"]
+    marked = sum(1 for s in senses if s.get("tags"))
+    weak = senses[0]["gloss"].lower().startswith(WEAK_GLOSS) if senses else True
+    # deliberately not "more senses first": that puts du = "be good" above
+    # du = "you". Anything subtler is a curated "primary" fix.
+    return (
+        b["pos"] == "name",
+        weak or marked == len(senses),  # every sense rare/archaic/dialect
+    )
+
+
+def order_blocks(data):
+    """Wiktionary lists homographs in etymology order, so a rare noun can
+    come before the everyday verb; and everything AI-written attaches to the
+    first block. Put the likeliest block first (curated "primary" fixes can
+    still override)."""
+    moved = 0
+    for word, blocks in data["danish"].items():
+        ordered = sorted(blocks, key=block_rank)  # stable: ties keep source order
+        if ordered[0] is not blocks[0]:
+            moved += 1
+        blocks[:] = ordered
+    return moved
+
+
+# ------------------------------------------------- curated fixes (fixes.json)
+
+LATE_OPS = {"word", "drop_example", "fix_example"}
+
+
+def select(blocks, op):
+    for b in blocks:
+        if b["pos"] != op.get("pos", b["pos"]):
+            continue
+        if op.get("match") and not (b["senses"] and op["match"] in b["senses"][0]["gloss"]):
+            continue
+        return b
+    return None
+
+
+def apply_fix(word, blocks, op):
+    """Apply one op from data/curated/fixes.json; return False if it didn't apply."""
+    kind = op["op"]
+    if kind == "add_block":
+        nb = op["block"]
+        blocks.append({
+            "pos": nb["pos"], "gender": nb.get("gender"), "ipa": nb.get("ipa"),
+            "plural": None, "infl": nb.get("infl") or {},
+            "senses": [{"gloss": g, "examples": []} for g in nb["senses"]],
+            "forms": blocks[0]["forms"] if blocks else [], "source": "curated",
+            "freq_rank": blocks[0].get("freq_rank") if blocks else None,
+        })
+        return True
+    if kind == "word":
+        if not blocks:
+            return False
+        if op["value"] is None:
+            blocks[0].pop(op["field"], None)
+        else:
+            blocks[0][op["field"]] = op["value"]
+        return True
+    if kind in ("drop_example", "fix_example"):
+        hit = False
+        for b in blocks:
+            for s in b["senses"]:
+                for i, ex in enumerate(s["examples"]):
+                    if op["contains"] in ex["da"]:
+                        hit = True
+                        if kind == "fix_example":
+                            s["examples"][i] = {**ex, "da": op["da"], "en": op["en"]}
+                if kind == "drop_example":
+                    s["examples"] = [ex for ex in s["examples"] if op["contains"] not in ex["da"]]
+        return hit
+
+    b = select(blocks, op)
+    if b is None:
+        return False
+    if kind == "primary":
+        blocks.remove(b)
+        blocks.insert(0, b)
+    elif kind == "drop_block":
+        blocks.remove(b)
+    elif kind == "senses":
+        new = [{"gloss": g, "examples": []} for g in op["glosses"]]
+        if op["mode"] == "replace":
+            b["senses"] = new
+        elif op["mode"] == "prepend":
+            b["senses"] = new + b["senses"]
+        else:
+            b["senses"] = b["senses"] + new
+    elif kind == "drop_sense":
+        b["senses"] = [s for s in b["senses"] if op["gloss"] not in s["gloss"]]
+    elif kind == "set":
+        if op["value"] is None:
+            b.pop(op["field"], None)
+        else:
+            b[op["field"]] = op["value"]
+    elif kind == "set_infl":
+        b.setdefault("infl", {})
+        if op["value"] is None:
+            b["infl"].pop(op["key"], None)
+        else:
+            b["infl"][op["key"]] = op["value"]
+    else:
+        return False
+    return True
+
+
+def apply_fixes(data, late):
+    """Early pass: structure (blocks, senses, forms). Late pass, after the AI
+    and curated content is attached: notes, respellings, examples, aux."""
+    applied, failed = 0, []
+    for word, ops in load_curated("fixes.json").items():
+        blocks = data["danish"].get(word)
+        if blocks is None:
+            if late:
+                continue
+            blocks = data["danish"][word] = []
+        for op in ops:
+            is_late = op["op"] in LATE_OPS or (op["op"] == "set" and op.get("field") == "aux")
+            if is_late != late:
+                continue
+            if apply_fix(word, blocks, op):
+                applied += 1
+            else:
+                failed.append(f"{word}:{op['op']}")
+        if not blocks:
+            del data["danish"][word]
+    return applied, failed
+
+
+def place_form_of(data):
+    """Decide, per headword, whether "also: past tense of være" goes before
+    the word's own meaning: when its own top block is a rare/weak reading,
+    or the other word is very common (command forms: when the verb is more
+    common than this spelling, as with læs → læse)."""
+    da = data["danish"]
+    order = load_curated("form_of_order.json")
+    after, forced = set(order.get("after", [])), set(order.get("first", []))
+
+    def rank(w):
+        return min((b.get("freq_rank") or 10**9) for b in da[w]) if da.get(w) else 10**9
+
+    first = 0
+    for word, refs in data.get("form_of", {}).items():
+        if not da.get(word):
+            continue
+        weak = block_rank(da[word][0])[1]
+        for ref in refs:
+            lemma_rank = rank(ref["of"])
+            if ref["label"] == "command form":
+                common = lemma_rank < rank(word)
+            else:
+                common = lemma_rank <= 300
+            ref["first"] = word in forced or (word not in after and (weak or common))
+            first += ref["first"]
+        refs.sort(key=lambda r: (not r["first"], rank(r["of"])))
+    return first
+
+
 def tier1_words(data, size):
     """The `size` most common Danish headwords, by frequency rank."""
     ranked = []
@@ -74,6 +242,9 @@ def main():
         print(f"tier 1 = {len(words)} words; {len(missing)} still need AI content")
         print(f"wrote {TIER1_LIST}")
         return
+
+    moved = order_blocks(data)
+    early_fixes, failed_fixes = apply_fixes(data, late=False)
 
     enriched_count = 0
     tier1 = set(words)
@@ -136,7 +307,7 @@ def main():
     n_cf = attach("confusables.json", "confusables")
     n_ch = attach("chunks.json", "chunks")
     n_no = attach("notes.json", "usage_note")
-    n_pa = attach("particles.json", "particle")
+    n_co = attach("concepts.json", "concept")
 
     # which verbs form their perfect with "er" (er kommet) instead of "har"
     er_verbs = set(json.loads((CURATED_DIR / "er_verbs.json").read_text())
@@ -146,11 +317,20 @@ def main():
             if b["pos"] == "verb" and b.get("infl", {}).get("part"):
                 b["aux"] = "er" if word in er_verbs else "har"
 
+    late_fixes, failed_late = apply_fixes(data, late=True)
+    failed_fixes += failed_late
+    n_first = place_form_of(data)
+
     ENRICHED.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    print(f"block order: everyday block moved to the top for {moved:,} words")
+    print(f"fixes.json: {early_fixes + late_fixes:,} ops applied")
+    print(f"form-of readings shown before the word's own meaning: {n_first:,}")
+    if failed_fixes:
+        print(f"WARNING - {len(failed_fixes)} fixes matched nothing: {failed_fixes}")
     print(f"merged AI content for {enriched_count:,} of {len(words):,} tier-1 words")
     print(f"pronunciation respellings: {pron_count:,}")
     print(f"curated: {n_ff} false friends, {n_cf} confusables, {n_ch} chunk sets, "
-          f"{n_no} usage notes, {n_pa} particles")
+          f"{n_no} usage notes, {n_co} concepts")
     if curated_missing:
         print(f"WARNING - curated words not found as headwords: {curated_missing}")
     print(f"wrote {ENRICHED}")

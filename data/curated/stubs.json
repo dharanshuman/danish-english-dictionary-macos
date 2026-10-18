@@ -1,5 +1,50 @@
 {
-  "nogle": {"pos": "pron", "gloss": "some, a few (plural, in positive statements)"},
-  "sine": {"pos": "pron", "gloss": "his/her/its own (plural things, pointing back to the subject)"},
-  "altså": {"pos": "adv", "gloss": "so; that is; I mean (very common filler word)"}
+ "nogle": {
+  "pos": "pron",
+  "gloss": "some, a few (plural, in positive statements)"
+ },
+ "sine": {
+  "pos": "pron",
+  "gloss": "his/her/its own (plural things, pointing back to the subject)"
+ },
+ "altså": {
+  "pos": "adv",
+  "gloss": "so; that is; I mean (very common filler word)"
+ },
+ "vil": {
+  "pos": "verb",
+  "gloss": "want(s) to (present tense of ville); \"will\" only in predictions, mostly formal"
+ },
+ "kan": {
+  "pos": "verb",
+  "gloss": "can, be able to (present tense of kunne)"
+ },
+ "må": {
+  "pos": "verb",
+  "gloss": "may, be allowed to; must (present tense of måtte)"
+ },
+ "gider": {
+  "pos": "verb",
+  "gloss": "can be bothered to (present tense of gide)"
+ },
+ "bliver": {
+  "pos": "verb",
+  "gloss": "become(s), get(s); stay(s) (present tense of blive)"
+ },
+ "tror": {
+  "pos": "verb",
+  "gloss": "think, believe, guess (present tense of tro)"
+ },
+ "mener": {
+  "pos": "verb",
+  "gloss": "mean; be of the opinion (present tense of mene)"
+ },
+ "har": {
+  "pos": "verb",
+  "gloss": "have, has (present tense of have)"
+ },
+ "pyt": {
+  "pos": "intj",
+  "gloss": "never mind, oh well, no matter"
+ }
 }

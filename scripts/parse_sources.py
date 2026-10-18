@@ -25,12 +25,19 @@ RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "normalized.json"
 
 MAX_EXAMPLES = 3
+# the most common N headwords were checked by hand against ordnet.dk, so the
+# automatic COR corrections leave them to data/curated/fixes.json
+TIER1_REVIEWED = 1000
 
 # ---------------------------------------------------------------- kaikki ---
 
 SKIP_FORM_TAGS = {"table-tags", "inflection-template", "class"}
 IGNORE_INFL_TAGS = {"obsolete", "alternative", "dated", "archaic",
                     "genitive", "passive"}
+# sense tags that mean "not the everyday meaning"; used to order blocks
+MARKED_TAGS = {"rare", "archaic", "obsolete", "dated", "dialectal", "nonstandard",
+               "misspelling", "pejorative", "vulgar", "slang", "historical",
+               "uncommon", "Jutland", "Bornholm", "regional"}
 
 
 def extract_infl(pos, forms):
@@ -48,6 +55,8 @@ def extract_infl(pos, forms):
             continue
         if tags & IGNORE_INFL_TAGS:
             continue
+        if form in ("er", "har", "at"):  # "er/har kværket" split into two forms
+            continue
         if pos == "noun":
             if {"definite", "singular"} <= tags:
                 infl.setdefault("def_sg", form)
@@ -56,7 +65,10 @@ def extract_infl(pos, forms):
             elif {"definite", "plural"} <= tags:
                 infl.setdefault("def_pl", form)
         elif pos == "verb":
-            # order matters: participles are tagged past+participle
+            # order matters: participles are tagged past+participle; the
+            # present participle (udforskende) is not the one we memorize
+            if "participle" in tags and "present" in tags:
+                continue
             if "participle" in tags or "perfect" in tags:
                 infl.setdefault("part", form.removeprefix("har ").removeprefix("er "))
             elif "present" in tags:
@@ -109,10 +121,11 @@ def parse_kaikki():
                     english = (ex.get("english") or "").strip()
                     if text:
                         examples.append({"da": text, "en": english})
-                senses.append({
-                    "gloss": glosses[-1],
-                    "examples": examples[:MAX_EXAMPLES],
-                })
+                sense = {"gloss": glosses[-1], "examples": examples[:MAX_EXAMPLES]}
+                marked = sorted(set(tags) & MARKED_TAGS)
+                if marked:
+                    sense["tags"] = marked
+                senses.append(sense)
             if not senses:
                 continue
 
@@ -152,10 +165,45 @@ def parse_kaikki():
 
 # ------------------------------------------------------------------- COR ---
 
+# COR form codes -> the label a learner sees, e.g. "past tense of være"
+COR_FORM_LABELS = [
+    ("vb.imp", "command form"),
+    ("vb.præs.akt", "present tense"),
+    ("vb.præt.akt", "past tense"),
+    ("vb.perf.part", "past participle"),
+    ("vb.præs.part", "-ing form"),
+    ("sb.fk.sg.best", "“the …” form"), ("sb.itk.sg.best", "“the …” form"),
+    ("sb.fk.pl.ubest", "plural"), ("sb.itk.pl.ubest", "plural"),
+    ("sb.fk.pl.best", "“the …” plural"), ("sb.itk.pl.best", "“the …” plural"),
+    ("adj.sg.ubest.itk", "et-word form"),
+    ("adj.adv", "adverb form"),
+    ("adj.kompar", "comparative"),
+    ("adj.superl", "superlative"),
+    ("adj.sg.best", "-e form"), ("adj.pl", "-e form"),
+    ("pron.pl", "plural"), ("pron.sg.itk", "et-word form"),
+    ("pron.obl", "object form"),
+]
+
+
+COR_POS = {"vb": "verb", "sb": "noun", "adj": "adj", "pron": "pron"}
+
+
+def cor_form_label(code):
+    """("past tense", "verb") for a COR code, or None if not worth showing."""
+    if ".gen" in code or ".pass" in code or code.startswith("adj.adv."):
+        return None
+    for prefix, label in COR_FORM_LABELS:
+        if code == prefix or code.startswith(prefix + "."):
+            return label, COR_POS[code.split(".")[0]]
+    return None
+
+
 def parse_cor():
-    """lemma -> set of inflected forms; also lemma -> gender for nouns."""
+    """lemma -> set of inflected forms; lemma -> gender for nouns;
+    form -> [(label, lemma, pos)] for forms that belong to another lemma."""
     forms = {}
     gender = {}
+    form_of = {}
     with open(RAW / "cor1.5.1.0.tsv", encoding="utf-8") as f:
         for line in f:
             cols = line.rstrip("\n").split("\t")
@@ -167,13 +215,98 @@ def parse_cor():
             forms.setdefault(lemma, set())
             if form != lemma:
                 forms[lemma].add(form)
+            labelled = cor_form_label(pos_code)
+            if labelled and form != lemma:
+                ref = (labelled[0], lemma, labelled[1])
+                lst = form_of.setdefault(form, [])
+                if ref not in lst:
+                    lst.append(ref)
             if pos_code.startswith("sb.itk"):
                 gender.setdefault(lemma, "et")
             elif pos_code.startswith("sb.fk"):
                 gender.setdefault(lemma, "en")
     total = sum(len(v) for v in forms.values())
     print(f"COR: {len(forms):,} lemmas, {total:,} extra inflected forms")
-    return forms, gender
+    return forms, gender, form_of
+
+
+# COR slot codes for the forms we show; mirrors extract_infl's keys
+COR_SLOTS = {
+    "noun": {"def_sg": ("sb.fk.sg.best", "sb.itk.sg.best"),
+             "pl": ("sb.fk.pl.ubest", "sb.itk.pl.ubest"),
+             "def_pl": ("sb.fk.pl.best", "sb.itk.pl.best")},
+    "verb": {"present": ("vb.præs.akt",), "past": ("vb.præt.akt",),
+             "part": ("vb.perf.part",), "imp": ("vb.imp",)},
+    "adj": {"t": ("adj.sg.ubest.itk",), "e": ("adj.sg.best",),
+            "comp": ("adj.kompar",), "sup": ("adj.superl.sg.ubest",)},
+}
+# suppletive comparatives COR doesn't model (mangen -> flere, flest)
+COR_SKIP = {"mangen"}
+COR_POS_PREFIX = {"noun": "sb.", "verb": "vb.", "adj": "adj."}
+
+
+def parse_cor_paradigms():
+    """lemma -> [ {code: set(forms)} ], one dict per COR paradigm (homograph)."""
+    paradigms = {}
+    with open(RAW / "cor1.5.1.0.tsv", encoding="utf-8") as f:
+        for line in f:
+            cols = line.rstrip("\n").split("\t")
+            if len(cols) < 5 or not cols[1] or not cols[4]:
+                continue
+            pid = ".".join(cols[0].split(".")[:2])
+            paradigms.setdefault(cols[1], {}).setdefault(pid, {}).setdefault(cols[3], set()).add(cols[4])
+    return {lemma: list(p.values()) for lemma, p in paradigms.items()}
+
+
+def correct_from_cor(danish, ranks, skip_rank):
+    """Wiktionary's scraped forms have typos (fægtemaskeer, partilederene,
+    stillinget) and gaps (være had no present tense). Where COR has exactly
+    one paradigm for the word's part of speech, fill missing forms from it,
+    and trust it over Wiktionary for gender and wrong forms — except for the
+    most common words, reviewed by hand (data/curated/fixes.json), and
+    "mere X / mest X" comparatives (also correct Danish)."""
+    paradigms = parse_cor_paradigms()
+    fixed = filled = 0
+    for word, blocks in danish.items():
+        if word in COR_SKIP:
+            continue
+        skip = (ranks.get(word.lower()) or 10**9) <= skip_rank
+        for b in blocks:
+            pos = b["pos"]
+            if pos not in COR_SLOTS:
+                continue
+            same_pos = [p for p in paradigms.get(word, [])
+                        if any(code.startswith(COR_POS_PREFIX[pos]) for code in p)]
+            if len(same_pos) != 1:
+                continue
+            p = same_pos[0]
+            if pos == "noun" and not skip:
+                genders = {"et" if c.startswith("sb.itk") else "en"
+                           for c in p if c.startswith(("sb.itk", "sb.fk"))}
+                if len(genders) == 1 and b.get("gender") and b["gender"] not in genders:
+                    b["gender"] = genders.pop()
+                    fixed += 1
+            infl = b.setdefault("infl", {})
+            for key, codes in COR_SLOTS[pos].items():
+                if not infl.get(key):
+                    # fill a gap (være had no present tense); nothing is
+                    # overwritten, so this runs for every word. Nouns with no
+                    # forms at all are left alone (uncountables, names).
+                    # Not comparatives: COR lists femininere, driftsmæssigere…
+                    # where Danes say "mere feminin".
+                    found = sorted({f for c in codes for f in p.get(c, ())})
+                    if found and key not in ("comp", "sup") and (pos != "noun" or infl):
+                        infl[key] = found[0]
+                        filled += 1
+                    continue
+                if skip or infl[key].startswith(("mere ", "mest ")):
+                    continue
+                # several allowed = spelling variants (målebægeret/målebægret)
+                allowed = sorted({f for c in codes for f in p.get(c, ())})
+                if allowed and infl[key] not in allowed:
+                    infl[key] = allowed[0]
+                    fixed += 1
+    return fixed, filled
 
 
 # -------------------------------------------------------------- stardict ---
@@ -219,7 +352,7 @@ def clean_freedict_article(word, text):
 
 def main():
     danish = parse_kaikki()
-    cor_forms, cor_gender = parse_cor()
+    cor_forms, cor_gender, cor_form_of = parse_cor()
 
     # merge COR forms + gender into the Danish records
     merged_forms = 0
@@ -293,7 +426,30 @@ def main():
         for b in blocks:
             b["freq_rank"] = r
 
-    out = {"danish": danish, "english": english}
+    # tier 1 (see config.json) is reviewed by hand; rank of its last word
+    tier1_rank = sorted(r for w, r in ranks.items() if w in danish)[TIER1_REVIEWED - 1]
+    fixed, filled = correct_from_cor(danish, ranks, tier1_rank)
+    print(f"COR: corrected {fixed:,} wrong forms/genders, filled {filled:,} missing forms")
+
+    # "læs" is also the command form of "læse": keep those readings (only
+    # for lemmas we have an entry for, so the line can show its meaning)
+    form_of = {}
+    for word in danish:
+        refs = []
+        for label, lemma, pos in cor_form_of.get(word, []):
+            if lemma not in danish:
+                continue
+            same = next((r for r in refs if r["of"] == lemma and r["pos"] == pos), None)
+            if same:  # "store" is both the -e form and plural: one line
+                if label not in same["label"]:
+                    same["label"] += f" / {label}"
+            else:
+                refs.append({"label": label, "of": lemma, "pos": pos})
+        if refs:
+            form_of[word] = refs
+    print(f"form-of readings for {len(form_of):,} headwords")
+
+    out = {"danish": danish, "english": english, "form_of": form_of}
     OUT.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {OUT} ({OUT.stat().st_size:,} bytes)")
     print(f"totals: {len(danish):,} Danish + {len(english):,} English headwords")

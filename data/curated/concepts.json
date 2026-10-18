@@ -1,0 +1,4628 @@
+{
+ "skal": {
+  "summary": "Modal verb (present of skulle). Never \"go\", and rarely English \"shall\" — it depends on context:",
+  "uses": [
+   {
+    "when": "a plan",
+    "en": "am / is going to, 'm …ing",
+    "da": "Jeg skal til Aarhus i morgen.",
+    "da_en": "I'm going to Aarhus tomorrow."
+   },
+   {
+    "when": "a duty or rule",
+    "en": "must, have to",
+    "da": "Man skal betale skat.",
+    "da_en": "You have to pay tax."
+   },
+   {
+    "when": "an offer",
+    "en": "shall I…?",
+    "da": "Skal jeg hjælpe dig?",
+    "da_en": "Shall I help you?"
+   },
+   {
+    "when": "ordering",
+    "en": "I'll have",
+    "da": "Jeg skal have en salat.",
+    "da_en": "I'll have a salad."
+   },
+   {
+    "when": "skal nok",
+    "en": "a promise: I'll make sure to",
+    "da": "Jeg skal nok ringe.",
+    "da_en": "I'll call, I promise."
+   },
+   {
+    "when": "skal ikke",
+    "en": "don't need to — or a friendly \"don't\" (context decides)",
+    "da": "Du skal ikke betale noget.",
+    "da_en": "You don't need to pay anything."
+   }
+  ],
+  "note": "With a destination the motion verb is left out: \"Jeg skal hjem\" = I'm going home. \"Skal vi ikke …?\" = Shall we / Why don't we …? (ikke is not a negation; answer jo). Hearsay: \"Han skal være rig\" = He's supposed to be rich. For an unmistakable \"don't have to\" use behøver ikke. (Also a noun: en skal = a shell, peel, skin.)"
+ },
+ "skulle": {
+  "summary": "Modal verb: skal (present) · skulle (past) · har skullet. Very often \"should\" — not just the past of skal:",
+  "uses": [
+   {
+    "when": "past plan or duty",
+    "en": "was going to; had to",
+    "da": "Vi skulle til Aarhus, men toget blev aflyst.",
+    "da_en": "We were going to Aarhus, but the train was cancelled."
+   },
+   {
+    "when": "advice",
+    "en": "should, ought to",
+    "da": "Du skulle prøve den nye café.",
+    "da_en": "You should try the new café."
+   },
+   {
+    "when": "skulle have + participle",
+    "en": "should have / was supposed to (but didn't)",
+    "da": "Jeg skulle have ringet i går.",
+    "da_en": "I should have called yesterday."
+   },
+   {
+    "when": "hearsay",
+    "en": "is supposed to (be)",
+    "da": "Filmen skulle være god.",
+    "da_en": "The film is supposed to be good."
+   },
+   {
+    "when": "hvis … skulle",
+    "en": "if … should / happen to",
+    "da": "Hvis du skulle få brug for hjælp, så ring.",
+    "da_en": "If you should need any help, call."
+   }
+  ],
+  "note": "For the present-tense uses (plans, duties, offers, ordering) see skal. Advice with skulle is softer than bør."
+ },
+ "vil": {
+  "summary": "Modal verb (present of ville). Mostly WANT. English \"will\" is usually just the present tense; vil = \"will\" only in predictions (more formal).",
+  "uses": [
+   {
+    "when": "a wish",
+    "en": "want(s) to",
+    "da": "Jeg vil lære dansk.",
+    "da_en": "I want to learn Danish."
+   },
+   {
+    "when": "vil ikke",
+    "en": "won't, refuse(s) to",
+    "da": "Hun vil ikke spise grøntsager.",
+    "da_en": "She won't eat vegetables."
+   },
+   {
+    "when": "+ gerne",
+    "en": "would like (polite)",
+    "da": "Jeg vil gerne have en kaffe.",
+    "da_en": "I'd like a coffee, please."
+   },
+   {
+    "when": "+ hellere",
+    "en": "would rather",
+    "da": "Vi vil hellere blive hjemme.",
+    "da_en": "We'd rather stay at home."
+   },
+   {
+    "when": "an invitation",
+    "en": "do you want to…? / would you like to…?",
+    "da": "Vil du med i biografen?",
+    "da_en": "Do you want to come to the cinema?"
+   },
+   {
+    "when": "a prediction (formal)",
+    "en": "will",
+    "da": "Det vil tage et par uger.",
+    "da_en": "It will take a couple of weeks."
+   }
+  ],
+  "note": "Your own plans and promises are not vil: \"Jeg ringer i morgen\" = I'll call tomorrow; \"Det regner i morgen\" = It will rain tomorrow; plans take skal. \"Jeg vil komme\" sounds like \"I want to / insist on coming\". vil have + noun = want (blunt): \"Vil du have kaffe?\" With a place no verb is needed: \"Jeg vil gerne til Mexico.\""
+ },
+ "ville": {
+  "summary": "Modal verb: vil (present) · ville (past) · har villet. The past of \"want\" — and English \"would\":",
+  "uses": [
+   {
+    "when": "past wish",
+    "en": "wanted to; was going to",
+    "da": "Han ville ikke komme.",
+    "da_en": "He didn't want to come."
+   },
+   {
+    "when": "softened",
+    "en": "just wanted to",
+    "da": "Jeg ville bare høre, om du vil med.",
+    "da_en": "I just wanted to ask if you'd like to come."
+   },
+   {
+    "when": "hypothetical",
+    "en": "would",
+    "da": "Det ville være dejligt.",
+    "da_en": "That would be lovely."
+   },
+   {
+    "when": "ville have + participle",
+    "en": "would have",
+    "da": "Jeg ville have hjulpet dig, hvis du havde spurgt.",
+    "da_en": "I would have helped you if you'd asked."
+   },
+   {
+    "when": "+ ønske",
+    "en": "I wish",
+    "da": "Jeg ville ønske, at jeg kunne rejse.",
+    "da_en": "I wish I could travel."
+   }
+  ],
+  "note": "For the present-tense uses see vil."
+ },
+ "kan": {
+  "summary": "Modal verb (present of kunne): can, be able to — plus a few uses English says differently:",
+  "uses": [
+   {
+    "when": "ability",
+    "en": "can",
+    "da": "Jeg kan tale tre sprog.",
+    "da_en": "I can speak three languages."
+   },
+   {
+    "when": "a language or skill",
+    "en": "know, speak",
+    "da": "Kan du dansk?",
+    "da_en": "Do you speak Danish?"
+   },
+   {
+    "when": "possible / available",
+    "en": "can (make it)",
+    "da": "Jeg kan desværre ikke i morgen.",
+    "da_en": "Unfortunately I can't make it tomorrow."
+   },
+   {
+    "when": "+ godt",
+    "en": "certainly can (godt confirms; it does NOT mean \"well\")",
+    "da": "Ja, det kan jeg godt.",
+    "da_en": "Yes, I can."
+   },
+   {
+    "when": "kan lide",
+    "en": "like (lide alone = suffer)",
+    "da": "Jeg kan godt lide kaffe.",
+    "da_en": "I like coffee."
+   },
+   {
+    "when": "a request",
+    "en": "can you…? / could you…? (ikke is not a negation)",
+    "da": "Kan du ikke hjælpe mig?",
+    "da_en": "Could you help me?"
+   }
+  ],
+  "note": "Past: kunne (could). \"Det kan godt være\" = Maybe / That may well be. \"Kunne godt tænke sig\" = would like: \"Jeg kunne godt tænke mig en kop te.\""
+ },
+ "kunne": {
+  "summary": "Modal verb: kan (present) · kunne (past) · har kunnet.",
+  "uses": [
+   {
+    "when": "past ability",
+    "en": "could, was able to",
+    "da": "Han kunne ikke komme.",
+    "da_en": "He couldn't come."
+   },
+   {
+    "when": "polite suggestion",
+    "en": "could",
+    "da": "Vi kunne tage ud og spise.",
+    "da_en": "We could go out to eat."
+   },
+   {
+    "when": "polite request",
+    "en": "could you…?",
+    "da": "Kunne du lukke vinduet?",
+    "da_en": "Could you close the window?"
+   },
+   {
+    "when": "kunne godt tænke sig",
+    "en": "would like (to)",
+    "da": "Jeg kunne godt tænke mig at rejse.",
+    "da_en": "I'd like to travel."
+   },
+   {
+    "when": "kunne lide",
+    "en": "liked",
+    "da": "Hun kunne godt lide filmen.",
+    "da_en": "She liked the film."
+   }
+  ],
+  "note": "\"Kunne du tænke dig …?\" = Would you like …? For the present-tense uses see kan."
+ },
+ "må": {
+  "summary": "Modal verb (present of måtte): permission — and sometimes necessity.",
+  "uses": [
+   {
+    "when": "permission",
+    "en": "may, be allowed to",
+    "da": "Må jeg få din adresse?",
+    "da_en": "May I have your address?"
+   },
+   {
+    "when": "ikke",
+    "en": "must not, aren't allowed to",
+    "da": "Du må ikke ryge her.",
+    "da_en": "You mustn't smoke here."
+   },
+   {
+    "when": "+ godt / gerne",
+    "en": "yes, go ahead / you're welcome to",
+    "da": "Ja, det må du gerne.",
+    "da_en": "Yes, of course you may."
+   },
+   {
+    "when": "necessity",
+    "en": "must, have to",
+    "da": "Jeg må gå nu.",
+    "da_en": "I have to go now."
+   },
+   {
+    "when": "+ hellere",
+    "en": "had better",
+    "da": "Du må hellere ringe til lægen.",
+    "da_en": "You'd better call the doctor."
+   },
+   {
+    "when": "a conclusion",
+    "en": "must (be)",
+    "da": "Det må være dejligt at bo ved havet.",
+    "da_en": "It must be lovely to live by the sea."
+   }
+  ],
+  "note": "\"Må jeg få…?\" is the polite way to ask for something. Watch out: \"må ikke\" is a prohibition, not \"don't have to\" (that is \"behøver ikke\"). må = your own need; skal = a rule or plan. \"Du må undskylde\" = I'm sorry / please forgive me."
+ },
+ "måtte": {
+  "summary": "Modal verb: må (present) · måtte (past) · har måttet.",
+  "uses": [
+   {
+    "when": "past permission",
+    "en": "was allowed to",
+    "da": "Vi måtte ikke komme ind.",
+    "da_en": "We weren't allowed in."
+   },
+   {
+    "when": "past necessity",
+    "en": "had to",
+    "da": "Jeg måtte tage en taxa.",
+    "da_en": "I had to take a taxi."
+   }
+  ],
+  "note": "For the present-tense uses see må. (Also a noun: en måtte = a mat.)"
+ },
+ "bør": {
+  "summary": "Modal verb (present of burde): should, ought to — a recommendation.",
+  "uses": [
+   {
+    "when": "advice",
+    "en": "should, ought to",
+    "da": "Du bør spise mere frugt.",
+    "da_en": "You should eat more fruit."
+   },
+   {
+    "when": "expectation",
+    "en": "should (probably will)",
+    "da": "Pakken bør komme i dag.",
+    "da_en": "The parcel should arrive today."
+   }
+  ],
+  "note": "No \"at\" after it. Past and softer form: burde. \"Det burde du have gjort\" = You should have done that. Advice with skal can sound like an order; bør, burde and skulle are advice."
+ },
+ "gider": {
+  "summary": "Present of gide. No neat English verb: \"can be bothered to\", \"feel like\".",
+  "uses": [
+   {
+    "when": "not in the mood",
+    "en": "can't be bothered to, don't feel like",
+    "da": "Jeg gider ikke gå ud i aften.",
+    "da_en": "I can't be bothered to go out tonight."
+   },
+   {
+    "when": "a casual invitation",
+    "en": "fancy …?, be up for",
+    "da": "Gider du med i biografen?",
+    "da_en": "Fancy coming to the cinema?"
+   },
+   {
+    "when": "a request",
+    "en": "would you mind…? (informal)",
+    "da": "Gider du lige række mig saltet?",
+    "da_en": "Would you mind passing me the salt?"
+   },
+   {
+    "when": "fed up",
+    "en": "don't want to (any more)",
+    "da": "Jeg gider ikke høre mere om det.",
+    "da_en": "I don't want to hear any more about it."
+   }
+  ],
+  "note": "Forms: gide · gider · gad · har gidet. Like a modal verb, no \"at\". gider ikke = no desire; vil ikke sounds like a firm refusal; orker ikke = no energy. Casual: skip it in formal writing, and with a sharp tone a request can sound irritated."
+ },
+ "tør": {
+  "summary": "Two different words: the adjective \"dry\", and the present of turde (dare).",
+  "uses": [
+   {
+    "when": "adjective",
+    "en": "dry",
+    "da": "Tøjet er tørt.",
+    "da_en": "The clothes are dry."
+   },
+   {
+    "when": "verb (turde)",
+    "en": "dare(s)",
+    "da": "Jeg tør ikke springe.",
+    "da_en": "I don't dare to jump."
+   },
+   {
+    "when": "tør godt",
+    "en": "can safely (say / promise)",
+    "da": "Det tør jeg godt love.",
+    "da_en": "I can safely promise that."
+   }
+  ],
+  "note": "Verb: turde · tør · turde · har turdet. Adjective: tør · tørt · tørre. Not tørre (to dry), whose past is tørrede."
+ },
+ "bliver": {
+  "summary": "Present of blive. One of the most useful Danish verbs — no single English match:",
+  "uses": [
+   {
+    "when": "a change",
+    "en": "become(s), get(s), turn(s)",
+    "da": "Jeg bliver altid sulten om eftermiddagen.",
+    "da_en": "I always get hungry in the afternoon."
+   },
+   {
+    "when": "future of \"er\"",
+    "en": "will be, is going to be",
+    "da": "Det bliver koldt i morgen.",
+    "da_en": "It'll be cold tomorrow."
+   },
+   {
+    "when": "a total price",
+    "en": "that comes to / that'll be",
+    "da": "Det bliver 210 kroner.",
+    "da_en": "That'll be 210 kroner."
+   },
+   {
+    "when": "staying",
+    "en": "stay(s), remain(s)",
+    "da": "Jeg bliver hjemme i dag.",
+    "da_en": "I'm staying at home today."
+   },
+   {
+    "when": "+ participle (passive)",
+    "en": "is / gets (done)",
+    "da": "Pakken bliver sendt i dag.",
+    "da_en": "The parcel is being sent today."
+   },
+   {
+    "when": "blive ved (med)",
+    "en": "keep (on) …ing",
+    "da": "Hun bliver ved med at ringe.",
+    "da_en": "She keeps calling."
+   }
+  ],
+  "note": "Forms: blive · bliver · blev · er blevet (perfect takes \"er\"). er = a state, blive = a change: \"Jeg er glad\" (I'm happy) / \"Jeg blev glad, da han ringede\" (It made me happy when he called). Ages: \"Hun bliver 30 næste år\" = She'll turn 30 next year. For the price of one item use koster; for the total, bliver."
+ },
+ "blive": {
+  "summary": "Verb: blive · bliver · blev · er blevet. Become, get, stay — see bliver for all the uses.",
+  "uses": [
+   {
+    "when": "a change",
+    "en": "become, get",
+    "da": "Han vil gerne blive læge.",
+    "da_en": "He wants to become a doctor."
+   },
+   {
+    "when": "staying",
+    "en": "stay",
+    "da": "Kan du blive lidt længere?",
+    "da_en": "Can you stay a bit longer?"
+   },
+   {
+    "when": "passive",
+    "en": "be (done)",
+    "da": "Huset blev bygget i 1920.",
+    "da_en": "The house was built in 1920."
+   }
+  ],
+  "note": "Perfect with \"er\": \"Hun er blevet mor\" (She has become a mother). \"Get + adjective\" is blive, not få: blive træt, blive gift."
+ },
+ "får": {
+  "summary": "Present of få (get) — and a few uses English says differently:",
+  "uses": [
+   {
+    "when": "receive",
+    "en": "get(s)",
+    "da": "Jeg får løn i dag.",
+    "da_en": "I get paid today."
+   },
+   {
+    "when": "food / drink",
+    "en": "have, be having",
+    "da": "Vi får fisk i aften.",
+    "da_en": "We're having fish tonight."
+   },
+   {
+    "when": "asking (Må jeg få …?)",
+    "en": "can I have …?",
+    "da": "Må jeg få et glas vand?",
+    "da_en": "Could I have a glass of water?"
+   },
+   {
+    "when": "få lov til",
+    "en": "be allowed to",
+    "da": "Han får lov til at gå.",
+    "da_en": "He's allowed to go."
+   },
+   {
+    "when": "får + participle",
+    "en": "get (something) done — usually yourself",
+    "da": "Jeg får det gjort i morgen.",
+    "da_en": "I'll get it done tomorrow."
+   },
+   {
+    "when": "få nogen til at",
+    "en": "make someone (do)",
+    "da": "Hun får mig altid til at grine.",
+    "da_en": "She always makes me laugh."
+   }
+  ],
+  "note": "Forms: få · får · fik · har fået. \"Get + adjective\" is blive (blive træt = get tired), not få. \"Må jeg få…?\" goes with få; vil goes with have: \"Vil du have kaffe?\" Also a noun: et får = a sheep."
+ },
+ "gerne": {
+  "summary": "No English equivalent — it marks that something is wanted or welcome.",
+  "uses": [
+   {
+    "when": "vil gerne",
+    "en": "would like (to)",
+    "da": "Jeg vil gerne have børn.",
+    "da_en": "I'd like to have children."
+   },
+   {
+    "when": "må gerne",
+    "en": "you're welcome to, feel free",
+    "da": "Du må gerne låne min cykel.",
+    "da_en": "Feel free to borrow my bike."
+   },
+   {
+    "when": "a short yes",
+    "en": "yes please, I'd love to",
+    "da": "Kaffe? – Ja, gerne!",
+    "da_en": "Coffee? – Yes, please!"
+   },
+   {
+    "when": "willingness",
+    "en": "happy to, gladly",
+    "da": "Det gør jeg gerne.",
+    "da_en": "I'd be happy to."
+   },
+   {
+    "when": "an invitation",
+    "en": "feel free to, do …",
+    "da": "Ring gerne, hvis du har spørgsmål.",
+    "da_en": "Feel free to call if you have any questions."
+   },
+   {
+    "when": "habit",
+    "en": "usually, tend to",
+    "da": "Om søndagen sover vi gerne længe.",
+    "da_en": "On Sundays we usually sleep in."
+   }
+  ],
+  "note": "Danish has no word for \"please\"; gerne, lige and tak do that job. gerne goes with vil (and må); with kan use godt: \"Jeg kan godt\". Comparison: gerne · hellere (rather) · helst (most of all, preferably)."
+ },
+ "godt": {
+  "summary": "Several different jobs:",
+  "uses": [
+   {
+    "when": "et-word form of god",
+    "en": "good",
+    "da": "et godt hus",
+    "da_en": "a good house"
+   },
+   {
+    "when": "how something goes",
+    "en": "well",
+    "da": "Det går godt.",
+    "da_en": "It's going well."
+   },
+   {
+    "when": "with kan / må",
+    "en": "certainly, sure (confirms — not \"well\")",
+    "da": "Jeg kan godt tale fransk.",
+    "da_en": "I can speak French (I really can)."
+   },
+   {
+    "when": "ved godt",
+    "en": "I know (I'm aware)",
+    "da": "Jeg ved godt, det er dyrt.",
+    "da_en": "I know it's expensive."
+   },
+   {
+    "when": "before a number",
+    "en": "a good…, just over",
+    "da": "godt 100 personer",
+    "da_en": "just over 100 people"
+   }
+  ],
+  "note": "\"Kan godt lide\" = like. \"Det kan godt være\" = maybe, that may be. \"Godt nok\" = admittedly / really (see nok). \"Hav det godt!\" = Take care!"
+ },
+ "henne": {
+  "summary": "A place word with no English translation — leave it out when translating.",
+  "uses": [
+   {
+    "when": "in where-questions",
+    "en": "(no word)",
+    "da": "Hvor bor du henne?",
+    "da_en": "Where do you live?"
+   },
+   {
+    "when": "location",
+    "en": "over at, at",
+    "da": "Han er henne i butikken.",
+    "da_en": "He's (over) at the shop."
+   }
+  ],
+  "note": "Pair with hen (movement): \"Hvor skal du hen?\" = Where are you going? Like hjem (to home) vs hjemme (at home). derhenne = over there."
+ },
+ "hos": {
+  "summary": "Preposition: at someone's place — like French \"chez\".",
+  "uses": [
+   {
+    "when": "a home",
+    "en": "at …'s (house)",
+    "da": "Vi spiser hos mine forældre på søndag.",
+    "da_en": "We're eating at my parents' on Sunday."
+   },
+   {
+    "when": "living / staying",
+    "en": "with",
+    "da": "Han bor stadig hos sin mor.",
+    "da_en": "He still lives with his mother."
+   },
+   {
+    "when": "a professional",
+    "en": "at the …'s",
+    "da": "Jeg er hos lægen.",
+    "da_en": "I'm at the doctor's."
+   },
+   {
+    "when": "a company",
+    "en": "at, with",
+    "da": "Hun arbejder hos Mærsk.",
+    "da_en": "She works at Mærsk."
+   }
+  ],
+  "note": "Being there = hos; going there = til: \"Jeg går til lægen\" (I'm going to the doctor). \"Hjemme hos mig\" = at my place."
+ },
+ "synes": {
+  "summary": "\"Think\" as in an OPINION from your own experience. Danish splits English \"think\" several ways:",
+  "uses": [
+   {
+    "when": "synes — opinion",
+    "en": "think, find, feel",
+    "da": "Jeg synes, filmen er god.",
+    "da_en": "I think the film is good."
+   },
+   {
+    "when": "tror — belief / guess",
+    "en": "think, believe",
+    "da": "Jeg tror, han kommer i morgen.",
+    "da_en": "I think he's coming tomorrow."
+   },
+   {
+    "when": "mener — a considered view",
+    "en": "think, believe; mean",
+    "da": "Hvad mener du?",
+    "da_en": "What do you mean?"
+   },
+   {
+    "when": "tænker — thinking about",
+    "en": "think (about)",
+    "da": "Jeg tænker på dig.",
+    "da_en": "I'm thinking of you."
+   }
+  ],
+  "note": "Test: can it be checked or known later? tror. Is it your taste or judgement? synes. \"Jeg tror, det er en god film\" = I haven't seen it; \"Jeg synes, det er en god film\" = I've seen it. \"Jeg tænker, at …\" for an opinion is common now but some dislike it; synes is the safe choice. Forms: synes · synes · syntes · har syntes (no -r in the present)."
+ },
+ "tror": {
+  "summary": "Present of tro: \"think\" as in BELIEVE or GUESS — something that could turn out true or false.",
+  "uses": [
+   {
+    "when": "a guess",
+    "en": "think, guess",
+    "da": "Seks, tror jeg.",
+    "da_en": "Six, I think."
+   },
+   {
+    "when": "Det tror jeg (ikke)",
+    "en": "I think so / I don't think so",
+    "da": "Det tror jeg ikke.",
+    "da_en": "I don't think so."
+   },
+   {
+    "when": "tro på",
+    "en": "believe in",
+    "da": "Jeg tror på dig.",
+    "da_en": "I believe in you."
+   },
+   {
+    "when": "Tror du?",
+    "en": "Do you think so?",
+    "da": "Tror du ikke?",
+    "da_en": "Don't you think so?"
+   }
+  ],
+  "note": "For an opinion or taste use synes: \"Jeg synes, det er dyrt\" (I think it's expensive). Forms: tro · tror · troede · har troet."
+ },
+ "mener": {
+  "summary": "Present of mene: mean — or hold an opinion (stronger than synes).",
+  "uses": [
+   {
+    "when": "meaning",
+    "en": "mean",
+    "da": "Hvad mener du?",
+    "da_en": "What do you mean?"
+   },
+   {
+    "when": "a stance",
+    "en": "think, believe, be of the view",
+    "da": "Hun mener, at skatten er for høj.",
+    "da_en": "She thinks taxes are too high."
+   },
+   {
+    "when": "correcting yourself",
+    "en": "I mean",
+    "da": "Hun kommer på mandag – jeg mener tirsdag.",
+    "da_en": "She's coming on Monday – I mean Tuesday."
+   }
+  ],
+  "note": "Compare synes (personal opinion) and tror (belief/guess)."
+ },
+ "har": {
+  "summary": "Present of have: have — and the helper verb for the past (perfect).",
+  "uses": [
+   {
+    "when": "possession",
+    "en": "have, has",
+    "da": "Jeg har en bil.",
+    "da_en": "I have a car."
+   },
+   {
+    "when": "+ participle",
+    "en": "have done",
+    "da": "Jeg har boet her i tre år.",
+    "da_en": "I've lived here for three years."
+   },
+   {
+    "when": "fixed phrases",
+    "en": "be (busy / have a birthday)",
+    "da": "Jeg har travlt.",
+    "da_en": "I'm busy."
+   }
+  ],
+  "note": "Verbs of movement or change usually take er when the result matters: er kommet, er blevet, \"Han er gået\" (he's left) — but \"Han har gået meget i dag\" (he's walked a lot today). \"Hvordan har du det?\" = How are you? \"Hvornår har du fødselsdag?\" = When's your birthday?"
+ },
+ "sin": {
+  "summary": "\"His/her own\" — points back to the subject. English has no matching word.",
+  "uses": [
+   {
+    "when": "owner = subject",
+    "en": "his / her (own)",
+    "da": "Han vasker sin bil.",
+    "da_en": "He washes his (own) car."
+   },
+   {
+    "when": "owner = someone else",
+    "en": "use hans / hendes",
+    "da": "Han vasker hans bil.",
+    "da_en": "He washes his (another man's) car."
+   }
+  ],
+  "note": "sin (en-word) · sit (et-word) · sine (plural). Only for a 3rd-person singular subject (also man); with \"de\" use deres. Inside the subject itself use hans/hendes: \"Han og hans bror kom.\""
+ },
+ "plejer": {
+  "summary": "Present of pleje: \"usually\" — Danish uses a verb where English uses an adverb.",
+  "uses": [
+   {
+    "when": "a habit",
+    "en": "usually (do)",
+    "da": "Jeg plejer at cykle på arbejde.",
+    "da_en": "I usually cycle to work."
+   },
+   {
+    "when": "past habit (plejede)",
+    "en": "used to",
+    "da": "Vi plejede at tage til Skagen hver sommer.",
+    "da_en": "We used to go to Skagen every summer."
+   },
+   {
+    "when": "som … plejer",
+    "en": "as usual",
+    "da": "Vi ses klokken otte, som vi plejer.",
+    "da_en": "See you at eight, as usual."
+   }
+  ],
+  "note": "Also: pleje = to care for / nurse someone, and en plejer = a carer."
+ },
+ "hygge": {
+  "summary": "A Danish concept: relaxed, warm, unpretentious time — usually together. Learn it as Danish.",
+  "uses": [
+   {
+    "when": "noun",
+    "en": "a nice relaxed time, cosiness, good atmosphere",
+    "da": "Der var rigtig god hygge til festen.",
+    "da_en": "The party had a really nice, relaxed atmosphere."
+   },
+   {
+    "when": "verb (hygge sig)",
+    "en": "have a nice time, relax",
+    "da": "Vi hygger os med en film.",
+    "da_en": "We're relaxing with a film."
+   },
+   {
+    "when": "Hyg dig!",
+    "en": "Have fun! / Enjoy!",
+    "da": "Hyg jer i Berlin!",
+    "da_en": "Have a great time in Berlin!"
+   },
+   {
+    "when": "hyggelig",
+    "en": "nice, cosy, pleasant",
+    "da": "Det var hyggeligt at se dig!",
+    "da_en": "It was lovely to see you!"
+   }
+  ],
+  "note": "Not just candles and blankets: a busy café or a barbecue can be hyggeligt. Often it simply means \"having a nice time\", so translate by context."
+ },
+ "hyggelig": {
+  "summary": "Adjective from hygge: nice, cosy, pleasant — used about places, people and time together.",
+  "uses": [
+   {
+    "when": "a place",
+    "en": "cosy",
+    "da": "en hyggelig café",
+    "da_en": "a cosy café"
+   },
+   {
+    "when": "time together",
+    "en": "nice, lovely",
+    "da": "Det var hyggeligt at se dig.",
+    "da_en": "It was nice to see you."
+   },
+   {
+    "when": "a person",
+    "en": "nice, pleasant (company)",
+    "da": "Hans forældre er meget hyggelige.",
+    "da_en": "His parents are really nice."
+   },
+   {
+    "when": "meeting someone",
+    "en": "nice to meet you",
+    "da": "Hyggeligt at møde dig.",
+    "da_en": "Nice to meet you."
+   }
+  ],
+  "note": "\"Det var hyggeligt!\" is the standard thank-you after meeting up. About people English says nice or pleasant, never \"cosy\". Opposite: uhyggelig = creepy, scary."
+ },
+ "pyt": {
+  "summary": "A small Danish attitude word: let it go.",
+  "uses": [
+   {
+    "when": "after a small mishap",
+    "en": "never mind, oh well",
+    "da": "Pyt med det.",
+    "da_en": "Never mind that."
+   },
+   {
+    "when": "reassuring",
+    "en": "don't worry about it",
+    "da": "Pyt, det gør ikke noget.",
+    "da_en": "Don't worry, it doesn't matter."
+   },
+   {
+    "when": "moving on",
+    "en": "oh well",
+    "da": "Vi missede bussen, men pyt, vi tager den næste.",
+    "da_en": "We missed the bus, but oh well, we'll get the next one."
+   }
+  ],
+  "note": "For small setbacks only — said about someone else's real problem it sounds like \"who cares\". (Also: en vandpyt = a puddle.)"
+ },
+ "orke": {
+  "summary": "To have the energy for something — mostly in the negative.",
+  "uses": [
+   {
+    "when": "ikke orke",
+    "en": "can't face, don't have the energy",
+    "da": "Jeg orker ikke at lave mad i aften.",
+    "da_en": "I can't face cooking tonight."
+   },
+   {
+    "when": "at the limit",
+    "en": "can't take any more",
+    "da": "Jeg orker ikke mere.",
+    "da_en": "I can't take any more."
+   },
+   {
+    "when": "a question",
+    "en": "are you up for…?",
+    "da": "Orker du en gåtur?",
+    "da_en": "Are you up for a walk?"
+   }
+  ],
+  "note": "Close to gider, but about energy rather than motivation, and stronger: gider ikke = no desire, orker ikke = no energy left. Forms: orke · orker · orkede · har orket."
+ },
+ "træls": {
+  "summary": "Annoying, tedious — originally Jutlandic, now used all over Denmark (casual).",
+  "uses": [
+   {
+    "when": "a nuisance",
+    "en": "annoying, a drag",
+    "da": "Det er træls, at bussen er forsinket.",
+    "da_en": "It's annoying that the bus is late."
+   },
+   {
+    "when": "a reaction",
+    "en": "what a pain!",
+    "da": "Ej, hvor træls!",
+    "da_en": "Oh, what a pain!"
+   },
+   {
+    "when": "a chore",
+    "en": "tedious",
+    "da": "Opvask er en træls opgave.",
+    "da_en": "Washing up is a tedious chore."
+   }
+  ],
+  "note": "Used about situations and tasks, not people. Too casual for formal writing."
+ },
+ "tak": {
+  "summary": "Thanks — Danes say tak in many set phrases English doesn't have:",
+  "uses": [
+   {
+    "when": "after a meal",
+    "en": "thanks for the meal",
+    "da": "Tak for mad!",
+    "da_en": "Thanks for the food!"
+   },
+   {
+    "when": "next time you meet",
+    "en": "thanks for last time",
+    "da": "Tak for sidst!",
+    "da_en": "Thanks for the other day!"
+   },
+   {
+    "when": "ordering",
+    "en": "please",
+    "da": "En kaffe, tak.",
+    "da_en": "A coffee, please."
+   },
+   {
+    "when": "end of a class / day",
+    "en": "thanks for today",
+    "da": "Tak for i dag!",
+    "da_en": "Thanks for today!"
+   },
+   {
+    "when": "reply to thanks",
+    "en": "don't mention it / thank YOU (when it was mutual)",
+    "da": "Det var så lidt. / Selv tak!",
+    "da_en": "Don't mention it. / Thank you (too)!"
+   },
+   {
+    "when": "warm thanks",
+    "en": "thank you",
+    "da": "Tak skal du have!",
+    "da_en": "Thank you very much!"
+   }
+  ],
+  "note": "\"Ja tak\" = yes please; \"nej tak\" = no thanks. The reply to \"tak for mad\" is velbekomme. Danish has no single word for \"please\": tak, gerne, lige and \"vil du være sød at …\" do the job."
+ },
+ "lige": {
+  "summary": "One of the most common Danish words; the meaning depends on stress and position:",
+  "uses": [
+   {
+    "when": "softener",
+    "en": "just, quickly (makes requests polite)",
+    "da": "Kan du lige hjælpe mig?",
+    "da_en": "Could you give me a quick hand?"
+   },
+   {
+    "when": "time",
+    "en": "just (now)",
+    "da": "Han er lige gået.",
+    "da_en": "He's just left."
+   },
+   {
+    "when": "place / exactness",
+    "en": "right, exactly",
+    "da": "lige ved siden af",
+    "da_en": "right next door"
+   },
+   {
+    "when": "lige meget",
+    "en": "doesn't matter, I don't mind",
+    "da": "Kaffe eller te? – Det er lige meget.",
+    "da_en": "Coffee or tea? – I don't mind."
+   },
+   {
+    "when": "lige så … som",
+    "en": "as … as",
+    "da": "Han er lige så høj som sin far.",
+    "da_en": "He's as tall as his father."
+   },
+   {
+    "when": "adjective",
+    "en": "straight; even (number)",
+    "da": "en lige linje",
+    "da_en": "a straight line"
+   }
+  ],
+  "note": "\"Lige nu\" = right now; \"lige om lidt\" = in a moment; \"lige før\" = just before; \"Vent lige!\" = hang on! \"I lige måde\" = likewise, same to you. Leaving lige out of a request can sound abrupt."
+ },
+ "der": {
+  "summary": "Never \"it\". Three different jobs:",
+  "uses": [
+   {
+    "when": "a place",
+    "en": "there",
+    "da": "Jeg bor der.",
+    "da_en": "I live there."
+   },
+   {
+    "when": "there is / are",
+    "en": "there",
+    "da": "Der er en bus klokken tre.",
+    "da_en": "There's a bus at three."
+   },
+   {
+    "when": "describing a noun",
+    "en": "that, who, which",
+    "da": "en by, der hedder Ringe",
+    "da_en": "a town that's called Ringe"
+   }
+  ],
+  "note": "\"It\" is den or det: \"Hvor er bilen? Den er her.\" \"Der står …\" = It says … (in writing)."
+ },
+ "nogen": {
+  "summary": "\"Any\" or \"some(one)\" — choosing between nogen, noget and nogle:",
+  "uses": [
+   {
+    "when": "questions / negatives, en-words and plural",
+    "en": "any",
+    "da": "Har du nogen børn?",
+    "da_en": "Do you have any children?"
+   },
+   {
+    "when": "et-words and uncountables",
+    "en": "any → noget",
+    "da": "Jeg har ikke noget brød.",
+    "da_en": "I don't have any bread."
+   },
+   {
+    "when": "positive plural",
+    "en": "some → nogle",
+    "da": "Jeg har nogle venner her.",
+    "da_en": "I have some friends here."
+   },
+   {
+    "when": "a person",
+    "en": "someone, anyone",
+    "da": "Er der nogen hjemme?",
+    "da_en": "Is anyone home?"
+   }
+  ],
+  "note": "nogen and nogle sound the same (\"NO-en\"). A handy test: if you could add \"at all\" (som helst), write nogen. In questions nogle is also possible and means \"a few\": \"Skal du ikke have nogle nye sko?\""
+ },
+ "gift": {
+  "summary": "Two words: married (adjective, the common one) — and poison (noun). Not English \"gift\" — a present is en gave.",
+  "uses": [
+   {
+    "when": "adjective",
+    "en": "married",
+    "da": "Er du gift?",
+    "da_en": "Are you married?"
+   },
+   {
+    "when": "blive gift",
+    "en": "get married",
+    "da": "De blev gift i sommer.",
+    "da_en": "They got married this summer."
+   },
+   {
+    "when": "gift med",
+    "en": "married to",
+    "da": "Hun er gift med en svensker.",
+    "da_en": "She's married to a Swede."
+   },
+   {
+    "when": "noun (en gift)",
+    "en": "poison",
+    "da": "Pas på, det er gift!",
+    "da_en": "Careful, that's poison!"
+   }
+  ],
+  "note": "A present is en gave."
+ },
+ "jo": {
+  "summary": "Two jobs: the \"yes\" to a negative question, and a little word meaning \"as you know / after all\":",
+  "uses": [
+   {
+    "when": "yes to a negative question",
+    "en": "yes (I do / it is)",
+    "da": "Kan du ikke lide kaffe? – Jo!",
+    "da_en": "Don't you like coffee? – Yes, I do!"
+   },
+   {
+    "when": "shared knowledge",
+    "en": "you know, after all",
+    "da": "Han er jo kun fire år.",
+    "da_en": "He's only four, after all."
+   },
+   {
+    "when": "explaining",
+    "en": "you see",
+    "da": "Jeg kan ikke komme, jeg skal jo arbejde.",
+    "da_en": "I can't come — I have to work, you know."
+   },
+   {
+    "when": "surprise",
+    "en": "why, …!",
+    "da": "Du er jo helt våd!",
+    "da_en": "Why, you're soaking wet!"
+   },
+   {
+    "when": "jo … jo",
+    "en": "the …-er, the …-er",
+    "da": "Jo før, jo bedre.",
+    "da_en": "The sooner the better."
+   }
+  ],
+  "note": "After a negative question \"ja\" sounds wrong — say jo. The \"you know\" jo is unstressed and never first in the sentence; used about something the listener didn't know, it can sound condescending."
+ },
+ "vel": {
+  "summary": "\"I suppose / …, right?\" — a guess that asks for agreement:",
+  "uses": [
+   {
+    "when": "asking for confirmation",
+    "en": "…, right? / I take it",
+    "da": "Du kommer vel i morgen?",
+    "da_en": "You're coming tomorrow, right?"
+   },
+   {
+    "when": "tag after a negative",
+    "en": "…, are you? / …, is it?",
+    "da": "Du er ikke sur, vel?",
+    "da_en": "You're not cross, are you?"
+   },
+   {
+    "when": "reluctant yes",
+    "en": "I suppose (so)",
+    "da": "Det er vel okay.",
+    "da_en": "I suppose that's okay."
+   },
+   {
+    "when": "an estimate",
+    "en": "about, I'd say",
+    "da": "Han er vel 40 år.",
+    "da_en": "He's about 40, I'd say."
+   },
+   {
+    "when": "a polite request",
+    "en": "you couldn't …, could you?",
+    "da": "Du kunne vel ikke låne mig hundrede kroner?",
+    "da_en": "You couldn't lend me a hundred kroner, could you?"
+   }
+  ],
+  "note": "Unstressed. \"…, ikke?\" sounds more confident; vel more tentative. Stressed vel = well (formal): vel forberedt = well prepared."
+ },
+ "nok": {
+  "summary": "Unstressed: \"probably, I think\". Stressed: \"enough\". And skal nok = \"I promise / it'll be fine\":",
+  "uses": [
+   {
+    "when": "probably",
+    "en": "probably, I expect",
+    "da": "Han kommer nok i morgen.",
+    "da_en": "He'll probably come tomorrow."
+   },
+   {
+    "when": "skal nok",
+    "en": "it'll be fine / I will, I promise",
+    "da": "Bare rolig, det skal nok gå.",
+    "da_en": "Don't worry, it'll be fine."
+   },
+   {
+    "when": "enough (stressed)",
+    "en": "enough",
+    "da": "Nu er det nok!",
+    "da_en": "That's enough now!"
+   },
+   {
+    "when": "after a noun",
+    "en": "enough",
+    "da": "Har vi tid nok?",
+    "da_en": "Do we have enough time?"
+   },
+   {
+    "when": "godt nok",
+    "en": "really; admittedly",
+    "da": "Det var godt nok dyrt.",
+    "da_en": "That was really expensive."
+   }
+  ],
+  "note": "\"Jeg kommer nok\" = I'll probably come — a hedge, not a promise. \"Det tror jeg nok\" = I think so (or, ironic, I'll bet!). nok = your own guess; vist = something you've heard."
+ },
+ "da": {
+  "summary": "Three different words: \"when\" (one past event), \"since / as\", and a little word adding \"surely / come on\":",
+  "uses": [
+   {
+    "when": "when (one past event)",
+    "en": "when",
+    "da": "Da jeg var barn, boede vi i Aalborg.",
+    "da_en": "When I was a child, we lived in Aalborg."
+   },
+   {
+    "when": "a reason",
+    "en": "since, as",
+    "da": "Da det regner, bliver vi hjemme.",
+    "da_en": "As it's raining, we're staying home."
+   },
+   {
+    "when": "insisting",
+    "en": "surely, obviously",
+    "da": "Det ved jeg da godt!",
+    "da_en": "I know that, obviously!"
+   },
+   {
+    "when": "an invitation",
+    "en": "do …!, come on",
+    "da": "Kom da ind!",
+    "da_en": "Do come in!"
+   },
+   {
+    "when": "surprise",
+    "en": "really, why …",
+    "da": "Det er da flot!",
+    "da_en": "Wow, that's really nice!"
+   },
+   {
+    "when": "Hold da op!",
+    "en": "Wow! / Good grief!",
+    "da": "Hold da op, hvor er her flot!",
+    "da_en": "Wow, it's beautiful here!"
+   }
+  ],
+  "note": "For repeated or future \"when\" use når; for questions hvornår. The insisting da is unstressed and never first in the sentence."
+ },
+ "dog": {
+  "summary": "\"However, though\" in writing — and emotional emphasis in speech:",
+  "uses": [
+   {
+    "when": "contrast",
+    "en": "though, however",
+    "da": "Vejret var dog fint om eftermiddagen.",
+    "da_en": "The weather was fine in the afternoon, though."
+   },
+   {
+    "when": "exclamation",
+    "en": "how …!, so …!",
+    "da": "Hvor er hun dog sød!",
+    "da_en": "Isn't she sweet!"
+   },
+   {
+    "when": "urging",
+    "en": "do …!",
+    "da": "Kom dog ind!",
+    "da_en": "Do come in!"
+   },
+   {
+    "when": "puzzled question",
+    "en": "on earth",
+    "da": "Hvorfor dog det?",
+    "da_en": "Why on earth?"
+   },
+   {
+    "when": "Nej dog!",
+    "en": "Well I never! / Oh my!",
+    "da": "Nej dog, er det dig?",
+    "da_en": "Well I never, is that you?"
+   }
+  ],
+  "note": "Not the English word — a dog is en hund."
+ },
+ "mon": {
+  "summary": "\"I wonder\" — turns a question into thinking out loud. No one-word English equivalent.",
+  "uses": [
+   {
+    "when": "wondering",
+    "en": "I wonder if …",
+    "da": "Mon han kommer i aften?",
+    "da_en": "I wonder if he's coming tonight."
+   },
+   {
+    "when": "with a question word",
+    "en": "I wonder who / what …",
+    "da": "Hvem mon det er?",
+    "da_en": "I wonder who that is."
+   },
+   {
+    "when": "Mon ikke!",
+    "en": "I should think so! / You bet!",
+    "da": "Kommer hun? – Mon ikke!",
+    "da_en": "Is she coming? – I should think so!"
+   },
+   {
+    "when": "mon ikke …",
+    "en": "surely …, don't you think …?",
+    "da": "Mon ikke vi skal gå nu?",
+    "da_en": "Don't you think we should go now?"
+   }
+  ],
+  "note": "\"Mon ikke\" signals near-certainty, not doubt. No subject before it: \"Mon det regner i morgen?\", never \"Jeg mon …\"."
+ },
+ "sgu": {
+  "summary": "Adds punch: \"honestly, really, damn\". Mild swearing (from \"så Gud\", so help me God):",
+  "uses": [
+   {
+    "when": "emphasis",
+    "en": "really, damn",
+    "da": "Det er sgu godt!",
+    "da_en": "That's damn good!"
+   },
+   {
+    "when": "frustration",
+    "en": "honestly",
+    "da": "Det ved jeg sgu ikke.",
+    "da_en": "I honestly have no idea."
+   },
+   {
+    "when": "agreeing",
+    "en": "actually, you know",
+    "da": "Det er sgu rigtigt.",
+    "da_en": "That's actually true, you know."
+   }
+  ],
+  "note": "Fine among friends; skip it in formal speech and writing. It goes before ikke: \"sgu ikke\"."
+ },
+ "vist": {
+  "summary": "\"Apparently, I think\" — you've heard it or noticed it, but you're not sure:",
+  "uses": [
+   {
+    "when": "second-hand",
+    "en": "apparently, I gather",
+    "da": "Han er vist syg i dag.",
+    "da_en": "Apparently he's ill today."
+   },
+   {
+    "when": "unsure",
+    "en": "I think, it seems",
+    "da": "Det er vist hende derovre.",
+    "da_en": "I think that's her over there."
+   },
+   {
+    "when": "Ja vist! (stressed)",
+    "en": "certainly, of course",
+    "da": "Må jeg låne den? – Ja vist!",
+    "da_en": "Can I borrow it? – Of course!"
+   }
+  ],
+  "note": "nok = your own estimate; vist = something you've heard or seen. Not to be confused with vise (to show)."
+ },
+ "altså": {
+  "summary": "Not English \"also\" (that's også). So, that is, I mean — and spoken emphasis:",
+  "uses": [
+   {
+    "when": "a conclusion",
+    "en": "so … then",
+    "da": "Så du kommer altså ikke?",
+    "da_en": "So you're not coming, then?"
+   },
+   {
+    "when": "clarifying",
+    "en": "I mean, that is",
+    "da": "Vi ses på fredag, altså den 12.",
+    "da_en": "See you on Friday — I mean, the 12th."
+   },
+   {
+    "when": "emphasis",
+    "en": "really, seriously",
+    "da": "Det er altså ikke i orden.",
+    "da_en": "That's really not okay."
+   },
+   {
+    "when": "filler",
+    "en": "well, um",
+    "da": "Altså, jeg ved det ikke helt.",
+    "da_en": "Well, I'm not really sure."
+   },
+   {
+    "when": "Nej, altså!",
+    "en": "Oh, come on!",
+    "da": "Nej, altså! Nu igen?",
+    "da_en": "Oh, come on! Again?"
+   }
+  ],
+  "note": "In writing it also means \"therefore\". Danes use it constantly in speech."
+ },
+ "behøve": {
+  "summary": "Need (to) — mostly in the negative: behøver ikke = don't have to.",
+  "uses": [
+   {
+    "when": "behøver ikke",
+    "en": "don't have to, no need to",
+    "da": "Du behøver ikke (at) tage skoene af.",
+    "da_en": "You don't need to take your shoes off."
+   },
+   {
+    "when": "turning down an offer",
+    "en": "no need",
+    "da": "Skal jeg hjælpe dig? – Nej, det behøver du ikke.",
+    "da_en": "Shall I help you? – No, there's no need."
+   },
+   {
+    "when": "a question",
+    "en": "do I have to…?",
+    "da": "Behøver jeg at komme i morgen?",
+    "da_en": "Do I need to come tomorrow?"
+   },
+   {
+    "when": "with bare / kun",
+    "en": "only need to",
+    "da": "Du behøver bare at ringe.",
+    "da_en": "You only need to call."
+   }
+  ],
+  "note": "Forms: behøve · behøver · behøvede · har behøvet; \"at\" is optional. Don't confuse with \"må ikke\", which forbids. For a positive \"have to\" Danes say \"er nødt til (at)\" or skal: \"Jeg er nødt til at gå.\""
+ },
+ "komme": {
+  "summary": "Come — plus komme til at, which has little to do with \"come\":",
+  "uses": [
+   {
+    "when": "komme til at (future)",
+    "en": "is going to, will (end up)",
+    "da": "Det kommer til at tage lang tid.",
+    "da_en": "It's going to take a long time."
+   },
+   {
+    "when": "komme til at (by accident)",
+    "en": "accidentally …",
+    "da": "Undskyld, jeg kom til at tage din kop.",
+    "da_en": "Sorry, I took your cup by mistake."
+   },
+   {
+    "when": "komme til at (a chance)",
+    "en": "get to",
+    "da": "Jeg kom aldrig til at se Paris.",
+    "da_en": "I never got to see Paris."
+   },
+   {
+    "when": "komme for sent",
+    "en": "be late",
+    "da": "Jeg kommer for sent i dag.",
+    "da_en": "I'm going to be late today."
+   },
+   {
+    "when": "komme an på",
+    "en": "depend on",
+    "da": "Det kommer an på vejret.",
+    "da_en": "It depends on the weather."
+   },
+   {
+    "when": "Kom godt hjem!",
+    "en": "get home safely!",
+    "da": "Tak for i aften! – Kom godt hjem!",
+    "da_en": "Thanks for tonight! – Get home safely!"
+   }
+  ],
+  "note": "Forms: komme · kommer · kom · er kommet (perfect with er). Often just future: \"Jeg kommer i morgen\" = I'll come tomorrow. \"Jeg kom til at …\" almost always means you did it by mistake."
+ },
+ "være": {
+  "summary": "Be — but Danish separates a state (være) from a change (blive), and uses \"være ved at\" for \"-ing\":",
+  "uses": [
+   {
+    "when": "a state",
+    "en": "be",
+    "da": "Jeg er træt.",
+    "da_en": "I'm tired."
+   },
+   {
+    "when": "an event → blive",
+    "en": "be / get (it happened)",
+    "da": "Jeg blev overrasket, da han ringede.",
+    "da_en": "I was surprised when he called."
+   },
+   {
+    "when": "være ved at / i gang med",
+    "en": "be (in the middle of) …ing",
+    "da": "Han er i gang med at skrive.",
+    "da_en": "He's busy writing."
+   },
+   {
+    "when": "være med",
+    "en": "join in, take part",
+    "da": "Vil du være med?",
+    "da_en": "Do you want to join in?"
+   },
+   {
+    "when": "where things are",
+    "en": "be — Danes often say ligger / står",
+    "da": "Hvor ligger stationen?",
+    "da_en": "Where's the station?"
+   }
+  ],
+  "note": "Forms: være · er · var · har været. er also forms the perfect of verbs of movement and change: \"Han er gået\" (he's left), \"Hun er blevet læge\". Never er before another verb: \"Jeg taler dansk\", not \"Jeg er taler\"."
+ },
+ "ved": {
+  "summary": "Two different words: the preposition \"by / at\", and the present of vide (know):",
+  "uses": [
+   {
+    "when": "know (vide)",
+    "en": "know(s) (a fact)",
+    "da": "Det ved jeg ikke.",
+    "da_en": "I don't know."
+   },
+   {
+    "when": "ved godt",
+    "en": "I know (I'm aware)",
+    "da": "Jeg ved godt, at jeg er sent på den.",
+    "da_en": "I know I'm late."
+   },
+   {
+    "when": "a place",
+    "en": "by, next to, at",
+    "da": "Vi har et sommerhus ved vandet.",
+    "da_en": "We have a summer house by the water."
+   },
+   {
+    "when": "a time",
+    "en": "around, about",
+    "da": "Jeg kommer ved syvtiden.",
+    "da_en": "I'll come around seven."
+   },
+   {
+    "when": "være ved at",
+    "en": "be (busy) …ing; be about to",
+    "da": "Jeg er ved at lave mad.",
+    "da_en": "I'm cooking (right now)."
+   },
+   {
+    "when": "var ved at",
+    "en": "nearly, almost",
+    "da": "Jeg var ved at falde.",
+    "da_en": "I nearly fell."
+   }
+  ],
+  "note": "The \"know\" ved needs an object: \"Det ved jeg\" / \"Jeg ved det\", never just \"Jeg ved\". People and places take kende: \"Kender du Mette?\" \"Det gode ved det er …\" = The good thing about it is …"
+ },
+ "vide": {
+  "summary": "Know a FACT. Danish has three \"know\"s: vide (facts), kende (people, places), kunne (skills, languages).",
+  "uses": [
+   {
+    "when": "a fact",
+    "en": "know (that / where / if)",
+    "da": "Ved du, hvor hun bor?",
+    "da_en": "Do you know where she lives?"
+   },
+   {
+    "when": "I know",
+    "en": "I know (it)",
+    "da": "Det ved jeg godt.",
+    "da_en": "I know."
+   },
+   {
+    "when": "a person or place → kende",
+    "en": "know, be familiar with",
+    "da": "Kender du Mette?",
+    "da_en": "Do you know Mette?"
+   },
+   {
+    "when": "a skill → kunne",
+    "en": "know, speak",
+    "da": "Hun kan tre sprog.",
+    "da_en": "She speaks three languages."
+   },
+   {
+    "when": "få at vide",
+    "en": "be told, find out",
+    "da": "Hvornår får vi det at vide?",
+    "da_en": "When will we find out?"
+   }
+  ],
+  "note": "Forms: vide · ved · vidste · har vidst. Never \"Jeg ved\" on its own, and never \"vider\". \"Jeg ved ham\" → \"Jeg kender ham\"."
+ },
+ "kende": {
+  "summary": "Know a PERSON, PLACE or THING (be familiar with). For facts use vide (ved).",
+  "uses": [
+   {
+    "when": "a person",
+    "en": "know",
+    "da": "Kender du Peter?",
+    "da_en": "Do you know Peter?"
+   },
+   {
+    "when": "a place or thing",
+    "en": "know, be familiar with",
+    "da": "Jeg kender en god restaurant.",
+    "da_en": "I know a good restaurant."
+   },
+   {
+    "when": "lære at kende",
+    "en": "get to know",
+    "da": "Jeg vil gerne lære dig bedre at kende.",
+    "da_en": "I'd like to get to know you better."
+   },
+   {
+    "when": "kende forskel",
+    "en": "tell the difference",
+    "da": "Jeg kan ikke kende forskel på dem.",
+    "da_en": "I can't tell them apart."
+   },
+   {
+    "when": "Det kender jeg godt",
+    "en": "I know the feeling",
+    "da": "Det er svært at stå op om vinteren. – Det kender jeg godt!",
+    "da_en": "It's hard to get up in winter. – I know the feeling!"
+   }
+  ],
+  "note": "Forms: kende · kender · kendte · har kendt. Facts take vide: \"Jeg kender hende, men jeg ved ikke, hvor hun bor.\" (Also a noun: en kender = an expert, connoisseur.)"
+ },
+ "kender": {
+  "summary": "Know a PERSON, PLACE or THING (be familiar with). For facts use vide (ved).",
+  "uses": [
+   {
+    "when": "a person",
+    "en": "know",
+    "da": "Kender du Peter?",
+    "da_en": "Do you know Peter?"
+   },
+   {
+    "when": "a place or thing",
+    "en": "know, be familiar with",
+    "da": "Jeg kender en god restaurant.",
+    "da_en": "I know a good restaurant."
+   },
+   {
+    "when": "lære at kende",
+    "en": "get to know",
+    "da": "Jeg vil gerne lære dig bedre at kende.",
+    "da_en": "I'd like to get to know you better."
+   },
+   {
+    "when": "kende forskel",
+    "en": "tell the difference",
+    "da": "Jeg kan ikke kende forskel på dem.",
+    "da_en": "I can't tell them apart."
+   },
+   {
+    "when": "Det kender jeg godt",
+    "en": "I know the feeling",
+    "da": "Det er svært at stå op om vinteren. – Det kender jeg godt!",
+    "da_en": "It's hard to get up in winter. – I know the feeling!"
+   }
+  ],
+  "note": "Forms: kende · kender · kendte · har kendt. Facts take vide: \"Jeg kender hende, men jeg ved ikke, hvor hun bor.\" (Also a noun: en kender = an expert, connoisseur.)"
+ },
+ "ligge": {
+  "summary": "Lie, be (located) — for flat things and places. Pair: lægge = put (flat).",
+  "uses": [
+   {
+    "when": "things",
+    "en": "is, are (lying)",
+    "da": "Nøglerne ligger på bordet.",
+    "da_en": "The keys are on the table."
+   },
+   {
+    "when": "places",
+    "en": "be (located)",
+    "da": "Hvor ligger apoteket?",
+    "da_en": "Where's the pharmacy?"
+   },
+   {
+    "when": "ligge og + verb",
+    "en": "be (lying) …ing",
+    "da": "Han ligger og sover.",
+    "da_en": "He's asleep."
+   },
+   {
+    "when": "in hospital / in bed",
+    "en": "be (in)",
+    "da": "Hun ligger på hospitalet.",
+    "da_en": "She's in hospital."
+   }
+  ],
+  "note": "Forms: ligge · ligger · lå · har ligget. Moving something there is lægge: \"Jeg lægger nøglerne på bordet.\" Upright things stå; attached or seated things sidde."
+ },
+ "lægge": {
+  "summary": "Put, lay (flat) — the action. Pair: ligge = be lying / be located.",
+  "uses": [
+   {
+    "when": "put down flat",
+    "en": "put, lay",
+    "da": "Jeg lægger nøglerne på bordet.",
+    "da_en": "I'm putting the keys on the table."
+   },
+   {
+    "when": "lægge sig",
+    "en": "lie down",
+    "da": "Jeg lægger mig lidt på sofaen.",
+    "da_en": "I'm going to lie down on the sofa for a bit."
+   },
+   {
+    "when": "lægge mærke til",
+    "en": "notice",
+    "da": "Lagde du mærke til hans sko?",
+    "da_en": "Did you notice his shoes?"
+   },
+   {
+    "when": "lægge på",
+    "en": "hang up (the phone)",
+    "da": "Hun lagde bare på.",
+    "da_en": "She just hung up."
+   }
+  ],
+  "note": "Forms: lægge · lægger · lagde · har lagt. Test: is something being moved? lægge. Is it just there? ligge. Even Danes mix them up."
+ },
+ "sidde": {
+  "summary": "Sit, be sitting — also \"be\" for things that are stuck or attached. Pair: sætte = put / sit down.",
+  "uses": [
+   {
+    "when": "a person",
+    "en": "sit, be sitting",
+    "da": "Hun sidder i sofaen og læser.",
+    "da_en": "She's sitting on the sofa reading."
+   },
+   {
+    "when": "attached things",
+    "en": "be (in, on)",
+    "da": "Nøglen sidder i døren.",
+    "da_en": "The key's in the door."
+   },
+   {
+    "when": "clothes",
+    "en": "fit",
+    "da": "Jakken sidder godt.",
+    "da_en": "The jacket fits well."
+   },
+   {
+    "when": "Sid stille!",
+    "en": "sit still!",
+    "da": "Sid nu stille!",
+    "da_en": "Sit still now!"
+   }
+  ],
+  "note": "Forms: sidde · sidder · sad · har siddet. \"Sit down!\" is normally \"Sæt dig (ned)!\" (\"Sid ned!\" is heard in casual speech). Danes sit i (in) a sofa."
+ },
+ "sætte": {
+  "summary": "Put, place, set — and sætte sig = sit down. Pair: sidde = be sitting.",
+  "uses": [
+   {
+    "when": "put",
+    "en": "put, place",
+    "da": "Jeg satte koppen i opvaskemaskinen.",
+    "da_en": "I put the cup in the dishwasher."
+   },
+   {
+    "when": "sætte sig",
+    "en": "sit down",
+    "da": "Sæt dig bare!",
+    "da_en": "Have a seat!"
+   },
+   {
+    "when": "sætte i gang",
+    "en": "start, get going",
+    "da": "Skal vi sætte i gang?",
+    "da_en": "Shall we get started?"
+   },
+   {
+    "when": "sætte pris på",
+    "en": "appreciate",
+    "da": "Jeg sætter stor pris på din hjælp.",
+    "da_en": "I really appreciate your help."
+   }
+  ],
+  "note": "Forms: sætte · sætter · satte · har sat. Put upright: stille; put flat: lægge; put into something (casual): putte."
+ },
+ "stå": {
+  "summary": "Stand, be standing — also \"be\" for upright things, and \"say\" for written text.",
+  "uses": [
+   {
+    "when": "upright things",
+    "en": "be (standing)",
+    "da": "Mælken står i køleskabet.",
+    "da_en": "The milk's in the fridge."
+   },
+   {
+    "when": "written text",
+    "en": "say(s)",
+    "da": "Der står, at butikken lukker klokken 18.",
+    "da_en": "It says the shop closes at 6."
+   },
+   {
+    "when": "stå op",
+    "en": "get up",
+    "da": "Jeg står op klokken seks.",
+    "da_en": "I get up at six."
+   },
+   {
+    "when": "stå af",
+    "en": "get off",
+    "da": "Jeg står af ved næste stop.",
+    "da_en": "I'm getting off at the next stop."
+   },
+   {
+    "when": "stå og + verb",
+    "en": "be (standing) …ing",
+    "da": "Han står og laver mad.",
+    "da_en": "He's (busy) cooking."
+   }
+  ],
+  "note": "Forms: stå · står · stod · har stået. Putting something upright is stille: \"Stil flasken på bordet.\" \"Hvad står der?\" = What does it say?"
+ },
+ "stille": {
+  "summary": "Two words: the verb \"put (upright)\" and the adjective \"quiet, still\".",
+  "uses": [
+   {
+    "when": "put upright",
+    "en": "put, place",
+    "da": "Stil flasken på bordet.",
+    "da_en": "Put the bottle on the table."
+   },
+   {
+    "when": "stille et spørgsmål",
+    "en": "ask a question",
+    "da": "Må jeg stille et spørgsmål?",
+    "da_en": "May I ask a question?"
+   },
+   {
+    "when": "adjective",
+    "en": "quiet, still, calm",
+    "da": "Det er en stille gade.",
+    "da_en": "It's a quiet street."
+   },
+   {
+    "when": "Vær stille!",
+    "en": "be quiet!",
+    "da": "Vær stille, babyen sover.",
+    "da_en": "Be quiet, the baby's asleep."
+   }
+  ],
+  "note": "Verb: stille · stiller · stillede · har stillet. Pair: stå = be standing. \"Stille og roligt\" = calmly, take it easy."
+ },
+ "lære": {
+  "summary": "Learn — and, with a person, teach. One verb does both:",
+  "uses": [
+   {
+    "when": "learn",
+    "en": "learn",
+    "da": "Jeg lærer dansk på sprogskole.",
+    "da_en": "I'm learning Danish at a language school."
+   },
+   {
+    "when": "lære nogen noget",
+    "en": "teach someone (something)",
+    "da": "Min far lærte mig at cykle.",
+    "da_en": "My dad taught me to ride a bike."
+   },
+   {
+    "when": "lære at kende",
+    "en": "get to know",
+    "da": "Vi lærte hinanden at kende på arbejdet.",
+    "da_en": "We got to know each other at work."
+   },
+   {
+    "when": "teaching as a job → undervise",
+    "en": "teach (a subject)",
+    "da": "Hun underviser i matematik.",
+    "da_en": "She teaches maths."
+   },
+   {
+    "when": "university → læse",
+    "en": "study",
+    "da": "Han læser jura.",
+    "da_en": "He's studying law."
+   }
+  ],
+  "note": "Forms: lære · lærer · lærte · har lært. en lærer = a teacher (lærer is also \"learns / teaches\"). en underviser = a teacher, lecturer."
+ },
+ "lærer": {
+  "summary": "Learn — and, with a person, teach. One verb does both:",
+  "uses": [
+   {
+    "when": "learn",
+    "en": "learn",
+    "da": "Jeg lærer dansk på sprogskole.",
+    "da_en": "I'm learning Danish at a language school."
+   },
+   {
+    "when": "lære nogen noget",
+    "en": "teach someone (something)",
+    "da": "Min far lærte mig at cykle.",
+    "da_en": "My dad taught me to ride a bike."
+   },
+   {
+    "when": "lære at kende",
+    "en": "get to know",
+    "da": "Vi lærte hinanden at kende på arbejdet.",
+    "da_en": "We got to know each other at work."
+   },
+   {
+    "when": "teaching as a job → undervise",
+    "en": "teach (a subject)",
+    "da": "Hun underviser i matematik.",
+    "da_en": "She teaches maths."
+   },
+   {
+    "when": "university → læse",
+    "en": "study",
+    "da": "Han læser jura.",
+    "da_en": "He's studying law."
+   }
+  ],
+  "note": "Forms: lære · lærer · lærte · har lært. en lærer = a teacher (lærer is also \"learns / teaches\"). en underviser = a teacher, lecturer."
+ },
+ "undervise": {
+  "summary": "Teach (a class or subject) — as a job. Takes i before the subject.",
+  "uses": [
+   {
+    "when": "a subject",
+    "en": "teach",
+    "da": "Hun underviser i dansk.",
+    "da_en": "She teaches Danish."
+   },
+   {
+    "when": "people",
+    "en": "teach",
+    "da": "Han underviser voksne om aftenen.",
+    "da_en": "He teaches adults in the evenings."
+   },
+   {
+    "when": "a skill → lære",
+    "en": "teach someone to",
+    "da": "Hun lærte mig at svømme.",
+    "da_en": "She taught me to swim."
+   }
+  ],
+  "note": "Forms: undervise · underviser · underviste · har undervist. en underviser = a teacher, lecturer; undervisning = teaching, lessons."
+ },
+ "låne": {
+  "summary": "Both borrow AND lend — the little words decide which:",
+  "uses": [
+   {
+    "when": "låne af",
+    "en": "borrow (from)",
+    "da": "Jeg lånte en cykel af min nabo.",
+    "da_en": "I borrowed a bike from my neighbour."
+   },
+   {
+    "when": "Må jeg låne …?",
+    "en": "can I borrow …?",
+    "da": "Må jeg låne din oplader?",
+    "da_en": "Can I borrow your charger?"
+   },
+   {
+    "when": "låne nogen noget",
+    "en": "lend someone something",
+    "da": "Kan du låne mig 100 kroner?",
+    "da_en": "Can you lend me 100 kroner?"
+   },
+   {
+    "when": "låne ud",
+    "en": "lend (out)",
+    "da": "Jeg har lånt min bil ud til min søster.",
+    "da_en": "I've lent my car to my sister."
+   },
+   {
+    "when": "Tak for lån",
+    "en": "thanks for letting me borrow it",
+    "da": "Her er din bog. Tak for lån!",
+    "da_en": "Here's your book. Thanks for lending it to me!"
+   }
+  ],
+  "note": "Forms: låne · låner · lånte · har lånt. From a person: låne af, not fra. et lån = a loan."
+ },
+ "høre": {
+  "summary": "Hear and listen — and also \"ask, check\":",
+  "uses": [
+   {
+    "when": "hear",
+    "en": "hear",
+    "da": "Jeg kan ikke høre dig.",
+    "da_en": "I can't hear you."
+   },
+   {
+    "when": "listen to",
+    "en": "listen to",
+    "da": "Jeg hører musik i toget.",
+    "da_en": "I listen to music on the train."
+   },
+   {
+    "when": "ask",
+    "en": "ask, check, find out",
+    "da": "Jeg ville bare høre, om du vil med.",
+    "da_en": "I just wanted to ask if you'd like to come."
+   },
+   {
+    "when": "Hør her!",
+    "en": "listen!",
+    "da": "Hør her, jeg har en idé.",
+    "da_en": "Listen, I've got an idea."
+   },
+   {
+    "when": "høre til",
+    "en": "belong, go (somewhere)",
+    "da": "Hvor hører den her til?",
+    "da_en": "Where does this go?"
+   }
+  ],
+  "note": "Forms: høre · hører · hørte · har hørt. \"Det kan jeg høre\" = I can tell (from what you say). \"høre efter\" = pay attention."
+ },
+ "mangle": {
+  "summary": "Lack, be missing — Danes use it where English says \"need\":",
+  "uses": [
+   {
+    "when": "need",
+    "en": "need, be short of",
+    "da": "Jeg mangler en sofa.",
+    "da_en": "I need a sofa."
+   },
+   {
+    "when": "staff",
+    "en": "need",
+    "da": "Mangler I folk?",
+    "da_en": "Do you need people?"
+   },
+   {
+    "when": "something's missing",
+    "en": "needs (more), is missing",
+    "da": "Der mangler salt i suppen.",
+    "da_en": "The soup needs more salt."
+   },
+   {
+    "when": "helping someone",
+    "en": "do you need anything?",
+    "da": "Mangler du noget?",
+    "da_en": "Do you need anything?"
+   },
+   {
+    "when": "Det manglede bare!",
+    "en": "of course! / don't mention it",
+    "da": "Tak for hjælpen! – Det manglede bare.",
+    "da_en": "Thanks for the help! – Don't mention it."
+   }
+  ],
+  "note": "Forms: mangle · mangler · manglede · har manglet. Other ways to say need: have brug for, trænge til (\"Bilen trænger til at blive vasket\" = The car needs washing)."
+ },
+ "tænke": {
+  "summary": "Think — as an activity (thinking about, considering). An opinion is synes; a guess is tror:",
+  "uses": [
+   {
+    "when": "tænke på",
+    "en": "think about / of",
+    "da": "Jeg tænker tit på dig.",
+    "da_en": "I often think about you."
+   },
+   {
+    "when": "tænke over",
+    "en": "think about, consider",
+    "da": "Jeg vil tænke over det.",
+    "da_en": "I'll think about it."
+   },
+   {
+    "when": "tænke sig om",
+    "en": "think carefully",
+    "da": "Tænk dig nu om!",
+    "da_en": "Think it through!"
+   },
+   {
+    "when": "kunne tænke sig",
+    "en": "would like",
+    "da": "Kunne du tænke dig en kop te?",
+    "da_en": "Would you like a cup of tea?"
+   },
+   {
+    "when": "have tænkt sig at",
+    "en": "intend to, plan to",
+    "da": "Jeg har tænkt mig at flytte.",
+    "da_en": "I'm planning to move."
+   },
+   {
+    "when": "tænkte på, om",
+    "en": "I was wondering if",
+    "da": "Jeg tænkte på, om du ville med?",
+    "da_en": "I was wondering if you'd like to come?"
+   }
+  ],
+  "note": "Forms: tænke · tænker · tænkte · har tænkt. \"Jeg tænker, at …\" for an opinion is common now, but some Danes dislike it; synes is always safe. (en tænker = a thinker.)"
+ },
+ "tænker": {
+  "summary": "Think — as an activity (thinking about, considering). An opinion is synes; a guess is tror:",
+  "uses": [
+   {
+    "when": "tænke på",
+    "en": "think about / of",
+    "da": "Jeg tænker tit på dig.",
+    "da_en": "I often think about you."
+   },
+   {
+    "when": "tænke over",
+    "en": "think about, consider",
+    "da": "Jeg vil tænke over det.",
+    "da_en": "I'll think about it."
+   },
+   {
+    "when": "tænke sig om",
+    "en": "think carefully",
+    "da": "Tænk dig nu om!",
+    "da_en": "Think it through!"
+   },
+   {
+    "when": "kunne tænke sig",
+    "en": "would like",
+    "da": "Kunne du tænke dig en kop te?",
+    "da_en": "Would you like a cup of tea?"
+   },
+   {
+    "when": "have tænkt sig at",
+    "en": "intend to, plan to",
+    "da": "Jeg har tænkt mig at flytte.",
+    "da_en": "I'm planning to move."
+   },
+   {
+    "when": "tænkte på, om",
+    "en": "I was wondering if",
+    "da": "Jeg tænkte på, om du ville med?",
+    "da_en": "I was wondering if you'd like to come?"
+   }
+  ],
+  "note": "Forms: tænke · tænker · tænkte · har tænkt. \"Jeg tænker, at …\" for an opinion is common now, but some Danes dislike it; synes is always safe. (en tænker = a thinker.)"
+ },
+ "gå": {
+  "summary": "Walk, go on foot — plus many fixed phrases. Travelling by vehicle is tage, køre or rejse:",
+  "uses": [
+   {
+    "when": "on foot",
+    "en": "walk, go",
+    "da": "Vi går en tur.",
+    "da_en": "We're going for a walk."
+   },
+   {
+    "when": "leaving",
+    "en": "leave, go",
+    "da": "Jeg går nu.",
+    "da_en": "I'm leaving now."
+   },
+   {
+    "when": "fixed phrases (any transport)",
+    "en": "go to, attend",
+    "da": "Hun går i skole.",
+    "da_en": "She goes to school."
+   },
+   {
+    "when": "how things go",
+    "en": "go",
+    "da": "Hvordan går det?",
+    "da_en": "How's it going?"
+   },
+   {
+    "when": "Det går ikke",
+    "en": "that won't work / that's not OK",
+    "da": "Det går ikke, jeg har ikke tid.",
+    "da_en": "That won't work, I don't have time."
+   },
+   {
+    "when": "gå til",
+    "en": "attend (regularly)",
+    "da": "Jeg går til dansk om tirsdagen.",
+    "da_en": "I go to Danish classes on Tuesdays."
+   }
+  ],
+  "note": "Travel: \"Jeg tager til London\", not \"går\". Perfect: \"Han er gået\" (he's left) vs \"Han har gået meget\" (he's walked a lot). Forms: gå · går · gik · er/har gået. Don't mix up går (goes) and gør (does). Also gå på arbejde, gå i seng."
+ },
+ "går": {
+  "summary": "Walk, go on foot — plus many fixed phrases. Travelling by vehicle is tage, køre or rejse:",
+  "uses": [
+   {
+    "when": "on foot",
+    "en": "walk, go",
+    "da": "Vi går en tur.",
+    "da_en": "We're going for a walk."
+   },
+   {
+    "when": "leaving",
+    "en": "leave, go",
+    "da": "Jeg går nu.",
+    "da_en": "I'm leaving now."
+   },
+   {
+    "when": "fixed phrases (any transport)",
+    "en": "go to, attend",
+    "da": "Hun går i skole.",
+    "da_en": "She goes to school."
+   },
+   {
+    "when": "how things go",
+    "en": "go",
+    "da": "Hvordan går det?",
+    "da_en": "How's it going?"
+   },
+   {
+    "when": "Det går ikke",
+    "en": "that won't work / that's not OK",
+    "da": "Det går ikke, jeg har ikke tid.",
+    "da_en": "That won't work, I don't have time."
+   },
+   {
+    "when": "gå til",
+    "en": "attend (regularly)",
+    "da": "Jeg går til dansk om tirsdagen.",
+    "da_en": "I go to Danish classes on Tuesdays."
+   }
+  ],
+  "note": "Travel: \"Jeg tager til London\", not \"går\". Perfect: \"Han er gået\" (he's left) vs \"Han har gået meget\" (he's walked a lot). Forms: gå · går · gik · er/har gået. Don't mix up går (goes) and gør (does). Also gå på arbejde, gå i seng."
+ },
+ "tage": {
+  "summary": "Take — but also \"have\" when ordering and \"go\" when travelling:",
+  "uses": [
+   {
+    "when": "take",
+    "en": "take",
+    "da": "Tag en paraply med.",
+    "da_en": "Take an umbrella."
+   },
+   {
+    "when": "ordering",
+    "en": "have",
+    "da": "Jeg tager en cappuccino.",
+    "da_en": "I'll have a cappuccino."
+   },
+   {
+    "when": "travelling",
+    "en": "go (to); take (transport)",
+    "da": "Vi tager toget til Aarhus.",
+    "da_en": "We're taking the train to Aarhus."
+   },
+   {
+    "when": "tage med",
+    "en": "come along; bring",
+    "da": "Vil du tage med?",
+    "da_en": "Do you want to come along?"
+   },
+   {
+    "when": "clothes",
+    "en": "put on / take off (på / af)",
+    "da": "Tag jakken på!",
+    "da_en": "Put your jacket on!"
+   },
+   {
+    "when": "Tag bare!",
+    "en": "help yourself!",
+    "da": "Der er kage – tag bare!",
+    "da_en": "There's cake — help yourself!"
+   }
+  ],
+  "note": "Forms: tage · tager · tog · har taget (often said \"ta'\"). tage til = go to (a place); tage på ferie = go on holiday."
+ },
+ "få": {
+  "summary": "Get — with several uses English says differently. Also the adjective \"few\":",
+  "uses": [
+   {
+    "when": "receive",
+    "en": "get",
+    "da": "Jeg fik en gave.",
+    "da_en": "I got a present."
+   },
+   {
+    "when": "asking (Må jeg få …?)",
+    "en": "can I have …?",
+    "da": "Må jeg få regningen?",
+    "da_en": "Could I have the bill?"
+   },
+   {
+    "when": "food",
+    "en": "have",
+    "da": "Hvad får vi til middag?",
+    "da_en": "What are we having for dinner?"
+   },
+   {
+    "when": "få lov til",
+    "en": "be allowed to",
+    "da": "Hun fik lov til at gå tidligt.",
+    "da_en": "She was allowed to leave early."
+   },
+   {
+    "when": "få + participle",
+    "en": "get (something) done; get round to",
+    "da": "Jeg fik endelig ryddet op.",
+    "da_en": "I finally got round to tidying up."
+   },
+   {
+    "when": "adjective",
+    "en": "few",
+    "da": "Der kom kun få mennesker.",
+    "da_en": "Only a few people came."
+   }
+  ],
+  "note": "Forms: få · får · fik · har fået. \"Get + adjective\" is blive (blive træt), not få. \"Vi får se\" = We'll see. See får for more."
+ },
+ "gide": {
+  "summary": "Can be bothered (to) — see gider for the everyday uses.",
+  "uses": [
+   {
+    "when": "past (gad)",
+    "en": "couldn't be bothered",
+    "da": "Jeg gad ikke gå ud i går.",
+    "da_en": "I couldn't be bothered to go out yesterday."
+   },
+   {
+    "when": "gad godt vide",
+    "en": "I'd love to know, I wonder",
+    "da": "Jeg gad godt vide, hvad der skete.",
+    "da_en": "I'd love to know what happened."
+   }
+  ],
+  "note": "Forms: gide · gider · gad · har gidet. Casual; no \"at\" before the next verb."
+ },
+ "turde": {
+  "summary": "Dare — present tør, past turde, perfect har turdet:",
+  "uses": [
+   {
+    "when": "courage",
+    "en": "dare, be brave enough",
+    "da": "Tør du springe?",
+    "da_en": "Are you brave enough to jump?"
+   },
+   {
+    "when": "past",
+    "en": "didn't dare, was afraid to",
+    "da": "Jeg turde ikke sige det til ham.",
+    "da_en": "I didn't dare tell him."
+   },
+   {
+    "when": "tør godt",
+    "en": "can safely (say)",
+    "da": "Det tør jeg godt sige.",
+    "da_en": "I can safely say that."
+   }
+  ],
+  "note": "No \"at\" after it. Don't confuse with tørre (to dry: tørrede = dried) or the adjective tør (dry)."
+ },
+ "burde": {
+  "summary": "Should, ought to — the past and softer form of bør:",
+  "uses": [
+   {
+    "when": "soft advice",
+    "en": "ought to, should",
+    "da": "Du burde tage en pause.",
+    "da_en": "You ought to take a break."
+   },
+   {
+    "when": "burde have + participle",
+    "en": "should have",
+    "da": "Jeg burde have sagt noget.",
+    "da_en": "I should have said something."
+   },
+   {
+    "when": "expectation",
+    "en": "should (be)",
+    "da": "Pakken burde komme i dag.",
+    "da_en": "The parcel should arrive today."
+   }
+  ],
+  "note": "Forms: burde · bør · burde · har burdet. No \"at\" after it."
+ },
+ "pleje": {
+  "summary": "Two meanings: plejer at = usually (a habit), and pleje = care for, nurse:",
+  "uses": [
+   {
+    "when": "plejer at",
+    "en": "usually",
+    "da": "Hvad plejer du at lave om søndagen?",
+    "da_en": "What do you usually do on Sundays?"
+   },
+   {
+    "when": "care for",
+    "en": "care for, look after, nurse",
+    "da": "Hun plejer sin syge mor.",
+    "da_en": "She's looking after her sick mother."
+   }
+  ],
+  "note": "Habit needs \"at\" + a verb; without it, pleje means caring. Past plejede (at) = used to. See plejer."
+ },
+ "virke": {
+  "summary": "Work, function — and SEEM:",
+  "uses": [
+   {
+    "when": "function",
+    "en": "work",
+    "da": "Min telefon virker ikke.",
+    "da_en": "My phone doesn't work."
+   },
+   {
+    "when": "impression",
+    "en": "seem",
+    "da": "Han virker træt.",
+    "da_en": "He seems tired."
+   },
+   {
+    "when": "take effect",
+    "en": "work, help",
+    "da": "Medicinen virker.",
+    "da_en": "The medicine is working."
+   }
+  ],
+  "note": "A job is arbejde: \"Jeg arbejder hos Novo.\" Forms: virke · virker · virkede · har virket."
+ },
+ "passe": {
+  "summary": "Fit, suit, look after — and \"be true\":",
+  "uses": [
+   {
+    "when": "fit",
+    "en": "fit",
+    "da": "Passer skoene?",
+    "da_en": "Do the shoes fit?"
+   },
+   {
+    "when": "suit",
+    "en": "suit",
+    "da": "Det passer mig fint.",
+    "da_en": "That suits me fine."
+   },
+   {
+    "when": "look after",
+    "en": "look after, mind",
+    "da": "Hun passer børn om eftermiddagen.",
+    "da_en": "She looks after children in the afternoons."
+   },
+   {
+    "when": "true",
+    "en": "be true, be right",
+    "da": "Det passer ikke!",
+    "da_en": "That's not true!"
+   },
+   {
+    "when": "Pas på!",
+    "en": "watch out! / take care",
+    "da": "Pas på, gulvet er vådt!",
+    "da_en": "Watch out, the floor's wet!"
+   }
+  ],
+  "note": "Forms: passe · passer · passede · har passet. \"Pas godt på dig selv!\" = Take good care of yourself!"
+ },
+ "passer": {
+  "summary": "Fit, suit, look after — and \"be true\":",
+  "uses": [
+   {
+    "when": "fit",
+    "en": "fit",
+    "da": "Passer skoene?",
+    "da_en": "Do the shoes fit?"
+   },
+   {
+    "when": "suit",
+    "en": "suit",
+    "da": "Det passer mig fint.",
+    "da_en": "That suits me fine."
+   },
+   {
+    "when": "look after",
+    "en": "look after, mind",
+    "da": "Hun passer børn om eftermiddagen.",
+    "da_en": "She looks after children in the afternoons."
+   },
+   {
+    "when": "true",
+    "en": "be true, be right",
+    "da": "Det passer ikke!",
+    "da_en": "That's not true!"
+   },
+   {
+    "when": "Pas på!",
+    "en": "watch out! / take care",
+    "da": "Pas på, gulvet er vådt!",
+    "da_en": "Watch out, the floor's wet!"
+   }
+  ],
+  "note": "Forms: passe · passer · passede · har passet. \"Pas godt på dig selv!\" = Take good care of yourself!"
+ },
+ "tabe": {
+  "summary": "Lose — mainly drop, lose a game, lose weight. Losing something for good is often miste:",
+  "uses": [
+   {
+    "when": "drop",
+    "en": "drop",
+    "da": "Jeg tabte min telefon på gulvet.",
+    "da_en": "I dropped my phone on the floor."
+   },
+   {
+    "when": "a game",
+    "en": "lose",
+    "da": "Vi tabte 3-2.",
+    "da_en": "We lost 3-2."
+   },
+   {
+    "when": "weight",
+    "en": "lose",
+    "da": "Hun har tabt fem kilo.",
+    "da_en": "She's lost five kilos."
+   },
+   {
+    "when": "mislay",
+    "en": "lose",
+    "da": "Jeg har tabt mine nøgler.",
+    "da_en": "I've lost my keys."
+   }
+  ],
+  "note": "Forms: tabe · taber · tabte · har tabt. en taber = a loser. miste = no longer have: \"miste sit job\"."
+ },
+ "taber": {
+  "summary": "Lose — mainly drop, lose a game, lose weight. Losing something for good is often miste:",
+  "uses": [
+   {
+    "when": "drop",
+    "en": "drop",
+    "da": "Jeg tabte min telefon på gulvet.",
+    "da_en": "I dropped my phone on the floor."
+   },
+   {
+    "when": "a game",
+    "en": "lose",
+    "da": "Vi tabte 3-2.",
+    "da_en": "We lost 3-2."
+   },
+   {
+    "when": "weight",
+    "en": "lose",
+    "da": "Hun har tabt fem kilo.",
+    "da_en": "She's lost five kilos."
+   },
+   {
+    "when": "mislay",
+    "en": "lose",
+    "da": "Jeg har tabt mine nøgler.",
+    "da_en": "I've lost my keys."
+   }
+  ],
+  "note": "Forms: tabe · taber · tabte · har tabt. en taber = a loser. miste = no longer have: \"miste sit job\"."
+ },
+ "miste": {
+  "summary": "Lose — no longer have (a person, a job, a chance). Dropping things or losing a match is tabe:",
+  "uses": [
+   {
+    "when": "a job / chance",
+    "en": "lose",
+    "da": "Han mistede sit job.",
+    "da_en": "He lost his job."
+   },
+   {
+    "when": "a person",
+    "en": "lose",
+    "da": "Hun mistede sin far sidste år.",
+    "da_en": "She lost her father last year."
+   },
+   {
+    "when": "track",
+    "en": "lose (track)",
+    "da": "Jeg har mistet overblikket.",
+    "da_en": "I've lost track."
+   }
+  ],
+  "note": "Forms: miste · mister · mistede · har mistet."
+ },
+ "bo": {
+  "summary": "Live — where you live (reside). Being alive, or how you live, is leve:",
+  "uses": [
+   {
+    "when": "address",
+    "en": "live",
+    "da": "Jeg bor i Odense.",
+    "da_en": "I live in Odense."
+   },
+   {
+    "when": "asking",
+    "en": "where do you live?",
+    "da": "Hvor bor du henne?",
+    "da_en": "Where do you live?"
+   },
+   {
+    "when": "bo sammen med",
+    "en": "live with",
+    "da": "Hun bor sammen med sin kæreste.",
+    "da_en": "She lives with her partner."
+   }
+  ],
+  "note": "\"Jeg lever i Odense\" sounds like \"I exist / survive in Odense\". Forms: bo · bor · boede · har boet. (en bor = a drill.)"
+ },
+ "bor": {
+  "summary": "Live — where you live (reside). Being alive, or how you live, is leve:",
+  "uses": [
+   {
+    "when": "address",
+    "en": "live",
+    "da": "Jeg bor i Odense.",
+    "da_en": "I live in Odense."
+   },
+   {
+    "when": "asking",
+    "en": "where do you live?",
+    "da": "Hvor bor du henne?",
+    "da_en": "Where do you live?"
+   },
+   {
+    "when": "bo sammen med",
+    "en": "live with",
+    "da": "Hun bor sammen med sin kæreste.",
+    "da_en": "She lives with her partner."
+   }
+  ],
+  "note": "\"Jeg lever i Odense\" sounds like \"I exist / survive in Odense\". Forms: bo · bor · boede · har boet. (en bor = a drill.)"
+ },
+ "leve": {
+  "summary": "Live — be alive, lead a life. Where you live (your address) is bo:",
+  "uses": [
+   {
+    "when": "be alive",
+    "en": "live, be alive",
+    "da": "Lever han stadig?",
+    "da_en": "Is he still alive?"
+   },
+   {
+    "when": "a lifetime",
+    "en": "live",
+    "da": "Hun levede, til hun var 98.",
+    "da_en": "She lived to 98."
+   },
+   {
+    "when": "leve af",
+    "en": "live on, make a living from",
+    "da": "Han lever af at skrive.",
+    "da_en": "He makes a living from writing."
+   }
+  ],
+  "note": "Forms: leve · lever · levede · har levet. (en lever = a liver.)"
+ },
+ "lever": {
+  "summary": "Live — be alive, lead a life. Where you live (your address) is bo:",
+  "uses": [
+   {
+    "when": "be alive",
+    "en": "live, be alive",
+    "da": "Lever han stadig?",
+    "da_en": "Is he still alive?"
+   },
+   {
+    "when": "a lifetime",
+    "en": "live",
+    "da": "Hun levede, til hun var 98.",
+    "da_en": "She lived to 98."
+   },
+   {
+    "when": "leve af",
+    "en": "live on, make a living from",
+    "da": "Han lever af at skrive.",
+    "da_en": "He makes a living from writing."
+   }
+  ],
+  "note": "Forms: leve · lever · levede · har levet. (en lever = a liver.)"
+ },
+ "hilse": {
+  "summary": "Greet — and the everyday way to pass on greetings:",
+  "uses": [
+   {
+    "when": "Hils …!",
+    "en": "say hi to … (for me)",
+    "da": "Hils din mor fra mig!",
+    "da_en": "Say hi to your mum for me!"
+   },
+   {
+    "when": "jeg skal hilse fra",
+    "en": "… says hi",
+    "da": "Jeg skal hilse fra Peter.",
+    "da_en": "Peter says hi."
+   },
+   {
+    "when": "hilse på",
+    "en": "say hello to; meet",
+    "da": "Kom og hils på min bror.",
+    "da_en": "Come and meet my brother."
+   },
+   {
+    "when": "signing off",
+    "en": "best wishes, regards",
+    "da": "Mange hilsner, Anna",
+    "da_en": "Best wishes, Anna"
+   }
+  ],
+  "note": "Forms: hilse · hilser · hilste · har hilst; command: hils. en hilsen = a greeting; \"Med venlig hilsen\" = Kind regards."
+ },
+ "nemlig": {
+  "summary": "Gives the reason after the fact — \"you see\" — and a quick \"exactly!\":",
+  "uses": [
+   {
+    "when": "explaining",
+    "en": "you see, because",
+    "da": "Jeg tager bussen. Min cykel er nemlig punkteret.",
+    "da_en": "I'm taking the bus — my bike's got a flat, you see."
+   },
+   {
+    "when": "agreeing",
+    "en": "Exactly! / Right!",
+    "da": "Så vi skal til venstre? – Nemlig!",
+    "da_en": "So we go left? – Exactly!"
+   },
+   {
+    "when": "specifying (formal)",
+    "en": "namely",
+    "da": "Han har to hobbyer, nemlig golf og vin.",
+    "da_en": "He has two hobbies, namely golf and wine."
+   }
+  ],
+  "note": "It sits after the verb like ikke (\"Jeg er nemlig syg\") — never first like English \"because\"."
+ },
+ "alligevel": {
+  "summary": "After all, anyway, still — the plan or expectation changed. Not the topic-changing \"Anyway, …\":",
+  "uses": [
+   {
+    "when": "plans changed",
+    "en": "after all",
+    "da": "Hun kom alligevel.",
+    "da_en": "She came after all."
+   },
+   {
+    "when": "regardless",
+    "en": "anyway",
+    "da": "Det regnede, men vi gik en tur alligevel.",
+    "da_en": "It was raining, but we went for a walk anyway."
+   },
+   {
+    "when": "since … anyway",
+    "en": "anyway",
+    "da": "Jeg kan godt hente den, jeg skal alligevel i byen.",
+    "da_en": "I can pick it up — I'm going into town anyway."
+   },
+   {
+    "when": "despite that",
+    "en": "still, nevertheless",
+    "da": "Han er streng, men alligevel ret sød.",
+    "da_en": "He's strict, but still quite nice."
+   }
+  ],
+  "note": "To change the subject (\"Anyway, …\") say \"Nå, men …\" or \"Men i hvert fald …\"."
+ },
+ "egentlig": {
+  "summary": "Actually, really — softens a statement, or makes a question friendly-curious:",
+  "uses": [
+   {
+    "when": "softening",
+    "en": "actually, to be honest",
+    "da": "Jeg er egentlig ret træt.",
+    "da_en": "I'm actually quite tired."
+   },
+   {
+    "when": "in a question",
+    "en": "actually, by the way (friendly)",
+    "da": "Hvad laver du egentlig?",
+    "da_en": "What do you do, actually?"
+   },
+   {
+    "when": "strictly speaking",
+    "en": "really, strictly speaking",
+    "da": "Egentlig skulle jeg arbejde, men …",
+    "da_en": "Strictly speaking I should be working, but …"
+   },
+   {
+    "when": "originally",
+    "en": "originally",
+    "da": "Hun er egentlig fra Jylland.",
+    "da_en": "She's originally from Jutland."
+   },
+   {
+    "when": "adjective",
+    "en": "actual, real",
+    "da": "Hvad er den egentlige grund?",
+    "da_en": "What's the real reason?"
+   }
+  ],
+  "note": "A question with egentlig is curious, not challenging. faktisk insists more that something IS so; in casual speech the two overlap. Both g's are silent."
+ },
+ "faktisk": {
+  "summary": "Actually, in fact — it really IS so, often against expectation:",
+  "uses": [
+   {
+    "when": "surprise",
+    "en": "actually, in fact",
+    "da": "Jeg har faktisk aldrig været i Aarhus.",
+    "da_en": "I've actually never been to Aarhus."
+   },
+   {
+    "when": "correcting",
+    "en": "actually",
+    "da": "Det er faktisk rigtigt.",
+    "da_en": "That's actually true."
+   },
+   {
+    "when": "softening",
+    "en": "actually, really",
+    "da": "Det var faktisk ret hyggeligt.",
+    "da_en": "It was actually quite nice."
+   }
+  ],
+  "note": "Not the English word — aktuel / aktuelt = current, topical — not \"actually\". egentlig = deep down, in principle; faktisk = in fact."
+ },
+ "selv": {
+  "summary": "Self — but also \"even\", \"by yourself\" and the polite \"selv tak\":",
+  "uses": [
+   {
+    "when": "emphasis",
+    "en": "myself, yourself …",
+    "da": "Det har jeg selv lavet.",
+    "da_en": "I made it myself."
+   },
+   {
+    "when": "alone",
+    "en": "by yourself, on your own",
+    "da": "Kan du selv?",
+    "da_en": "Can you manage on your own?"
+   },
+   {
+    "when": "even",
+    "en": "even",
+    "da": "Selv børn kan forstå det.",
+    "da_en": "Even children can understand it."
+   },
+   {
+    "when": "selv om / selvom",
+    "en": "even though, although",
+    "da": "Selv om det regner, går vi en tur.",
+    "da_en": "Even though it's raining, we're going for a walk."
+   },
+   {
+    "when": "Selv tak",
+    "en": "thank YOU (it was mutual)",
+    "da": "Tak for i aften! – Selv tak!",
+    "da_en": "Thanks for this evening! – Thank you!"
+   }
+  ],
+  "note": "The ordinary reflexive \"himself\" is sig: \"Han vasker sig\". Add selv only for emphasis: \"Han vasker sig selv\" (himself, not someone else). selv ikke = not even."
+ },
+ "også": {
+  "summary": "Also, too — but in a negative sentence Danes switch to heller ikke:",
+  "uses": [
+   {
+    "when": "also",
+    "en": "also, too, as well",
+    "da": "Jeg kan også godt lide jazz.",
+    "da_en": "I like jazz too."
+   },
+   {
+    "when": "me too",
+    "en": "so do I / so am I",
+    "da": "Jeg er træt. – Det er jeg også.",
+    "da_en": "I'm tired. – So am I."
+   },
+   {
+    "when": "negative → heller ikke",
+    "en": "not … either, neither",
+    "da": "Jeg kan heller ikke lide jazz.",
+    "da_en": "I don't like jazz either."
+   },
+   {
+    "when": "…, ikke også?",
+    "en": "…, right? / wasn't it?",
+    "da": "Det var en god film, ikke også?",
+    "da_en": "That was a good film, wasn't it?"
+   }
+  ],
+  "note": "Never \"også ikke\". Often pronounced just \"os\". Altså is not English \"also\"."
+ },
+ "heller": {
+  "summary": "Used in heller ikke = not … either, neither. (hellere = rather is a separate word.)",
+  "uses": [
+   {
+    "when": "heller ikke",
+    "en": "not … either",
+    "da": "Hun taler heller ikke tysk.",
+    "da_en": "She doesn't speak German either."
+   },
+   {
+    "when": "short reply",
+    "en": "neither do I / neither have I",
+    "da": "Jeg har ikke set den. – Det har jeg heller ikke.",
+    "da_en": "I haven't seen it. – Neither have I."
+   },
+   {
+    "when": "quick reply",
+    "en": "me neither",
+    "da": "Jeg gider ikke. – Heller ikke mig.",
+    "da_en": "I can't be bothered. – Me neither."
+   }
+  ],
+  "note": "The positive version is også: \"Det har jeg også\" (So have I). Never \"også ikke\"."
+ },
+ "hellere": {
+  "summary": "Rather — the comparative of gerne (gerne · hellere · helst):",
+  "uses": [
+   {
+    "when": "preference",
+    "en": "would rather",
+    "da": "Jeg vil hellere blive hjemme.",
+    "da_en": "I'd rather stay at home."
+   },
+   {
+    "when": "må hellere",
+    "en": "had better",
+    "da": "Jeg må hellere gå nu.",
+    "da_en": "I'd better go now."
+   },
+   {
+    "when": "hellere end",
+    "en": "rather than",
+    "da": "Jeg tager hellere toget end bilen.",
+    "da_en": "I'd rather take the train than the car."
+   },
+   {
+    "when": "helst",
+    "en": "preferably, most of all",
+    "da": "Jeg vil helst ikke tale om det.",
+    "da_en": "I'd rather not talk about it."
+   }
+  ],
+  "note": "\"Det må jeg nok hellere\" = I'd better (do that)."
+ },
+ "bare": {
+  "summary": "Just, only — and a warm \"go ahead\":",
+  "uses": [
+   {
+    "when": "just, only",
+    "en": "just, only, simply",
+    "da": "Det er bare en forkølelse.",
+    "da_en": "It's just a cold."
+   },
+   {
+    "when": "go ahead",
+    "en": "please do, feel free",
+    "da": "Sæt dig bare.",
+    "da_en": "Please, have a seat."
+   },
+   {
+    "when": "Bare rolig",
+    "en": "don't worry, relax",
+    "da": "Bare rolig, det skal nok gå.",
+    "da_en": "Don't worry, it'll be fine."
+   },
+   {
+    "when": "a wish",
+    "en": "if only",
+    "da": "Bare det var fredag!",
+    "da_en": "If only it were Friday!"
+   },
+   {
+    "when": "a condition (casual)",
+    "en": "as long as",
+    "da": "Du må gerne låne den, bare du passer på den.",
+    "da_en": "You can borrow it, as long as you look after it."
+   }
+  ],
+  "note": "\"Tag bare!\" = Help yourself! — friendly encouragement, not dismissive."
+ },
+ "sådan": {
+  "summary": "Such, like that, that way — and \"There we go!\":",
+  "uses": [
+   {
+    "when": "like that",
+    "en": "like that, that way",
+    "da": "Sådan gør vi det.",
+    "da_en": "That's how we do it."
+   },
+   {
+    "when": "Sådan!",
+    "en": "There we go! / Well done!",
+    "da": "Sådan, nu er den færdig!",
+    "da_en": "There we go, it's done!"
+   },
+   {
+    "when": "sådan en",
+    "en": "one of those, such a",
+    "da": "Jeg vil også gerne have sådan en.",
+    "da_en": "I'd like one of those too."
+   },
+   {
+    "when": "sådan noget",
+    "en": "something like that, that kind of thing",
+    "da": "Kan du lide sådan noget?",
+    "da_en": "Do you like that kind of thing?"
+   },
+   {
+    "when": "Sådan da",
+    "en": "so-so",
+    "da": "Hvordan går det? – Sådan da.",
+    "da_en": "How's it going? – So-so."
+   }
+  ],
+  "note": "\"Det er bare sådan\" = That's just how it is. sådan her = like this; sådan der = like that."
+ },
+ "nå": {
+  "summary": "Two words: the reaction \"oh / well\" (tone decides) and the verb \"reach, make it\":",
+  "uses": [
+   {
+    "when": "surprise",
+    "en": "Oh! / Really?",
+    "da": "Nå, er det dig!",
+    "da_en": "Oh, it's you!"
+   },
+   {
+    "when": "understanding",
+    "en": "oh, I see",
+    "da": "Hun er syg i dag. – Nåh, okay.",
+    "da_en": "She's ill today. – Oh, I see."
+   },
+   {
+    "when": "changing the subject",
+    "en": "anyway, … / well, …",
+    "da": "Nå, men jeg må videre.",
+    "da_en": "Anyway, I'd better get going."
+   },
+   {
+    "when": "prompting",
+    "en": "Well? / And?",
+    "da": "Nå? Hvad sagde hun?",
+    "da_en": "Well? What did she say?"
+   },
+   {
+    "when": "verb",
+    "en": "reach, make it, catch",
+    "da": "Vi nåede lige toget.",
+    "da_en": "We just caught the train."
+   }
+  ],
+  "note": "A flat \"nå\" can mean \"Oh. Whatever.\" Verb forms: nå · når · nåede · har nået — so når can be \"reaches\" as well as \"when\"."
+ },
+ "nu": {
+  "summary": "Now — but unstressed it softens (\"actually\"), and in questions it means \"again\":",
+  "uses": [
+   {
+    "when": "time",
+    "en": "now",
+    "da": "Jeg går nu.",
+    "da_en": "I'm leaving now."
+   },
+   {
+    "when": "softener",
+    "en": "actually, though",
+    "da": "Det er nu ikke så dumt.",
+    "da_en": "That's actually not a bad idea."
+   },
+   {
+    "when": "recalling",
+    "en": "again",
+    "da": "Hvad hed han nu?",
+    "da_en": "What was his name again?"
+   },
+   {
+    "when": "urging",
+    "en": "come on",
+    "da": "Kom nu!",
+    "da_en": "Come on!"
+   },
+   {
+    "when": "nu hvor",
+    "en": "now that",
+    "da": "Nu hvor du er her, kan du hjælpe mig.",
+    "da_en": "Now that you're here, you can help me."
+   }
+  ],
+  "note": "lige nu = right now; nu og da = now and then."
+ },
+ "skam": {
+  "summary": "Shame — but as an unstressed little word it means \"indeed, I assure you\":",
+  "uses": [
+   {
+    "when": "reassuring",
+    "en": "indeed, I assure you",
+    "da": "Det er skam rigtigt.",
+    "da_en": "It's true, I assure you."
+   },
+   {
+    "when": "a pity",
+    "en": "a pity, a shame",
+    "da": "Det er en skam, at du ikke kan komme.",
+    "da_en": "It's a pity you can't come."
+   },
+   {
+    "when": "Skam dig!",
+    "en": "shame on you!",
+    "da": "Skam dig, Peter!",
+    "da_en": "Shame on you, Peter!"
+   }
+  ],
+  "note": "The reassuring skam is positive: \"Det smager skam godt\" = It actually tastes good, you know."
+ },
+ "sikkert": {
+  "summary": "Usually \"probably\" — a hedge. For \"definitely\" Danes say helt sikkert:",
+  "uses": [
+   {
+    "when": "probably",
+    "en": "probably, I'm sure",
+    "da": "Han kommer sikkert lidt senere.",
+    "da_en": "He'll probably come a bit later."
+   },
+   {
+    "when": "helt sikkert",
+    "en": "definitely, for sure",
+    "da": "Kommer du? – Helt sikkert!",
+    "da_en": "Are you coming? – Definitely!"
+   },
+   {
+    "when": "safe",
+    "en": "safe(ly)",
+    "da": "Er det sikkert at bade her?",
+    "da_en": "Is it safe to swim here?"
+   }
+  ],
+  "note": "\"Jeg kommer sikkert\" is a maybe, not a promise. sikker (adj.) = sure, certain (\"Er du sikker?\") or safe."
+ },
+ "først": {
+  "summary": "First — and also \"not until\", which English speakers often miss:",
+  "uses": [
+   {
+    "when": "first",
+    "en": "first",
+    "da": "Først spiser vi, og så går vi en tur.",
+    "da_en": "First we'll eat, and then we'll go for a walk."
+   },
+   {
+    "when": "not until",
+    "en": "not until, only (later than expected)",
+    "da": "Han kommer først klokken ti.",
+    "da_en": "He's not coming until ten."
+   },
+   {
+    "when": "not for another …",
+    "en": "not … for another",
+    "da": "Jeg har først ferie om en måned.",
+    "da_en": "I'm not on holiday for another month."
+   },
+   {
+    "when": "først og fremmest",
+    "en": "first and foremost, above all",
+    "da": "Først og fremmest vil jeg sige tak.",
+    "da_en": "First of all, I'd like to say thank you."
+   }
+  ],
+  "note": "\"Han kommer først i morgen\" = He won't come till tomorrow. den første = the first one; for det første = firstly."
+ },
+ "endnu": {
+  "summary": "Yet — and \"even\" before a comparative. For \"still\" use stadig:",
+  "uses": [
+   {
+    "when": "not yet",
+    "en": "(not) yet",
+    "da": "Han er ikke kommet endnu.",
+    "da_en": "He hasn't arrived yet."
+   },
+   {
+    "when": "even (+ -er)",
+    "en": "even",
+    "da": "I morgen bliver det endnu varmere.",
+    "da_en": "Tomorrow will be even warmer."
+   },
+   {
+    "when": "endnu en",
+    "en": "another, one more",
+    "da": "Skal vi tage endnu en øl?",
+    "da_en": "Shall we have another beer?"
+   },
+   {
+    "when": "still → stadig",
+    "en": "still",
+    "da": "Bor du stadig i Odense?",
+    "da_en": "Do you still live in Odense?"
+   }
+  ],
+  "note": "endnu en gang = once more."
+ },
+ "ellers": {
+  "summary": "Otherwise, or else — and two polite shop phrases:",
+  "uses": [
+   {
+    "when": "or else",
+    "en": "otherwise, or (else)",
+    "da": "Skynd dig, ellers kommer vi for sent.",
+    "da_en": "Hurry up, or we'll be late."
+   },
+   {
+    "when": "apart from that",
+    "en": "otherwise",
+    "da": "Ellers går det godt.",
+    "da_en": "Otherwise things are good."
+   },
+   {
+    "when": "Ellers andet?",
+    "en": "anything else?",
+    "da": "Ellers andet? – Nej tak, det var det hele.",
+    "da_en": "Anything else? – No thanks, that's everything."
+   },
+   {
+    "when": "Ellers tak",
+    "en": "no, thank you (polite)",
+    "da": "Vil du have mere kaffe? – Ellers tak.",
+    "da_en": "More coffee? – No, thank you."
+   }
+  ],
+  "note": "\"Ellers tak\" looks like \"otherwise thanks\" but it is a polite NO."
+ },
+ "rigtig": {
+  "summary": "Right, correct — and very often REALLY (before an adjective):",
+  "uses": [
+   {
+    "when": "intensifier",
+    "en": "really, very",
+    "da": "Det var rigtig godt.",
+    "da_en": "That was really good."
+   },
+   {
+    "when": "correct",
+    "en": "right, correct",
+    "da": "Det er rigtigt.",
+    "da_en": "That's right."
+   },
+   {
+    "when": "real",
+    "en": "real, proper",
+    "da": "Er det en rigtig diamant?",
+    "da_en": "Is it a real diamond?"
+   }
+  ],
+  "note": "Forms: rigtig · rigtigt · rigtige. \"You're right\" is \"Du har ret\" (not rigtig). rigtig mange = a great many."
+ },
+ "ret": {
+  "summary": "Several words: quite/rather, have ret (be right), a dish, and a right:",
+  "uses": [
+   {
+    "when": "quite",
+    "en": "quite, pretty, rather",
+    "da": "Det er ret dyrt.",
+    "da_en": "It's pretty expensive."
+   },
+   {
+    "when": "have ret",
+    "en": "be right",
+    "da": "Det har du ret i.",
+    "da_en": "You're right about that."
+   },
+   {
+    "when": "a dish",
+    "en": "dish, course",
+    "da": "Dagens ret er fiskefrikadeller.",
+    "da_en": "Today's dish is fish cakes."
+   },
+   {
+    "when": "a right",
+    "en": "right",
+    "da": "Du har ret til at sige nej.",
+    "da_en": "You have the right to say no."
+   }
+  ],
+  "note": "en ret (dish), plural retter; en ret (right), plural rettigheder. retten = the court."
+ },
+ "så": {
+  "summary": "One of the busiest little words: then, so, so (very) — and the past of se (saw):",
+  "uses": [
+   {
+    "when": "then",
+    "en": "then",
+    "da": "Først spiser vi, og så går vi.",
+    "da_en": "First we eat, then we go."
+   },
+   {
+    "when": "if … then",
+    "en": "then (often left out)",
+    "da": "Hvis det regner, så tager jeg bussen.",
+    "da_en": "If it rains, I'll take the bus."
+   },
+   {
+    "when": "a result",
+    "en": "so",
+    "da": "Jeg er syg, så jeg kan ikke komme.",
+    "da_en": "I'm ill, so I can't come."
+   },
+   {
+    "when": "intensifier",
+    "en": "so, really",
+    "da": "Jeg er så træt i dag.",
+    "da_en": "I'm so tired today."
+   },
+   {
+    "when": "past of se",
+    "en": "saw",
+    "da": "Jeg så en god film i går.",
+    "da_en": "I saw a good film yesterday."
+   },
+   {
+    "when": "Hvad så?",
+    "en": "What's up? / So what now?",
+    "da": "Hej, hvad så?",
+    "da_en": "Hi, what's up?"
+   }
+  ],
+  "note": "så = \"then\" is followed by the verb: \"og så går vi\". så = \"so (result)\" is followed by the subject: \"så jeg kan ikke komme\". så … at = so … that."
+ },
+ "værsgo": {
+  "summary": "From \"vær så god\" (be so good). Said when you give, offer or invite:",
+  "uses": [
+   {
+    "when": "handing over",
+    "en": "here you are, here you go",
+    "da": "Værsgo, her er din kaffe.",
+    "da_en": "Here you go, here's your coffee."
+   },
+   {
+    "when": "offering",
+    "en": "help yourself, go ahead",
+    "da": "Værsgo, tag bare!",
+    "da_en": "Go ahead, help yourself!"
+   },
+   {
+    "when": "food is ready",
+    "en": "dinner's ready, come and eat",
+    "da": "Maden er klar – værsgo!",
+    "da_en": "Food's ready – come and eat!"
+   }
+  ],
+  "note": "Also spelled værsågod. When serving food you say værsgo; velbekomme is mainly the reply to \"tak for mad\"."
+ },
+ "velbekomme": {
+  "summary": "The reply to \"tak for mad\" — no English word; roughly \"you're welcome, glad you enjoyed it\".",
+  "uses": [
+   {
+    "when": "after a meal",
+    "en": "you're welcome, glad you liked it",
+    "da": "Tak for mad! – Velbekomme.",
+    "da_en": "Thanks for the meal! – You're welcome."
+   },
+   {
+    "when": "serving (less common)",
+    "en": "enjoy!",
+    "da": "Her er maden. Velbekomme!",
+    "da_en": "Here's the food. Enjoy!"
+   },
+   {
+    "when": "ironic",
+    "en": "be my guest, good luck with that",
+    "da": "Vil han selv betale? Velbekomme!",
+    "da_en": "He wants to pay himself? Be my guest!"
+   }
+  ],
+  "note": "Not mainly \"bon appétit\": its core use is AFTER the meal. When putting food on the table Danes usually say værsgo."
+ },
+ "skål": {
+  "summary": "Cheers! — and also a bowl.",
+  "uses": [
+   {
+    "when": "a toast",
+    "en": "cheers!",
+    "da": "Skål og velkommen!",
+    "da_en": "Cheers, and welcome!"
+   },
+   {
+    "when": "toasting someone",
+    "en": "here's to …!",
+    "da": "Skål for Mette!",
+    "da_en": "Here's to Mette!"
+   },
+   {
+    "when": "noun",
+    "en": "bowl",
+    "da": "en skål med frugt",
+    "da_en": "a bowl of fruit"
+   },
+   {
+    "when": "a speech",
+    "en": "a toast",
+    "da": "Han udbragte en skål for brudeparret.",
+    "da_en": "He proposed a toast to the bride and groom."
+   }
+  ],
+  "note": "At the table, look people in the eye when you say skål, drink, and look again before putting the glass down; the host usually makes the first toast."
+ },
+ "fyraften": {
+  "summary": "The moment the working day ends — at any time of day. No single English word:",
+  "uses": [
+   {
+    "when": "end of work",
+    "en": "finishing time, knocking-off time",
+    "da": "Hvornår har du fyraften?",
+    "da_en": "What time do you finish work?"
+   },
+   {
+    "when": "holde fyraften",
+    "en": "call it a day, knock off",
+    "da": "Nu holder jeg fyraften.",
+    "da_en": "I'm calling it a day."
+   },
+   {
+    "when": "after-work",
+    "en": "after-work (beer)",
+    "da": "Skal vi tage en fyraftensøl?",
+    "da_en": "Shall we grab an after-work beer?"
+   }
+  ],
+  "note": "Not \"evening\": a shift worker can have fyraften at 2 pm. Leaving work on time is normal and expected."
+ },
+ "undskyld": {
+  "summary": "Sorry AND excuse me — the quick everyday apology and attention-getter:",
+  "uses": [
+   {
+    "when": "getting attention",
+    "en": "excuse me",
+    "da": "Undskyld, hvor ligger stationen?",
+    "da_en": "Excuse me, where's the station?"
+   },
+   {
+    "when": "an apology",
+    "en": "sorry",
+    "da": "Undskyld, det var ikke meningen.",
+    "da_en": "Sorry, I didn't mean to."
+   },
+   {
+    "when": "didn't hear",
+    "en": "sorry? pardon?",
+    "da": "Undskyld, hvad sagde du?",
+    "da_en": "Sorry, what did you say?"
+   },
+   {
+    "when": "undskyld, at …",
+    "en": "sorry (that) …",
+    "da": "Undskyld, at jeg kommer for sent.",
+    "da_en": "Sorry I'm late."
+   }
+  ],
+  "note": "\"Jeg er ked af det\" means \"I'm sad / upset\" — use it for real regret or sympathy, not for bumping into someone. Verb: undskylde; \"Du må undskylde\" = please forgive me."
+ },
+ "ked": {
+  "summary": "Used in ked af: sad, upset — or sorry about something. Not a quick \"sorry\":",
+  "uses": [
+   {
+    "when": "ked af det",
+    "en": "sad, upset",
+    "da": "Hun er ked af det, fordi hendes kat er død.",
+    "da_en": "She's upset because her cat died."
+   },
+   {
+    "when": "ked af, at …",
+    "en": "sorry that …",
+    "da": "Jeg er ked af, at jeg ikke kunne komme.",
+    "da_en": "I'm sorry I couldn't come."
+   },
+   {
+    "when": "sympathy",
+    "en": "I'm so sorry",
+    "da": "Jeg er virkelig ked af at høre det.",
+    "da_en": "I'm really sorry to hear that."
+   }
+  ],
+  "note": "A quick apology is undskyld. Don't mix it up with træt af (fed up with)."
+ },
+ "ærgerlig": {
+  "summary": "Annoying in a disappointing way — \"what a shame\", not \"angry\":",
+  "uses": [
+   {
+    "when": "a situation",
+    "en": "a shame, too bad",
+    "da": "Hvor ærgerligt, at det regner!",
+    "da_en": "What a shame it's raining!"
+   },
+   {
+    "when": "a reaction",
+    "en": "that's a shame",
+    "da": "Koncerten er aflyst. – Det var ærgerligt.",
+    "da_en": "The concert's cancelled. – That's a shame."
+   },
+   {
+    "when": "a person",
+    "en": "annoyed, disappointed",
+    "da": "Han var ærgerlig over, at han tabte.",
+    "da_en": "He was annoyed that he lost."
+   },
+   {
+    "when": "ærgre sig",
+    "en": "be annoyed (with yourself), kick yourself",
+    "da": "Jeg ærgrer mig over, at jeg ikke købte billetter.",
+    "da_en": "I'm kicking myself for not buying tickets."
+   }
+  ],
+  "note": "\"Øv!\" = Bummer! (small disappointments). Angry is vred; cross is sur."
+ },
+ "sur": {
+  "summary": "Sour — and, about people, cross or grumpy:",
+  "uses": [
+   {
+    "when": "mood",
+    "en": "cross, annoyed, grumpy",
+    "da": "Er du sur på mig?",
+    "da_en": "Are you mad at me?"
+   },
+   {
+    "when": "blive sur",
+    "en": "get annoyed, get grumpy",
+    "da": "Han blev sur, fordi han tabte.",
+    "da_en": "He got grumpy because he lost."
+   },
+   {
+    "when": "taste",
+    "en": "sour",
+    "da": "Citronen er meget sur.",
+    "da_en": "The lemon is very sour."
+   }
+  ],
+  "note": "sur på nogen = cross with someone. vred = angry (stronger). Forms: sur · surt · sure."
+ },
+ "kæreste": {
+  "summary": "Boyfriend, girlfriend or partner — one gender-neutral word, at any age:",
+  "uses": [
+   {
+    "when": "a partner",
+    "en": "boyfriend / girlfriend / partner",
+    "da": "Har du en kæreste?",
+    "da_en": "Are you seeing someone?"
+   },
+   {
+    "when": "long-term",
+    "en": "partner",
+    "da": "Min kæreste og jeg har boet sammen i ti år.",
+    "da_en": "My partner and I have lived together for ten years."
+   },
+   {
+    "when": "være kærester",
+    "en": "be together, be a couple",
+    "da": "De har været kærester siden gymnasiet.",
+    "da_en": "They've been together since high school."
+   }
+  ],
+  "note": "A friend is en ven / en veninde (female), not kæreste. Also the superlative of kær: \"min kæreste ven\" = my dearest friend."
+ },
+ "sympatisk": {
+  "summary": "Not the English word — likeable, pleasant — not \"sympathetic\" (that's forstående or medfølende).",
+  "uses": [
+   {
+    "when": "a person",
+    "en": "likeable, nice",
+    "da": "Han virker meget sympatisk.",
+    "da_en": "He seems really likeable."
+   },
+   {
+    "when": "an idea or act",
+    "en": "decent, nice",
+    "da": "Det er en sympatisk tanke.",
+    "da_en": "It's a nice thought."
+   }
+  ],
+  "note": "\"She was very sympathetic\" (understanding) = \"Hun var meget forstående.\""
+ },
+ "tryg": {
+  "summary": "Feeling safe, secure, at ease — the feeling, not physical safety:",
+  "uses": [
+   {
+    "when": "feel safe",
+    "en": "safe, secure",
+    "da": "Jeg føler mig tryg her.",
+    "da_en": "I feel safe here."
+   },
+   {
+    "when": "at ease",
+    "en": "secure, comfortable",
+    "da": "Børnene er trygge i børnehaven.",
+    "da_en": "The children feel secure at nursery."
+   },
+   {
+    "when": "tryghed",
+    "en": "security, peace of mind",
+    "da": "En opsparing giver tryghed.",
+    "da_en": "Savings give you peace of mind."
+   }
+  ],
+  "note": "Physical safety is sikker / sikkerhed: \"Er det sikkert at bade her?\" Forms: tryg · trygt · trygge."
+ },
+ "pålæg": {
+  "summary": "Anything you put on bread — no single English word:",
+  "uses": [
+   {
+    "when": "on bread",
+    "en": "sandwich toppings: cold cuts, cheese, spreads",
+    "da": "Hvad vil du have som pålæg?",
+    "da_en": "What do you want on your bread?"
+   },
+   {
+    "when": "a lunch table",
+    "en": "toppings",
+    "da": "Vi har ost, leverpostej og andet pålæg.",
+    "da_en": "We have cheese, liver pâté and other toppings."
+   }
+  ],
+  "note": "et pålæg. Includes meat, cheese, egg, spreads — even pålægschokolade (thin chocolate slices for bread)."
+ },
+ "overskud": {
+  "summary": "Surplus — and, very often, personal energy or headspace to spare:",
+  "uses": [
+   {
+    "when": "energy",
+    "en": "the energy, headspace",
+    "da": "Jeg har ikke overskud til at tage med i aften.",
+    "da_en": "I don't have the energy to come along tonight."
+   },
+   {
+    "when": "a person",
+    "en": "energy to spare, on top of things",
+    "da": "Hun har meget overskud, selvom hun har tre små børn.",
+    "da_en": "She has lots of energy to spare, even with three small kids."
+   },
+   {
+    "when": "money",
+    "en": "profit, surplus",
+    "da": "Firmaet gav overskud sidste år.",
+    "da_en": "The company made a profit last year."
+   }
+  ],
+  "note": "Danes say \"Jeg har ikke overskud\" where English says \"I'm not up to it\" or \"I don't have the bandwidth\". Opposite: underskud = deficit."
+ },
+ "overskue": {
+  "summary": "Get an overview of — and, in everyday speech, \"cope with, face\":",
+  "uses": [
+   {
+    "when": "can't cope",
+    "en": "can't face it, it's too much right now",
+    "da": "Jeg kan ikke overskue at flytte lige nu.",
+    "da_en": "I can't face moving right now."
+   },
+   {
+    "when": "til at overskue",
+    "en": "manageable",
+    "da": "Kun tre uger tilbage – det er til at overskue.",
+    "da_en": "Only three weeks left – that's manageable."
+   },
+   {
+    "when": "grasp",
+    "en": "get an overview of, foresee",
+    "da": "Det er svært at overskue konsekvenserne.",
+    "da_en": "It's hard to foresee the consequences."
+   }
+  ],
+  "note": "Not \"oversee\" (supervise = lede, føre tilsyn med). overskuelig = manageable, clear; uoverskuelig = overwhelming."
+ },
+ "overblik": {
+  "summary": "Overview, the big picture — being on top of things:",
+  "uses": [
+   {
+    "when": "overview",
+    "en": "a clear picture, overview",
+    "da": "Jeg skal lige have overblik over budgettet.",
+    "da_en": "I just need to get a clear picture of the budget."
+   },
+   {
+    "when": "lose it",
+    "en": "lose track",
+    "da": "Jeg har helt mistet overblikket.",
+    "da_en": "I've completely lost track."
+   }
+  ],
+  "note": "Not \"overlook\" (= overse). Related: overskue, overskud."
+ },
+ "gang": {
+  "summary": "Danish \"time\" as in occasion — and several other jobs:",
+  "uses": [
+   {
+    "when": "an occasion",
+    "en": "time",
+    "da": "Det er første gang, jeg er i Aarhus.",
+    "da_en": "It's the first time I've been to Aarhus."
+   },
+   {
+    "when": "how often",
+    "en": "once, twice, … times",
+    "da": "Jeg træner tre gange om ugen.",
+    "da_en": "I work out three times a week."
+   },
+   {
+    "when": "nogle gange",
+    "en": "sometimes",
+    "da": "Nogle gange cykler jeg på arbejde.",
+    "da_en": "Sometimes I cycle to work."
+   },
+   {
+    "when": "i gang",
+    "en": "started, under way",
+    "da": "Skal vi komme i gang?",
+    "da_en": "Shall we get started?"
+   },
+   {
+    "when": "være i gang med",
+    "en": "be busy with, be in the middle of",
+    "da": "Jeg er i gang med at lave mad.",
+    "da_en": "I'm in the middle of cooking."
+   },
+   {
+    "when": "a hallway",
+    "en": "hall, corridor",
+    "da": "Jakkerne hænger ude i gangen.",
+    "da_en": "The coats are out in the hall."
+   }
+  ],
+  "note": "en gang = one time, once; engang (one word) = once upon a time, some day. en gang til = once more. An hour is en time; clock time is klokken."
+ },
+ "time": {
+  "summary": "Not the English word — en time = an HOUR (or a lesson, an appointment) — not \"time\":",
+  "uses": [
+   {
+    "when": "hour",
+    "en": "hour",
+    "da": "Filmen varer to timer.",
+    "da_en": "The film lasts two hours."
+   },
+   {
+    "when": "lesson / appointment",
+    "en": "lesson, appointment",
+    "da": "Jeg har en time hos tandlægen i morgen.",
+    "da_en": "I've got a dentist's appointment tomorrow."
+   },
+   {
+    "when": "\"time\" → tid",
+    "en": "time",
+    "da": "Har du tid i morgen?",
+    "da_en": "Do you have time tomorrow?"
+   },
+   {
+    "when": "\"what time\" → klokken",
+    "en": "what time",
+    "da": "Hvad er klokken?",
+    "da_en": "What time is it?"
+   }
+  ],
+  "note": "An occasion (\"the first time\") is gang: første gang. Forms: en time · timen · timer."
+ },
+ "lækker": {
+  "summary": "Delicious — but also gorgeous for things, and hot for people:",
+  "uses": [
+   {
+    "when": "food",
+    "en": "delicious, tasty",
+    "da": "Hvor ser det lækkert ud!",
+    "da_en": "That looks delicious!"
+   },
+   {
+    "when": "things and places",
+    "en": "lovely, gorgeous, stylish",
+    "da": "De har en lækker lejlighed.",
+    "da_en": "They have a gorgeous flat."
+   },
+   {
+    "when": "people",
+    "en": "hot, attractive",
+    "da": "Han er godt nok lækker.",
+    "da_en": "He's really hot."
+   }
+  ],
+  "note": "Forms: lækker · lækkert · lækre. About people it's about looks — careful at work. Not the English word — not \"leaky\"."
+ },
+ "sød": {
+  "summary": "Sweet — and very often KIND or CUTE. Also the key to saying \"please\":",
+  "uses": [
+   {
+    "when": "kind",
+    "en": "kind, nice, lovely",
+    "da": "Hun er så sød ved børnene.",
+    "da_en": "She's so kind to the kids."
+   },
+   {
+    "when": "a gesture",
+    "en": "kind, thoughtful",
+    "da": "Hvor er det sødt af dig!",
+    "da_en": "How kind of you!"
+   },
+   {
+    "when": "looks",
+    "en": "cute, sweet",
+    "da": "Hvor er han sød!",
+    "da_en": "He's so cute!"
+   },
+   {
+    "when": "vil du være sød at",
+    "en": "would you please …?",
+    "da": "Vil du være sød at lukke vinduet?",
+    "da_en": "Would you please close the window?"
+   },
+   {
+    "when": "taste",
+    "en": "sweet",
+    "da": "Kagen er alt for sød.",
+    "da_en": "The cake is far too sweet."
+   }
+  ],
+  "note": "\"Du er sød\" usually means \"you're kind\", not a romantic hint. \"Sov sødt\" = sleep well. Forms: sød · sødt · søde."
+ },
+ "dejlig": {
+  "summary": "Lovely — the all-purpose word for something pleasant:",
+  "uses": [
+   {
+    "when": "in general",
+    "en": "lovely, wonderful, nice",
+    "da": "Hvor dejligt at se dig!",
+    "da_en": "How lovely to see you!"
+   },
+   {
+    "when": "weather / places",
+    "en": "lovely",
+    "da": "Det er dejligt vejr i dag.",
+    "da_en": "It's lovely weather today."
+   },
+   {
+    "when": "food",
+    "en": "delicious",
+    "da": "Tak for mad, det var dejligt.",
+    "da_en": "Thanks for the meal, it was delicious."
+   },
+   {
+    "when": "+ adjective",
+    "en": "nice and …",
+    "da": "Vandet er dejlig varmt.",
+    "da_en": "The water is nice and warm."
+   },
+   {
+    "when": "ironic",
+    "en": "great (not)",
+    "da": "Nu regner det også. Dejligt …",
+    "da_en": "And now it's raining. Great …"
+   }
+  ],
+  "note": "Forms: dejlig · dejligt · dejlige. Of a person, dejlig = lovely (broad, warm); lækker = hot. See also sød, flink, hyggelig."
+ },
+ "flink": {
+  "summary": "Nice, kind, helpful — one of several Danish words for English \"nice\":",
+  "uses": [
+   {
+    "when": "people",
+    "en": "nice, kind, helpful",
+    "da": "Naboerne er meget flinke.",
+    "da_en": "The neighbours are really nice."
+   },
+   {
+    "when": "children",
+    "en": "good, well-behaved",
+    "da": "Vær nu flink!",
+    "da_en": "Be good now!"
+   },
+   {
+    "when": "flink til",
+    "en": "good at",
+    "da": "Hun er flink til sprog.",
+    "da_en": "She's good at languages."
+   }
+  ],
+  "note": "Pick by meaning: helpful/kind = flink; kind/cute = sød; pleasant company = hyggelig; good-looking/neat = pæn; lovely = dejlig. Forms: flink · flinkt · flinke."
+ },
+ "pæn": {
+  "summary": "Nice-LOOKING, neat, decent — about looks and manners, not kindness:",
+  "uses": [
+   {
+    "when": "looks",
+    "en": "nice-looking, pretty",
+    "da": "Du ser pæn ud i dag.",
+    "da_en": "You look nice today."
+   },
+   {
+    "when": "tidy",
+    "en": "neat, tidy",
+    "da": "Hans værelse er altid pænt.",
+    "da_en": "His room is always tidy."
+   },
+   {
+    "when": "manners (pænt)",
+    "en": "nicely, politely",
+    "da": "Spørg nu pænt!",
+    "da_en": "Ask nicely!"
+   },
+   {
+    "when": "an amount",
+    "en": "a decent, tidy (sum)",
+    "da": "Hun tjener en pæn sum penge.",
+    "da_en": "She earns a tidy sum."
+   }
+  ],
+  "note": "For kind people use flink or sød. Forms: pæn · pænt · pæne."
+ },
+ "sjov": {
+  "summary": "Fun AND funny AND odd — context decides:",
+  "uses": [
+   {
+    "when": "enjoyable",
+    "en": "fun",
+    "da": "Det var sjovt at være med!",
+    "da_en": "That was fun!"
+   },
+   {
+    "when": "amusing",
+    "en": "funny",
+    "da": "Han er så sjov.",
+    "da_en": "He's so funny."
+   },
+   {
+    "when": "strange",
+    "en": "funny, odd",
+    "da": "Det er sjovt, at du siger det.",
+    "da_en": "It's funny you should say that."
+   },
+   {
+    "when": "for sjov",
+    "en": "for fun; just kidding",
+    "da": "Det var bare for sjov.",
+    "da_en": "I was only joking."
+   }
+  ],
+  "note": "Forms: sjov · sjovt · sjove. sjovt nok = funnily enough. For a clear \"funny ha-ha\" Danes also say morsom or skæg."
+ },
+ "mærkelig": {
+  "summary": "Strange, odd, weird:",
+  "uses": [
+   {
+    "when": "in general",
+    "en": "strange, odd",
+    "da": "Jeg har en mærkelig fornemmelse.",
+    "da_en": "I have a strange feeling."
+   },
+   {
+    "when": "mærkeligt nok",
+    "en": "strangely enough",
+    "da": "Mærkeligt nok var der ingen hjemme.",
+    "da_en": "Strangely enough, nobody was home."
+   },
+   {
+    "when": "people",
+    "en": "odd, weird",
+    "da": "Han er lidt mærkelig.",
+    "da_en": "He's a bit odd."
+   }
+  ],
+  "note": "Close: underlig (odd). sær is more judgemental about people (eccentric, a bit off). Forms: mærkelig · mærkeligt · mærkelige."
+ },
+ "fuld": {
+  "summary": "Full — and very often DRUNK. After a meal you're mæt, not fuld:",
+  "uses": [
+   {
+    "when": "drunk",
+    "en": "drunk",
+    "da": "Han var fuld til festen.",
+    "da_en": "He was drunk at the party."
+   },
+   {
+    "when": "full",
+    "en": "full",
+    "da": "Bussen var helt fuld.",
+    "da_en": "The bus was completely full."
+   },
+   {
+    "when": "fuld af",
+    "en": "full of",
+    "da": "Kassen er fuld af gammelt legetøj.",
+    "da_en": "The box is full of old toys."
+   },
+   {
+    "when": "after eating → mæt",
+    "en": "full (up)",
+    "da": "Nej tak, jeg er mæt.",
+    "da_en": "No thanks, I'm full."
+   }
+  ],
+  "note": "Saying \"Jeg er fuld\" after dinner means \"I'm drunk\"! Forms: fuld · fuldt · fulde. fuldtid = full-time."
+ },
+ "færdig": {
+  "summary": "Finished, ready — and, about people, exhausted:",
+  "uses": [
+   {
+    "when": "finished",
+    "en": "finished, done",
+    "da": "Er du færdig med avisen?",
+    "da_en": "Are you done with the paper?"
+   },
+   {
+    "when": "ready",
+    "en": "ready",
+    "da": "Maden er færdig om ti minutter.",
+    "da_en": "The food will be ready in ten minutes."
+   },
+   {
+    "when": "exhausted",
+    "en": "worn out, done in",
+    "da": "Jeg er helt færdig efter i dag.",
+    "da_en": "I'm completely worn out after today."
+   }
+  ],
+  "note": "færdig med = finished with, done with. Forms: færdig · færdigt · færdige. klar = ready (to go)."
+ },
+ "frisk": {
+  "summary": "Fresh — and, about people, well, lively, up for it:",
+  "uses": [
+   {
+    "when": "food / air",
+    "en": "fresh",
+    "da": "frisk brød",
+    "da_en": "fresh bread"
+   },
+   {
+    "when": "health",
+    "en": "well, better",
+    "da": "Er du frisk igen?",
+    "da_en": "Are you feeling better?"
+   },
+   {
+    "when": "looks",
+    "en": "well, bright",
+    "da": "Du ser frisk ud!",
+    "da_en": "You look well!"
+   },
+   {
+    "when": "frisk på",
+    "en": "up for, fancy",
+    "da": "Er du frisk på en øl?",
+    "da_en": "Fancy a beer?"
+   }
+  ],
+  "note": "Forms: frisk · friskt · friske. \"Frisk på\" is casual."
+ },
+ "på": {
+  "summary": "\"On\" — but very often \"at\" or \"in\", chosen by convention. Learn it in phrases:",
+  "uses": [
+   {
+    "when": "places and institutions",
+    "en": "at, in",
+    "da": "Hun er på arbejde til klokken fem.",
+    "da_en": "She's at work until five."
+   },
+   {
+    "when": "islands",
+    "en": "on, in",
+    "da": "Vi bor på Fyn.",
+    "da_en": "We live on Funen."
+   },
+   {
+    "when": "languages",
+    "en": "in",
+    "da": "Hvad hedder det på dansk?",
+    "da_en": "What's that called in Danish?"
+   },
+   {
+    "when": "next weekday",
+    "en": "(this coming) …",
+    "da": "Vi ses på fredag.",
+    "da_en": "See you on Friday."
+   },
+   {
+    "when": "fixed verbs",
+    "en": "for, about, in",
+    "da": "Jeg venter på bussen.",
+    "da_en": "I'm waiting for the bus."
+   },
+   {
+    "when": "a surface",
+    "en": "on",
+    "da": "Bogen ligger på bordet.",
+    "da_en": "The book's on the table."
+   }
+  ],
+  "note": "Also på hospitalet, på biblioteket, på ferie (on holiday), på vej (on the way), tænke på (think about), tro på (believe in), passe på (look after). Last Friday = i fredags."
+ },
+ "i": {
+  "summary": "\"In\" — but also \"for\" with time spans, and part of most time words. (Capital I = you, plural.)",
+  "uses": [
+   {
+    "when": "a place",
+    "en": "in",
+    "da": "Jeg bor i København.",
+    "da_en": "I live in Copenhagen."
+   },
+   {
+    "when": "how long",
+    "en": "for",
+    "da": "Jeg har boet her i tre år.",
+    "da_en": "I've lived here for three years."
+   },
+   {
+    "when": "day words",
+    "en": "(part of the word)",
+    "da": "i dag, i går, i morgen, i aften",
+    "da_en": "today, yesterday, tomorrow, this evening"
+   },
+   {
+    "when": "last …",
+    "en": "last …",
+    "da": "Jeg var i biografen i fredags.",
+    "da_en": "I went to the cinema last Friday."
+   },
+   {
+    "when": "some places",
+    "en": "at",
+    "da": "Børnene er i skole.",
+    "da_en": "The kids are at school."
+   },
+   {
+    "when": "I (capital)",
+    "en": "you (plural)",
+    "da": "Hvad skal I lave i weekenden?",
+    "da_en": "What are you all doing this weekend?"
+   }
+  ],
+  "note": "i nat = last night OR tonight; i morges = this morning (past). \"In ten minutes\" (future) is om ti minutter, not i. i sofaen = on the sofa."
+ },
+ "til": {
+  "summary": "\"To\" for movement — and \"for\" or \"at\" in many fixed phrases:",
+  "uses": [
+   {
+    "when": "movement",
+    "en": "to",
+    "da": "Jeg skal til Aarhus.",
+    "da_en": "I'm going to Aarhus."
+   },
+   {
+    "when": "a person's place",
+    "en": "to …'s",
+    "da": "Jeg skal til lægen.",
+    "da_en": "I'm going to the doctor's."
+   },
+   {
+    "when": "events and activities",
+    "en": "to, at",
+    "da": "Vi var til fest i lørdags.",
+    "da_en": "We were at a party on Saturday."
+   },
+   {
+    "when": "purpose",
+    "en": "for",
+    "da": "Hvad skal vi have til aftensmad?",
+    "da_en": "What are we having for dinner?"
+   },
+   {
+    "when": "holidays",
+    "en": "at, for",
+    "da": "Hvad skal I lave til jul?",
+    "da_en": "What are you doing for Christmas?"
+   },
+   {
+    "when": "fixed phrases",
+    "en": "(various)",
+    "da": "Jeg glæder mig til at se dig.",
+    "da_en": "I'm looking forward to seeing you."
+   }
+  ],
+  "note": "Going = til; being there = hos / i / på: \"Jeg er hos lægen.\" Also til tiden (on time), til venstre (to the left), til salg (for sale), gå til dansk (attend Danish classes)."
+ },
+ "for": {
+  "summary": "Sometimes \"for\" — but also \"too\", \"ago\", \"of\" and \"because\":",
+  "uses": [
+   {
+    "when": "thanks",
+    "en": "for",
+    "da": "Tak for hjælpen!",
+    "da_en": "Thanks for the help!"
+   },
+   {
+    "when": "too",
+    "en": "too",
+    "da": "Den er for dyr.",
+    "da_en": "It's too expensive."
+   },
+   {
+    "when": "for … siden",
+    "en": "ago",
+    "da": "Jeg flyttede hertil for tre år siden.",
+    "da_en": "I moved here three years ago."
+   },
+   {
+    "when": "feelings",
+    "en": "of, with",
+    "da": "Jeg er bange for hunde.",
+    "da_en": "I'm afraid of dogs."
+   },
+   {
+    "when": "joining sentences",
+    "en": "because, for",
+    "da": "Jeg går i seng, for jeg er træt.",
+    "da_en": "I'm going to bed, because I'm tired."
+   }
+  ],
+  "note": "\"For two hours\" is i to timer, not for to timer. for sent = late; for meget = too much; glad for = happy with, fond of. Wait for = vente på; ask for = bede om."
+ },
+ "af": {
+  "summary": "\"Of\" and \"by\" — plus \"from\" and \"off\" in fixed phrases:",
+  "uses": [
+   {
+    "when": "who did it",
+    "en": "by",
+    "da": "Bogen er skrevet af en dansker.",
+    "da_en": "The book was written by a Dane."
+   },
+   {
+    "when": "part of",
+    "en": "of",
+    "da": "en af mine venner",
+    "da_en": "one of my friends"
+   },
+   {
+    "when": "from a person",
+    "en": "from",
+    "da": "Jeg fik den af min bror.",
+    "da_en": "I got it from my brother."
+   },
+   {
+    "when": "feelings",
+    "en": "of, with, about",
+    "da": "Jeg er træt af regnen.",
+    "da_en": "I'm fed up with the rain."
+   },
+   {
+    "when": "off",
+    "en": "off",
+    "da": "Jeg står af ved næste stop.",
+    "da_en": "I'm getting off at the next stop."
+   },
+   {
+    "when": "material",
+    "en": "(made) of",
+    "da": "Bordet er lavet af træ.",
+    "da_en": "The table is made of wood."
+   }
+  ],
+  "note": "ked af det = sad; af og til = now and then; låne af = borrow from."
+ },
+ "med": {
+  "summary": "With — and \"by\" (transport), and \"along\" (joining in) with no verb:",
+  "uses": [
+   {
+    "when": "with",
+    "en": "with",
+    "da": "Jeg bor sammen med min kæreste.",
+    "da_en": "I live with my partner."
+   },
+   {
+    "when": "transport",
+    "en": "by",
+    "da": "Vi kom med toget.",
+    "da_en": "We came by train."
+   },
+   {
+    "when": "coming along",
+    "en": "come along, join",
+    "da": "Skal du med?",
+    "da_en": "Are you coming (along)?"
+   },
+   {
+    "when": "Hvad med …?",
+    "en": "what about …?",
+    "da": "Hvad med i morgen?",
+    "da_en": "What about tomorrow?"
+   },
+   {
+    "when": "fixed phrases",
+    "en": "with",
+    "da": "Er du færdig med opvasken?",
+    "da_en": "Are you done with the washing-up?"
+   }
+  ],
+  "note": "være med = take part; tage med = come along / bring; vild med = crazy about."
+ },
+ "om": {
+  "summary": "About, in (future time), on (habits) — and \"whether / if\":",
+  "uses": [
+   {
+    "when": "a topic",
+    "en": "about",
+    "da": "en bog om Danmark",
+    "da_en": "a book about Denmark"
+   },
+   {
+    "when": "future time",
+    "en": "in",
+    "da": "Toget kører om ti minutter.",
+    "da_en": "The train leaves in ten minutes."
+   },
+   {
+    "when": "habits",
+    "en": "on …s, in the …s",
+    "da": "Om mandagen spiller jeg fodbold.",
+    "da_en": "On Mondays I play football."
+   },
+   {
+    "when": "per",
+    "en": "a, per",
+    "da": "to gange om ugen",
+    "da_en": "twice a week"
+   },
+   {
+    "when": "whether",
+    "en": "if, whether",
+    "da": "Jeg ved ikke, om han kommer.",
+    "da_en": "I don't know if he's coming."
+   },
+   {
+    "when": "asking for",
+    "en": "for",
+    "da": "Må jeg bede om regningen?",
+    "da_en": "Could I have the bill, please?"
+   }
+  ],
+  "note": "\"If\" as a condition is hvis: \"Hvis det regner …\". Use om when you could say \"whether\"."
+ },
+ "hvis": {
+  "summary": "If — a condition. For \"if\" meaning \"whether\" use om. Also \"whose\":",
+  "uses": [
+   {
+    "when": "a condition",
+    "en": "if",
+    "da": "Hvis det regner, bliver vi hjemme.",
+    "da_en": "If it rains, we'll stay home."
+   },
+   {
+    "when": "whether → om",
+    "en": "if, whether",
+    "da": "Spørg hende, om hun vil med.",
+    "da_en": "Ask her if she wants to come."
+   },
+   {
+    "when": "hypothetical",
+    "en": "if (… were)",
+    "da": "Hvis jeg var dig, ville jeg tage jobbet.",
+    "da_en": "If I were you, I'd take the job."
+   },
+   {
+    "when": "whose",
+    "en": "whose",
+    "da": "Hvis taske er det?",
+    "da_en": "Whose bag is that?"
+   }
+  ],
+  "note": "Test: if you could say \"whether\", it's om. After hvis and om, ikke comes before the verb: \"hvis han ikke kommer\"."
+ },
+ "når": {
+  "summary": "When — for something repeated or still to come. One past event takes da; a question takes hvornår:",
+  "uses": [
+   {
+    "when": "future",
+    "en": "when",
+    "da": "Når jeg kommer hjem, ringer jeg.",
+    "da_en": "When I get home, I'll call."
+   },
+   {
+    "when": "repeated",
+    "en": "whenever, every time",
+    "da": "Når det regnede, blev vi inde.",
+    "da_en": "Whenever it rained, we stayed in."
+   },
+   {
+    "when": "one past event → da",
+    "en": "when",
+    "da": "Da jeg mødte hende, var hun 20.",
+    "da_en": "When I met her, she was 20."
+   },
+   {
+    "when": "a question → hvornår",
+    "en": "when?",
+    "da": "Hvornår kommer du?",
+    "da_en": "When are you coming?"
+   }
+  ],
+  "note": "Test: \"that one time in the past\" = da; \"every time\" or not happened yet = når. når is also the present of nå (reach): \"Vi når det\" = We'll make it."
+ },
+ "hvornår": {
+  "summary": "When? — only in questions, including indirect ones:",
+  "uses": [
+   {
+    "when": "a question",
+    "en": "when?",
+    "da": "Hvornår har du fødselsdag?",
+    "da_en": "When's your birthday?"
+   },
+   {
+    "when": "an indirect question",
+    "en": "when",
+    "da": "Jeg ved ikke, hvornår filmen starter.",
+    "da_en": "I don't know when the film starts."
+   }
+  ],
+  "note": "In a statement, \"when\" is når (future or repeated) or da (one past event)."
+ },
+ "siden": {
+  "summary": "Since — and part of \"ago\" (for … siden). Also \"the side / the page\":",
+  "uses": [
+   {
+    "when": "since",
+    "en": "since",
+    "da": "Jeg har boet her siden 2020.",
+    "da_en": "I've lived here since 2020."
+   },
+   {
+    "when": "for … siden",
+    "en": "ago",
+    "da": "Vi mødtes for fem år siden.",
+    "da_en": "We met five years ago."
+   },
+   {
+    "when": "afterwards",
+    "en": "later",
+    "da": "Siden flyttede hun til Aarhus.",
+    "da_en": "Later she moved to Aarhus."
+   }
+  ],
+  "note": "\"For three years\" is i tre år. siden is also the side / the page (side + -n)."
+ },
+ "hjem": {
+  "summary": "Home — going there (movement). Being at home is hjemme:",
+  "uses": [
+   {
+    "when": "going home",
+    "en": "home",
+    "da": "Jeg skal hjem nu.",
+    "da_en": "I'm going home now."
+   },
+   {
+    "when": "komme hjem",
+    "en": "get home",
+    "da": "Hvornår kommer du hjem?",
+    "da_en": "When are you getting home?"
+   },
+   {
+    "when": "hjem til",
+    "en": "to …'s place",
+    "da": "Vil du med hjem til mig?",
+    "da_en": "Do you want to come back to my place?"
+   },
+   {
+    "when": "noun",
+    "en": "a home",
+    "da": "Vi har et hyggeligt hjem.",
+    "da_en": "We have a cosy home."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "hjemme": {
+  "summary": "At home — being there (no movement). Going home is hjem:",
+  "uses": [
+   {
+    "when": "at home",
+    "en": "at home, home",
+    "da": "Er du hjemme i aften?",
+    "da_en": "Are you home tonight?"
+   },
+   {
+    "when": "hjemme hos",
+    "en": "at …'s place",
+    "da": "Vi spiser hjemme hos mig.",
+    "da_en": "We're eating at my place."
+   },
+   {
+    "when": "feeling at home",
+    "en": "at home",
+    "da": "Føl dig som hjemme!",
+    "da_en": "Make yourself at home!"
+   },
+   {
+    "when": "derhjemme",
+    "en": "at home, back home",
+    "da": "Vi taler engelsk derhjemme.",
+    "da_en": "We speak English at home."
+   }
+  ],
+  "note": "\"Jeg går hjemme\" = I'm at home (not working) — going home is \"Jeg går hjem\". hjemmeside = website. Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "ud": {
+  "summary": "Out — movement outwards. Being outside is ude:",
+  "uses": [
+   {
+    "when": "going out",
+    "en": "out",
+    "da": "Jeg går lige ud med skraldet.",
+    "da_en": "I'm just taking the rubbish out."
+   },
+   {
+    "when": "ud og + verb",
+    "en": "go out and …",
+    "da": "Skal vi tage ud og spise?",
+    "da_en": "Shall we go out to eat?"
+   },
+   {
+    "when": "ud af",
+    "en": "out of",
+    "da": "Han gik ud af døren.",
+    "da_en": "He went out the door."
+   },
+   {
+    "when": "se … ud",
+    "en": "look (appearance)",
+    "da": "Du ser træt ud.",
+    "da_en": "You look tired."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "ude": {
+  "summary": "Out, outside — being there. Going out is ud:",
+  "uses": [
+   {
+    "when": "outside",
+    "en": "outside",
+    "da": "Børnene leger ude.",
+    "da_en": "The kids are playing outside."
+   },
+   {
+    "when": "spise ude",
+    "en": "eat out",
+    "da": "Vi spiser ude i aften.",
+    "da_en": "We're eating out tonight."
+   },
+   {
+    "when": "være ude og + verb",
+    "en": "be out …ing",
+    "da": "Jeg var ude og løbe.",
+    "da_en": "I was out running."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "ind": {
+  "summary": "In — movement inwards. Being inside is inde:",
+  "uses": [
+   {
+    "when": "coming in",
+    "en": "in",
+    "da": "Kom ind!",
+    "da_en": "Come in!"
+   },
+   {
+    "when": "ind i",
+    "en": "into",
+    "da": "Hun gik ind i stuen.",
+    "da_en": "She went into the living room."
+   },
+   {
+    "when": "flytte ind",
+    "en": "move in",
+    "da": "Vi flytter ind i næste uge.",
+    "da_en": "We're moving in next week."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "inde": {
+  "summary": "In, inside — being there. Going in is ind:",
+  "uses": [
+   {
+    "when": "inside",
+    "en": "in, inside",
+    "da": "Han er inde i stuen.",
+    "da_en": "He's in the living room."
+   },
+   {
+    "when": "blive inde",
+    "en": "stay in",
+    "da": "Vi blev inde hele dagen.",
+    "da_en": "We stayed in all day."
+   },
+   {
+    "when": "inde i byen",
+    "en": "in town",
+    "da": "Jeg er inde i byen.",
+    "da_en": "I'm in town."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "op": {
+  "summary": "Up — movement upwards. Being up there is oppe:",
+  "uses": [
+   {
+    "when": "going up",
+    "en": "up",
+    "da": "Han gik op ad trappen.",
+    "da_en": "He went up the stairs."
+   },
+   {
+    "when": "stå op",
+    "en": "get up",
+    "da": "Jeg står op klokken syv.",
+    "da_en": "I get up at seven."
+   },
+   {
+    "when": "holde op",
+    "en": "stop",
+    "da": "Hold op med det!",
+    "da_en": "Stop it!"
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "oppe": {
+  "summary": "Up, upstairs — being there. Going up is op:",
+  "uses": [
+   {
+    "when": "up there",
+    "en": "up, upstairs",
+    "da": "Hun er oppe på loftet.",
+    "da_en": "She's up in the attic."
+   },
+   {
+    "when": "awake",
+    "en": "up",
+    "da": "Er du stadig oppe?",
+    "da_en": "Are you still up?"
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "ned": {
+  "summary": "Down — movement downwards. Being down there is nede:",
+  "uses": [
+   {
+    "when": "going down",
+    "en": "down",
+    "da": "Kom ned derfra!",
+    "da_en": "Come down from there!"
+   },
+   {
+    "when": "sætte sig ned",
+    "en": "sit down",
+    "da": "Sæt dig ned.",
+    "da_en": "Sit down."
+   },
+   {
+    "when": "ned i",
+    "en": "down (into)",
+    "da": "Han gik ned i kælderen.",
+    "da_en": "He went down to the basement."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "nede": {
+  "summary": "Down, downstairs — being there. Going down is ned:",
+  "uses": [
+   {
+    "when": "down there",
+    "en": "down, downstairs",
+    "da": "Cyklen står nede i kælderen.",
+    "da_en": "The bike's down in the basement."
+   },
+   {
+    "when": "mood",
+    "en": "down, low",
+    "da": "Han er lidt nede i dag.",
+    "da_en": "He's a bit down today."
+   }
+  ],
+  "note": "Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ },
+ "hen": {
+  "summary": "Over (to) — movement toward a place; often left untranslated. Being there is henne:",
+  "uses": [
+   {
+    "when": "where to?",
+    "en": "(no word)",
+    "da": "Hvor skal du hen?",
+    "da_en": "Where are you going?"
+   },
+   {
+    "when": "hen til",
+    "en": "over to",
+    "da": "Jeg går lige hen til bageren.",
+    "da_en": "I'm just popping over to the baker's."
+   },
+   {
+    "when": "hen ad",
+    "en": "along",
+    "da": "Hun gik hen ad gaden.",
+    "da_en": "She walked along the street."
+   }
+  ],
+  "note": "derhen = (to) there. Short form = movement, long form = being there: hjem/hjemme, ud/ude, ind/inde, op/oppe, ned/nede, hen/henne."
+ }
+}

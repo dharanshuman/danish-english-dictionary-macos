@@ -11,8 +11,11 @@ Usage: python3 scripts/build_xml.py
 """
 import json
 import pathlib
+import re
 import sys
 from xml.sax.saxutils import escape, quoteattr
+
+import english as english_mod
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "src" / "DanishEnglish.xml"
@@ -28,12 +31,16 @@ POS_NAMES = {
 }
 
 
-def indexes(word, forms):
+def indexes(word, forms, headwords=()):
+    """Look Up lists every entry indexed under the selected text, sorted
+    alphabetically, so a form that is also a headword ("hus", "er") would
+    bury the real entry under "huse", "accelerere"…. Such forms are left to
+    their own entry, whose "also: command form of huse" line links across."""
     seen = {word}
     out = [f"<d:index d:value={quoteattr(word)} d:title={quoteattr(word)}/>"]
     for form in forms:
         f = form.strip()
-        if not f or f in seen or len(f) > 60:
+        if not f or f in seen or len(f) > 60 or f in headwords or f.startswith("-") or f.endswith("-"):
             continue
         seen.add(f)
         # d:title makes the lookup panel show the inflected form the user
@@ -42,95 +49,335 @@ def indexes(word, forms):
     return out
 
 
-def infl_line(word, b):
-    """The memorize-me line, in the format Danish courses use."""
+NOUN_LABELS = ("a …", "the …", "plural", "the … (pl.)")
+VERB_LABELS = ("infinitive", "present", "past", "perfect")
+
+
+def form_cells(word, b):
+    """The memorize-me forms, in the order Danish courses use, each paired
+    with its English (to read / reads / read / has read) when the first gloss
+    inflects cleanly, else a grammar label. Returns [(danish, under, is_label)]."""
     infl = b.get("infl") or {}
     pos = b["pos"]
+    gloss = b["senses"][0]["gloss"] if b["senses"] else ""
     if pos == "noun" and infl:
         art = b.get("gender") or ""
-        first = f"{art} {word}".strip()
-        forms = [first] + [infl[k] for k in ("def_sg", "pl", "def_pl") if infl.get(k)]
-        if len(forms) < 2:
-            return None
-        return " · ".join(forms)
-    if pos == "verb" and infl.get("present"):
+        danish = [f"{art} {word}".strip()] + [infl.get(k) for k in ("def_sg", "pl", "def_pl")]
+        # penge, forældre: no "a money" (but et læs / to læs is a normal noun)
+        plural_only = infl.get("pl") == word and not infl.get("def_sg")
+        english = None if plural_only else english_mod.noun_forms(
+            gloss, countable=bool(infl.get("pl") or infl.get("def_pl")))
+        labels = NOUN_LABELS
+    elif pos == "verb" and infl.get("present"):
         aux = b.get("aux", "har")
-        forms = [f"at {word}", infl["present"]]
-        if infl.get("past"):
-            forms.append(infl["past"])
-        if infl.get("part"):
-            forms.append(f"{aux} {infl['part']}")
-        return " · ".join(forms)
-    if pos == "adj" and infl:
-        forms = [word] + [infl[k] for k in ("t", "e") if infl.get(k)]
-        line = " · ".join(forms) if len(forms) > 1 else None
-        if infl.get("comp") and infl.get("sup"):
-            extra = f"{infl['comp']}, {infl['sup']}"
-            line = f"{line}  ({extra})" if line else extra
-        return line
-    return None
+        danish = [f"at {word}", infl["present"], infl.get("past"),
+                  f"{aux} {infl['part']}" if infl.get("part") else None]
+        english, labels = english_mod.verb_forms(gloss), VERB_LABELS
+    elif pos == "adj" and infl:
+        danish = [word, infl.get("t"), infl.get("e"), infl.get("comp"), infl.get("sup")]
+        english, labels = None, ("en-word", "et-word", "the / plural", "more", "most")
+    else:
+        return []
+    if english and len(english) < len(danish) and any(danish[len(english):]):
+        english = None
+    cells = [(d, english[i] if english else labels[i], not english)
+             for i, d in enumerate(danish) if d]
+    return cells if len(cells) > 1 else []
 
 
-def danish_entry(n, word, blocks, id_of):
+def forms_html(cells, with_under, highlight=None):
+    if not with_under:  # later blocks: one compact line
+        return ("<div class=\"infl\">"
+                + " <span class=\"sep\">·</span> ".join(escape(d) for d, _, _ in cells) + "</div>")
+    out = []
+    for d, under, is_label in cells:
+        cls = "f-label" if is_label else "f-en"
+        hit = highlight and (d == highlight or d.endswith(" " + highlight))
+        out.append(f"<span class=\"fcell{' hit' if hit else ''}\"><span class=\"f-da\">{escape(d)}</span>"
+                   f"<span class=\"{cls}\">{escape(under)}</span></span>")
+    return f"<div class=\"forms\">{''.join(out)}</div>"
+
+
+def short_gloss(gloss):
+    """'worker, workman, laborer (a person who…)' -> 'worker, workman':
+    no parentheses, at most two synonyms."""
+    g = re.sub(r"\s*\([^)]*\)", "", gloss).strip(" ,;")
+    g = ", ".join(g.split(", ")[:2])
+    return g if len(g) <= 48 else g[:46].rsplit(" ", 1)[0] + "…"
+
+
+# an "also: …" line under the main meaning is noise unless the other word is
+# reasonably common; command forms (hus = "house!" of huse) need to be very
+# common to be worth a line
+ALSO_AFTER_MAX_RANK = 5000
+ALSO_COMMAND_MAX_RANK = 1000
+
+
+def also_worth_showing(ref, danish):
+    limit = ALSO_COMMAND_MAX_RANK if ref["label"] == "command form" else ALSO_AFTER_MAX_RANK
+    return lemma_rank(ref["of"], danish) <= limit
+
+
+def lemma_rank(lemma, danish):
+    return min((b.get("freq_rank") or 10**9) for b in danish.get(lemma, [{}]))
+
+
+def is_weak(b):
+    return b["pos"] == "name" or not b["senses"] or all(s.get("tags") for s in b["senses"])
+
+
+GLANCE_POS = {"noun": "noun", "verb": "verb", "adj": "adj.", "adv": "adv.", "pron": "pron.",
+              "prep": "prep.", "conj": "conj.", "intj": "interj.", "num": "num."}
+
+
+def glance_items(blocks):
+    """The meaning at a glance: top two senses of the main block, or, when the
+    word is several words in one (gift = married / poison), the first sense
+    of each, so a homograph can't hide behind "more"."""
+    others = [b for b in blocks[1:3] if not is_weak(b) and b["pos"] != blocks[0]["pos"]]
+    if others:
+        items = [(short_gloss(b["senses"][0]["gloss"]), GLANCE_POS.get(b["pos"]))
+                 for b in [blocks[0]] + others if b["senses"]]
+    else:
+        items = [(short_gloss(s["gloss"]), None) for s in blocks[0]["senses"][:2]]
+    kept = []
+    for g, p in items:  # "to be" · "to be, exist" says the same thing twice
+        if not any(g == k or g.startswith(k + ",") for k, _ in kept):
+            kept.append((g, p))
+    return kept
+
+
+def glance_html(glance):
+    if len(glance) > 1:
+        return "<div class=\"glance\">" + " ".join(
+            f"<span class=\"g-n\">{i}</span> {escape(g)}"
+            + (f" <span class=\"g-pos\">{p}</span>" if p else "")
+            for i, (g, p) in enumerate(glance, 1)) + "</div>"
+    return f"<div class=\"glance\">{escape(glance[0][0])}</div>" if glance else ""
+
+
+def concept_glance(c):
+    """skal → 'am / is going to · must · shall I…?' from the concept's uses."""
+    seen, out = set(), []
+    for u in c.get("uses", [])[:4]:
+        g = short_gloss(u["en"]).split(", ")[0].strip()
+        if g and g not in seen:
+            seen.add(g)
+            out.append((g, None))
+    return out[:3]
+
+
+def concept_html(c):
+    """Curated "learn it as Danish" box for words with no one English
+    equivalent (skal, vil, blive, hygge…): data/curated/concepts.json."""
+    uses = "".join(
+        f"<li><span class=\"c-when\">{escape(u['when'])}</span> "
+        f"<span class=\"c-en\">{escape(u['en'])}</span>"
+        + (f"<div class=\"example\"><span class=\"ex-da\">{escape(u['da'])}</span> "
+           f"<span class=\"ex-en\">{escape(u['da_en'])}</span></div>" if u.get("da") else "")
+        + "</li>" for u in c.get("uses", []))
+    note = f"<div class=\"c-note\">{escape(c['note'])}</div>" if c.get("note") else ""
+    return (f"<div class=\"concept\"><div class=\"c-head\">{escape(c['summary'])}</div>"
+            f"<ul>{uses}</ul>{note}</div>")
+
+
+NOUN_CUES = "en|et|den|det|de|var|er|som|blev|bliver|min|mit|din|dit|hans|hendes|sin|sit|vores|jeres|deres|god|gode|ny|nye"
+
+
+def own_reading_example(ex, word, ref, b0, danish):
+    """Which reading an AI example illustrates, when an inflected-form reading
+    leads: 'Toget kører klokken ni' uses the noun's own form (toget), and in
+    'Hans far var arbejder' the word follows var, so both belong to the
+    noun, not to the verb reading above it."""
+    if ref["pos"] == b0["pos"]:
+        return False
+    text = ex["da"].lower()
+    other = {f for b in danish.get(ref["of"], []) for f in (b.get("infl") or {}).values()}
+    own_forms = {f.lower() for f in (b0.get("infl") or {}).values()} - {word.lower()} - other
+    if any(re.search(rf"\b{re.escape(f)}\b", text) for f in own_forms):
+        return True
+    return b0["pos"] == "noun" and bool(
+        re.search(rf"\b(?:{NOUN_CUES})\s+(?:\w+\s+)??{re.escape(word.lower())}\b", text))
+
+
+def header_gloss(gloss):
+    """'worker, workman, laborer, labourer' -> 'worker, workman', but keep an
+    explanation: 'aware (only in blive var = notice)'."""
+    main, paren, rest = gloss.partition(" (")
+    return ", ".join(main.split(", ")[:2]) + (paren + rest if paren else "")
+
+
+def gotcha_html(text):
+    return ("<div class=\"gotcha\"><span class=\"gotcha-head\">⚠️ Gotcha</span> "
+            f"{escape(text)}</div>")
+
+
+def pos_tag(pos):
+    name = POS_NAMES.get(pos, pos)
+    return f"<span class=\"r-pos\">{escape(name)}</span> " if name else ""
+
+
+def lead_html(ref, danish, id_of, word):
+    """The reading that leads an entry (arbejder = present tense of arbejde):
+    a header, then that word's forms with this one underlined."""
+    lemma = ref["of"]
+    blocks = danish.get(lemma, [])
+    b = next((x for x in blocks if x["pos"] == ref["pos"]), blocks[0] if blocks else None)
+    meaning = f" — {escape(short_gloss(b['senses'][0]['gloss']))}" if b and b["senses"] else ""
+    link = (f"<a href=\"x-dictionary:r:{id_of[lemma]}\">{escape(lemma)}</a>"
+            if lemma in id_of else escape(lemma))
+    head = (f"<div class=\"reading\">{pos_tag(ref['pos'])}"
+            f"{escape(ref['label'])} of {link}{meaning}</div>")
+    # the forms row, as also_html builds it
+    return head + also_html(ref, danish, id_of, word=word).split("</div>", 1)[1]
+
+
+def also_html(ref, danish, id_of, word=None):
+    """'also: past tense of være (to be)'. With word: also the other word's
+    forms, this one in bold (arbejder → at arbejde · **arbejder** · …)."""
+    lemma = ref["of"]
+    blocks = danish.get(lemma, [])
+    b = next((x for x in blocks if x["pos"] == ref["pos"]), blocks[0] if blocks else None)
+    meaning = f" ({escape(short_gloss(b['senses'][0]['gloss']))})" if b and b["senses"] else ""
+    link = (f"<a href=\"x-dictionary:r:{id_of[lemma]}\">{escape(lemma)}</a>"
+            if lemma in id_of else escape(lemma))
+    out = (f"<div class=\"also\"><span class=\"also-head\">also</span> "
+           f"{escape(ref['label'])} of {link}{meaning}</div>")
+    cells = form_cells(lemma, b) if word and b and b["pos"] == ref["pos"] else []
+    if cells and ref["label"] == "command form" and (b.get("infl") or {}).get("imp"):
+        english = english_mod.verb_forms(b["senses"][0]["gloss"])
+        under = english[0].removeprefix("to ") + "!" if english else "command"
+        cells.append((b["infl"]["imp"] + "!", under, not english))
+        word += "!"
+    if cells:
+        out += forms_html(cells, with_under=True, highlight=word)
+    return out
+
+
+def meta_html(b, b0, top, show_pos=True):
+    pos = POS_NAMES.get(b["pos"], b["pos"])
+    meta = []
+    if pos and show_pos:
+        meta.append(f"<span class=\"pos\">{escape(pos)}</span>")
+    if b.get("gender") and b["pos"] == "noun":
+        g = "neuter (et)" if b["gender"] == "et" else "common (en)"
+        meta.append(f"<span class=\"gender\">{g}</span>")
+    if b.get("plural") and not (b.get("infl") or {}).get("pl"):
+        meta.append(f"<span class=\"plural\">plural: {escape(b['plural'])}</span>")
+    if b.get("ipa"):
+        meta.append(f"<span class=\"ipa\">{escape(b['ipa'])}</span>")
+    if top and b0.get("sounds_like"):
+        meta.append(f"<span class=\"sounds\">sounds like “{escape(b0['sounds_like'])}”"
+                    f"<span class=\"ai-mini\">✦</span></span>")
+    if top and b0.get("spoken"):
+        meta.append(f"<span class=\"sounds\">in fast speech: “{escape(b0['spoken'])}”"
+                    f"<span class=\"ai-mini\">✦</span></span>")
+    return f"<div class=\"meta\">{' · '.join(meta)}</div>" if meta else ""
+
+
+def examples_html(examples):
+    out = ""
+    for ex in examples:
+        cls = "example ai" if ex.get("ai") else "example"
+        en = f"<span class=\"ex-en\">{escape(ex['en'])}</span>" if ex.get("en") else ""
+        out += f"<div class=\"{cls}\"><span class=\"ex-da\">{escape(ex['da'])}</span> {en}</div>"
+    return out
+
+
+# Wiktionary sometimes quotes whole paragraphs of literature as examples
+MAX_EXAMPLE_CHARS = 160
+
+
+def senses_html(b, skip=frozenset()):
+    items = []
+    for s in b["senses"]:
+        exs = [ex for ex in s.get("examples", [])
+               if id(ex) not in skip and len(ex["da"]) <= MAX_EXAMPLE_CHARS]
+        items.append(f"<li>{escape(s['gloss'])}{examples_html(exs)}</li>")
+    return "<ol class=\"senses\">" + "".join(items) + "</ol>"
+
+
+def danish_entry(n, word, blocks, id_of, form_of, danish):
+    """Top of the entry is what the Look Up popup shows before its "more"
+    link: headword, the 'also: past tense of …' readings that matter most,
+    the meaning at a glance, then the forms with their English. The full
+    numbered senses and examples follow."""
     eid = f"da_{n}"
     all_forms = sorted({f for b in blocks for f in b.get("forms", [])})
-    parts = ["\n".join(indexes(word, all_forms))]
+    parts = ["\n".join(indexes(word, all_forms, danish))]
     parts.append(f"<h1>{escape(word)}</h1>")
     b0 = blocks[0]
+    refs = form_of.get(word, [])[:2]
+
+    # An entry is one or more readings, each shown the same way: a header
+    # (part of speech + meaning), its forms, its examples. When an
+    # inflected-form reading leads (arbejder = present tense of arbejde, læs
+    # = command form of læse), it is the first reading, and the AI examples
+    # and gotcha, written for that everyday reading, go with it.
+    lead = [r for r in refs if r.get("first")]
+    lead_form = bool(lead)
+    lead_examples = []
+    ai_examples = [ex for s in b0["senses"] for ex in s.get("examples", []) if ex.get("ai")]
+    concept = b0.get("concept")
+    lead_gotcha = lead_form and not concept and b0.get("gotcha")
+    if concept:
+        # a one-line meaning first: when several entries match, the popup
+        # shows only the first two lines of each
+        glance = (concept_glance(concept) if lead_form else None) or glance_items(blocks)
+        parts.append(glance_html(glance))
+        parts.append(concept_html(concept))
+        parts.append(meta_html(b0, b0, top=True))
+    elif lead_form:
+        parts.append(lead_html(lead[0], danish, id_of, word))
+        lead_examples = [ex for ex in ai_examples
+                         if not own_reading_example(ex, word, lead[0], b0, danish)]
+        if lead_examples:
+            parts.append(f"<div class=\"examples lead\">{examples_html(lead_examples)}</div>")
+        if lead_gotcha:
+            parts.append(gotcha_html(b0["gotcha"]))
+        parts += [also_html(r, danish, id_of) for r in lead[1:] if r["of"] != lead[0]["of"]]
+        parts.append("<hr class=\"reading-sep\"/>")
+        # the word's own reading: full glosses when there are only one or two
+        # (var = "aware (only in blive var = notice)"), so no list repeats them
+        own = ([(header_gloss(s["gloss"]), None) for s in b0["senses"]] if len(b0["senses"]) <= 2
+               else glance_items(blocks))
+        parts.append(f"<div class=\"reading\">{pos_tag(b0['pos'])}"
+                     + " · ".join(escape(g) for g, _ in own) + "</div>")
+        parts.append(meta_html(b0, b0, top=True, show_pos=False))
+    else:
+        parts.append(glance_html(glance_items(blocks)))
+        parts.append(meta_html(b0, b0, top=True))
+    cells = form_cells(word, b0)
+    if cells:
+        parts.append(forms_html(cells, with_under=True))
+    lead_lemmas = {r["of"] for r in lead}
+    parts += [also_html(r, danish, id_of) for r in refs
+              if not r.get("first") and r["of"] not in lead_lemmas and also_worth_showing(r, danish)]
 
     if b0.get("false_friend"):
-        parts.append(f"<div class=\"falsefriend\"><span class=\"ff-head\">🚨 False friend</span> "
+        parts.append(f"<div class=\"falsefriend\"><span class=\"ff-head\">🚨 Common English mistake</span> "
                      f"{escape(b0['false_friend'])}</div>")
 
     for i, b in enumerate(blocks):
-        pos = POS_NAMES.get(b["pos"], b["pos"])
-        meta = []
-        if pos:
-            meta.append(f"<span class=\"pos\">{escape(pos)}</span>")
-        if b.get("gender") and b["pos"] == "noun":
-            g = "neuter (et)" if b["gender"] == "et" else "common (en)"
-            meta.append(f"<span class=\"gender\">{g}</span>")
-        if b.get("plural") and not (b.get("infl") or {}).get("pl"):
-            meta.append(f"<span class=\"plural\">plural: {escape(b['plural'])}</span>")
-        if b.get("ipa"):
-            meta.append(f"<span class=\"ipa\">{escape(b['ipa'])}</span>")
-        if i == 0 and b0.get("sounds_like"):
-            meta.append(f"<span class=\"sounds\">sounds like “{escape(b0['sounds_like'])}”"
-                        f"<span class=\"ai-mini\">✦</span></span>")
-        if i == 0 and b0.get("spoken"):
-            meta.append(f"<span class=\"sounds\">in fast speech: “{escape(b0['spoken'])}”"
-                        f"<span class=\"ai-mini\">✦</span></span>")
-        parts.append(f"<div class=\"meta\">{' · '.join(meta)}</div>")
-
-        line = infl_line(word, b)
-        if line:
-            parts.append(f"<div class=\"infl\">{escape(line)}</div>")
-
-        parts.append("<ol class=\"senses\">")
-        for s in b["senses"]:
-            ex_html = ""
-            for ex in s.get("examples", []):
-                cls = "example ai" if ex.get("ai") else "example"
-                en = f"<span class=\"ex-en\">{escape(ex['en'])}</span>" if ex.get("en") else ""
-                ex_html += (f"<div class=\"{cls}\">"
-                            f"<span class=\"ex-da\">{escape(ex['da'])}</span> {en}</div>")
-            parts.append(f"<li>{escape(s['gloss'])}{ex_html}</li>")
-        parts.append("</ol>")
-
-        if b.get("gotcha"):
-            parts.append(
-                "<div class=\"gotcha\"><span class=\"gotcha-head\">⚠️ Gotcha</span> "
-                f"{escape(b['gotcha'])}</div>"
-            )
-
-    if b0.get("particle"):
-        p = b0["particle"]
-        dialogs = "".join(
-            f"<div class=\"example\"><span class=\"ex-da\">{escape(d['da'])}</span> "
-            f"<span class=\"ex-en\">{escape(d['en'])}</span></div>"
-            for d in p.get("dialogs", []))
-        parts.append(f"<div class=\"particle\"><span class=\"particle-head\">✨ How Danes use it</span> "
-                     f"{escape(p['explain'])}{dialogs}</div>")
+        if i > 0:
+            parts.append("<hr class=\"block-sep\"/>")
+            parts.append(meta_html(b, b0, top=False))
+            cells = form_cells(word, b)
+            if cells:
+                parts.append(forms_html(cells, with_under=False))
+        shown = {id(ex) for ex in lead_examples} if i == 0 else set()
+        own_examples = [ex for s in b["senses"] for ex in s.get("examples", []) if id(ex) not in shown]
+        if i == 0 and lead_form and not concept and len(b["senses"]) <= 2:
+            # the reading's header already shows these glosses: examples only
+            if own_examples:
+                parts.append(f"<div class=\"examples\">{examples_html(own_examples)}</div>")
+        elif i == 0 and not own_examples and len(b["senses"]) <= 2 and all(
+                short_gloss(s["gloss"]) == s["gloss"] for s in b["senses"]):
+            pass  # the at-a-glance line already says it all
+        else:
+            parts.append(senses_html(b, skip=shown))
+        if b.get("gotcha") and not (i == 0 and lead_gotcha):
+            parts.append(gotcha_html(b["gotcha"]))
 
     if b0.get("chunks"):
         items = "".join(f"<li>{escape(c)}</li>" for c in b0["chunks"])
@@ -190,7 +437,12 @@ def main():
 
     entries = [FRONT_MATTER]
     for n, (word, blocks) in enumerate(sorted_danish):
-        entries.append(danish_entry(n, word, blocks, id_of))
+        if word.startswith("-") or word.endswith("-"):
+            # Look Up ignores the hyphen, so "-er" would answer every lookup
+            # of "er"; affixes aren't worth that to a learner
+            continue
+        entries.append(danish_entry(n, word, blocks, id_of, data.get("form_of", {}),
+                                    data["danish"]))
     for n, (word, translations) in enumerate(sorted(data["english"].items())):
         # skip English words identical to a Danish headword we already have;
         # both would match anyway, and the Danish entry is richer
