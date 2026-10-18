@@ -23,8 +23,8 @@ jobs:
       - name: Parse sources
         run: python3 scripts/parse_sources.py
 
-      - name: Merge AI enrichment cache
-        run: python3 scripts/enrich.py
+      - name: Merge AI enrichment cache and curated fixes
+        run: python3 scripts/enrich.py --strict
 
       - name: Build dictionary XML
         run: python3 scripts/build_xml.py

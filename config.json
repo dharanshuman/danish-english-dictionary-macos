@@ -5,23 +5,35 @@
   "sources": {
     "kaikki": {
       "url": "https://kaikki.org/dictionary/Danish/kaikki.org-dictionary-Danish.jsonl",
-      "license": "CC BY-SA 4.0 (Wiktionary, via Wiktextract)"
+      "license": "CC BY-SA 4.0 (Wiktionary, via Wiktextract)",
+      "pinned_url": "https://github.com/dharanshuman/danish-english-dictionary-macos/releases/download/sources-2026-10-18/kaikki.org-dictionary-Danish.jsonl",
+      "sha256": "176778d6800e4edbbf2f743f81f6102093072d6ac902cb2f451bc8dc884e602b"
     },
     "freedict_dan_eng": {
       "url": "https://download.freedict.org/dictionaries/dan-eng/0.3.1/freedict-dan-eng-0.3.1.stardict.tar.xz",
-      "license": "GPL / see FreeDict"
+      "license": "GPL / see FreeDict",
+      "pinned_url": "https://github.com/dharanshuman/danish-english-dictionary-macos/releases/download/sources-2026-10-18/freedict-dan-eng-0.3.1.stardict.tar.xz",
+      "sha256": "80a0f04c164c2655ba2fccb0046b4c7bb410460b9f0325af40edde3a5fbc740c"
     },
     "freedict_eng_dan": {
       "url": "https://download.freedict.org/dictionaries/eng-dan/0.1.0/freedict-eng-dan-0.1.0.stardict.tar.xz",
-      "license": "GPL / see FreeDict"
+      "license": "GPL / see FreeDict",
+      "pinned_url": "https://github.com/dharanshuman/danish-english-dictionary-macos/releases/download/sources-2026-10-18/freedict-eng-dan-0.1.0.stardict.tar.xz",
+      "sha256": "e678ef7c8d222ba3953448c31d6569eb94d3cff1bcf27441ac1c12583afa3729"
     },
     "cor": {
       "url": "https://ordregister.dk/files/cor1.5.1.0.tsv",
-      "license": "CC0"
+      "license": "CC0",
+      "pinned_url": "https://github.com/dharanshuman/danish-english-dictionary-macos/releases/download/sources-2026-10-18/cor1.5.1.0.tsv",
+      "sha256": "1c4d1c06bd676e66be8e8c0af68615c8a892472a05af3b261ba8a9d1f2d2b82b"
     },
     "frequency": {
       "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/da/da_50k.txt",
-      "license": "CC BY-SA 4.0 (OpenSubtitles-based frequency list by hermitdave)"
+      "license": "CC BY-SA 4.0 (OpenSubtitles-based frequency list by hermitdave)",
+      "pinned_url": "https://github.com/dharanshuman/danish-english-dictionary-macos/releases/download/sources-2026-10-18/da_50k.txt",
+      "sha256": "6a83e4deb5e38d873b1ccfb4be4fb25903878c07c8522af708027ac8b540c6b1"
     }
-  }
+  },
+  "sources_snapshot": "2026-10-18",
+  "comment_sources": "Builds use the pinned copies (pinned_url, checked against sha256) so a release is reproducible and data/curated/fixes.json always matches the data it was written for. To move to newer upstream data: python3 scripts/fetch_data.py --latest, rebuild, fix any 'fixes matched nothing' warnings, upload the files as a new sources-YYYY-MM-DD release and update pinned_url/sha256 here."
 }

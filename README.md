@@ -77,7 +77,8 @@ cd danish-english-dictionary-macos
 # 1. Apple's Dictionary Development Kit (build tool, not committed here)
 git clone https://github.com/SebastianSzturo/Dictionary-Development-Kit.git tools/Dictionary-Development-Kit
 
-# 2. Download the open data sources (~120 MB)
+# 2. Download the open data sources (~130 MB) — the pinned snapshot the
+#    curated fixes were written for (checksums in config.json)
 python3 scripts/fetch_data.py
 
 # 3. Normalize everything into one JSON file
@@ -98,7 +99,7 @@ Settings.
 
 | Step | Script | What it does |
 |---|---|---|
-| Fetch | `scripts/fetch_data.py` | Downloads all sources into `data/raw/` (skips files it already has) |
+| Fetch | `scripts/fetch_data.py` | Downloads the pinned source snapshot into `data/raw/` and checks it against the SHA-256s in `config.json` (`--latest` fetches fresh upstream data instead) |
 | Parse | `scripts/parse_sources.py` | Merges Wiktionary + FreeDict + COR into `data/normalized.json` |
 | Enrich | `scripts/enrich.py` | Adds cached AI examples/notes for the most common words |
 | Build | `scripts/build_xml.py` | Writes `src/DanishEnglish.xml` in Apple's dictionary format |
@@ -127,6 +128,13 @@ glosses, rare meanings shown first, wrong forms, bad examples — and
 `form_of_order.json` decides when an "also: past tense of …" line goes first.
 These are plain JSON — if you spot a mistake, edit the file and open a pull
 request.
+
+Because those fixes target specific entries, builds use a **pinned snapshot**
+of the source data (a `sources-YYYY-MM-DD` GitHub release with SHA-256s in
+`config.json`), and release builds run `enrich.py --strict`, which fails if a
+fix no longer matches anything. To move to newer Wiktionary data, run
+`fetch_data.py --latest`, rebuild, update any fixes the build reports, then
+publish the files as a new snapshot release and update `config.json`.
 
 To expand coverage: raise `tier1_size` in `config.json`, run
 `python3 scripts/enrich.py --list` to get the words that still need

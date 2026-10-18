@@ -102,7 +102,7 @@ def short_gloss(gloss):
     """'worker, workman, laborer (a person who…)' -> 'worker, workman':
     no parentheses, at most two synonyms."""
     g = re.sub(r"\s*\([^)]*\)", "", gloss).strip(" ,;")
-    g = ", ".join(g.split(", ")[:2])
+    g = ", ".join(re.split(r"[,;] ", g)[:2])
     return g if len(g) <= 48 else g[:46].rsplit(" ", 1)[0] + "…"
 
 
@@ -204,7 +204,7 @@ def header_gloss(gloss):
     """'worker, workman, laborer, labourer' -> 'worker, workman', but keep an
     explanation: 'aware (only in blive var = notice)'."""
     main, paren, rest = gloss.partition(" (")
-    return ", ".join(main.split(", ")[:2]) + (paren + rest if paren else "")
+    return ", ".join(re.split(r"[,;] ", main)[:2]) + (paren + rest if paren else "")
 
 
 def gotcha_html(text):

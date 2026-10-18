@@ -15,6 +15,8 @@ Two commands:
   python3 scripts/enrich.py --list   Write data/tier1_words.json
                                      (the words that still need AI content)
   python3 scripts/enrich.py          Merge cache -> data/enriched.json
+  python3 scripts/enrich.py --strict Same, but fail if any curated fix
+                                     matches nothing (used by release builds)
 """
 import json
 import pathlib
@@ -327,6 +329,10 @@ def main():
     print(f"form-of readings shown before the word's own meaning: {n_first:,}")
     if failed_fixes:
         print(f"WARNING - {len(failed_fixes)} fixes matched nothing: {failed_fixes}")
+        if "--strict" in sys.argv:
+            # release builds: a fix that no longer matches means the source
+            # data changed under it; don't ship a silently half-fixed entry
+            sys.exit("--strict: update data/curated/fixes.json for the current data")
     print(f"merged AI content for {enriched_count:,} of {len(words):,} tier-1 words")
     print(f"pronunciation respellings: {pron_count:,}")
     print(f"curated: {n_ff} false friends, {n_cf} confusables, {n_ch} chunk sets, "

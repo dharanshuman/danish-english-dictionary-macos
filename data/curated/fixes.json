@@ -2022,12 +2022,6 @@
  ],
  "centrum": [
   {
-   "op": "set",
-   "pos": "",
-   "field": "pos",
-   "value": "noun"
-  },
-  {
    "op": "senses",
    "pos": "noun",
    "mode": "replace",
@@ -2675,52 +2669,6 @@
     "after, behind (løbe efter bussen = run after the bus)",
     "according to, by (efter planen = according to plan)"
    ]
-  }
- ],
- "efterlade": [
-  {
-   "op": "senses",
-   "pos": "",
-   "mode": "replace",
-   "glosses": [
-    "to leave (behind)"
-   ]
-  },
-  {
-   "op": "set",
-   "pos": "",
-   "field": "pos",
-   "value": "verb"
-  },
-  {
-   "op": "set",
-   "pos": "verb",
-   "field": "aux",
-   "value": "har"
-  },
-  {
-   "op": "set_infl",
-   "pos": "verb",
-   "key": "present",
-   "value": "efterlader"
-  },
-  {
-   "op": "set_infl",
-   "pos": "verb",
-   "key": "past",
-   "value": "efterlod"
-  },
-  {
-   "op": "set_infl",
-   "pos": "verb",
-   "key": "part",
-   "value": "efterladt"
-  },
-  {
-   "op": "set_infl",
-   "pos": "verb",
-   "key": "imp",
-   "value": "efterlad"
   }
  ],
  "egentlig": [
@@ -5376,43 +5324,33 @@
  ],
  "i": [
   {
-   "op": "senses",
-   "pos": "adv",
-   "mode": "replace",
-   "glosses": [
-    "in, into (after verbs: hæld vandet i = pour the water in)"
-   ]
+   "op": "drop_block",
+   "pos": "",
+   "match": "a in inside"
   },
   {
-   "op": "set",
-   "pos": "adv",
-   "field": "ipa",
-   "value": "[ˈiˀ]"
+   "op": "add_block",
+   "block": {
+    "pos": "prep",
+    "ipa": "[i]",
+    "senses": [
+     "in, inside",
+     "for (a duration: i to år = for two years)",
+     "last (a past day or time: i mandags = last Monday, i går = yesterday)",
+     "this (the current one: i dag = today, i aften = this evening)",
+     "to the power of (tre i femte = three to the fifth)"
+    ]
+   }
   },
   {
-   "op": "set",
-   "pos": "prep",
-   "field": "ipa",
-   "value": "[i]"
-  },
-  {
-   "op": "drop_sense",
-   "pos": "prep",
-   "gloss": "exponentiation"
-  },
-  {
-   "op": "senses",
-   "pos": "prep",
-   "mode": "append",
-   "glosses": [
-    "to the power of (tre i femte = three to the fifth)"
-   ]
-  },
-  {
-   "op": "fix_example",
-   "contains": "i mandags",
-   "da": "Han fyldte seks år i mandags.",
-   "en": "He turned six last Monday."
+   "op": "add_block",
+   "block": {
+    "pos": "adv",
+    "ipa": "[ˈiˀ]",
+    "senses": [
+     "in, into (after verbs: hæld vandet i = pour the water in)"
+    ]
+   }
   }
  ],
  "id": [
@@ -8037,40 +7975,6 @@
     "me",
     "myself (reflexive: jeg skynder mig = I hurry)"
    ]
-  }
- ],
- "mikrofon": [
-  {
-   "op": "senses",
-   "pos": "",
-   "mode": "replace",
-   "glosses": [
-    "microphone"
-   ]
-  },
-  {
-   "op": "set_infl",
-   "pos": "",
-   "key": "def_sg",
-   "value": "mikrofonen"
-  },
-  {
-   "op": "set_infl",
-   "pos": "",
-   "key": "pl",
-   "value": "mikrofoner"
-  },
-  {
-   "op": "set_infl",
-   "pos": "",
-   "key": "def_pl",
-   "value": "mikrofonerne"
-  },
-  {
-   "op": "set",
-   "pos": "",
-   "field": "pos",
-   "value": "noun"
   }
  ],
  "min": [

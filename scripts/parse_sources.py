@@ -70,7 +70,8 @@ def extract_infl(pos, forms):
             if "participle" in tags and "present" in tags:
                 continue
             if "participle" in tags or "perfect" in tags:
-                infl.setdefault("part", form.removeprefix("har ").removeprefix("er "))
+                # "har stukket", "har (have /havde /er /var) stukket" -> stukket
+                infl.setdefault("part", form.split()[-1])
             elif "present" in tags:
                 infl.setdefault("present", form)
             elif "past" in tags:
