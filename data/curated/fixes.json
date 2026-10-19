@@ -1490,6 +1490,21 @@
    ]
   }
  ],
+ "blive": [
+  {
+   "op": "drop_sense",
+   "pos": "verb",
+   "gloss": "the latter is preferred"
+  },
+  {
+   "op": "senses",
+   "pos": "verb",
+   "mode": "prepend",
+   "glosses": [
+    "to become, get (blive træt = get tired; blive læge = become a doctor)"
+   ]
+  }
+ ],
  "blod": [
   {
    "op": "word",

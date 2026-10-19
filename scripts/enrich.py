@@ -268,6 +268,13 @@ def main():
             b["gotcha"] = gotcha
         enriched_count += 1
 
+    # AI example sentences for inflected forms (sagde, husene…), shown in
+    # their own small entries by build_xml (config.json form_entries)
+    data["form_examples"] = {
+        form: [{**ex, "ai": True} for ex in exs]
+        for form, exs in load_cache("form_examples_*.json").items()
+    }
+
     # AI pronunciation respellings ("sounds like") for tier-1 words
     pron = load_cache("pron_*.json")
     pron_count = 0

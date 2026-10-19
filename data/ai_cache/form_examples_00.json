@@ -1,0 +1,122 @@
+{
+ "sagde": [
+  {
+   "da": "Hun sagde, at hun var træt.",
+   "en": "She said that she was tired."
+  },
+  {
+   "da": "Hvad sagde du?",
+   "en": "What did you say?"
+  }
+ ],
+ "sagt": [
+  {
+   "da": "Har du sagt det til hende?",
+   "en": "Have you told her that?"
+  },
+  {
+   "da": "Det har jeg aldrig sagt.",
+   "en": "I've never said that."
+  }
+ ],
+ "gik": [
+  {
+   "da": "Vi gik en tur i parken.",
+   "en": "We went for a walk in the park."
+  },
+  {
+   "da": "Han gik hjem klokken fem.",
+   "en": "He went home at five."
+  }
+ ],
+ "gået": [
+  {
+   "da": "Han er gået hjem.",
+   "en": "He's gone home."
+  },
+  {
+   "da": "Toget er lige gået.",
+   "en": "The train has just left."
+  }
+ ],
+ "kom": [
+  {
+   "da": "Hun kom for sent til mødet.",
+   "en": "She was late for the meeting."
+  },
+  {
+   "da": "Kom ind!",
+   "en": "Come in!"
+  }
+ ],
+ "kørte": [
+  {
+   "da": "Vi kørte til Aarhus i weekenden.",
+   "en": "We drove to Aarhus at the weekend."
+  },
+  {
+   "da": "Bussen kørte lige forbi mig.",
+   "en": "The bus drove right past me."
+  }
+ ],
+ "fik": [
+  {
+   "da": "Jeg fik en cykel til min fødselsdag.",
+   "en": "I got a bike for my birthday."
+  },
+  {
+   "da": "Vi fik pizza i går.",
+   "en": "We had pizza yesterday."
+  }
+ ],
+ "husene": [
+  {
+   "da": "Husene i gaden er meget gamle.",
+   "en": "The houses on the street are very old."
+  },
+  {
+   "da": "Alle husene har røde tage.",
+   "en": "All the houses have red roofs."
+  }
+ ],
+ "bøger": [
+  {
+   "da": "Jeg har mange bøger derhjemme.",
+   "en": "I have a lot of books at home."
+  },
+  {
+   "da": "Hun læser to bøger om ugen.",
+   "en": "She reads two books a week."
+  }
+ ],
+ "børn": [
+  {
+   "da": "Har du børn?",
+   "en": "Do you have children?"
+  },
+  {
+   "da": "Vi har to børn.",
+   "en": "We have two children."
+  }
+ ],
+ "pigen": [
+  {
+   "da": "Pigen hedder Emma.",
+   "en": "The girl is called Emma."
+  },
+  {
+   "da": "Kender du pigen med det røde hår?",
+   "en": "Do you know the girl with the red hair?"
+  }
+ ],
+ "større": [
+  {
+   "da": "Vores nye lejlighed er større end den gamle.",
+   "en": "Our new flat is bigger than the old one."
+  },
+  {
+   "da": "Kan jeg få en større kop?",
+   "en": "Can I have a bigger cup?"
+  }
+ ]
+}

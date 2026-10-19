@@ -33,6 +33,12 @@ Built for the things that actually trip up English speakers:
   word you are actually reading. A word that is two words (*arbejder* = the
   verb "works" and the noun "worker") gets one section per reading, each
   with its own forms and examples.
+- **Inflected forms get their own entry**: look up *sagde*, *gik*, *husene*
+  or *større* and you see "past tense of **sige**" with *sige*'s forms and
+  *sagde* underlined, two example sentences that use *sagde* itself, and
+  *sige*'s meanings — about 8,100 forms of the most common words (example
+  sentences for the ~5,000 that occur in everyday text, AI-written and
+  checked twice, marked ✦).
 - **📘 Learn-it-as-Danish boxes** for ~150 words with no single English
   equivalent — the modal verbs (*skal, vil, kan, må, bør, gider*), *blive,
   få, gerne, godt, lige, jo, nok, da*, *synes/tror/mener*, *hos, henne*,

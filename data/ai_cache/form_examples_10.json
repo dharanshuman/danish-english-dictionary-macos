@@ -1,0 +1,2484 @@
+{
+ "mal": [
+  {
+   "da": "Mal væggen hvid!",
+   "en": "Paint the wall white!"
+  },
+  {
+   "da": "Mal et billede af huset!",
+   "en": "Paint a picture of the house!"
+  }
+ ],
+ "sikket": [
+  {
+   "da": "Sikket dejligt vejr vi har i dag!",
+   "en": "What lovely weather we have today!"
+  },
+  {
+   "da": "Sikket stort hus I har!",
+   "en": "What a big house you have!"
+  }
+ ],
+ "helikoptere": [
+  {
+   "da": "To helikoptere fløj over byen.",
+   "en": "Two helicopters flew over the city."
+  },
+  {
+   "da": "Hæren har flere helikoptere.",
+   "en": "The army has several helicopters."
+  }
+ ],
+ "billetterne": [
+  {
+   "da": "Billetterne ligger i min taske.",
+   "en": "The tickets are in my bag."
+  },
+  {
+   "da": "Har du husket billetterne til toget?",
+   "en": "Did you remember the tickets for the train?"
+  }
+ ],
+ "invitationen": [
+  {
+   "da": "Invitationen kom med posten i går.",
+   "en": "The invitation came in the mail yesterday."
+  },
+  {
+   "da": "Vi takkede ja til invitationen.",
+   "en": "We accepted the invitation."
+  }
+ ],
+ "nationen": [
+  {
+   "da": "Hele nationen så fodboldkampen.",
+   "en": "The whole nation watched the football match."
+  },
+  {
+   "da": "Nationen holdt vejret under finalen.",
+   "en": "The nation held its breath during the final."
+  }
+ ],
+ "heler": [
+  {
+   "da": "Såret heler langsomt.",
+   "en": "The wound is healing slowly."
+  },
+  {
+   "da": "Knoglen heler på seks uger.",
+   "en": "The bone heals in six weeks."
+  }
+ ],
+ "økonomien": [
+  {
+   "da": "Økonomien i landet er stærk.",
+   "en": "The country's economy is strong."
+  },
+  {
+   "da": "Økonomien er stram i øjeblikket.",
+   "en": "Our finances are tight at the moment."
+  }
+ ],
+ "fælden": [
+  {
+   "da": "Musen gik lige i fælden.",
+   "en": "The mouse walked right into the trap."
+  },
+  {
+   "da": "Fælden står i kælderen.",
+   "en": "The trap is in the basement."
+  }
+ ],
+ "skruer": [
+  {
+   "da": "Han skruer hylden fast på væggen.",
+   "en": "He screws the shelf onto the wall."
+  },
+  {
+   "da": "Vi skal bruge fire skruer til hylden.",
+   "en": "We need four screws for the shelf."
+  }
+ ],
+ "bryd": [
+  {
+   "da": "Bryd brødet i to stykker!",
+   "en": "Break the bread into two pieces!"
+  },
+  {
+   "da": "Bryd ikke reglerne!",
+   "en": "Don't break the rules!"
+  }
+ ],
+ "forandrede": [
+  {
+   "da": "Byen forandrede sig meget i løbet af ti år.",
+   "en": "The city changed a lot over ten years."
+  },
+  {
+   "da": "Hun forandrede planen i sidste øjeblik.",
+   "en": "She changed the plan at the last minute."
+  }
+ ],
+ "lokkede": [
+  {
+   "da": "Duften af kaffe lokkede mig ind i caféen.",
+   "en": "The smell of coffee lured me into the café."
+  },
+  {
+   "da": "Børnene lokkede katten frem med lidt mad.",
+   "en": "The children coaxed the cat out with a little food."
+  }
+ ],
+ "gennemført": [
+  {
+   "da": "Vi har gennemført hele projektet.",
+   "en": "We have completed the whole project."
+  },
+  {
+   "da": "Han har gennemført maratonløbet to gange.",
+   "en": "He has completed the marathon twice."
+  }
+ ],
+ "minderne": [
+  {
+   "da": "Minderne fra ferien er gode.",
+   "en": "The memories from the holiday are good."
+  },
+  {
+   "da": "Vi kigger på billeder og snakker om minderne.",
+   "en": "We look at pictures and talk about the memories."
+  }
+ ],
+ "kujoner": [
+  {
+   "da": "Kujoner tør ikke sige deres mening.",
+   "en": "Cowards don't dare to say what they think."
+  },
+  {
+   "da": "Han kaldte dem kujoner, fordi de løb væk.",
+   "en": "He called them cowards because they ran away."
+  }
+ ],
+ "uhyret": [
+  {
+   "da": "Uhyret i filmen var stort og grønt.",
+   "en": "The monster in the film was big and green."
+  },
+  {
+   "da": "Børnene var bange for uhyret.",
+   "en": "The children were scared of the monster."
+  }
+ ],
+ "fryseren": [
+  {
+   "da": "Is ligger i fryseren.",
+   "en": "There is ice cream in the freezer."
+  },
+  {
+   "da": "Fryseren i kælderen er fuld.",
+   "en": "The freezer in the basement is full."
+  }
+ ],
+ "formanden": [
+  {
+   "da": "Formanden åbnede mødet klokken ti.",
+   "en": "The chairman opened the meeting at ten o'clock."
+  },
+  {
+   "da": "Jeg talte med formanden efter mødet.",
+   "en": "I talked to the chairman after the meeting."
+  }
+ ],
+ "tyven": [
+  {
+   "da": "Politiet fangede tyven i går.",
+   "en": "The police caught the thief yesterday."
+  },
+  {
+   "da": "Tyven stjal min cykel.",
+   "en": "The thief stole my bike."
+  }
+ ],
+ "underskrev": [
+  {
+   "da": "Jeg underskrev kontrakten i går.",
+   "en": "I signed the contract yesterday."
+  },
+  {
+   "da": "Hun underskrev brevet med sit navn.",
+   "en": "She signed the letter with her name."
+  }
+ ],
+ "farligste": [
+  {
+   "da": "Det er den farligste vej i byen.",
+   "en": "It is the most dangerous road in town."
+  },
+  {
+   "da": "Hvad er det farligste dyr i Danmark?",
+   "en": "What is the most dangerous animal in Denmark?"
+  }
+ ],
+ "ydmyget": [
+  {
+   "da": "Han har ydmyget sin bror foran alle.",
+   "en": "He has humiliated his brother in front of everyone."
+  },
+  {
+   "da": "Hun følte sig ydmyget efter mødet.",
+   "en": "She felt humiliated after the meeting."
+  }
+ ],
+ "centret": [
+  {
+   "da": "Centret ligger tæt på stationen.",
+   "en": "The centre is close to the station."
+  },
+  {
+   "da": "Vi mødes i centret klokken tre.",
+   "en": "We are meeting at the centre at three o'clock."
+  }
+ ],
+ "hoteller": [
+  {
+   "da": "Der er mange hoteller i København.",
+   "en": "There are many hotels in Copenhagen."
+  },
+  {
+   "da": "Hoteller er dyre i sommerferien.",
+   "en": "Hotels are expensive during the summer holidays."
+  }
+ ],
+ "bæltet": [
+  {
+   "da": "Bæltet er for stramt.",
+   "en": "The belt is too tight."
+  },
+  {
+   "da": "Jeg har glemt bæltet derhjemme.",
+   "en": "I forgot the belt at home."
+  }
+ ],
+ "svagheder": [
+  {
+   "da": "Alle har både styrker og svagheder.",
+   "en": "Everyone has both strengths and weaknesses."
+  },
+  {
+   "da": "Han kender sine svagheder godt.",
+   "en": "He knows his weaknesses well."
+  }
+ ],
+ "eleverne": [
+  {
+   "da": "Eleverne sidder i klasseværelset.",
+   "en": "The pupils are sitting in the classroom."
+  },
+  {
+   "da": "Læreren taler med eleverne.",
+   "en": "The teacher is talking to the students."
+  }
+ ],
+ "støttet": [
+  {
+   "da": "Vi har støttet projektet i flere år.",
+   "en": "We have supported the project for several years."
+  },
+  {
+   "da": "Min familie har altid støttet mig.",
+   "en": "My family has always supported me."
+  }
+ ],
+ "hensigter": [
+  {
+   "da": "Han har kun gode hensigter.",
+   "en": "He only has good intentions."
+  },
+  {
+   "da": "Hvad er dine hensigter med det her?",
+   "en": "What are your intentions with this?"
+  }
+ ],
+ "hyggede": [
+  {
+   "da": "Vi hyggede os foran fjernsynet.",
+   "en": "We had a cosy time in front of the TV."
+  },
+  {
+   "da": "Børnene hyggede sig hele aftenen.",
+   "en": "The children had a nice time all evening."
+  }
+ ],
+ "stunder": [
+  {
+   "da": "I mine stille stunder læser jeg en bog.",
+   "en": "In my quiet moments I read a book."
+  },
+  {
+   "da": "Vi har haft mange gode stunder sammen.",
+   "en": "We have had many good moments together."
+  }
+ ],
+ "brevene": [
+  {
+   "da": "Brevene ligger på bordet.",
+   "en": "The letters are on the table."
+  },
+  {
+   "da": "Jeg har ikke åbnet brevene endnu.",
+   "en": "I haven't opened the letters yet."
+  }
+ ],
+ "troldmanden": [
+  {
+   "da": "Troldmanden i eventyret var gammel og klog.",
+   "en": "The wizard in the fairy tale was old and wise."
+  },
+  {
+   "da": "Børnene elsker troldmanden i filmen.",
+   "en": "The children love the wizard in the film."
+  }
+ ],
+ "miner": [
+  {
+   "da": "Børnene lavede sjove miner.",
+   "en": "The children made funny faces."
+  },
+  {
+   "da": "Hun lavede sure miner, da hun smagte maden.",
+   "en": "She made sour faces when she tasted the food."
+  }
+ ],
+ "udgangen": [
+  {
+   "da": "Udgangen er til højre.",
+   "en": "The exit is on the right."
+  },
+  {
+   "da": "Ved udgangen af måneden betaler vi husleje.",
+   "en": "At the end of the month we pay rent."
+  }
+ ],
+ "mærkerne": [
+  {
+   "da": "Mærkerne på tøjet er små.",
+   "en": "The labels on the clothes are small."
+  },
+  {
+   "da": "Mærkerne på væggen går ikke af.",
+   "en": "The marks on the wall won't come off."
+  }
+ ],
+ "halvandet": [
+  {
+   "da": "Det tog halvandet år at bygge huset.",
+   "en": "It took a year and a half to build the house."
+  },
+  {
+   "da": "Jeg har købt halvandet kilo kartofler.",
+   "en": "I bought one and a half kilos of potatoes."
+  }
+ ],
+ "uskyldigt": [
+  {
+   "da": "Barnet smilede uskyldigt.",
+   "en": "The child smiled innocently."
+  },
+  {
+   "da": "Det var bare et uskyldigt spørgsmål.",
+   "en": "It was just an innocent question."
+  }
+ ],
+ "meninger": [
+  {
+   "da": "Folk har forskellige meninger om det.",
+   "en": "People have different opinions about it."
+  },
+  {
+   "da": "Hvad er jeres meninger om det nye forslag?",
+   "en": "What are your opinions on the new proposal?"
+  }
+ ],
+ "datoen": [
+  {
+   "da": "Datoen står på billetten.",
+   "en": "The date is on the ticket."
+  },
+  {
+   "da": "Har du skrevet datoen i kalenderen?",
+   "en": "Have you written the date in the calendar?"
+  }
+ ],
+ "reklamer": [
+  {
+   "da": "Der er for mange reklamer i fjernsynet.",
+   "en": "There are too many ads on TV."
+  },
+  {
+   "da": "Jeg får mange reklamer i postkassen.",
+   "en": "I get a lot of adverts in my mailbox."
+  }
+ ],
+ "ledende": [
+  {
+   "da": "Hun har en ledende stilling i firmaet.",
+   "en": "She has a leading position in the company."
+  },
+  {
+   "da": "Det er en ledende virksomhed inden for energi.",
+   "en": "It is a leading company in the energy sector."
+  }
+ ],
+ "teen": [
+  {
+   "da": "Teen er for varm.",
+   "en": "The tea is too hot."
+  },
+  {
+   "da": "Jeg hælder teen i kopperne.",
+   "en": "I pour the tea into the cups."
+  }
+ ],
+ "puttede": [
+  {
+   "da": "Jeg puttede børnene klokken otte.",
+   "en": "I put the children to bed at eight o'clock."
+  },
+  {
+   "da": "Han puttede nøglerne i lommen.",
+   "en": "He put the keys in his pocket."
+  }
+ ],
+ "hatte": [
+  {
+   "da": "Hun har mange flotte hatte.",
+   "en": "She has many beautiful hats."
+  },
+  {
+   "da": "Butikken sælger hatte til vinteren.",
+   "en": "The shop sells hats for the winter."
+  }
+ ],
+ "ministeren": [
+  {
+   "da": "Ministeren holdt en tale i går.",
+   "en": "The minister gave a speech yesterday."
+  },
+  {
+   "da": "Ministeren besøgte vores skole.",
+   "en": "The minister visited our school."
+  }
+ ],
+ "filmet": [
+  {
+   "da": "Jeg har filmet børnene på stranden.",
+   "en": "I have filmed the children on the beach."
+  },
+  {
+   "da": "Hele turen er filmet.",
+   "en": "The whole trip has been filmed."
+  }
+ ],
+ "kandidater": [
+  {
+   "da": "Firmaet har fem kandidater til jobbet.",
+   "en": "The company has five candidates for the job."
+  },
+  {
+   "da": "Alle kandidater skal have en samtale.",
+   "en": "All candidates must have an interview."
+  }
+ ],
+ "jøderne": [
+  {
+   "da": "Jøderne i byen har bygget en ny synagoge.",
+   "en": "The Jews in town have built a new synagogue."
+  },
+  {
+   "da": "Jøderne i Danmark har en lang historie her.",
+   "en": "The Jews in Denmark have a long history here."
+  }
+ ],
+ "groft": [
+  {
+   "da": "Det er et groft brød med frø.",
+   "en": "It is a coarse-grained bread with seeds."
+  },
+  {
+   "da": "Jeg hakker løget groft.",
+   "en": "I chop the onion coarsely."
+  }
+ ],
+ "undgik": [
+  {
+   "da": "Vi undgik trafikken ved at tage tidligt af sted.",
+   "en": "We avoided the traffic by leaving early."
+  },
+  {
+   "da": "Han undgik at svare på spørgsmålet.",
+   "en": "He avoided answering the question."
+  }
+ ],
+ "kontrolleret": [
+  {
+   "da": "Politiet har kontrolleret bilen.",
+   "en": "The police have checked the car."
+  },
+  {
+   "da": "Vi har kontrolleret alle tallene to gange.",
+   "en": "We have checked all the numbers twice."
+  }
+ ],
+ "ydmygende": [
+  {
+   "da": "Det var ydmygende at tabe så stort.",
+   "en": "It was humiliating to lose by so much."
+  },
+  {
+   "da": "Det var en ydmygende oplevelse for ham.",
+   "en": "It was a humiliating experience for him."
+  }
+ ],
+ "artikler": [
+  {
+   "da": "Jeg læser to artikler hver morgen.",
+   "en": "I read two articles every morning."
+  },
+  {
+   "da": "Avisen har mange artikler om vejret.",
+   "en": "The newspaper has many articles about the weather."
+  }
+ ],
+ "afslut": [
+  {
+   "da": "Afslut opgaven inden fredag!",
+   "en": "Finish the assignment before Friday!"
+  },
+  {
+   "da": "Afslut mødet klokken fire!",
+   "en": "End the meeting at four o'clock!"
+  }
+ ],
+ "tests": [
+  {
+   "da": "Eleverne har to tests i denne uge.",
+   "en": "The pupils have two tests this week."
+  },
+  {
+   "da": "Vi laver tests hver fredag.",
+   "en": "We do tests every Friday."
+  }
+ ],
+ "trådt": [
+  {
+   "da": "Jeg har trådt i noget klistret.",
+   "en": "I have stepped in something sticky."
+  },
+  {
+   "da": "Hun har trådt på min fod.",
+   "en": "She has stepped on my foot."
+  }
+ ],
+ "filen": [
+  {
+   "da": "Filen ligger på skrivebordet.",
+   "en": "The file is on the desktop."
+  },
+  {
+   "da": "Jeg slettede filen ved en fejl.",
+   "en": "I deleted the file by mistake."
+  }
+ ],
+ "mulighederne": [
+  {
+   "da": "Mulighederne er mange.",
+   "en": "The possibilities are many."
+  },
+  {
+   "da": "Vi taler om mulighederne for at flytte.",
+   "en": "We are talking about the options for moving."
+  }
+ ],
+ "nydt": [
+  {
+   "da": "Vi har nydt ferien meget.",
+   "en": "We have enjoyed the holiday a lot."
+  },
+  {
+   "da": "Hun har nydt hver dag i Italien.",
+   "en": "She has enjoyed every day in Italy."
+  }
+ ],
+ "tosser": [
+  {
+   "da": "Han tosser rundt i haven hele dagen.",
+   "en": "He fools around in the garden all day."
+  },
+  {
+   "da": "De tosser rundt og griner.",
+   "en": "They are messing around and laughing."
+  }
+ ],
+ "piloter": [
+  {
+   "da": "Flyselskabet søger nye piloter.",
+   "en": "The airline is looking for new pilots."
+  },
+  {
+   "da": "Der er mange piloter i min familie.",
+   "en": "There are many pilots in my family."
+  }
+ ],
+ "bekendte": [
+  {
+   "da": "Det er en af de bekendte sange fra filmen.",
+   "en": "It is one of the well-known songs from the film."
+  },
+  {
+   "da": "Vi har inviteret venner og bekendte til festen.",
+   "en": "We have invited friends and acquaintances to the party."
+  }
+ ],
+ "virksomheder": [
+  {
+   "da": "Mange virksomheder lukker i juli.",
+   "en": "Many companies close in July."
+  },
+  {
+   "da": "Der er mange små virksomheder i byen.",
+   "en": "There are many small businesses in town."
+  }
+ ],
+ "accepterede": [
+  {
+   "da": "Hun accepterede jobbet med det samme.",
+   "en": "She accepted the job right away."
+  },
+  {
+   "da": "Vi accepterede hans undskyldning.",
+   "en": "We accepted his apology."
+  }
+ ],
+ "kjoler": [
+  {
+   "da": "Hun har tre nye kjoler.",
+   "en": "She has three new dresses."
+  },
+  {
+   "da": "Butikken sælger flotte kjoler.",
+   "en": "The shop sells beautiful dresses."
+  }
+ ],
+ "tillod": [
+  {
+   "da": "Min chef tillod mig at gå tidligt.",
+   "en": "My boss allowed me to leave early."
+  },
+  {
+   "da": "Læreren tillod ikke mobiltelefoner i timen.",
+   "en": "The teacher did not allow mobile phones in class."
+  }
+ ],
+ "standset": [
+  {
+   "da": "Toget er standset på grund af sne.",
+   "en": "The train has stopped because of snow."
+  },
+  {
+   "da": "Politiet har standset bilen.",
+   "en": "The police have stopped the car."
+  }
+ ],
+ "bossen": [
+  {
+   "da": "Bossen er i godt humør i dag.",
+   "en": "The boss is in a good mood today."
+  },
+  {
+   "da": "Jeg har talt med bossen om ferien.",
+   "en": "I have talked to the boss about the holiday."
+  }
+ ],
+ "vildeste": [
+  {
+   "da": "Det var den vildeste fest nogensinde.",
+   "en": "It was the wildest party ever."
+  },
+  {
+   "da": "Det er det vildeste, jeg har set.",
+   "en": "It is the craziest thing I have seen."
+  }
+ ],
+ "rid": [
+  {
+   "da": "Rid forsigtigt, når det er glat!",
+   "en": "Ride carefully when it is slippery!"
+  },
+  {
+   "da": "Rid hen til hegnet og vent der!",
+   "en": "Ride over to the fence and wait there!"
+  }
+ ],
+ "mægtigt": [
+  {
+   "da": "Det var et mægtigt syn.",
+   "en": "It was a mighty sight."
+  },
+  {
+   "da": "Der står et mægtigt egetræ i haven.",
+   "en": "There is a mighty oak tree in the garden."
+  }
+ ],
+ "skuddet": [
+  {
+   "da": "Skuddet gik forbi målet.",
+   "en": "The shot missed the goal."
+  },
+  {
+   "da": "Hele holdet jublede efter skuddet.",
+   "en": "The whole team cheered after the shot."
+  }
+ ],
+ "elsk": [
+  {
+   "da": "Elsk dem, du har omkring dig!",
+   "en": "Love the people you have around you!"
+  },
+  {
+   "da": "Elsk dit arbejde, så bliver det lettere.",
+   "en": "Love your job, and it gets easier."
+  }
+ ],
+ "forråder": [
+  {
+   "da": "Hun forråder aldrig mine hemmeligheder.",
+   "en": "She never betrays my secrets."
+  },
+  {
+   "da": "Man forråder ikke en god ven.",
+   "en": "You don't betray a good friend."
+  }
+ ],
+ "affærer": [
+  {
+   "da": "Vi blander os ikke i andres affærer.",
+   "en": "We don't interfere in other people's affairs."
+  },
+  {
+   "da": "Det er private affærer, som ikke angår os.",
+   "en": "Those are private affairs that don't concern us."
+  }
+ ],
+ "flaget": [
+  {
+   "da": "Flaget hænger på flagstangen.",
+   "en": "The flag is hanging on the flagpole."
+  },
+  {
+   "da": "Flaget er rødt og hvidt.",
+   "en": "The flag is red and white."
+  }
+ ],
+ "løbende": [
+  {
+   "da": "Hun kom løbende hen til bussen.",
+   "en": "She came running over to the bus."
+  },
+  {
+   "da": "Drengen kom løbende ned ad trappen.",
+   "en": "The boy came running down the stairs."
+  }
+ ],
+ "testede": [
+  {
+   "da": "Vi testede den nye app i går.",
+   "en": "We tested the new app yesterday."
+  },
+  {
+   "da": "Læreren testede eleverne i matematik.",
+   "en": "The teacher tested the pupils in maths."
+  }
+ ],
+ "repareret": [
+  {
+   "da": "Bilen er repareret.",
+   "en": "The car has been repaired."
+  },
+  {
+   "da": "Vi har repareret taget selv.",
+   "en": "We have repaired the roof ourselves."
+  }
+ ],
+ "gættet": [
+  {
+   "da": "Du har gættet rigtigt!",
+   "en": "You have guessed correctly!"
+  },
+  {
+   "da": "Har du gættet, hvad jeg har købt?",
+   "en": "Have you guessed what I bought?"
+  }
+ ],
+ "tøsen": [
+  {
+   "da": "Tøsen leger i haven.",
+   "en": "The girl is playing in the garden."
+  },
+  {
+   "da": "Tøsen smilede til sin mor.",
+   "en": "The girl smiled at her mother."
+  }
+ ],
+ "sked": [],
+ "pletter": [
+  {
+   "da": "Der er pletter på min skjorte.",
+   "en": "There are stains on my shirt."
+  },
+  {
+   "da": "Vi så grønne pletter på græsset.",
+   "en": "We saw green patches on the grass."
+  }
+ ],
+ "englene": [
+  {
+   "da": "Englene i kirken er malet i guld.",
+   "en": "The angels in the church are painted in gold."
+  },
+  {
+   "da": "Børnene synger om englene i julesangen.",
+   "en": "The children sing about the angels in the Christmas carol."
+  }
+ ],
+ "tiderne": [
+  {
+   "da": "Tiderne har ændret sig meget.",
+   "en": "Times have changed a lot."
+  },
+  {
+   "da": "Jeg har skrevet tiderne i kalenderen.",
+   "en": "I have written the appointments in the calendar."
+  }
+ ],
+ "pile": [
+  {
+   "da": "Han skød to pile mod skiven.",
+   "en": "He shot two arrows at the target."
+  },
+  {
+   "da": "Pile er lavet af træ og fjer.",
+   "en": "Arrows are made of wood and feathers."
+  }
+ ],
+ "stigen": [
+  {
+   "da": "Stigen står op ad muren.",
+   "en": "The ladder is leaning against the wall."
+  },
+  {
+   "da": "Jeg klatrede op ad stigen.",
+   "en": "I climbed up the ladder."
+  }
+ ],
+ "selskaber": [
+  {
+   "da": "Mange selskaber har kontor i byen.",
+   "en": "Many companies have offices in the city."
+  },
+  {
+   "da": "Vi har holdt to selskaber i år.",
+   "en": "We have held two parties this year."
+  }
+ ],
+ "bekræftede": [
+  {
+   "da": "Hotellet bekræftede vores reservation.",
+   "en": "The hotel confirmed our reservation."
+  },
+  {
+   "da": "Hun bekræftede, at mødet var klokken ti.",
+   "en": "She confirmed that the meeting was at ten."
+  }
+ ],
+ "udsætter": [
+  {
+   "da": "Vi udsætter mødet til fredag.",
+   "en": "We are postponing the meeting until Friday."
+  },
+  {
+   "da": "Firmaet udsætter lanceringen til efteråret.",
+   "en": "The company is postponing the launch until the autumn."
+  }
+ ],
+ "roller": [
+  {
+   "da": "Skuespillerne øver deres roller.",
+   "en": "The actors are rehearsing their roles."
+  },
+  {
+   "da": "Hun har to store roller i filmen.",
+   "en": "She has two big roles in the film."
+  }
+ ],
+ "præcise": [
+  {
+   "da": "Giv mig præcise oplysninger, tak.",
+   "en": "Give me precise information, please."
+  },
+  {
+   "da": "De præcise tal kender jeg ikke.",
+   "en": "I don't know the exact figures."
+  }
+ ],
+ "ejet": [
+  {
+   "da": "Huset er ejet af en dansk familie.",
+   "en": "The house is owned by a Danish family."
+  },
+  {
+   "da": "Hun har ejet butikken i ti år.",
+   "en": "She has owned the shop for ten years."
+  }
+ ],
+ "tørret": [
+  {
+   "da": "Jeg har tørret gulvet.",
+   "en": "I have wiped the floor."
+  },
+  {
+   "da": "Tøjet er tørret på snoren.",
+   "en": "The clothes have dried on the line."
+  }
+ ],
+ "syet": [
+  {
+   "da": "Hun har syet en kjole til sin datter.",
+   "en": "She has sewn a dress for her daughter."
+  },
+  {
+   "da": "Gardinerne er syet i hånden.",
+   "en": "The curtains are sewn by hand."
+  }
+ ],
+ "kampene": [
+  {
+   "da": "Kampene begynder klokken otte.",
+   "en": "The matches start at eight o'clock."
+  },
+  {
+   "da": "Vi ser kampene hver weekend.",
+   "en": "We watch the games every weekend."
+  }
+ ],
+ "kyllinger": [
+  {
+   "da": "Landmanden har femten kyllinger.",
+   "en": "The farmer has fifteen chickens."
+  },
+  {
+   "da": "Kyllinger har bløde gule fjer.",
+   "en": "Chicks have soft yellow feathers."
+  }
+ ],
+ "råder": [
+  {
+   "da": "Jeg råder dig til at tage en paraply med.",
+   "en": "I advise you to bring an umbrella."
+  },
+  {
+   "da": "Lægen råder mig til at hvile.",
+   "en": "The doctor advises me to rest."
+  }
+ ],
+ "pænere": [
+  {
+   "da": "Vejret bliver pænere i morgen.",
+   "en": "The weather will be nicer tomorrow."
+  },
+  {
+   "da": "Det nye hus er pænere end det gamle.",
+   "en": "The new house is nicer than the old one."
+  }
+ ],
+ "besværet": [
+  {
+   "da": "Besværet var det hele værd.",
+   "en": "The trouble was worth it."
+  },
+  {
+   "da": "Vi fik ikke tak for besværet.",
+   "en": "We got no thanks for our trouble."
+  }
+ ],
+ "udtrykket": [
+  {
+   "da": "Udtrykket er svært at oversætte.",
+   "en": "The expression is hard to translate."
+  },
+  {
+   "da": "Jeg kender ikke udtrykket.",
+   "en": "I don't know the expression."
+  }
+ ],
+ "hornet": [
+  {
+   "da": "Bilisten dyttede med hornet.",
+   "en": "The driver honked the horn."
+  },
+  {
+   "da": "Han blæste i hornet.",
+   "en": "He blew the horn."
+  }
+ ],
+ "kunsten": [
+  {
+   "da": "Kunsten er at holde balancen.",
+   "en": "The art lies in keeping your balance."
+  },
+  {
+   "da": "Kunsten på museet er meget moderne.",
+   "en": "The art at the museum is very modern."
+  }
+ ],
+ "smagen": [
+  {
+   "da": "Smagen er sød og frisk.",
+   "en": "The taste is sweet and fresh."
+  },
+  {
+   "da": "Jeg kan ikke lide smagen af fisk.",
+   "en": "I don't like the taste of fish."
+  }
+ ],
+ "skæve": [
+  {
+   "da": "Han har lidt skæve tænder.",
+   "en": "He has slightly crooked teeth."
+  },
+  {
+   "da": "De skæve vægge i huset er gamle.",
+   "en": "The crooked walls in the house are old."
+  }
+ ],
+ "ferien": [
+  {
+   "da": "Ferien begynder på fredag.",
+   "en": "The holiday starts on Friday."
+  },
+  {
+   "da": "Vi glæder os til ferien.",
+   "en": "We are looking forward to the holiday."
+  }
+ ],
+ "raske": [
+  {
+   "da": "De raske børn går i skole.",
+   "en": "The healthy children go to school."
+  },
+  {
+   "da": "Hun gik med raske skridt hjem.",
+   "en": "She walked home with brisk steps."
+  }
+ ],
+ "centralen": [
+  {
+   "da": "Vagten ringede til centralen.",
+   "en": "The guard called the control centre."
+  },
+  {
+   "da": "Centralen svarer ikke i øjeblikket.",
+   "en": "The switchboard is not answering at the moment."
+  }
+ ],
+ "alderen": [
+  {
+   "da": "Alderen er kun et tal.",
+   "en": "Age is just a number."
+  },
+  {
+   "da": "Hun skjuler ikke alderen.",
+   "en": "She doesn't hide her age."
+  }
+ ],
+ "historierne": [
+  {
+   "da": "Børnene elsker historierne om dragen.",
+   "en": "The children love the stories about the dragon."
+  },
+  {
+   "da": "Historierne i avisen er interessante.",
+   "en": "The stories in the newspaper are interesting."
+  }
+ ],
+ "datede": [
+  {
+   "da": "De datede i et halvt år.",
+   "en": "They dated for half a year."
+  },
+  {
+   "da": "Hun datede en fyr fra sit arbejde.",
+   "en": "She dated a guy from her work."
+  }
+ ],
+ "opnår": [
+  {
+   "da": "Man opnår meget med øvelse.",
+   "en": "You achieve a lot with practice."
+  },
+  {
+   "da": "Han opnår gode resultater i skolen.",
+   "en": "He gets good results at school."
+  }
+ ],
+ "æggene": [
+  {
+   "da": "Æggene koster tolv kroner.",
+   "en": "The eggs cost twelve kroner."
+  },
+  {
+   "da": "Æggene er kogte.",
+   "en": "The eggs are boiled."
+  }
+ ],
+ "fætre": [
+  {
+   "da": "Mine fætre bor i Aarhus.",
+   "en": "My cousins live in Aarhus."
+  },
+  {
+   "da": "Vi besøger vores fætre i weekenden.",
+   "en": "We are visiting our cousins at the weekend."
+  }
+ ],
+ "aflyser": [
+  {
+   "da": "Skolen aflyser turen på grund af vejret.",
+   "en": "The school is cancelling the trip because of the weather."
+  },
+  {
+   "da": "Jeg aflyser mødet i morgen.",
+   "en": "I am cancelling the meeting tomorrow."
+  }
+ ],
+ "flygt": [
+  {
+   "da": "Flygt ud af bygningen, hvis det brænder!",
+   "en": "Flee the building if there is a fire!"
+  },
+  {
+   "da": "Flygt ikke, men bliv og tal om det.",
+   "en": "Don't run away, but stay and talk about it."
+  }
+ ],
+ "røgen": [
+  {
+   "da": "Røgen fra grillen går ind i huset.",
+   "en": "The smoke from the grill goes into the house."
+  },
+  {
+   "da": "Røgen i rummet gjorde det svært at ånde.",
+   "en": "The smoke in the room made it hard to breathe."
+  }
+ ],
+ "tævede": [
+  {
+   "da": "Holdet tævede modstanderne fem-nul.",
+   "en": "The team thrashed the opponents five-nil."
+  },
+  {
+   "da": "Vi tævede dem i fodbold i går.",
+   "en": "We thrashed them at football yesterday."
+  }
+ ],
+ "følelserne": [
+  {
+   "da": "Hun skjuler ikke følelserne.",
+   "en": "She doesn't hide her feelings."
+  },
+  {
+   "da": "Følelserne løb af med ham.",
+   "en": "His feelings ran away with him."
+  }
+ ],
+ "asken": [
+  {
+   "da": "Asken lå i skålen.",
+   "en": "The ash was lying in the bowl."
+  },
+  {
+   "da": "Asken fra bålet blev kold om natten.",
+   "en": "The ash from the fire went cold during the night."
+  }
+ ],
+ "telefonerne": [
+  {
+   "da": "Telefonerne ringer hele dagen på kontoret.",
+   "en": "The phones ring all day at the office."
+  },
+  {
+   "da": "Børnene sidder med telefonerne.",
+   "en": "The children are sitting with their phones."
+  }
+ ],
+ "sigtede": [
+  {
+   "da": "Han sigtede på målet og skød.",
+   "en": "He aimed at the target and shot."
+  },
+  {
+   "da": "Hun sigtede højt og læste til læge.",
+   "en": "She aimed high and studied to become a doctor."
+  }
+ ],
+ "plantede": [
+  {
+   "da": "Vi plantede et æbletræ i haven.",
+   "en": "We planted an apple tree in the garden."
+  },
+  {
+   "da": "Børnene plantede blomster i foråret.",
+   "en": "The children planted flowers in the spring."
+  }
+ ],
+ "skrivebordet": [
+  {
+   "da": "Skrivebordet står ved vinduet.",
+   "en": "The desk is by the window."
+  },
+  {
+   "da": "Mine bøger ligger på skrivebordet.",
+   "en": "My books are on the desk."
+  }
+ ],
+ "hovederne": [
+  {
+   "da": "Børnene stak hovederne ud af vinduet.",
+   "en": "The children stuck their heads out of the window."
+  },
+  {
+   "da": "Vi lagde hovederne sammen og fandt en løsning.",
+   "en": "We put our heads together and found a solution."
+  }
+ ],
+ "masker": [
+  {
+   "da": "Børnene har farverige masker på til fastelavn.",
+   "en": "The children are wearing colourful masks for carnival."
+  },
+  {
+   "da": "Vi købte masker til festen.",
+   "en": "We bought masks for the party."
+  }
+ ],
+ "opmærksomheden": [
+  {
+   "da": "Opmærksomheden var rettet mod tavlen.",
+   "en": "The attention was directed at the board."
+  },
+  {
+   "da": "Opmærksomheden gjorde ham genert.",
+   "en": "The attention made him shy."
+  }
+ ],
+ "ignorerede": [
+  {
+   "da": "Han ignorerede min besked.",
+   "en": "He ignored my message."
+  },
+  {
+   "da": "Hun ignorerede støjen og læste videre.",
+   "en": "She ignored the noise and kept reading."
+  }
+ ],
+ "sårbare": [
+  {
+   "da": "Små børn er meget sårbare.",
+   "en": "Small children are very vulnerable."
+  },
+  {
+   "da": "Vi skal passe på de sårbare.",
+   "en": "We must look after the vulnerable."
+  }
+ ],
+ "trængt": [
+  {
+   "da": "Vandet er trængt ind i kælderen.",
+   "en": "The water has seeped into the basement."
+  },
+  {
+   "da": "Hun har trængt til ferie længe.",
+   "en": "She has needed a holiday for a long time."
+  }
+ ],
+ "spændingen": [
+  {
+   "da": "Spændingen steg før kampen.",
+   "en": "The excitement grew before the match."
+  },
+  {
+   "da": "Spændingen i salen var stor.",
+   "en": "The excitement in the hall was great."
+  }
+ ],
+ "forfatteren": [
+  {
+   "da": "Forfatteren bor i Odense.",
+   "en": "The author lives in Odense."
+  },
+  {
+   "da": "Jeg mødte forfatteren på biblioteket.",
+   "en": "I met the author at the library."
+  }
+ ],
+ "runder": [
+  {
+   "da": "Bilen runder hjørnet langsomt.",
+   "en": "The car rounds the corner slowly."
+  },
+  {
+   "da": "Vi løb tre runder rundt om søen.",
+   "en": "We ran three laps around the lake."
+  }
+ ],
+ "forvandlede": [
+  {
+   "da": "Sneen forvandlede haven til et eventyr.",
+   "en": "The snow turned the garden into a fairy tale."
+  },
+  {
+   "da": "Maleren forvandlede stuen med ny maling.",
+   "en": "The painter transformed the living room with new paint."
+  }
+ ],
+ "budskabet": [
+  {
+   "da": "Budskabet var klart og tydeligt.",
+   "en": "The message was clear and plain."
+  },
+  {
+   "da": "Jeg forstod budskabet med det samme.",
+   "en": "I understood the message right away."
+  }
+ ],
+ "billetten": [
+  {
+   "da": "Billetten koster hundrede kroner.",
+   "en": "The ticket costs a hundred kroner."
+  },
+  {
+   "da": "Jeg har mistet billetten.",
+   "en": "I have lost the ticket."
+  }
+ ],
+ "korrekte": [
+  {
+   "da": "Dine svar er alle korrekte.",
+   "en": "Your answers are all correct."
+  },
+  {
+   "da": "Det korrekte svar er tre.",
+   "en": "The correct answer is three."
+  }
+ ],
+ "plaget": [
+  {
+   "da": "Han er plaget af hovedpine.",
+   "en": "He is troubled by headaches."
+  },
+  {
+   "da": "Hun har plaget mig hele dagen med spørgsmål.",
+   "en": "She has pestered me all day with questions."
+  }
+ ],
+ "skjoldene": [
+  {
+   "da": "Skjoldene hænger på væggen på slottet.",
+   "en": "The shields hang on the wall at the castle."
+  },
+  {
+   "da": "Børnene malede skjoldene røde.",
+   "en": "The children painted the shields red."
+  }
+ ],
+ "skyldtes": [
+  {
+   "da": "Forsinkelsen skyldtes sne på sporene.",
+   "en": "The delay was due to snow on the tracks."
+  },
+  {
+   "da": "Problemet skyldtes en fejl i systemet.",
+   "en": "The problem was caused by an error in the system."
+  }
+ ],
+ "rådner": [
+  {
+   "da": "Frugten rådner i skålen.",
+   "en": "The fruit is rotting in the bowl."
+  },
+  {
+   "da": "Træet rådner, hvis det bliver vådt.",
+   "en": "The wood rots if it gets wet."
+  }
+ ],
+ "server": [
+  {
+   "da": "Server maden, mens den er varm!",
+   "en": "Serve the food while it is warm!"
+  },
+  {
+   "da": "Server kaffen i de nye kopper!",
+   "en": "Serve the coffee in the new cups!"
+  }
+ ],
+ "respekteret": [
+  {
+   "da": "Han er meget respekteret på sit arbejde.",
+   "en": "He is very respected at work."
+  },
+  {
+   "da": "Vi har altid respekteret hendes valg.",
+   "en": "We have always respected her choice."
+  }
+ ],
+ "heksene": [
+  {
+   "da": "Børnene ser heksene i filmen.",
+   "en": "The children watch the witches in the film."
+  },
+  {
+   "da": "Heksene i eventyret bor i skoven.",
+   "en": "The witches in the fairy tale live in the forest."
+  }
+ ],
+ "usædvanlige": [
+  {
+   "da": "Det var nogle usædvanlige dage.",
+   "en": "Those were some unusual days."
+  },
+  {
+   "da": "De usædvanlige lyde kom fra kælderen.",
+   "en": "The unusual sounds came from the basement."
+  }
+ ],
+ "punkter": [
+  {
+   "da": "Der er tre punkter på dagsordenen.",
+   "en": "There are three items on the agenda."
+  },
+  {
+   "da": "Læs de vigtigste punkter igennem.",
+   "en": "Read through the most important points."
+  }
+ ],
+ "æd": [
+  {
+   "da": "Æd dig mæt, før vi går!",
+   "en": "Eat your fill before we go!"
+  },
+  {
+   "da": "Æd ikke så hurtigt, du får ondt i maven!",
+   "en": "Don't wolf it down, you'll get a stomachache!"
+  }
+ ],
+ "pulsen": [
+  {
+   "da": "Lægen målte pulsen.",
+   "en": "The doctor measured the pulse."
+  },
+  {
+   "da": "Pulsen steg, da jeg løb.",
+   "en": "My pulse rose when I ran."
+  }
+ ],
+ "sejeste": [
+  {
+   "da": "Hun er den sejeste i klassen.",
+   "en": "She is the coolest in the class."
+  },
+  {
+   "da": "Det var den sejeste koncert, jeg har set.",
+   "en": "It was the coolest concert I have seen."
+  }
+ ],
+ "eden": [
+  {
+   "da": "Vidnet aflagde eden i retten.",
+   "en": "The witness took the oath in court."
+  },
+  {
+   "da": "Han brød eden og blev straffet.",
+   "en": "He broke the oath and was punished."
+  }
+ ],
+ "kunden": [
+  {
+   "da": "Kunden venter ved disken.",
+   "en": "The customer is waiting at the counter."
+  },
+  {
+   "da": "Vi hjælper kunden med at finde en jakke.",
+   "en": "We help the customer find a jacket."
+  }
+ ],
+ "pladen": [
+  {
+   "da": "Pladen på komfuret er varm.",
+   "en": "The hotplate on the stove is hot."
+  },
+  {
+   "da": "Jeg lytter til pladen hver aften.",
+   "en": "I listen to the record every evening."
+  }
+ ],
+ "leget": [
+  {
+   "da": "Børnene har leget hele dagen.",
+   "en": "The children have played all day."
+  },
+  {
+   "da": "Hunden har leget i haven.",
+   "en": "The dog has been playing in the garden."
+  }
+ ],
+ "trygge": [
+  {
+   "da": "Børnene føler sig trygge hjemme.",
+   "en": "The children feel safe at home."
+  },
+  {
+   "da": "Vi bor i et af byens trygge kvarterer.",
+   "en": "We live in one of the town's safe neighbourhoods."
+  }
+ ],
+ "anbefalede": [
+  {
+   "da": "Lægen anbefalede mere motion.",
+   "en": "The doctor recommended more exercise."
+  },
+  {
+   "da": "Min ven anbefalede restauranten.",
+   "en": "My friend recommended the restaurant."
+  }
+ ],
+ "præsenterede": [
+  {
+   "da": "Han præsenterede sin nye kollega.",
+   "en": "He introduced his new colleague."
+  },
+  {
+   "da": "Hun præsenterede projektet for chefen.",
+   "en": "She presented the project to the boss."
+  }
+ ],
+ "lister": [
+  {
+   "da": "Han lister ud af værelset uden at vække nogen.",
+   "en": "He sneaks out of the room without waking anyone."
+  },
+  {
+   "da": "Jeg skriver lister over alt, jeg skal købe.",
+   "en": "I write lists of everything I need to buy."
+  }
+ ],
+ "skødet": [
+  {
+   "da": "Katten sov i skødet på mig.",
+   "en": "The cat slept in my lap."
+  },
+  {
+   "da": "Barnet sidder i skødet på sin mor.",
+   "en": "The child is sitting in its mother's lap."
+  }
+ ],
+ "projekter": [
+  {
+   "da": "Vi har flere projekter på arbejdet.",
+   "en": "We have several projects at work."
+  },
+  {
+   "da": "Eleverne laver projekter om dyr.",
+   "en": "The pupils are doing projects about animals."
+  }
+ ],
+ "rigeste": [
+  {
+   "da": "Han er landets rigeste mand.",
+   "en": "He is the richest man in the country."
+  },
+  {
+   "da": "Hvem er verdens rigeste person?",
+   "en": "Who is the richest person in the world?"
+  }
+ ],
+ "klatrer": [
+  {
+   "da": "Drengen klatrer op i træet.",
+   "en": "The boy is climbing up the tree."
+  },
+  {
+   "da": "Hun klatrer på klippen hver weekend.",
+   "en": "She climbs on the rock every weekend."
+  }
+ ],
+ "sikreste": [
+  {
+   "da": "Toget er det sikreste valg.",
+   "en": "The train is the safest choice."
+  },
+  {
+   "da": "Det er den sikreste måde at rejse på.",
+   "en": "It is the safest way to travel."
+  }
+ ],
+ "bekræft": [
+  {
+   "da": "Bekræft venligst din e-mail.",
+   "en": "Please confirm your email."
+  },
+  {
+   "da": "Bekræft din reservation inden fredag!",
+   "en": "Confirm your reservation before Friday!"
+  }
+ ],
+ "hjulet": [
+  {
+   "da": "Hjulet på cyklen er fladt.",
+   "en": "The wheel on the bike is flat."
+  },
+  {
+   "da": "Jeg skiftede hjulet i går.",
+   "en": "I changed the wheel yesterday."
+  }
+ ],
+ "mobiltelefoner": [
+  {
+   "da": "Børn har ofte mobiltelefoner i dag.",
+   "en": "Children often have mobile phones these days."
+  },
+  {
+   "da": "Mobiltelefoner må ikke bruges i timerne.",
+   "en": "Mobile phones must not be used during lessons."
+  }
+ ],
+ "ros": [
+  {
+   "da": "Ros børnene, når de hjælper til!",
+   "en": "Praise the children when they help out!"
+  },
+  {
+   "da": "Ros hende for det gode arbejde!",
+   "en": "Praise her for the good work!"
+  }
+ ],
+ "porte": [
+  {
+   "da": "Der er to porte ind til haven.",
+   "en": "There are two gates into the garden."
+  },
+  {
+   "da": "Alle porte er lukkede om natten.",
+   "en": "All gates are closed at night."
+  }
+ ],
+ "fængsler": [
+  {
+   "da": "Der er flere fængsler i landet.",
+   "en": "There are several prisons in the country."
+  },
+  {
+   "da": "Fængsler er dyre at drive.",
+   "en": "Prisons are expensive to run."
+  }
+ ],
+ "blikket": [
+  {
+   "da": "Blikket i hans øjne var venligt.",
+   "en": "The look in his eyes was kind."
+  },
+  {
+   "da": "Hun undgik blikket fra læreren.",
+   "en": "She avoided the teacher's gaze."
+  }
+ ],
+ "dødeligt": [
+  {
+   "da": "Svampen er dødeligt giftig.",
+   "en": "The mushroom is deadly poisonous."
+  },
+  {
+   "da": "Det er dødeligt kedeligt her.",
+   "en": "It is deadly boring here."
+  }
+ ],
+ "aktive": [
+  {
+   "da": "Mange ældre er meget aktive.",
+   "en": "Many older people are very active."
+  },
+  {
+   "da": "De aktive medlemmer mødes onsdag.",
+   "en": "The active members meet on Wednesday."
+  }
+ ],
+ "brunt": [
+  {
+   "da": "Jeg købte et brunt skab.",
+   "en": "I bought a brown cupboard."
+  },
+  {
+   "da": "Brødet er brunt og sprødt.",
+   "en": "The bread is brown and crispy."
+  }
+ ],
+ "jagede": [
+  {
+   "da": "Hunden jagede katten rundt i haven.",
+   "en": "The dog chased the cat around the garden."
+  },
+  {
+   "da": "Børnene jagede hinanden på legepladsen.",
+   "en": "The children chased each other on the playground."
+  }
+ ],
+ "klippen": [
+  {
+   "da": "Klippen er høj og stejl.",
+   "en": "The cliff is high and steep."
+  },
+  {
+   "da": "Vi sad på klippen og så på havet.",
+   "en": "We sat on the rock and looked at the sea."
+  }
+ ],
+ "knæet": [
+  {
+   "da": "Knæet gør ondt efter løbeturen.",
+   "en": "My knee hurts after the run."
+  },
+  {
+   "da": "Lægen kiggede på knæet.",
+   "en": "The doctor looked at the knee."
+  }
+ ],
+ "teltet": [
+  {
+   "da": "Teltet står ved søen.",
+   "en": "The tent is by the lake."
+  },
+  {
+   "da": "Vi slog teltet op om aftenen.",
+   "en": "We pitched the tent in the evening."
+  }
+ ],
+ "cellerne": [
+  {
+   "da": "Cellerne i kroppen fornyes hele tiden.",
+   "en": "The cells in the body are renewed all the time."
+  },
+  {
+   "da": "Hun kiggede på cellerne i mikroskopet.",
+   "en": "She looked at the cells in the microscope."
+  }
+ ],
+ "øget": [],
+ "revolutionen": [
+  {
+   "da": "Revolutionen ændrede hele landet.",
+   "en": "The revolution changed the whole country."
+  },
+  {
+   "da": "Vi læste om revolutionen i skolen.",
+   "en": "We read about the revolution at school."
+  }
+ ],
+ "forsikret": [
+  {
+   "da": "Jeg har forsikret min cykel.",
+   "en": "I have insured my bike."
+  },
+  {
+   "da": "Hun har forsikret os om, at alt er i orden.",
+   "en": "She has assured us that everything is fine."
+  }
+ ],
+ "svagere": [
+  {
+   "da": "Signalet er svagere her.",
+   "en": "The signal is weaker here."
+  },
+  {
+   "da": "Han er blevet svagere efter sygdommen.",
+   "en": "He has become weaker after the illness."
+  }
+ ],
+ "sækken": [
+  {
+   "da": "Sækken er meget tung.",
+   "en": "The sack is very heavy."
+  },
+  {
+   "da": "Hun bar sækken ind i huset.",
+   "en": "She carried the sack into the house."
+  }
+ ],
+ "intelligente": [
+  {
+   "da": "Hunde er intelligente dyr.",
+   "en": "Dogs are intelligent animals."
+  },
+  {
+   "da": "Hendes børn er meget intelligente.",
+   "en": "Her children are very intelligent."
+  }
+ ],
+ "fejlen": [
+  {
+   "da": "Fejlen ligger i programmet.",
+   "en": "The error is in the program."
+  },
+  {
+   "da": "Jeg fandt fejlen på tre minutter.",
+   "en": "I found the mistake in three minutes."
+  }
+ ],
+ "stigende": [
+  {
+   "da": "Priserne er stigende i år.",
+   "en": "Prices are rising this year."
+  },
+  {
+   "da": "Der er en stigende interesse for cykling.",
+   "en": "There is a growing interest in cycling."
+  }
+ ],
+ "forsikringen": [
+  {
+   "da": "Forsikringen dækker skaden.",
+   "en": "The insurance covers the damage."
+  },
+  {
+   "da": "Jeg ringede til forsikringen i går.",
+   "en": "I called the insurance company yesterday."
+  }
+ ],
+ "kasserne": [
+  {
+   "da": "Kasserne står i kælderen.",
+   "en": "The boxes are in the basement."
+  },
+  {
+   "da": "Vi bærer kasserne ind i bilen.",
+   "en": "We carry the boxes into the car."
+  }
+ ],
+ "skyer": [
+  {
+   "da": "Der er mørke skyer på himlen.",
+   "en": "There are dark clouds in the sky."
+  },
+  {
+   "da": "Skyer drev ind over byen.",
+   "en": "Clouds drifted in over the town."
+  }
+ ],
+ "nørder": [
+  {
+   "da": "Der kom mange nørder til spilmessen.",
+   "en": "Many geeks came to the gaming fair."
+  },
+  {
+   "da": "Vi er alle lidt nørder i min familie.",
+   "en": "We are all a bit nerdy in my family."
+  }
+ ],
+ "fedeste": [
+  {
+   "da": "Det var den fedeste koncert i år.",
+   "en": "It was the coolest concert this year."
+  },
+  {
+   "da": "Det er det fedeste legetøj i butikken.",
+   "en": "It is the coolest toy in the shop."
+  }
+ ],
+ "leverede": [
+  {
+   "da": "Postbuddet leverede pakken om morgenen.",
+   "en": "The postman delivered the parcel in the morning."
+  },
+  {
+   "da": "Butikken leverede varerne til tiden.",
+   "en": "The shop delivered the goods on time."
+  }
+ ],
+ "fortet": [
+  {
+   "da": "Fortet ligger på en høj ved havet.",
+   "en": "The fort lies on a hill by the sea."
+  },
+  {
+   "da": "Vi besøgte fortet i sommerferien.",
+   "en": "We visited the fort during the summer holiday."
+  }
+ ],
+ "skibene": [
+  {
+   "da": "Skibene sejler ud om morgenen.",
+   "en": "The ships sail out in the morning."
+  },
+  {
+   "da": "Vi så skibene i havnen.",
+   "en": "We watched the ships in the harbour."
+  }
+ ],
+ "moralske": [
+  {
+   "da": "Det er nogle svære moralske valg.",
+   "en": "Those are some difficult moral choices."
+  },
+  {
+   "da": "Han stillede svære moralske spørgsmål.",
+   "en": "He asked difficult moral questions."
+  }
+ ],
+ "underskriver": [
+  {
+   "da": "Jeg underskriver aftalen i morgen.",
+   "en": "I am signing the agreement tomorrow."
+  },
+  {
+   "da": "Hun underskriver alle breve selv.",
+   "en": "She signs all the letters herself."
+  }
+ ],
+ "fantasier": [
+  {
+   "da": "Børn har ofte store fantasier.",
+   "en": "Children often have big imaginations."
+  },
+  {
+   "da": "Hans fantasier er fulde af drager.",
+   "en": "His fantasies are full of dragons."
+  }
+ ],
+ "skyggerne": [
+  {
+   "da": "Skyggerne bliver længere om aftenen.",
+   "en": "The shadows get longer in the evening."
+  },
+  {
+   "da": "Børnene leger i skyggerne under træet.",
+   "en": "The children play in the shade under the tree."
+  }
+ ],
+ "agenten": [
+  {
+   "da": "Agenten sendte os billetterne.",
+   "en": "The agent sent us the tickets."
+  },
+  {
+   "da": "Vi ringede til agenten i morges.",
+   "en": "We called the agent this morning."
+  }
+ ],
+ "byd": [
+  {
+   "da": "Byd gæsterne velkommen!",
+   "en": "Welcome the guests!"
+  },
+  {
+   "da": "Byd ikke for lavt på auktionen!",
+   "en": "Don't bid too low at the auction!"
+  }
+ ],
+ "dyrket": [
+  {
+   "da": "Vi har dyrket tomater i haven.",
+   "en": "We have grown tomatoes in the garden."
+  },
+  {
+   "da": "Han har dyrket sport hele sit liv.",
+   "en": "He has done sports all his life."
+  }
+ ],
+ "værdien": [
+  {
+   "da": "Værdien af huset stiger.",
+   "en": "The value of the house is rising."
+  },
+  {
+   "da": "Vi kender ikke værdien af billedet.",
+   "en": "We don't know the value of the painting."
+  }
+ ],
+ "takkede": [
+  {
+   "da": "Jeg takkede for hjælpen.",
+   "en": "I thanked them for the help."
+  },
+  {
+   "da": "Hun takkede nej til kagen.",
+   "en": "She declined the cake."
+  }
+ ],
+ "murene": [
+  {
+   "da": "Murene er meget gamle.",
+   "en": "The walls are very old."
+  },
+  {
+   "da": "Børnene klatrede op på murene.",
+   "en": "The children climbed up on the walls."
+  }
+ ],
+ "brillerne": [
+  {
+   "da": "Brillerne ligger på bordet.",
+   "en": "The glasses are on the table."
+  },
+  {
+   "da": "Jeg har tabt brillerne.",
+   "en": "I have dropped my glasses."
+  }
+ ],
+ "udfordringer": [
+  {
+   "da": "Jobbet har mange udfordringer.",
+   "en": "The job has many challenges."
+  },
+  {
+   "da": "Vi lærer af vores udfordringer.",
+   "en": "We learn from our challenges."
+  }
+ ],
+ "skidtet": [
+  {
+   "da": "Skidtet ligger i garagen.",
+   "en": "The junk is in the garage."
+  },
+  {
+   "da": "Vi smed skidtet ud i går.",
+   "en": "We threw the junk out yesterday."
+  }
+ ],
+ "indgået": [
+  {
+   "da": "Parterne har indgået en aftale om prisen.",
+   "en": "The parties have entered into an agreement on the price."
+  },
+  {
+   "da": "Vi har indgået en aftale med firmaet.",
+   "en": "We have made a deal with the company."
+  }
+ ],
+ "sprutten": [
+  {
+   "da": "Sprutten står i skabet.",
+   "en": "The booze is in the cupboard."
+  },
+  {
+   "da": "Hun gemte sprutten til festen.",
+   "en": "She saved the booze for the party."
+  }
+ ],
+ "tingester": [
+  {
+   "da": "Garagen er fuld af gamle tingester.",
+   "en": "The garage is full of old gadgets."
+  },
+  {
+   "da": "Hvad skal vi med alle de tingester?",
+   "en": "What do we need all those gadgets for?"
+  }
+ ],
+ "ulykkelige": [
+  {
+   "da": "Børnene var ulykkelige over at flytte.",
+   "en": "The children were unhappy about moving."
+  },
+  {
+   "da": "Filmen handler om ulykkelige mennesker.",
+   "en": "The film is about unhappy people."
+  }
+ ],
+ "cykler": [
+  {
+   "da": "Der står mange cykler ved stationen.",
+   "en": "There are many bikes at the station."
+  },
+  {
+   "da": "Vi har tre cykler i skuret.",
+   "en": "We have three bikes in the shed."
+  }
+ ],
+ "slettede": [
+  {
+   "da": "Jeg slettede filen ved en fejl.",
+   "en": "I deleted the file by mistake."
+  },
+  {
+   "da": "Hun slettede alle de gamle e-mails.",
+   "en": "She deleted all the old emails."
+  }
+ ],
+ "magter": [
+  {
+   "da": "Verdens store magter mødes til topmøde.",
+   "en": "The world's great powers are meeting for a summit."
+  },
+  {
+   "da": "Der er store magter i spil her.",
+   "en": "There are big powers at play here."
+  }
+ ],
+ "gladere": [
+  {
+   "da": "Hun er gladere end før.",
+   "en": "She is happier than before."
+  },
+  {
+   "da": "Børnene blev gladere, da solen kom frem.",
+   "en": "The children became happier when the sun came out."
+  }
+ ],
+ "besejrede": [
+  {
+   "da": "Holdet besejrede naboerne to-et.",
+   "en": "The team beat their neighbours two-one."
+  },
+  {
+   "da": "Han besejrede sin frygt for højder.",
+   "en": "He overcame his fear of heights."
+  }
+ ],
+ "kontoen": [
+  {
+   "da": "Pengene står på kontoen.",
+   "en": "The money is in the account."
+  },
+  {
+   "da": "Jeg tjekker kontoen hver uge.",
+   "en": "I check the account every week."
+  }
+ ],
+ "fjolset": [
+  {
+   "da": "Fjolset glemte nøglerne igen.",
+   "en": "The fool forgot the keys again."
+  },
+  {
+   "da": "Han følte sig som fjolset i klassen.",
+   "en": "He felt like the fool of the class."
+  }
+ ],
+ "hævede": [
+  {
+   "da": "Hun hævede stemmen.",
+   "en": "She raised her voice."
+  },
+  {
+   "da": "Banken hævede renten i går.",
+   "en": "The bank raised the interest rate yesterday."
+  }
+ ],
+ "svømmede": [
+  {
+   "da": "Vi svømmede i søen hele sommeren.",
+   "en": "We swam in the lake all summer."
+  },
+  {
+   "da": "Børnene svømmede ud til bøjen.",
+   "en": "The children swam out to the buoy."
+  }
+ ],
+ "dansen": [
+  {
+   "da": "Dansen begynder klokken otte.",
+   "en": "The dance starts at eight o'clock."
+  },
+  {
+   "da": "Vi øvede dansen hele ugen.",
+   "en": "We practised the dance all week."
+  }
+ ],
+ "arret": [
+  {
+   "da": "Arret på hans arm er gammelt.",
+   "en": "The scar on his arm is old."
+  },
+  {
+   "da": "Hun viste mig arret på knæet.",
+   "en": "She showed me the scar on her knee."
+  }
+ ],
+ "tunnellen": [
+  {
+   "da": "Tunnellen er lukket i dag.",
+   "en": "The tunnel is closed today."
+  },
+  {
+   "da": "Vi kørte igennem tunnellen.",
+   "en": "We drove through the tunnel."
+  }
+ ],
+ "ure": [
+  {
+   "da": "Butikken sælger flotte ure.",
+   "en": "The shop sells beautiful watches."
+  },
+  {
+   "da": "Der hænger mange ure på væggen.",
+   "en": "Many clocks hang on the wall."
+  }
+ ],
+ "dukken": [
+  {
+   "da": "Dukken ligger i sengen.",
+   "en": "The doll is lying in the bed."
+  },
+  {
+   "da": "Pigen har mistet dukken.",
+   "en": "The girl has lost the doll."
+  }
+ ],
+ "bladene": [
+  {
+   "da": "Bladene falder af træerne om efteråret.",
+   "en": "The leaves fall from the trees in autumn."
+  },
+  {
+   "da": "Bladene ligger på bordet i venteværelset.",
+   "en": "The magazines are on the table in the waiting room."
+  }
+ ],
+ "plantet": [
+  {
+   "da": "Vi har plantet et æbletræ.",
+   "en": "We have planted an apple tree."
+  },
+  {
+   "da": "Hun har plantet blomster i haven.",
+   "en": "She has planted flowers in the garden."
+  }
+ ],
+ "spøgelset": [
+  {
+   "da": "Spøgelset i filmen er sjovt.",
+   "en": "The ghost in the film is funny."
+  },
+  {
+   "da": "Børnene tror på spøgelset i kælderen.",
+   "en": "The children believe in the ghost in the basement."
+  }
+ ],
+ "druknet": [
+  {
+   "da": "Planterne er druknet i vand, fordi det regnede for meget.",
+   "en": "The plants have drowned in water because it rained too much."
+  },
+  {
+   "da": "Marken er druknet i vand efter regnen.",
+   "en": "The field has been flooded after the rain."
+  }
+ ],
+ "vindere": [
+  {
+   "da": "Der var tre vindere i konkurrencen.",
+   "en": "There were three winners in the competition."
+  },
+  {
+   "da": "Vindere får en pokal og en gave.",
+   "en": "Winners get a trophy and a gift."
+  }
+ ],
+ "taxaen": [
+  {
+   "da": "Taxaen venter udenfor.",
+   "en": "The taxi is waiting outside."
+  },
+  {
+   "da": "Vi tog taxaen til lufthavnen.",
+   "en": "We took the taxi to the airport."
+  }
+ ],
+ "sikrede": [
+  {
+   "da": "Han sikrede cyklen med en lås.",
+   "en": "He secured the bike with a lock."
+  },
+  {
+   "da": "Firmaet sikrede sig en ny kontrakt.",
+   "en": "The company secured a new contract."
+  }
+ ],
+ "tykt": [
+  {
+   "da": "Der lå et tykt lag sne på tagene.",
+   "en": "There was a thick layer of snow on the roofs."
+  },
+  {
+   "da": "Det er et tykt tæppe.",
+   "en": "It is a thick blanket."
+  }
+ ],
+ "omgange": [
+  {
+   "da": "Vi gik to omgange rundt om søen.",
+   "en": "We walked two laps around the lake."
+  },
+  {
+   "da": "De spillede tre omgange kort.",
+   "en": "They played three rounds of cards."
+  }
+ ],
+ "barske": [
+  {
+   "da": "Det var nogle barske dage på havet.",
+   "en": "They were some rough days at sea."
+  },
+  {
+   "da": "Han er kendt for sine barske ord.",
+   "en": "He is known for his harsh words."
+  }
+ ],
+ "maskinerne": [
+  {
+   "da": "Maskinerne larmer på fabrikken.",
+   "en": "The machines are noisy at the factory."
+  },
+  {
+   "da": "Vi slukker maskinerne klokken fem.",
+   "en": "We turn off the machines at five o'clock."
+  }
+ ],
+ "dybeste": [
+  {
+   "da": "Det er søens dybeste sted.",
+   "en": "It is the deepest spot in the lake."
+  },
+  {
+   "da": "Det dybeste sted er ti meter.",
+   "en": "The deepest spot is ten metres."
+  }
+ ],
+ "nuet": [
+  {
+   "da": "Lev i nuet!",
+   "en": "Live in the moment!"
+  },
+  {
+   "da": "Nuet er det eneste, vi har.",
+   "en": "The present is all we have."
+  }
+ ],
+ "chippen": [
+  {
+   "da": "Chippen i telefonen er ødelagt.",
+   "en": "The chip in the phone is broken."
+  },
+  {
+   "da": "Hunden har en chip, og chippen kan scannes.",
+   "en": "The dog has a chip, and the chip can be scanned."
+  }
+ ],
+ "forstyrrede": [
+  {
+   "da": "Larmen forstyrrede mig hele aftenen.",
+   "en": "The noise disturbed me all evening."
+  },
+  {
+   "da": "Jeg beklager, at jeg forstyrrede dig.",
+   "en": "I am sorry that I disturbed you."
+  }
+ ],
+ "indsatsen": [
+  {
+   "da": "Indsatsen betalte sig til sidst.",
+   "en": "The effort paid off in the end."
+  },
+  {
+   "da": "Chefen roste indsatsen på holdet.",
+   "en": "The boss praised the effort of the team."
+  }
+ ],
+ "fjæset": [
+  {
+   "da": "Han fik snavs i fjæset.",
+   "en": "He got dirt on his face."
+  },
+  {
+   "da": "Hun grinede med hele fjæset.",
+   "en": "She laughed with her whole face."
+  }
+ ],
+ "indrømmede": [
+  {
+   "da": "Han indrømmede sin fejl med det samme.",
+   "en": "He admitted his mistake right away."
+  },
+  {
+   "da": "Hun indrømmede, at hun havde glemt det.",
+   "en": "She admitted that she had forgotten it."
+  }
+ ],
+ "sædvanligt": [
+  {
+   "da": "Det er sædvanligt at give drikkepenge.",
+   "en": "It is customary to give a tip."
+  },
+  {
+   "da": "Det er ikke sædvanligt at komme for sent.",
+   "en": "It is not usual to come late."
+  }
+ ],
+ "mobiler": [
+  {
+   "da": "Børnene sidder med deres mobiler.",
+   "en": "The children are sitting with their phones."
+  },
+  {
+   "da": "Mobiler skal være slukkede i biografen.",
+   "en": "Mobiles must be switched off in the cinema."
+  }
+ ],
+ "knægte": [
+  {
+   "da": "De unge knægte spiller fodbold i parken.",
+   "en": "The young lads play football in the park."
+  },
+  {
+   "da": "Der kom to knægte forbi på cykel.",
+   "en": "Two lads came by on bikes."
+  }
+ ],
+ "fodrer": [
+  {
+   "da": "Hun fodrer fuglene hver morgen.",
+   "en": "She feeds the birds every morning."
+  },
+  {
+   "da": "Jeg fodrer katten to gange om dagen.",
+   "en": "I feed the cat twice a day."
+  }
+ ],
+ "bagagen": [
+  {
+   "da": "Bagagen kom ikke frem med flyet.",
+   "en": "The luggage did not arrive with the plane."
+  },
+  {
+   "da": "Vi hentede bagagen ved udgangen.",
+   "en": "We picked up the luggage at the exit."
+  }
+ ],
+ "sødere": [
+  {
+   "da": "Æblet er sødere end pæren.",
+   "en": "The apple is sweeter than the pear."
+  },
+  {
+   "da": "Min lillesøster er sødere, end jeg husker.",
+   "en": "My little sister is sweeter than I remember."
+  }
+ ]
+}

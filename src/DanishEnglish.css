@@ -362,3 +362,30 @@ hr.reading-sep {
 	border-top: 1px solid rgba(142, 142, 147, 0.35);
 	margin: 0.7em 0 0.6em 0;
 }
+
+.full-entry {
+	margin: 0.5em 0 0 0;
+	color: -apple-system-secondary-label;
+}
+
+.full-entry a {
+	color: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 1px dotted -apple-system-secondary-label;
+}
+
+ol.senses.brief li {
+	margin: 0.05em 0;
+}
+
+/* Look Up's popup can't follow links between entries: don't offer them */
+html.apple_client-panel .full-entry {
+	display: none;
+}
+
+html.apple_client-panel .also a,
+html.apple_client-panel .reading a {
+	border-bottom: none;
+	font-weight: 600;
+}

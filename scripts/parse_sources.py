@@ -28,6 +28,8 @@ MAX_EXAMPLES = 3
 # the most common N headwords were checked by hand against ordnet.dk, so the
 # automatic COR corrections leave them to data/curated/fixes.json
 TIER1_REVIEWED = 1000
+# forms of words up to this frequency rank are kept in "form_only"
+FORM_ENTRY_MAX_RANK = 6000
 
 # ---------------------------------------------------------------- kaikki ---
 
@@ -192,6 +194,9 @@ COR_POS = {"vb": "verb", "sb": "noun", "adj": "adj", "pron": "pron"}
 def cor_form_label(code):
     """("past tense", "verb") for a COR code, or None if not worth showing."""
     if ".gen" in code or ".pass" in code or code.startswith("adj.adv."):
+        return None
+    # kørte as an adjective (de kørte biler) is not the past participle (kørt)
+    if code.startswith("vb.perf.part.") and code.endswith((".pl", ".best")):
         return None
     for prefix, label in COR_FORM_LABELS:
         if code == prefix or code.startswith(prefix + "."):
@@ -434,8 +439,7 @@ def main():
 
     # "læs" is also the command form of "læse": keep those readings (only
     # for lemmas we have an entry for, so the line can show its meaning)
-    form_of = {}
-    for word in danish:
+    def refs_for(word):
         refs = []
         for label, lemma, pos in cor_form_of.get(word, []):
             if lemma not in danish:
@@ -446,11 +450,27 @@ def main():
                     same["label"] += f" / {label}"
             else:
                 refs.append({"label": label, "of": lemma, "pos": pos})
-        if refs:
-            form_of[word] = refs
+        return refs
+
+    form_of = {w: refs for w in danish if (refs := refs_for(w))}
     print(f"form-of readings for {len(form_of):,} headwords")
 
-    out = {"danish": danish, "english": english, "form_of": form_of}
+    # Inflected forms that are not headwords (sagde, gik, husene) of common
+    # words: build_xml can give them a small entry of their own, so the
+    # popup can underline the form that was looked up (config: form_entries)
+    def lemma_rank(lemma):
+        return min((b.get("freq_rank") or 10**9) for b in danish[lemma])
+
+    form_only = {}
+    for form in cor_form_of:
+        if form in danish or " " in form:
+            continue
+        refs = [r for r in refs_for(form) if lemma_rank(r["of"]) <= FORM_ENTRY_MAX_RANK]
+        if refs:
+            form_only[form] = refs
+    print(f"form-of readings for {len(form_only):,} other forms of common words")
+
+    out = {"danish": danish, "english": english, "form_of": form_of, "form_only": form_only}
     OUT.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {OUT} ({OUT.stat().st_size:,} bytes)")
     print(f"totals: {len(danish):,} Danish + {len(english):,} English headwords")

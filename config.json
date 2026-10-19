@@ -35,5 +35,7 @@
     }
   },
   "sources_snapshot": "2026-10-18",
-  "comment_sources": "Builds use the pinned copies (pinned_url, checked against sha256) so a release is reproducible and data/curated/fixes.json always matches the data it was written for. To move to newer upstream data: python3 scripts/fetch_data.py --latest, rebuild, fix any 'fixes matched nothing' warnings, upload the files as a new sources-YYYY-MM-DD release and update pinned_url/sha256 here."
+  "comment_sources": "Builds use the pinned copies (pinned_url, checked against sha256) so a release is reproducible and data/curated/fixes.json always matches the data it was written for. To move to newer upstream data: python3 scripts/fetch_data.py --latest, rebuild, fix any 'fixes matched nothing' warnings, upload the files as a new sources-YYYY-MM-DD release and update pinned_url/sha256 here.",
+  "form_entries": "all",
+  "comment_form_entries": "Inflected forms (sagde, gik, husene…) that get a small entry of their own, so the Look Up popup underlines the form that was selected: a list of forms, or \"all\" for every form of a common word (scripts/parse_sources.py FORM_ENTRY_MAX_RANK)."
 }

@@ -100,9 +100,16 @@ def forms_html(cells, with_under, highlight=None):
 
 def short_gloss(gloss):
     """'worker, workman, laborer (a person who…)' -> 'worker, workman':
-    no parentheses, at most two synonyms."""
-    g = re.sub(r"\s*\([^)]*\)", "", gloss).strip(" ,;")
-    g = ", ".join(re.split(r"[,;] ", g)[:2])
+    no parentheses, at most two synonyms, no trailing definition."""
+    g = re.sub(r"\s*\([^)]*\)", "", gloss).strip(" ,;.")
+    if re.match(r"(A|An|To|The) [a-z]", g):  # Wiktionary's sentence style: "A novel."
+        g = g[0].lower() + g[1:]
+    first, *rest = re.split(r"[,;] ", g)
+    # a short synonym is worth keeping; a definition ("factory, place of
+    # industrial production") is not
+    if rest and len(rest[0].split()) <= 3:
+        first += ", " + rest[0]
+    g = first
     return g if len(g) <= 48 else g[:46].rsplit(" ", 1)[0] + "…"
 
 
@@ -297,14 +304,56 @@ def senses_html(b, skip=frozenset()):
     return "<ol class=\"senses\">" + "".join(items) + "</ol>"
 
 
-def danish_entry(n, word, blocks, id_of, form_of, danish):
+def form_entry(n, form, refs, danish, id_of, form_examples):
+    """A small entry for an inflected form that isn't a headword (sagde).
+    Look Up opens one entry and can't tell it which form was selected, and
+    its popup can't follow links, so this entry stands on its own: the same
+    lead reading as arbejder gets (header, the base word's forms with this
+    one underlined), sentences using this exact form, then all of the base
+    word's meanings and its gotcha."""
+    ref = refs[0]
+    lemma = ref["of"]
+    lemma_blocks = danish[lemma]
+    b = next((x for x in lemma_blocks if x["pos"] == ref["pos"]), lemma_blocks[0])
+    parts = [f"<d:index d:value={quoteattr(form)} d:title={quoteattr(form)}/>",
+             f"<h1>{escape(form)}</h1>",
+             lead_html(ref, danish, id_of, form)]
+    # sentences written for this form; else the base word's own examples
+    # that happen to use it
+    shown = form_examples.get(form, [])[:2]
+    if not shown:
+        shown = [ex for x in lemma_blocks if x["pos"] == ref["pos"] for s in x["senses"]
+                 for ex in s.get("examples", [])
+                 if len(ex["da"]) <= MAX_EXAMPLE_CHARS
+                 and re.search(rf"\b{re.escape(form)}\b", ex["da"], re.I)][:2]
+    if shown:
+        parts.append(f"<div class=\"examples lead\">{examples_html(shown)}</div>")
+    # the base word's meanings, short: everyday senses only, no repeats
+    brief = []
+    for sense in b["senses"]:
+        g = short_gloss(sense["gloss"])
+        if not sense.get("tags") and g and g not in brief:
+            brief.append(g)
+    parts.append("<ol class=\"senses brief\">"
+                 + "".join(f"<li>{escape(g)}</li>" for g in brief[:4]) + "</ol>")
+    if lemma_blocks[0] is b and b.get("gotcha"):
+        parts.append(gotcha_html(b["gotcha"]))
+    parts += [also_html(r, danish, id_of) for r in refs[1:] if r["of"] != lemma]
+    if lemma in id_of:
+        parts.append(f"<div class=\"full-entry\">Full entry: "
+                     f"<a href=\"x-dictionary:r:{id_of[lemma]}\">{escape(lemma)}</a></div>")
+    body = "\n".join(parts)
+    return f"<d:entry id=\"fo_{n}\" d:title={quoteattr(form)}>\n{body}\n</d:entry>"
+
+
+def danish_entry(n, word, blocks, id_of, form_of, danish, headwords):
     """Top of the entry is what the Look Up popup shows before its "more"
     link: headword, the 'also: past tense of …' readings that matter most,
     the meaning at a glance, then the forms with their English. The full
     numbered senses and examples follow."""
     eid = f"da_{n}"
     all_forms = sorted({f for b in blocks for f in b.get("forms", [])})
-    parts = ["\n".join(indexes(word, all_forms, danish))]
+    parts = ["\n".join(indexes(word, all_forms, headwords))]
     parts.append(f"<h1>{escape(word)}</h1>")
     b0 = blocks[0]
     refs = form_of.get(word, [])[:2]
@@ -435,6 +484,14 @@ def main():
     sorted_danish = sorted(data["danish"].items())
     id_of = {word: f"da_{n}" for n, (word, _) in enumerate(sorted_danish)}
 
+    # inflected forms with an entry of their own (config.json form_entries:
+    # a list of forms, or "all")
+    wanted = json.loads((ROOT / "config.json").read_text()).get("form_entries", [])
+    form_only = data.get("form_only", {})
+    form_words = [w for w in (sorted(form_only) if wanted == "all" else wanted)
+                  if w in form_only and w not in data["danish"]]  # stubs like har
+    headwords = set(data["danish"]) | set(form_words)
+
     entries = [FRONT_MATTER]
     for n, (word, blocks) in enumerate(sorted_danish):
         if word.startswith("-") or word.endswith("-"):
@@ -442,7 +499,10 @@ def main():
             # of "er"; affixes aren't worth that to a learner
             continue
         entries.append(danish_entry(n, word, blocks, id_of, data.get("form_of", {}),
-                                    data["danish"]))
+                                    data["danish"], headwords))
+    for n, form in enumerate(form_words):
+        entries.append(form_entry(n, form, form_only[form], data["danish"], id_of,
+                                  data.get("form_examples", {})))
     for n, (word, translations) in enumerate(sorted(data["english"].items())):
         # skip English words identical to a Danish headword we already have;
         # both would match anyway, and the Danish entry is richer
@@ -455,6 +515,7 @@ def main():
         + "\n".join(entries) + "\n</d:dictionary>\n"
     )
     SRC.write_text(xml, encoding="utf-8")
+    print(f"form entries: {len(form_words):,}")
     n_da = len(data["danish"])
     n_en = len(data["english"])
     print(f"wrote {SRC} ({SRC.stat().st_size:,} bytes): "
